@@ -1,11 +1,12 @@
 # DDI-ESPredictor: A Triple-Stage Web-based Predictor for Drug-Drug Interaction Events and Severity Assessment​​
-![DDI-ESPredictor Architecture](image.png)
 Our model incorporates a unique capsule network architecture with cross-attention fusion mechanisms and introduces innovations in multi-view feature integration and dynamic loss weighting, demonstrating superior performance in predicting drug-drug interaction existence, event types, and severity levels across comprehensive pharmaceutical datasets. 
 - **Access CapMolPred at**: (blank)
 
 - [Environment Setup](#install)
 - [Quick Start](#quick-start)
 - [User Interface](#user-interface)
+
+![DDI-ESPredictor Architecture](image.png)
 
 <a name="install"></a>
 ## Environment Setup
