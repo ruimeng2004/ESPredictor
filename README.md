@@ -28,12 +28,6 @@ DDI-ESPredictor requires several dependencies. Here are the main requirements:
 - pytorch-lightning==2.0.3
 - pytorch-fast-transformers==0.4.0
 
-### Installation
-You can set up the environment using conda:
-```bash
-conda env create -f environment.yml
-conda activate TBDMA
-```
 
 ---
 
