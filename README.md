@@ -56,7 +56,7 @@ python drugclassification.py  --input-path data/sample_predict.csv --model-name 
 ---
 
 ## User Interface(To be implemented)
-CapMolPred offers a user-friendly interface with the following key components:
+DDI-ESPredictor offers a user-friendly interface with the following key components:
 1. **Input Section**: Submit sequences in SMILES format (manual entry or file upload).
 3. **Results Visualization**:
    - **Table View**: Detailed tables of predicted activity and corresponding probabilities.
