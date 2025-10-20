@@ -8,7 +8,6 @@ from torch.utils.data import DataLoader, TensorDataset
 from sklearn.metrics import accuracy_score, f1_score, roc_auc_score, average_precision_score
 from sklearn.model_selection import KFold
 import torch.nn.functional as F
-from torch.optim.lr_scheduler import CosineAnnealingLR, LinearLR
 from Suplement.config import get_args
 from Suplement.feature_extractor import process_dataset
 from Suplement.Network.DrugInteractionModel import DrugInteractionModel
@@ -27,14 +26,7 @@ def train_model(model, train_loader, optimizer, criterion, margin_criterion, dev
     }
     
     base_lr = 1e-3
-    min_lr = 1e-6
-    max_lr = 1e-2
     lr = base_lr
-    smoothing_factor = 0.9
-    grad_norm_moving_avg = None
-    
-    ce_weight = 0.8
-    margin_weight = 0.2
     
     for epoch in range(epochs):
         epoch_loss = 0.0
@@ -47,6 +39,8 @@ def train_model(model, train_loader, optimizer, criterion, margin_criterion, dev
             ce_weight, margin_weight = 0.5, 0.5
         elif progress > 0.4:
             ce_weight, margin_weight = 0.6, 0.4
+        else:
+            ce_weight, margin_weight = 0.8, 0.2
         
         for batch_idx, (drug_pairs, labels) in enumerate(train_loader):
             drug_pairs = drug_pairs.to(device)
@@ -74,11 +68,6 @@ def train_model(model, train_loader, optimizer, criterion, margin_criterion, dev
             
             torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
             
-            if grad_norm_moving_avg is None:
-                grad_norm_moving_avg = total_norm
-            else:
-                grad_norm_moving_avg = smoothing_factor * grad_norm_moving_avg + (1 - smoothing_factor) * total_norm
-            
             optimizer.step()
             
             epoch_loss += total_loss.item()
@@ -87,28 +76,12 @@ def train_model(model, train_loader, optimizer, criterion, margin_criterion, dev
         
         avg_grad_norm = np.mean(epoch_grad_norms)
         grad_history['norms'].append(avg_grad_norm)
-        
-        if len(grad_history['norms']) > 1:
-            grad_ratio = grad_history['norms'][-1] / grad_history['norms'][-2]
-            
-            if grad_ratio > 1.2: 
-                lr = max(lr * 0.7, min_lr)
-            elif grad_ratio < 0.8:  
-                lr = min(lr * 1.3, max_lr)
-            else:
-                if avg_grad_norm > 10: 
-                    lr = max(lr * 0.9, min_lr)
-                elif avg_grad_norm < 0.1:  
-                    lr = min(lr * 1.1, max_lr)
-        
-        for param_group in optimizer.param_groups:
-            param_group['lr'] = lr
+        grad_history['lr'].append(lr)
         
         avg_loss = epoch_loss / len(train_loader)
         avg_ce = epoch_ce / len(train_loader)
         avg_margin = epoch_margin / len(train_loader)
         
-        grad_history['lr'].append(lr)
         grad_history['loss'].append(avg_loss)
         grad_history['ce'].append(avg_ce)
         grad_history['margin'].append(avg_margin)
@@ -121,7 +94,7 @@ def train_model(model, train_loader, optimizer, criterion, margin_criterion, dev
     return grad_history
 
 def plot_gradient_history(history):
-
+    """绘制训练动态图"""
     plt.figure(figsize=(15, 10))
     
     plt.subplot(2, 2, 1)
@@ -160,7 +133,7 @@ def plot_gradient_history(history):
     plt.close()
 
 def evaluate_model(model, test_loader, device):
-
+    """模型评估函数"""
     model.eval()
     all_logits, all_probs, all_labels = [], [], []
     
@@ -199,110 +172,8 @@ def evaluate_model(model, test_loader, device):
     
     return metrics
 
-# if __name__ == "__main__":
-#     print(f"device: {'GPU' if torch.cuda.is_available() else 'CPU'} ({torch.cuda.get_device_name(0) if torch.cuda.is_available() else 'CPU'})")
-#     args = get_args()
-#     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-    
-#     train = pd.read_csv('data/drug_dataset/FirstStage_train.csv')
-#     test = pd.read_csv('data/drug_dataset/FirstStage_test.csv')
-#     all_data = pd.concat([train, test], ignore_index=True)
-
-#     print(f"\n=== 数据集基本信息 ===")
-#     print(f"训练集样本数: {len(train)}")
-#     print(f"测试集样本数: {len(test)}")
-#     print(f"合并后总样本数: {len(all_data)}")
-#     label_counts = all_data.iloc[:, 4].value_counts()
-#     print(f"\n标签分布: 0-{label_counts.get(0, 0)} | 1-{label_counts.get(1, 0)} | 比例: {label_counts.get(1, 0)/label_counts.get(0, 0):.3f}:1")
-    
-#     alldrug, features = process_dataset(train_data=all_data, feature_type=args.feature, device=device)
-    
-#     X, Y = [], []
-#     for i in range(len(all_data)):
-#         drug1_id = all_data.iloc[i, 0]
-#         drug2_id = all_data.iloc[i, 2]
-#         X.append([alldrug[drug1_id], alldrug[drug2_id]])
-#         Y.append(all_data.iloc[i, 4])
-    
-#     X = torch.tensor(X, dtype=torch.float32)
-#     Y = torch.tensor(Y, dtype=torch.long)
-
-#     feature_config = {
-#         "bert": 300, "fingerprint": 1024, "3D": 128, 
-#         "2D": 128, "1D": 128, "multi": 128 * 3 + 300
-#     }
-#     print(f"\n特征维度验证: 预期={feature_config[args.feature]} | 实际={X.shape[2]} | {'✓' if X.shape[2] == feature_config[args.feature] else '✗'}")
-
-#     print("\n=== Training Final Model ===")
-#     train_loader = DataLoader(TensorDataset(X, Y), batch_size=32, shuffle=True)
-    
-#     feature_config = {
-#         '1D': {'dim': 128, 'start': 0},
-#         '2D': {'dim': 128, 'start': 128},
-#         '3D': {'dim': 128, 'start': 256},
-#         'bert': {'dim': 300, 'start': 384}
-#     }
-
-#     model = DrugInteractionModel(
-#         feature_config=feature_config,
-#         hidden_dim=64,
-#         num_classes=2,
-#         temperature=0.5
-#     ).to(device)
-    
-#     criterion = nn.CrossEntropyLoss().to(device)
-#     margin_criterion = model.margin_loss
-#     optimizer = optim.AdamW(model.parameters(), lr=1e-3, weight_decay=1e-4)
-    
-#     grad_history = train_model(
-#         model, train_loader, optimizer, 
-#         criterion, margin_criterion, 
-#         device, epochs=100
-#     )
-    
-#     model_save_path = 'model.pth'
-#     torch.save(model.state_dict(), model_save_path)
-#     print(f"\n模型已保存到 {model_save_path}")
-#     print("训练动态图已保存到 training_dynamics.png")
-
-#     print("\n=== Final Evaluation ===")
-#     test_loader = DataLoader(TensorDataset(X, Y), batch_size=32, shuffle=False)
-#     metrics = evaluate_model(model, test_loader, device)
-    
-#     print("\n性能指标:")
-#     print(f"Accuracy: {metrics['accuracy']:.4f}")
-#     print(f"F1: {metrics['f1']:.4f}")
-#     print(f"AUC-ROC: {metrics['auc_roc']:.4f}")
-#     print(f"AUPRC: {metrics['auprc']:.4f}")
-
-#     # 保存预测结果
-#     model.eval()
-#     all_probs, all_preds, all_true = [], [], []
-#     with torch.no_grad():
-#         for drug_pairs, labels in test_loader:
-#             drug_pairs = drug_pairs.to(device)
-#             drug1 = drug_pairs[:, 0, :]
-#             drug2 = drug_pairs[:, 1, :]
-#             logits = model(drug1, drug2)
-#             probs = torch.softmax(logits, dim=1)
-#             preds = torch.argmax(logits, dim=1)
-#             all_probs.append(probs.cpu().numpy())
-#             all_preds.append(preds.cpu().numpy())
-#             all_true.append(labels.cpu().numpy())
-    
-#     results_df = pd.DataFrame({
-#         'Drug1_ID': all_data.iloc[:, 0],
-#         'Drug2_ID': all_data.iloc[:, 2],
-#         'True_Label': np.concatenate(all_true),
-#         'Predicted_Label': np.concatenate(all_preds),
-#         'Prob_Class0': np.concatenate(all_probs)[:, 0],
-#         'Prob_Class1': np.concatenate(all_probs)[:, 1]
-#     })
-#     results_df.to_csv('gradient_aware_predictions.csv', index=False)
-#     print("\n预测结果已保存到 gradient_aware_predictions.csv")
-
 def run_5fold_cv(X, Y, feature_type, device, epochs=100):
-
+    """执行5折交叉验证"""
     kf = KFold(n_splits=5, shuffle=True, random_state=42)
     fold_results = []
     
@@ -362,7 +233,7 @@ def run_5fold_cv(X, Y, feature_type, device, epochs=100):
     
     return avg_metrics
 
-# ===================== Main Function =====================
+# ===================== Main =====================
 if __name__ == "__main__":
     print(f"Current device: {'GPU' if torch.cuda.is_available() else 'CPU'} ({torch.cuda.get_device_name(0) if torch.cuda.is_available() else 'CPU'})")
     args = get_args()
@@ -420,8 +291,8 @@ if __name__ == "__main__":
     
     print("Training configuration:")
     print(f"Optimizer: AdamW(lr=1e-3, weight_decay=1e-4)")
-    print(f"Learning rate policy: 10 epoch warmup + cosine annealing")
-    print(f"Loss weights: First 30 epochs (CE:0.8, Margin:0.2) | Later (CE:0.6, Margin:0.4)")
+    print(f"Learning rate: Fixed at 1e-3")
+    print(f"Loss weights: Dynamic adjustment based on training progress")
     
     train_model(model, train_loader, optimizer, criterion, margin_criterion, device, epochs=100)
     
