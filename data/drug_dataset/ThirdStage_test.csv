@@ -158,13 +158,11 @@ Alectinib,CCC1=CC2=C(C=C1N1CCC(CC1)N1CCOCC1)C(C)(C)C1=C(C3=CC=C(C=C3N1)C#N)C2=O,
 Tinidazole,CCS(=O)(=O)CCN1C(C)=NC=C1[N+]([O-])=O,Benznidazole,[O-][N+](=O)C1=NC=CN1CC(=O)NCC1=CC=CC=C1,Moderate
 Tolterodine,CC(C)N(CC[C@H](C1=CC=CC=C1)C1=C(O)C=CC(C)=C1)C(C)C,Bicalutamide,CC(O)(CS(=O)(=O)C1=CC=C(F)C=C1)C(=O)NC1=CC(=C(C=C1)C#N)C(F)(F)F,Moderate
 Diphenhydramine,CN(C)CCOC(C1=CC=CC=C1)C1=CC=CC=C1,Rotigotine,CCCN(CCC1=CC=CS1)[C@H]1CCC2=C(O)C=CC=C2C1,Moderate
-Cidofovir,NC1=NC(=O)N(C[C@@H](CO)OCP(O)(O)=O)C=C1,Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Moderate
 Sulfinpyrazone,O=C1C(CCS(=O)C2=CC=CC=C2)C(=O)N(N1C1=CC=CC=C1)C1=CC=CC=C1,Nilotinib,CC1=CN(C=N1)C1=CC(NC(=O)C2=CC=C(C)C(NC3=NC=CC(=N3)C3=CN=CC=C3)=C2)=CC(=C1)C(F)(F)F,Moderate
 Propiomazine,CCC(=O)C1=CC2=C(SC3=CC=CC=C3N2CC(C)N(C)C)C=C1,Pentoxyverine,CCN(CC)CCOCCOC(=O)C1(CCCC1)C1=CC=CC=C1,Moderate
 Nabilone,[H][C@@]12CC(=O)CC[C@@]1([H])C(C)(C)OC1=CC(=CC(O)=C21)C(C)(C)CCCCCC,Methsuximide,CN1C(=O)CC(C)(C1=O)C1=CC=CC=C1,Moderate
 Sildenafil,CCCC1=NN(C)C2=C1N=C(NC2=O)C1=CC(=CC=C1OCC)S(=O)(=O)N1CCN(C)CC1,Treprostinil,[H][C@]12C[C@@H](O)[C@H](CC[C@@H](O)CCCCC)[C@@]1([H])CC1=C(C2)C(OCC(O)=O)=CC=C1,Moderate
 Methylprednisolone,[H][C@@]12CC[C@](O)(C(=O)CO)[C@@]1(C)C[C@H](O)[C@@]1([H])[C@@]2([H])C[C@H](C)C2=CC(=O)C=C[C@]12C,Nebivolol,OC(CNCC(O)C1CCC2=C(O1)C=CC(F)=C2)C1CCC2=C(O1)C=CC(F)=C2,Moderate
-Epirubicin,COC1=CC=CC2=C1C(=O)C1=C(O)C3=C(C[C@](O)(C[C@@H]3O[C@H]3C[C@H](N)[C@@H](O)[C@H](C)O3)C(=O)CO)C(O)=C1C2=O,Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Moderate
 Oxacillin,[H][C@]12SC(C)(C)[C@@H](N1C(=O)[C@H]2NC(=O)C1=C(C)ON=C1C1=CC=CC=C1)C(O)=O,Minocycline,[H][C@@]12CC3=C(C(O)=CC=C3N(C)C)C(=O)C1=C(O)[C@]1(O)C(=O)C(C(N)=O)=C(O)[C@@H](N(C)C)[C@]1([H])C2,Moderate
 Prednisolone,[H][C@@]12CC[C@](O)(C(=O)CO)[C@@]1(C)C[C@H](O)[C@@]1([H])[C@@]2([H])CCC2=CC(=O)C=C[C@]12C,Tofacitinib,C[C@@H]1CCN(C[C@@H]1N(C)C1=NC=NC2=C1C=CN2)C(=O)CC#N,Major
 Guanadrel,NC(N)=NCC1COC2(CCCCC2)O1,Pseudoephedrine,CN[C@@H](C)[C@@H](O)C1=CC=CC=C1,Moderate
@@ -229,7 +227,6 @@ Primidone,CCC1(C(=O)NCNC1=O)C1=CC=CC=C1,Nilotinib,CC1=CN(C=N1)C1=CC(NC(=O)C2=CC=
 Modafinil,NC(=O)CS(=O)C(C1=CC=CC=C1)C1=CC=CC=C1,Cobimetinib,OC1(CN(C1)C(=O)C1=C(NC2=C(F)C=C(I)C=C2)C(F)=C(F)C=C1)[C@@H]1CCCCN1,Major
 Droperidol,FC1=CC=C(C=C1)C(=O)CCCN1CCC(=CC1)N1C(=O)NC2=CC=CC=C12,Lorcaserin,C[C@H]1CNCCC2=CC=C(Cl)C=C12,Moderate
 Itraconazole,CCC(C)N1N=CN(C1=O)C1=CC=C(C=C1)N1CCN(CC1)C1=CC=C(OC[C@H]2CO[C@@](CN3C=NC=N3)(O2)C2=C(Cl)C=C(Cl)C=C2)C=C1,Tofacitinib,C[C@@H]1CCN(C[C@@H]1N(C)C1=NC=NC2=C1C=CN2)C(=O)CC#N,Major
-Cisplatin,[H][N]([H])([H])[Pt](Cl)(Cl)[N]([H])([H])[H],Siponimod,CCC1=CC(=CC=C1CN1CC(C1)C(O)=O)C(C)=NOCC1=CC=C(C2CCCCC2)C(=C1)C(F)(F)F,Major
 Olanzapine,CN1CCN(CC1)C1=NC2=CC=CC=C2NC2=C1C=C(C)S2,Histrelin,CC(O)=O.CC(O)=O.CCNC(=O)[C@@H]1CCCN1C(=O)[C@H](CCCNC(N)=N)NC(=O)[C@H](CC(C)C)NC(=O)[C@@H](CC1=CN(CC2=CC=CC=C2)C=N1)NC(=O)[C@H](CC1=CC=C(O)C=C1)NC(=O)[C@H](CO)NC(=O)[C@H](CC1=CNC2=C1C=CC=C2)NC(=O)[C@H](CC1=CNC=N1)NC(=O)[C@@H]1CCC(=O)N1,Moderate
 Procarbazine,CNNCC1=CC=C(C=C1)C(=O)NC(C)C,Valbenazine,COC1=C(OC)C=C2[C@H]3C[C@@H](OC(=O)[C@@H](N)C(C)C)[C@H](CC(C)C)CN3CCC2=C1,Major
 Promethazine,CC(CN1C2=CC=CC=C2SC2=CC=CC=C12)N(C)C,Fesoterodine,CC(C)N(CC[C@H](C1=CC=CC=C1)C1=C(OC(=O)C(C)C)C=CC(CO)=C1)C(C)C,Moderate
@@ -395,7 +392,6 @@ Metoclopramide,CCN(CC)CCNC(=O)C1=CC(Cl)=C(N)C=C1OC,Iohexol,CC(=O)N(CC(O)CO)C1=C(
 Minoxidil,NC1=CC(=NC(N)=[N+]1[O-])N1CCCCC1,Phenelzine,NNCCC1=CC=CC=C1,Moderate
 Droperidol,FC1=CC=C(C=C1)C(=O)CCCN1CCC(=CC1)N1C(=O)NC2=CC=CC=C12,Ethanol,CCO,Major
 Flecainide,FC(F)(F)COC1=CC(C(=O)NCC2CCCCN2)=C(OCC(F)(F)F)C=C1,Potassium citrate,[K+].[K+].[K+].OC(CC([O-])=O)(CC([O-])=O)C([O-])=O,Minor
-Mesalazine,NC1=CC(C(O)=O)=C(O)C=C1,Cisplatin,[H][N]([H])([H])[Pt](Cl)(Cl)[N]([H])([H])[H],Moderate
 Trimethoprim,COC1=CC(CC2=CN=C(N)N=C2N)=CC(OC)=C1OC,Pralatrexate,NC1=NC2=NC=C(CC(CC#C)C3=CC=C(C=C3)C(=O)N[C@@H](CCC(O)=O)C(O)=O)N=C2C(N)=N1,Moderate
 Methadone,CCC(=O)C(CC(C)N(C)C)(C1=CC=CC=C1)C1=CC=CC=C1,Amyl Nitrite,CCCCCON=O,Moderate
 Thalidomide,O=C1N(C2CCC(=O)NC2=O)C(=O)C2=CC=CC=C12,Cabozantinib,COC1=CC2=C(C=C1OC)C(OC1=CC=C(NC(=O)C3(CC3)C(=O)NC3=CC=C(F)C=C3)C=C1)=CC=N2,Major
@@ -594,7 +590,6 @@ Telithromycin,[H][C@@]12[C@@H](C)C(=O)[C@H](C)C[C@@](C)(OC)[C@H](O[C@@H]3O[C@H](
 Theophylline,CN1C2=C(NC=N2)C(=O)N(C)C1=O,Quazepam,FC1=CC=CC=C1C1=NCC(=S)N(CC(F)(F)F)C2=C1C=C(Cl)C=C2,Minor
 Propofol,CC(C)C1=CC=CC(C(C)C)=C1O,Macimorelin,CC(C)(N)C(=O)N[C@H](CC1=CNC2=CC=CC=C12)C(=O)N[C@H](CC1=CNC2=CC=CC=C12)NC=O,Moderate
 Procyclidine,OC(CCN1CCCC1)(C1CCCCC1)C1=CC=CC=C1,Ethanol,CCO,Moderate
-Valproic acid,CCCC(CCC)C(O)=O,Cisplatin,[H][N]([H])([H])[Pt](Cl)(Cl)[N]([H])([H])[H],Moderate
 Protriptyline,CNCCCC1C2=CC=CC=C2C=CC2=CC=CC=C12,Mepenzolate,C[N+]1(C)CCCC(C1)OC(=O)C(O)(C1=CC=CC=C1)C1=CC=CC=C1,Moderate
 Nifedipine,COC(=O)C1=C(C)NC(C)=C(C1C1=CC=CC=C1[N+]([O-])=O)C(=O)OC,Fingolimod,CCCCCCCCC1=CC=C(CCC(N)(CO)CO)C=C1,Moderate
 Vitamin E,CC(C)CCC[C@@H](C)CCC[C@@H](C)CCC[C@]1(C)CCC2=C(O1)C(C)=C(C)C(O)=C2C,Ticagrelor,CCCSC1=NC2=C(N=NN2[C@@H]2C[C@H](OCCO)[C@@H](O)[C@H]2O)C(N[C@@H]2C[C@H]2C2=CC(F)=C(F)C=C2)=N1,Moderate
@@ -779,7 +774,6 @@ Cinoxacin,CCN1N=C(C(O)=O)C(=O)C2=CC3=C(OCO3)C=C12,Mechlorethamine,CN(CCCl)CCCl,M
 Zolpidem,CN(C)C(=O)CC1=C(N=C2C=CC(C)=CN12)C1=CC=C(C)C=C1,Nabilone,[H][C@@]12CC(=O)CC[C@@]1([H])C(C)(C)OC1=CC(=CC(O)=C21)C(C)(C)CCCCCC,Moderate
 Milnacipran,CCN(CC)C(=O)C1(CC1CN)C1=CC=CC=C1,Betrixaban,COC1=CC=C(NC(=O)C2=CC=C(C=C2)C(=N)N(C)C)C(=C1)C(=O)NC1=CC=C(Cl)C=N1,Moderate
 Flavoxate,CC1=C(OC2=C(C=CC=C2C(=O)OCCN2CCCCC2)C1=O)C1=CC=CC=C1,Aclidinium,OC(C(=O)O[C@H]1C[N+]2(CCCOC3=CC=CC=C3)CCC1CC2)(C1=CC=CS1)C1=CC=CS1,Moderate
-Cisplatin,[H][N]([H])([H])[Pt](Cl)(Cl)[N]([H])([H])[H],Imatinib,CN1CCN(CC2=CC=C(C=C2)C(=O)NC2=CC(NC3=NC=CC(=N3)C3=CN=CC=C3)=C(C)C=C2)CC1,Moderate
 Amphotericin B,[H][C@]12C[C@@H](O[C@@H]3O[C@H](C)[C@@H](O)[C@H](N)[C@@H]3O)C=CC=CC=CC=CC=CC=CC=C[C@H](C)[C@@H](O)[C@@H](C)[C@H](C)OC(=O)C[C@H](O)C[C@H](O)CC[C@@H](O)[C@H](O)C[C@H](O)C[C@](O)(C[C@H](O)[C@H]1C(O)=O)O2,Hydrocortisone,[H][C@@]12CC[C@](O)(C(=O)CO)[C@@]1(C)C[C@H](O)[C@@]1([H])[C@@]2([H])CCC2=CC(=O)CC[C@]12C,Moderate
 Desipramine,CNCCCN1C2=CC=CC=C2CCC2=CC=CC=C12,Entrectinib,CN1CCN(CC1)C1=CC=C(C(=O)NC2=NNC3=CC=C(CC4=CC(F)=CC(F)=C4)C=C23)C(NC2CCOCC2)=C1,Moderate
 Cladribine,NC1=C2N=CN([C@H]3C[C@H](O)[C@@H](CO)O3)C2=NC(Cl)=N1,Rucaparib,CNCC1=CC=C(C=C1)C1=C2CCNC(=O)C3=C2C(N1)=CC(F)=C3,Major
@@ -999,7 +993,6 @@ Lidocaine,CCN(CC)CC(=O)NC1=C(C)C=CC=C1C,Imatinib,CN1CCN(CC2=CC=C(C=C2)C(=O)NC2=C
 Zolmitriptan,CN(C)CCC1=CNC2=CC=C(C[C@H]3COC(=O)N3)C=C12,Ethanol,CCO,Moderate
 Carbinoxamine,CN(C)CCOC(C1=CC=C(Cl)C=C1)C1=CC=CC=N1,Dihydrocodeine,[H][C@@]12OC3=C4C(C[C@H]5N(C)CC[C@@]14[C@@]5([H])CC[C@@H]2O)=CC=C3OC,Moderate
 Bexarotene,CC1=CC2=C(C=C1C(=C)C1=CC=C(C=C1)C(O)=O)C(C)(C)CCC2(C)C,Solifenacin,O=C(O[C@H]1CN2CCC1CC2)N1CCC2=CC=CC=C2[C@@H]1C1=CC=CC=C1,Moderate
-Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Deutetrabenazine,[2H]C([2H])([2H])OC1=CC2=C(C=C1OC([2H])([2H])[2H])[C@@H]1CC(=O)[C@@H](CC(C)C)CN1CC2,Moderate
 Sotalol,CC(C)NCC(O)C1=CC=C(NS(C)(=O)=O)C=C1,Iothalamic acid,CNC(=O)C1=C(I)C(C(O)=O)=C(I)C(NC(C)=O)=C1I,Moderate
 Celecoxib,CC1=CC=C(C=C1)C1=CC(=NN1C1=CC=C(C=C1)S(N)(=O)=O)C(F)(F)F,Methylprednisolone,[H][C@@]12CC[C@](O)(C(=O)CO)[C@@]1(C)C[C@H](O)[C@@]1([H])[C@@]2([H])C[C@H](C)C2=CC(=O)C=C[C@]12C,Moderate
 Goserelin,CC(C)C[C@H](NC(=O)[C@@H](COC(C)(C)C)NC(=O)[C@H](CC1=CC=C(O)C=C1)NC(=O)[C@H](CO)NC(=O)[C@H](CC1=CNC2=CC=CC=C12)NC(=O)[C@H](CC1=CN=CN1)NC(=O)[C@@H]1CCC(=O)N1)C(=O)N[C@@H](CCCN=C(N)N)C(=O)N1CCC[C@H]1C(=O)NNC(N)=O,Cisapride,CO[C@H]1CN(CCCOC2=CC=C(F)C=C2)CC[C@H]1NC(=O)C1=CC(Cl)=C(N)C=C1OC,Major
@@ -1203,7 +1196,6 @@ Cariprazine,CN(C)C(=O)N[C@H]1CC[C@H](CCN2CCN(CC2)C2=C(Cl)C(Cl)=CC=C2)CC1,Linagli
 Lidocaine,CCN(CC)CC(=O)NC1=C(C)C=CC=C1C,Rucaparib,CNCC1=CC=C(C=C1)C1=C2CCNC(=O)C3=C2C(N1)=CC(F)=C3,Moderate
 Prednisone,[H][C@@]12CC[C@](O)(C(=O)CO)[C@@]1(C)CC(=O)[C@@]1([H])[C@@]2([H])CCC2=CC(=O)C=C[C@]12C,Fosaprepitant,C[C@@H](O[C@H]1OCCN(CC2=NC(=O)N(N2)P(O)(O)=O)[C@H]1C1=CC=C(F)C=C1)C1=CC(=CC(=C1)C(F)(F)F)C(F)(F)F,Moderate
 Olanzapine,CN1CCN(CC1)C1=NC2=CC=CC=C2NC2=C1C=C(C)S2,Tacrolimus,CO[C@@H]1C[C@@H](CC[C@H]1O)C=C(/C)[C@H]1OC(=O)[C@@H]2CCCCN2C(=O)C(=O)[C@]2(O)O[C@@H]([C@H](C[C@H]2C)OC)[C@H](C[C@@H](C)CC(C)=C[C@@H](CC=C)C(=O)C[C@H](O)[C@H]1C)OC,Moderate
-Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Clarithromycin,[H][C@@]1(C[C@@](C)(OC)[C@@H](O)[C@H](C)O1)O[C@H]1[C@H](C)[C@@H](O[C@]2([H])O[C@H](C)C[C@@H]([C@H]2O)N(C)C)[C@@](C)(C[C@@H](C)C(=O)[C@H](C)[C@@H](O)[C@](C)(O)[C@@H](CC)OC(=O)[C@@H]1C)OC,Moderate
 Zinc acetate,[Zn++].CC([O-])=O.CC([O-])=O,Ferrous fumarate,[Fe++].[H]C(=C([H])C([O-])=O)C([O-])=O,Minor
 Tretinoin,CC(C=CC1=C(C)CCCC1(C)C)=C/C=C/C(/C)=C/C(O)=O,Oxcarbazepine,NC(=O)N1C2=CC=CC=C2CC(=O)C2=C1C=CC=C2,Moderate
 Idarubicin,C[C@@H]1O[C@H](C[C@H](N)[C@@H]1O)O[C@H]1C[C@@](O)(CC2=C1C(O)=C1C(=O)C3=CC=CC=C3C(=O)C1=C2O)C(C)=O,Bepridil,CC(C)COCC(CN(CC1=CC=CC=C1)C1=CC=CC=C1)N1CCCC1,Major
@@ -1240,7 +1232,6 @@ Lamotrigine,NC1=NC(N)=C(N=N1)C1=C(Cl)C(Cl)=CC=C1,Thalidomide,O=C1N(C2CCC(=O)NC2=
 Glimepiride,CCC1=C(C)CN(C(=O)NCCC2=CC=C(C=C2)S(=O)(=O)NC(=O)N[C@H]2CC[C@H](C)CC2)C1=O,Rucaparib,CNCC1=CC=C(C=C1)C1=C2CCNC(=O)C3=C2C(N1)=CC(F)=C3,Moderate
 Levamlodipine,CCOC(=O)C1=C(COCCN)NC(C)=C([C@@H]1C1=CC=CC=C1Cl)C(=O)OC,Calcium citrate,[Ca++].[Ca++].[Ca++].OC(CC([O-])=O)(CC([O-])=O)C([O-])=O.OC(CC([O-])=O)(CC([O-])=O)C([O-])=O,Moderate
 Octreotide,[H][C@]1(NC(=O)[C@H](CCCCN)NC(=O)[C@@H](CC2=CNC3=C2C=CC=C3)NC(=O)[C@H](CC2=CC=CC=C2)NC(=O)[C@H](CSSC[C@H](NC1=O)C(=O)N[C@H](CO)[C@@H](C)O)NC(=O)[C@H](N)CC1=CC=CC=C1)[C@@H](C)O,Indium In-111 pentetreotide,[111In+3].CC(O)C(CO)N=C(O)C1CSSCC(N=C(O)C(CC2=CC=CC=C2)N=C([O-])CN(CCN(CCC(C(O)=O)C(O)=O)CC([O-])=O)CC([O-])=O)C(O)=NC(CC2=CC=CC=C2)C(O)=NC(CC2=CNC3=CC=CC=C23)C(O)=NC(CCCCN)C([O-])=NC(C(C)O)C(O)=N1,Moderate
-Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Hydroxychloroquine,CCN(CCO)CCCC(C)NC1=C2C=CC(Cl)=CC2=NC=C1,Major
 Indinavir,CC(C)(C)NC(=O)[C@@H]1CN(CC2=CN=CC=C2)CCN1C[C@@H](O)C[C@@H](CC1=CC=CC=C1)C(=O)N[C@@H]1[C@H](O)CC2=CC=CC=C12,Ivosidenib,[H][C@@](N(C(=O)[C@]1([H])CCC(=O)N1C1=NC=CC(=C1)C#N)C1=CC(F)=CN=C1)(C(=O)NC1CC(F)(F)C1)C1=C(Cl)C=CC=C1,Major
 Dalfopristin,CCN(CC)CCS(=O)(=O)[C@@H]1CCN2[C@H]1C(=O)O[C@H](C(C)C)[C@H](C)C=CC(=O)NCC=CC(C)=C[C@@H](O)CC(=O)CC1=NC(=CO1)C2=O,Upadacitinib,CC[C@@H]1CN(C[C@@H]1C1=CN=C2C=NC3=C(C=CN3)N12)C(=O)NCC(F)(F)F,Moderate
 Indapamide,CC1CC2=CC=CC=C2N1NC(=O)C1=CC(=C(Cl)C=C1)S(N)(=O)=O,Mepyramine,COC1=CC=C(CN(CCN(C)C)C2=NC=CC=C2)C=C1,Moderate
@@ -1330,7 +1321,6 @@ Lapatinib,CS(=O)(=O)CCNCC1=CC=C(O1)C1=CC2=C(C=C1)N=CN=C2NC1=CC(Cl)=C(OCC2=CC(F)=
 Oxymorphone,[H][C@@]12OC3=C(O)C=CC4=C3[C@@]11CCN(C)[C@]([H])(C4)[C@]1(O)CCC2=O,Mepenzolate,C[N+]1(C)CCCC(C1)OC(=O)C(O)(C1=CC=CC=C1)C1=CC=CC=C1,Moderate
 Anagrelide,ClC1=CC=C2N=C3NC(=O)CN3CC2=C1Cl,Fingolimod,CCCCCCCCC1=CC=C(CCC(N)(CO)CO)C=C1,Major
 Trifluoperazine,CN1CCN(CCCN2C3=CC=CC=C3SC3=C2C=C(C=C3)C(F)(F)F)CC1,Vemurafenib,CCCS(=O)(=O)NC1=C(F)C(C(=O)C2=CNC3=NC=C(C=C23)C2=CC=C(Cl)C=C2)=C(F)C=C1,Major
-Quinine,[H][C@]1(C[C@@H]2CC[N@]1C[C@@H]2C=C)[C@H](O)C1=CC=NC2=CC=C(OC)C=C12,Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Moderate
 Nelarabine,COC1=NC(N)=NC2=C1N=CN2[C@@H]1O[C@H](CO)[C@@H](O)[C@@H]1O,Bendamustine,CN1C(CCCC(O)=O)=NC2=CC(=CC=C12)N(CCCl)CCCl,Moderate
 Erythromycin,CC[C@H]1OC(=O)[C@H](C)[C@@H](O[C@H]2C[C@@](C)(OC)[C@@H](O)[C@H](C)O2)[C@H](C)[C@@H](O[C@@H]2O[C@H](C)C[C@@H]([C@H]2O)N(C)C)[C@](C)(O)C[C@@H](C)C(=O)[C@H](C)[C@@H](O)[C@]1(C)O,Amlodipine,CCOC(=O)C1=C(COCCN)NC(C)=C(C1C1=CC=CC=C1Cl)C(=O)OC,Moderate
 Oxytetracycline,[H][C@@]12[C@@H](O)[C@@]3([H])C(C(=O)C4=C(C=CC=C4O)[C@@]3(C)O)=C(O)[C@]1(O)C(=O)C(C(N)=O)=C(O)[C@H]2N(C)C,Ticarcillin,[H][C@]12SC(C)(C)[C@@H](N1C(=O)[C@H]2NC(=O)[C@H](C(O)=O)C1=CSC=C1)C(O)=O,Moderate
@@ -1374,7 +1364,6 @@ Allopurinol,OC1=NC=NC2=C1C=NN2,Attapulgite,[O--].[O--].[O--].[O--].[O--].[O--].[
 Primidone,CCC1(C(=O)NCNC1=O)C1=CC=CC=C1,Metoclopramide,CCN(CC)CCNC(=O)C1=CC(Cl)=C(N)C=C1OC,Moderate
 Leuprolide,CCNC(=O)[C@@H]1CCCN1C(=O)[C@H](CCCNC(N)=N)NC(=O)[C@H](CC(C)C)NC(=O)[C@@H](CC(C)C)NC(=O)[C@H](CC1=CC=C(O)C=C1)NC(=O)[C@H](CO)NC(=O)[C@H](CC1=CNC2=C1C=CC=C2)NC(=O)[C@H](CC1=CNC=N1)NC(=O)[C@@H]1CCC(=O)N1,Hydroxychloroquine,CCN(CCO)CCCC(C)NC1=C2C=CC(Cl)=CC2=NC=C1,Moderate
 Enoxacin,CCN1C=C(C(O)=O)C(=O)C2=CC(F)=C(N=C12)N1CCNCC1,Calcium carbonate,[Ca++].[O-]C([O-])=O,Moderate
-Cisplatin,[H][N]([H])([H])[Pt](Cl)(Cl)[N]([H])([H])[H],Telbivudine,CC1=CN([C@@H]2C[C@@H](O)[C@H](CO)O2)C(=O)NC1=O,Moderate
 Buprenorphine,CO[C@]12CC[C@@]3(C[C@@H]1[C@](C)(O)C(C)(C)C)[C@H]1CC4=C5C(O[C@@H]2[C@@]35CCN1CC1CC1)=C(O)C=C4,Famotidine,NC(N)=NC1=NC(CSCCC(N)=NS(N)(=O)=O)=CS1,Moderate
 Metoprolol,COCCC1=CC=C(OCC(O)CNC(C)C)C=C1,Glyburide,COC1=C(C=C(Cl)C=C1)C(=O)NCCC1=CC=C(C=C1)S(=O)(=O)NC(=O)NC1CCCCC1,Moderate
 Lonafarnib,NC(=O)N1CCC(CC(=O)N2CCC(CC2)[C@H]2C3=C(CCC4=C2C(Br)=CC(Cl)=C4)C=C(Br)C=N3)CC1,Pasireotide,NCCCC[C@@H]1NC(=O)[C@@H](CC2=CNC3=C2C=CC=C3)NC(=O)[C@@H](NC(=O)[C@@H]2C[C@H](CN2C(=O)[C@H](CC2=CC=CC=C2)NC(=O)[C@H](CC2=CC=C(OCC3=CC=CC=C3)C=C2)NC1=O)OC(=O)NCCN)C1=CC=CC=C1,Major
@@ -1468,11 +1457,9 @@ Clozapine,CN1CCN(CC1)C1=NC2=CC(Cl)=CC=C2NC2=CC=CC=C12,Entrectinib,CN1CCN(CC1)C1=
 Atropine,CN1[C@H]2CC[C@@H]1C[C@@H](C2)OC(=O)C(CO)C1=CC=CC=C1,Levorphanol,[H][C@@]12CCCC[C@@]11CCN(C)[C@@H]2CC2=C1C=C(O)C=C2,Moderate
 Eribulin,[H][C@@]12CC(=C)[C@]([H])(CC[C@@]3([H])C[C@@H](C)C(=C)[C@@]([H])(C[C@]4([H])O[C@H](C[C@H](O)CN)[C@H](OC)[C@@]4([H])CC(=O)C[C@@]4([H])CC[C@]5([H])O[C@@]6([H])[C@H]7O[C@@]8(C[C@]7([H])O[C@@]6([H])[C@@]([H])(O8)[C@@]5([H])O4)CC1)O3)O2,Macimorelin,CC(C)(N)C(=O)N[C@H](CC1=CNC2=CC=CC=C12)C(=O)N[C@H](CC1=CNC2=CC=CC=C12)NC=O,Major
 Conivaptan,CC1=NC2=C(CCN(C(=O)C3=CC=C(NC(=O)C4=CC=CC=C4C4=CC=CC=C4)C=C3)C3=CC=CC=C23)N1,Romidepsin,CC=C1/NC(=O)[C@H]2CSSCCC=C[C@H](CC(=O)N[C@H](C(C)C)C(=O)N2)OC(=O)[C@@H](NC1=O)C(C)C,Moderate
-Vasopressin,NCCCCC(NC(=O)C1CCCN1C(=O)C1CSSCC(N)C(=O)NC(CC2=CC=C(O)C=C2)C(=O)NC(CC2=CC=CC=C2)C(=O)NC(CCC(N)=O)C(=O)NC(CC(N)=O)C(=O)N1)C(=O)NCC(N)=O.NC1CSSCC(NC(=O)C(CC(N)=O)NC(=O)C(CCC(N)=O)NC(=O)C(CC2=CC=CC=C2)NC(=O)C(CC2=CC=C(O)C=C2)NC1=O)C(=O)N1CCCC1C(=O)NC(CCCN=C(N)N)C(=O)NCC(N)=O,Cisplatin,[H][N]([H])([H])[Pt](Cl)(Cl)[N]([H])([H])[H],Moderate
 Anisindione,COC1=CC=C(C=C1)C1C(=O)C2=CC=CC=C2C1=O,Obeticholic acid,[H][C@@]1(CC[C@@]2([H])[C@]3([H])[C@H](O)[C@H](CC)[C@]4([H])C[C@H](O)CC[C@]4(C)[C@@]3([H])CC[C@]12C)[C@H](C)CCC(O)=O,Moderate
 Glimepiride,CCC1=C(C)CN(C(=O)NCCC2=CC=C(C=C2)S(=O)(=O)NC(=O)N[C@H]2CC[C@H](C)CC2)C1=O,Sulfasalazine,OC(=O)C1=CC(=CC=C1O)N=NC1=CC=C(C=C1)S(=O)(=O)NC1=NC=CC=C1,Moderate
 Quinine,[H][C@]1(C[C@@H]2CC[N@]1C[C@@H]2C=C)[C@H](O)C1=CC=NC2=CC=C(OC)C=C12,Ubrogepant,C[C@@H]1[C@@H](C[C@H](NC(=O)C2=CN=C3C[C@]4(CC3=C2)C(=O)NC2=NC=CC=C42)C(=O)N1CC(F)(F)F)C1=CC=CC=C1,Moderate
-Lansoprazole,CC1=C(OCC(F)(F)F)C=CN=C1CS(=O)C1=NC2=CC=CC=C2N1,Carboplatin,[H][N]([H])([H])[Pt]1(OC(=O)C2(CCC2)C(=O)O1)[N]([H])([H])[H],Moderate
 Thioridazine,CSC1=CC2=C(SC3=CC=CC=C3N2CCC2CCCCN2C)C=C1,Primaquine,COC1=CC(NC(C)CCCN)=C2N=CC=CC2=C1,Major
 Bicalutamide,CC(O)(CS(=O)(=O)C1=CC=C(F)C=C1)C(=O)NC1=CC(=C(C=C1)C#N)C(F)(F)F,Sparfloxacin,C[C@H]1CN(C[C@@H](C)N1)C1=C(F)C(N)=C2C(=O)C(=CN(C3CC3)C2=C1F)C(O)=O,Major
 Troglitazone,CC1=C(C)C2=C(CCC(C)(COC3=CC=C(CC4SC(=O)NC4=O)C=C3)O2)C(C)=C1O,Levamlodipine,CCOC(=O)C1=C(COCCN)NC(C)=C([C@@H]1C1=CC=CC=C1Cl)C(=O)OC,Moderate
@@ -1494,7 +1481,6 @@ Siponimod,CCC1=CC(=CC=C1CN1CC(C1)C(O)=O)C(C)=NOCC1=CC=C(C2CCCCC2)C(=C1)C(F)(F)F,
 Isosorbide mononitrate,[H][C@]12OC[C@@H](O[N+]([O-])=O)[C@@]1([H])OC[C@@H]2O,Nitrous acid,ON=O,Major
 Troglitazone,CC1=C(C)C2=C(CCC(C)(COC3=CC=C(CC4SC(=O)NC4=O)C=C3)O2)C(C)=C1O,Yohimbine,[H][C@@]12CC[C@H](O)[C@H](C(=O)OC)[C@@]1([H])C[C@]1([H])N(CCC3=C1NC1=CC=CC=C31)C2,Moderate
 Chloramphenicol,OC[C@@H](NC(=O)C(Cl)Cl)[C@H](O)C1=CC=C(C=C1)[N+]([O-])=O,Cefepime,CON=C(/C(=O)N[C@@H]1C(=O)N2[C@]1([H])SCC(C[N+]1(C)CCCC1)=C2C([O-])=O)C1=CSC(N)=N1,Moderate
-Vancomycin,CN[C@H](CC(C)C)C(=O)N[C@@H]1[C@H](O)C2=CC=C(OC3=C(O[C@@H]4O[C@H](CO)[C@@H](O)[C@H](O)[C@H]4O[C@H]4C[C@](C)(N)[C@H](O)[C@H](C)O4)C4=CC(=C3)[C@@H](NC(=O)[C@H](CC(N)=O)NC1=O)C(=O)N[C@@H]1C3=CC(=C(O)C=C3)C3=C(O)C=C(O)C=C3[C@H](NC(=O)[C@@H](NC1=O)[C@H](O)C1=CC(Cl)=C(O4)C=C1)C(O)=O)C(Cl)=C2,Carboplatin,[H][N]([H])([H])[Pt]1(OC(=O)C2(CCC2)C(=O)O1)[N]([H])([H])[H],Moderate
 Chloroquine,CCN(CC)CCCC(C)NC1=CC=NC2=CC(Cl)=CC=C12,Nilotinib,CC1=CN(C=N1)C1=CC(NC(=O)C2=CC=C(C)C(NC3=NC=CC(=N3)C3=CN=CC=C3)=C2)=CC(=C1)C(F)(F)F,Major
 Silodosin,C[C@H](CC1=CC2=C(N(CCCO)CC2)C(=C1)C(N)=O)NCCOC1=CC=CC=C1OCC(F)(F)F,Nitrous acid,ON=O,Moderate
 Felbamate,NC(=O)OCC(COC(N)=O)C1=CC=CC=C1,Cobimetinib,OC1(CN(C1)C(=O)C1=C(NC2=C(F)C=C(I)C=C2)C(F)=C(F)C=C1)[C@@H]1CCCCN1,Moderate
@@ -1521,14 +1507,12 @@ Isoprenaline,CC(C)NCC(O)C1=CC(O)=C(O)C=C1,Sparfloxacin,C[C@H]1CN(C[C@@H](C)N1)C1
 Chlorzoxazone,ClC1=CC2=C(OC(=O)N2)C=C1,Nabilone,[H][C@@]12CC(=O)CC[C@@]1([H])C(C)(C)OC1=CC(=CC(O)=C21)C(C)(C)CCCCCC,Moderate
 Sirolimus,[H][C@@]1(C[C@@H](C)[C@]2([H])CC(=O)[C@H](C)C=C(C)[C@@H](O)[C@@H](OC)C(=O)[C@H](C)C[C@H](C)C=CC=CC=C(C)[C@H](C[C@]3([H])CC[C@@H](C)[C@@](O)(O3)C(=O)C(=O)N3CCCC[C@@]3([H])C(=O)O2)OC)CC[C@@H](O)[C@@H](C1)OC,Atorvastatin,CC(C)C1=C(C(=O)NC2=CC=CC=C2)C(=C(N1CC[C@@H](O)C[C@@H](O)CC(O)=O)C1=CC=C(F)C=C1)C1=CC=CC=C1,Moderate
 Gatifloxacin,COC1=C2N(C=C(C(O)=O)C(=O)C2=CC(F)=C1N1CCNC(C)C1)C1CC1,Lapatinib,CS(=O)(=O)CCNCC1=CC=C(O1)C1=CC2=C(C=C1)N=CN=C2NC1=CC(Cl)=C(OCC2=CC(F)=CC=C2)C=C1,Major
-Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Amisulpride,CCN1CCCC1CNC(=O)C1=CC(=C(N)C=C1OC)S(=O)(=O)CC,Major
 Ezogabine,CCOC(=O)NC1=C(N)C=C(NCC2=CC=C(F)C=C2)C=C1,Osimertinib,COC1=C(NC2=NC=CC(=N2)C2=CN(C)C3=C2C=CC=C3)C=C(NC(=O)C=C)C(=C1)N(C)CCN(C)C,Major
 Enalapril,CCOC(=O)[C@H](CCC1=CC=CC=C1)N[C@@H](C)C(=O)N1CCC[C@H]1C(O)=O,Picosulfuric acid,OS(=O)(=O)OC1=CC=C(C=C1)C(C1=CC=C(OS(O)(=O)=O)C=C1)C1=CC=CC=N1,Moderate
 Bexarotene,CC1=CC2=C(C=C1C(=C)C1=CC=C(C=C1)C(O)=O)C(C)(C)CCC2(C)C,Fosaprepitant,C[C@@H](O[C@H]1OCCN(CC2=NC(=O)N(N2)P(O)(O)=O)[C@H]1C1=CC=C(F)C=C1)C1=CC(=CC(=C1)C(F)(F)F)C(F)(F)F,Minor
 Erythromycin,CC[C@H]1OC(=O)[C@H](C)[C@@H](O[C@H]2C[C@@](C)(OC)[C@@H](O)[C@H](C)O2)[C@H](C)[C@@H](O[C@@H]2O[C@H](C)C[C@@H]([C@H]2O)N(C)C)[C@](C)(O)C[C@@H](C)C(=O)[C@H](C)[C@@H](O)[C@]1(C)O,Ivacaftor,CC(C)(C)C1=CC(=C(O)C=C1NC(=O)C1=CNC2=CC=CC=C2C1=O)C(C)(C)C,Major
 Doxepin,[H]C(CCN(C)C)=C1C2=CC=CC=C2COC2=CC=CC=C12,Methotrimeprazine,COC1=CC2=C(SC3=C(C=CC=C3)N2C[C@H](C)CN(C)C)C=C1,Moderate
 Azathioprine,CN1C=NC(=C1SC1=NC=NC2=C1NC=N2)[N+]([O-])=O,Strontium chloride Sr-89,[Cl-].[Cl-].[89Sr++],Moderate
-Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Cabazitaxel,[H][C@]12[C@H](OC(=O)C3=CC=CC=C3)[C@]3(O)C[C@H](OC(=O)[C@H](O)[C@@H](NC(=O)OC(C)(C)C)C4=CC=CC=C4)C(C)=C([C@@H](OC)C(=O)[C@]1(C)[C@H](C[C@H]1OC[C@@]21OC(C)=O)OC)C3(C)C,Moderate
 Dasatinib,CC1=NC(NC2=NC=C(S2)C(=O)NC2=C(C)C=CC=C2Cl)=CC(=N1)N1CCN(CCO)CC1,Flibanserin,FC(F)(F)C1=CC(=CC=C1)N1CCN(CCN2C(=O)NC3=CC=CC=C23)CC1,Moderate
 Pimozide,FC1=CC=C(C=C1)C(CCCN1CCC(CC1)N1C(=O)NC2=CC=CC=C12)C1=CC=C(F)C=C1,Levocetirizine,OC(=O)COCCN1CCN(CC1)[C@H](C1=CC=CC=C1)C1=CC=C(Cl)C=C1,Moderate
 Ranolazine,COC1=CC=CC=C1OCC(O)CN1CCN(CC(=O)NC2=C(C)C=CC=C2C)CC1,Crizotinib,C[C@@H](OC1=CC(=CN=C1N)C1=CN(N=C1)C1CCNCC1)C1=C(Cl)C=CC(F)=C1Cl,Major
@@ -1612,7 +1596,6 @@ Tafenoquine,COC1=CC(C)=C2C(OC3=CC=CC(=C3)C(F)(F)F)=C(OC)C=C(NC(C)CCCN)C2=N1,Tipi
 Cabozantinib,COC1=CC2=C(C=C1OC)C(OC1=CC=C(NC(=O)C3(CC3)C(=O)NC3=CC=C(F)C=C3)C=C1)=CC=N2,Bedaquiline,COC1=NC2=C(C=C(Br)C=C2)C=C1[C@@H](C1=CC=CC=C1)[C@@](O)(CCN(C)C)C1=CC=CC2=C1C=CC=C2,Major
 Droperidol,FC1=CC=C(C=C1)C(=O)CCCN1CCC(=CC1)N1C(=O)NC2=CC=CC=C12,Mitotane,ClC(Cl)C(C1=CC=C(Cl)C=C1)C1=CC=CC=C1Cl,Moderate
 Gadobenic acid,[Gd+3].OC(=O)CN(CCN(CCN(CC([O-])=O)CC([O-])=O)CC([O-])=O)C(COCC1=CC=CC=C1)C(O)=O,Saquinavir,[H][C@@]12CCCC[C@]1([H])CN(C[C@@H](O)[C@H](CC1=CC=CC=C1)NC(=O)[C@H](CC(N)=O)NC(=O)C1=NC3=C(C=CC=C3)C=C1)[C@@H](C2)C(=O)NC(C)(C)C,Moderate
-Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Rucaparib,CNCC1=CC=C(C=C1)C1=C2CCNC(=O)C3=C2C(N1)=CC(F)=C3,Moderate
 Dofetilide,CN(CCOC1=CC=C(NS(C)(=O)=O)C=C1)CCC1=CC=C(NS(C)(=O)=O)C=C1,Romidepsin,CC=C1/NC(=O)[C@H]2CSSCCC=C[C@H](CC(=O)N[C@H](C(C)C)C(=O)N2)OC(=O)[C@@H](NC1=O)C(C)C,Major
 Romidepsin,CC=C1/NC(=O)[C@H]2CSSCCC=C[C@H](CC(=O)N[C@H](C(C)C)C(=O)N2)OC(=O)[C@@H](NC1=O)C(C)C,Triclabendazole,CSC1=NC2=C(N1)C=C(Cl)C(OC1=CC=CC(Cl)=C1Cl)=C2,Moderate
 Fenfluramine,CCNC(C)CC1=CC=CC(=C1)C(F)(F)F,Choline salicylate,C[N+](C)(C)CCO.OC1=CC=CC=C1C([O-])=O,Moderate
@@ -1676,7 +1659,6 @@ Pentamidine,NC(=N)C1=CC=C(OCCCCCOC2=CC=C(C=C2)C(N)=N)C=C1,Glyburide,COC1=C(C=C(C
 Didanosine,OC[C@@H]1CC[C@@H](O1)N1C=NC2=C1NC=NC2=O,Minocycline,[H][C@@]12CC3=C(C(O)=CC=C3N(C)C)C(=O)C1=C(O)[C@]1(O)C(=O)C(C(N)=O)=C(O)[C@@H](N(C)C)[C@]1([H])C2,Minor
 Tamoxifen,CCC(=C(/C1=CC=CC=C1)C1=CC=C(OCCN(C)C)C=C1)C1=CC=CC=C1,Trimipramine,CC(CN(C)C)CN1C2=CC=CC=C2CCC2=CC=CC=C12,Moderate
 Azithromycin,CC[C@H]1OC(=O)[C@H](C)[C@@H](O[C@H]2C[C@@](C)(OC)[C@@H](O)[C@H](C)O2)[C@H](C)[C@@H](O[C@@H]2O[C@H](C)C[C@@H]([C@H]2O)N(C)C)[C@](C)(O)C[C@@H](C)CN(C)[C@H](C)[C@@H](O)[C@]1(C)O,Promethazine,CC(CN1C2=CC=CC=C2SC2=CC=CC=C12)N(C)C,Moderate
-Carboplatin,[H][N]([H])([H])[Pt]1(OC(=O)C2(CCC2)C(=O)O1)[N]([H])([H])[H],Monomethyl fumarate,COC(=O)C=CC(O)=O,Moderate
 Levodopa,N[C@@H](CC1=CC(O)=C(O)C=C1)C(O)=O,Methylene blue,[Cl-].CN(C)C1=CC2=[S+]C3=C(C=CC(=C3)N(C)C)N=C2C=C1,Major
 Hyoscyamine,CN1[C@H]2CC[C@@H]1C[C@@H](C2)OC(=O)[C@H](CO)C1=CC=CC=C1,Quetiapine,OCCOCCN1CCN(CC1)C1=NC2=CC=CC=C2SC2=CC=CC=C12,Moderate
 Tolazamide,CC1=CC=C(C=C1)S(=O)(=O)NC(=O)NN1CCCCCC1,Fluoxymesterone,[H][C@@]12CC[C@](C)(O)[C@@]1(C)C[C@H](O)[C@@]1(F)[C@@]2([H])CCC2=CC(=O)CC[C@]12C,Moderate
@@ -1698,7 +1680,6 @@ Indomethacin,COC1=CC2=C(C=C1)N(C(=O)C1=CC=C(Cl)C=C1)C(C)=C2CC(O)=O,Aluminum hydr
 Triprolidine,CC1=CC=C(C=C1)C(=C/CN1CCCC1)C1=CC=CC=N1,Meclizine,CC1=CC(CN2CCN(CC2)C(C2=CC=CC=C2)C2=CC=C(Cl)C=C2)=CC=C1,Moderate
 Treprostinil,[H][C@]12C[C@@H](O)[C@H](CC[C@@H](O)CCCCC)[C@@]1([H])CC1=C(C2)C(OCC(O)=O)=CC=C1,Bendroflumethiazide,NS(=O)(=O)C1=CC2=C(NC(CC3=CC=CC=C3)NS2(=O)=O)C=C1C(F)(F)F,Moderate
 Chromic chloride,[Cl-].[Cl-].[Cl-].[Cr+3],Lixisenatide,CC[C@H](C)[C@H](NC(=O)[C@H](CC1=CC=CC=C1)NC(=O)[C@H](CC(C)C)NC(=O)[C@H](CCCNC(N)=N)NC(=O)[C@@H](NC(=O)[C@H](C)NC(=O)[C@H](CCC(O)=O)NC(=O)[C@H](CCC(O)=O)NC(=O)[C@H](CCC(O)=O)NC(=O)[C@H](CCSC)NC(=O)[C@H](CCC(N)=O)NC(=O)[C@H](CCCCN)NC(=O)[C@H](CO)NC(=O)[C@H](CC(C)C)NC(=O)[C@H](CC(O)=O)NC(=O)[C@H](CO)NC(=O)[C@@H](NC(=O)[C@H](CC1=CC=CC=C1)NC(=O)[C@@H](NC(=O)CNC(=O)[C@H](CCC(O)=O)NC(=O)CNC(=O)[C@@H](N)CC1=CNC=N1)[C@@H](C)O)[C@@H](C)O)C(C)C)C(=O)N[C@@H](CCC(O)=O)C(=O)N[C@@H](CC1=CNC2=C1C=CC=C2)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CC(N)=O)C(=O)NCC(=O)NCC(=O)N1CCC[C@H]1C(=O)N[C@@H](CO)C(=O)N[C@@H](CO)C(=O)NCC(=O)N[C@@H](C)C(=O)N1CCC[C@H]1C(=O)N1CCC[C@H]1C(=O)N[C@@H](CO)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CCCCN)C(N)=O,Moderate
-Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Clofarabine,[H][C@]1(F)[C@H](O)[C@@H](CO)O[C@H]1N1C=NC2=C(N)N=C(Cl)N=C12,Moderate
 Scopolamine,CN1[C@H]2C[C@@H](C[C@@H]1[C@H]1O[C@@H]21)OC(=O)[C@H](CO)C1=CC=CC=C1,Desipramine,CNCCCN1C2=CC=CC=C2CCC2=CC=CC=C12,Moderate
 Vinblastine,[H][C@@]12N(C)C3=CC(OC)=C(C=C3[C@@]11CCN3CC=C[C@@](CC)([C@@H](OC(C)=O)[C@]2(O)C(=O)OC)[C@@]13[H])[C@]1(C[C@@]2([H])CN(C[C@](O)(CC)C2)CCC2=C1NC1=C2C=CC=C1)C(=O)OC,Nefazodone,CCC1=NN(CCCN2CCN(CC2)C2=CC(Cl)=CC=C2)C(=O)N1CCOC1=CC=CC=C1,Major
 Acarbose,[H]C(=O)[C@H](O)[C@@H](O)[C@]([H])(O[C@@]1([H])O[C@H](CO)[C@@]([H])(O[C@H]2O[C@H](C)[C@@H](N[C@@]3([H])C=C(CO)[C@@H](O)[C@H](O)[C@H]3O)[C@H](O)[C@H]2O)[C@H](O)[C@H]1O)[C@H](O)CO,Anisindione,COC1=CC=C(C=C1)C1C(=O)C2=CC=CC=C2C1=O,Minor
@@ -1722,7 +1703,6 @@ Pamidronic acid,NCCC(O)(P(O)(O)=O)P(O)(O)=O,Streptomycin,CN[C@H]1[C@H](O)[C@@H](
 Bisoprolol,CC(C)NCC(O)COC1=CC=C(COCCOC(C)C)C=C1,Clidinium,C[N@@+]12CC[C@@H](CC1)C(C2)OC(=O)C(O)(C1=CC=CC=C1)C1=CC=CC=C1,Moderate
 Magnesium citrate,[Mg++].[Mg++].[Mg++].OC(CC([O-])=O)(CC([O-])=O)C([O-])=O.OC(CC([O-])=O)(CC([O-])=O)C([O-])=O,Encorafenib,COC(=O)N[C@@H](C)CNC1=NC=CC(=N1)C1=CN(N=C1C1=CC(Cl)=CC(NS(C)(=O)=O)=C1F)C(C)C,Moderate
 Mitotane,ClC(Cl)C(C1=CC=C(Cl)C=C1)C1=CC=CC=C1Cl,Doxorubicin,COC1=CC=CC2=C1C(=O)C1=C(O)C3=C(C[C@](O)(C[C@@H]3O[C@H]3C[C@H](N)[C@H](O)[C@H](C)O3)C(=O)CO)C(O)=C1C2=O,Moderate
-Cisplatin,[H][N]([H])([H])[Pt](Cl)(Cl)[N]([H])([H])[H],Pimozide,FC1=CC=C(C=C1)C(CCCN1CCC(CC1)N1C(=O)NC2=CC=CC=C12)C1=CC=C(F)C=C1,Major
 Zalcitabine,NC1=NC(=O)N(C=C1)[C@H]1CC[C@@H](CO)O1,Crizotinib,C[C@@H](OC1=CC(=CN=C1N)C1=CN(N=C1)C1CCNCC1)C1=C(Cl)C=CC(F)=C1Cl,Moderate
 Orciprenaline,CC(C)NCC(O)C1=CC(O)=CC(O)=C1,Propafenone,CCCNCC(O)COC1=C(C=CC=C1)C(=O)CCC1=CC=CC=C1,Moderate
 Tioguanine,NC1=NC(=S)C2=C(N1)N=CN2,Nabumetone,COC1=CC2=C(C=C1)C=C(CCC(C)=O)C=C2,Moderate
@@ -1913,7 +1893,6 @@ Tacrolimus,CO[C@@H]1C[C@@H](CC[C@H]1O)C=C(/C)[C@H]1OC(=O)[C@@H]2CCCCN2C(=O)C(=O)
 Chloramphenicol,OC[C@@H](NC(=O)C(Cl)Cl)[C@H](O)C1=CC=C(C=C1)[N+]([O-])=O,Fosphenytoin,OP(O)(=O)OCN1C(=O)NC(C1=O)(C1=CC=CC=C1)C1=CC=CC=C1,Moderate
 Thalidomide,O=C1N(C2CCC(=O)NC2=O)C(=O)C2=CC=CC=C12,Valganciclovir,CC(C)[C@H](N)C(=O)OCC(CO)OCN1C=NC2=C1NC(N)=NC2=O,Moderate
 Carbamazepine,NC(=O)N1C2=CC=CC=C2C=CC2=CC=CC=C12,Clarithromycin,[H][C@@]1(C[C@@](C)(OC)[C@@H](O)[C@H](C)O1)O[C@H]1[C@H](C)[C@@H](O[C@]2([H])O[C@H](C)C[C@@H]([C@H]2O)N(C)C)[C@@](C)(C[C@@H](C)C(=O)[C@H](C)[C@@H](O)[C@](C)(O)[C@@H](CC)OC(=O)[C@@H]1C)OC,Major
-Stavudine,CC1=CN([C@@H]2O[C@H](CO)C=C2)C(=O)NC1=O,Carboplatin,[H][N]([H])([H])[Pt]1(OC(=O)C2(CCC2)C(=O)O1)[N]([H])([H])[H],Moderate
 Doxylamine,CN(C)CCOC(C)(C1=CC=CC=C1)C1=CC=CC=N1,Cannabidiol,CCCCCC1=CC(O)=C([C@@H]2C=C(C)CC[C@H]2C(C)=C)C(O)=C1,Moderate
 Griseofulvin,COC1=CC(OC)=C(Cl)C2=C1C(=O)[C@]1(O2)[C@H](C)CC(=O)C=C1OC,Ticagrelor,CCCSC1=NC2=C(N=NN2[C@@H]2C[C@H](OCCO)[C@@H](O)[C@H]2O)C(N[C@@H]2C[C@H]2C2=CC(F)=C(F)C=C2)=N1,Moderate
 Mefloquine,OC(C1CCCCN1)C1=CC(=NC2=C1C=CC=C2C(F)(F)F)C(F)(F)F,Sulfamethoxazole,CC1=CC(NS(=O)(=O)C2=CC=C(N)C=C2)=NO1,Minor
@@ -2019,7 +1998,6 @@ Rocuronium,[H][C@@]12C[C@@H]([C@H](OC(C)=O)[C@@]1(C)CC[C@@]1([H])[C@@]2([H])CC[C
 Tacrolimus,CO[C@@H]1C[C@@H](CC[C@H]1O)C=C(/C)[C@H]1OC(=O)[C@@H]2CCCCN2C(=O)C(=O)[C@]2(O)O[C@@H]([C@H](C[C@H]2C)OC)[C@H](C[C@@H](C)CC(C)=C[C@@H](CC=C)C(=O)C[C@H](O)[C@H]1C)OC,Arformoterol,COC1=CC=C(C[C@@H](C)NC[C@H](O)C2=CC(NC=O)=C(O)C=C2)C=C1,Moderate
 Codeine,[H][C@]12C=C[C@H](O)[C@@H]3OC4=C5C(C[C@H]1N(C)CC[C@@]235)=CC=C4OC,Lasmiditan,CN1CCC(CC1)C(=O)C1=CC=CC(NC(=O)C2=C(F)C=C(F)C=C2F)=N1,Moderate
 Ribociclib,CN(C)C(=O)C1=CC2=CN=C(NC3=CC=C(C=N3)N3CCNCC3)N=C2N1C1CCCC1,Lemborexant,CC1=NC=C(OC[C@]2(C[C@H]2C(=O)NC2=NC=C(F)C=C2)C2=CC=CC(F)=C2)C(C)=N1,Major
-Methotrexate,CN(CC1=CN=C2N=C(N)N=C(N)C2=N1)C1=CC=C(C=C1)C(=O)N[C@@H](CCC(O)=O)C(O)=O,Carboplatin,[H][N]([H])([H])[Pt]1(OC(=O)C2(CCC2)C(=O)O1)[N]([H])([H])[H],Moderate
 Thiethylperazine,CCSC1=CC2=C(SC3=CC=CC=C3N2CCCN2CCN(C)CC2)C=C1,Isosorbide mononitrate,[H][C@]12OC[C@@H](O[N+]([O-])=O)[C@@]1([H])OC[C@@H]2O,Moderate
 Proguanil,CC(C)NC(=N)NC(=N)NC1=CC=C(Cl)C=C1,Iodide I-131,[131I-],Moderate
 Famotidine,NC(N)=NC1=NC(CSCCC(N)=NS(N)(=O)=O)=CS1,Tetrabenazine,COC1=C(OC)C=C2C3CC(=O)C(CC(C)C)CN3CCC2=C1,Moderate
@@ -2030,7 +2008,6 @@ Moexipril,CCOC(=O)[C@H](CCC1=CC=CC=C1)N[C@@H](C)C(=O)N1CC2=CC(OC)=C(OC)C=C2C[C@H
 Hydroxychloroquine,CCN(CCO)CCCC(C)NC1=C2C=CC(Cl)=CC2=NC=C1,Triclabendazole,CSC1=NC2=C(N1)C=C(Cl)C(OC1=CC=CC(Cl)=C1Cl)=C2,Major
 Carvedilol,COC1=CC=CC=C1OCCNCC(O)COC1=CC=CC2=C1C1=CC=CC=C1N2,Iodipamide,OC(=O)C1=C(I)C(NC(=O)CCCCC(=O)NC2=C(I)C=C(I)C(C(O)=O)=C2I)=C(I)C=C1I,Moderate
 Ondansetron,CN1C2=C(C3=CC=CC=C13)C(=O)C(CN1C=CN=C1C)CC2,Tetrabenazine,COC1=C(OC)C=C2C3CC(=O)C(CC(C)C)CN3CCC2=C1,Moderate
-Carboplatin,[H][N]([H])([H])[Pt]1(OC(=O)C2(CCC2)C(=O)O1)[N]([H])([H])[H],Omacetaxine mepesuccinate,[H][C@@]1(OC(=O)[C@@](O)(CCCC(C)(C)O)CC(=O)OC)C(OC)=C[C@]23CCCN2CCC2=CC4=C(OCO4)C=C2[C@]13[H],Moderate
 Dexfenfluramine,CCN[C@@H](C)CC1=CC=CC(=C1)C(F)(F)F,Cangrelor,CSCCNC1=C2N=CN([C@@H]3O[C@H](COP(O)(=O)OP(O)(=O)C(Cl)(Cl)P(O)(O)=O)[C@@H](O)[C@H]3O)C2=NC(SCCC(F)(F)F)=N1,Moderate
 Norfloxacin,CCN1C=C(C(O)=O)C(=O)C2=CC(F)=C(C=C12)N1CCNCC1,Dapagliflozin,CCOC1=CC=C(CC2=C(Cl)C=CC(=C2)[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)C=C1,Moderate
 Hydroxyzine,OCCOCCN1CCN(CC1)C(C1=CC=CC=C1)C1=CC=C(Cl)C=C1,Siponimod,CCC1=CC(=CC=C1CN1CC(C1)C(O)=O)C(C)=NOCC1=CC=C(C2CCCCC2)C(=C1)C(F)(F)F,Major
@@ -2166,7 +2143,6 @@ Mipomersen,COCCO[C@H]1[C@@H](O)[C@H](COP(O)(=O)S[C@H]2[C@H](COP(O)(=O)S[C@H]3[C@
 Phenelzine,NNCCC1=CC=CC=C1,Papaverine,COC1=C(OC)C=C(CC2=NC=CC3=CC(OC)=C(OC)C=C23)C=C1,Moderate
 Nelfinavir,[H][C@@]12CCCC[C@]1([H])CN(C[C@@H](O)[C@H](CSC1=CC=CC=C1)NC(=O)C1=C(C)C(O)=CC=C1)[C@@H](C2)C(=O)NC(C)(C)C,Lansoprazole,CC1=C(OCC(F)(F)F)C=CN=C1CS(=O)C1=NC2=CC=CC=C2N1,Major
 Venlafaxine,COC1=CC=C(C=C1)C(CN(C)C)C1(O)CCCCC1,Nilotinib,CC1=CN(C=N1)C1=CC(NC(=O)C2=CC=C(C)C(NC3=NC=CC(=N3)C3=CN=CC=C3)=C2)=CC(=C1)C(F)(F)F,Major
-Carboplatin,[H][N]([H])([H])[Pt]1(OC(=O)C2(CCC2)C(=O)O1)[N]([H])([H])[H],Etravirine,CC1=CC(=CC(C)=C1OC1=C(Br)C(N)=NC(NC2=CC=C(C=C2)C#N)=N1)C#N,Moderate
 Lorlatinib,C[C@H]1OC2=C(N)N=CC(=C2)C2=C(C#N)N(C)N=C2CN(C)C(=O)C2=C1C=C(F)C=C2,Avapritinib,CN1C=C(C=N1)C1=CN2N=CN=C(N3CCN(CC3)C3=NC=C(C=N3)[C@@](C)(N)C3=CC=C(F)C=C3)C2=C1,Major
 Pemetrexed,NC1=NC(=O)C2=C(NC=C2CCC2=CC=C(C=C2)C(=O)N[C@@H](CCC(O)=O)C(O)=O)N1,Cefoxitin,[H][C@]12SCC(COC(N)=O)=C(N1C(=O)[C@]2(NC(=O)CC1=CC=CS1)OC)C(O)=O,Moderate
 Lisdexamfetamine,C[C@@H](CC1=CC=CC=C1)NC(=O)[C@@H](N)CCCCN,Magnesium carbonate,[Mg++].[O-]C([O-])=O,Moderate
@@ -2225,7 +2201,6 @@ Mexiletine,CC(N)COC1=C(C)C=CC=C1C,Abiraterone,[H][C@@]12CC=C(C3=CC=CN=C3)[C@@]1(
 Fostamatinib,COC1=CC(NC2=NC=C(F)C(NC3=NC4=C(OC(C)(C)C(=O)N4COP(O)(O)=O)C=C3)=N2)=CC(OC)=C1OC,Betrixaban,COC1=CC=C(NC(=O)C2=CC=C(C=C2)C(=N)N(C)C)C(=C1)C(=O)NC1=CC=C(Cl)C=N1,Moderate
 Sirolimus,[H][C@@]1(C[C@@H](C)[C@]2([H])CC(=O)[C@H](C)C=C(C)[C@@H](O)[C@@H](OC)C(=O)[C@H](C)C[C@H](C)C=CC=CC=C(C)[C@H](C[C@]3([H])CC[C@@H](C)[C@@](O)(O3)C(=O)C(=O)N3CCCC[C@@]3([H])C(=O)O2)OC)CC[C@@H](O)[C@@H](C1)OC,Teriflunomide,CC(O)=C(/C#N)C(=O)NC1=CC=C(C=C1)C(F)(F)F,Major
 Propranolol,CC(C)NCC(O)COC1=CC=CC2=C1C=CC=C2,Vilanterol,OCC1=C(O)C=CC(=C1)[C@@H](O)CNCCCCCCOCCOCC1=C(Cl)C=CC=C1Cl,Major
-Cisplatin,[H][N]([H])([H])[Pt](Cl)(Cl)[N]([H])([H])[H],Radium Ra 223 dichloride,[Cl-].[Cl-].[223Ra++],Moderate
 Suvorexant,[H][C@@]1(C)CCN(CCN1C(=O)C1=C(C=CC(C)=C1)N1N=CC=N1)C1=NC2=C(O1)C=CC(Cl)=C2,Larotrectinib,O[C@H]1CCN(C1)C(=O)NC1=C2N=C(C=CN2N=C1)N1CCC[C@@H]1C1=C(F)C=CC(F)=C1,Moderate
 Ethinylestradiol,[H][C@@]12CC[C@@](O)(C#C)[C@@]1(C)CC[C@]1([H])C3=C(CC[C@@]21[H])C=C(O)C=C3,Gemifloxacin,CON=C1/CN(CC1CN)C1=NC2=C(C=C1F)C(=O)C(=CN2C1CC1)C(O)=O,Moderate
 Nabilone,[H][C@@]12CC(=O)CC[C@@]1([H])C(C)(C)OC1=CC(=CC(O)=C21)C(C)(C)CCCCCC,Gabapentin,NCC1(CC(O)=O)CCCCC1,Moderate
@@ -2307,7 +2282,6 @@ Tinidazole,CCS(=O)(=O)CCN1C(C)=NC=C1[N+]([O-])=O,Crizotinib,C[C@@H](OC1=CC(=CN=C
 Cetirizine,OC(=O)COCCN1CCN(CC1)C(C1=CC=CC=C1)C1=CC=C(Cl)C=C1,Halazepam,FC(F)(F)CN1C2=C(C=C(Cl)C=C2)C(=NCC1=O)C1=CC=CC=C1,Moderate
 Amlodipine,CCOC(=O)C1=C(COCCN)NC(C)=C(C1C1=CC=CC=C1Cl)C(=O)OC,Tyropanoic acid,CCCC(=O)NC1=C(I)C=C(I)C(CC(CC)C(O)=O)=C1I,Moderate
 Tacrolimus,CO[C@@H]1C[C@@H](CC[C@H]1O)C=C(/C)[C@H]1OC(=O)[C@@H]2CCCCN2C(=O)C(=O)[C@]2(O)O[C@@H]([C@H](C[C@H]2C)OC)[C@H](C[C@@H](C)CC(C)=C[C@@H](CC=C)C(=O)C[C@H](O)[C@H]1C)OC,Iohexol,CC(=O)N(CC(O)CO)C1=C(I)C(C(=O)NCC(O)CO)=C(I)C(C(=O)NCC(O)CO)=C1I,Major
-Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Aripiprazole,ClC1=CC=CC(N2CCN(CCCCOC3=CC4=C(CCC(=O)N4)C=C3)CC2)=C1Cl,Moderate
 Magnesium hydroxide,[OH-].[OH-].[Mg++],Ribociclib,CN(C)C(=O)C1=CC2=CN=C(NC3=CC=C(C=N3)N3CCNCC3)N=C2N1C1CCCC1,Moderate
 Sulfasalazine,OC(=O)C1=CC(=CC=C1O)N=NC1=CC=C(C=C1)S(=O)(=O)NC1=NC=CC=C1,Gallium nitrate,[Ga+3].[O-][N+]([O-])=O.[O-][N+]([O-])=O.[O-][N+]([O-])=O,Moderate
 Rivaroxaban,ClC1=CC=C(S1)C(=O)NC[C@H]1CN(C(=O)O1)C1=CC=C(C=C1)N1CCOCC1=O,Fedratinib,CC1=CN=C(NC2=CC=C(OCCN3CCCC3)C=C2)N=C1NC1=CC=CC(=C1)S(=O)(=O)NC(C)(C)C,Major
@@ -2327,7 +2301,6 @@ Sonidegib,[H][C@]1(C)CN(C[C@@]([H])(C)O1)C1=CC=C(NC(=O)C2=CC=CC(=C2C)C2=CC=C(OC(
 Erythromycin,CC[C@H]1OC(=O)[C@H](C)[C@@H](O[C@H]2C[C@@](C)(OC)[C@@H](O)[C@H](C)O2)[C@H](C)[C@@H](O[C@@H]2O[C@H](C)C[C@@H]([C@H]2O)N(C)C)[C@](C)(O)C[C@@H](C)C(=O)[C@H](C)[C@@H](O)[C@]1(C)O,Maraviroc,CC(C)C1=NN=C(C)N1[C@H]1C[C@@H]2CC[C@H](C1)N2CC[C@H](NC(=O)C1CCC(F)(F)CC1)C1=CC=CC=C1,Moderate
 Dexamethasone,[H][C@@]12C[C@@H](C)[C@](O)(C(=O)CO)[C@@]1(C)C[C@H](O)[C@@]1(F)[C@@]2([H])CCC2=CC(=O)C=C[C@]12C,Indacaterol,CCC1=C(CC)C=C2CC(CC2=C1)NC[C@H](O)C1=C2C=CC(=O)NC2=C(O)C=C1,Minor
 Crizotinib,C[C@@H](OC1=CC(=CN=C1N)C1=CN(N=C1)C1CCNCC1)C1=C(Cl)C=CC(F)=C1Cl,Lactitol,OC[C@H](O)[C@@H](O)[C@H](O[C@@H]1O[C@H](CO)[C@H](O)[C@H](O)[C@H]1O)[C@H](O)CO,Moderate
-Alfuzosin,COC1=CC2=C(C=C1OC)C(N)=NC(=N2)N(C)CCCNC(=O)C1CCCO1,Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Moderate
 Capreomycin,[H][C@@]1(CCN=C(N)N1)[C@]1([H])NC(=O)C(NC(=O)[C@H](CNC(=O)C[C@@H](N)CCCN)NC(=O)[C@H](C)NC(=O)[C@@H](N)CNC1=O)=C/NC(N)=O.[H][C@@]1(CCN=C(N)N1)[C@]1([H])NC(=O)C(NC(=O)[C@H](CNC(=O)C[C@@H](N)CCCN)NC(=O)[C@H](CO)NC(=O)[C@@H](N)CNC1=O)=C/NC(N)=O,Deferasirox,OC(=O)C1=CC=C(C=C1)N1N=C(N=C1C1=CC=CC=C1O)C1=CC=CC=C1O,Major
 Chloramphenicol,OC[C@@H](NC(=O)C(Cl)Cl)[C@H](O)C1=CC=C(C=C1)[N+]([O-])=O,Ponatinib,CN1CCN(CC2=CC=C(NC(=O)C3=CC(C#CC4=CN=C5C=CC=NN45)=C(C)C=C3)C=C2C(F)(F)F)CC1,Moderate
 Etodolac,CCC1=C2NC3=C(CCOC3(CC)CC(O)=O)C2=CC=C1,Deflazacort,[H][C@@]12C[C@@]3([H])[C@]4([H])CCC5=CC(=O)C=C[C@]5(C)[C@@]4([H])[C@@]([H])(O)C[C@]3(C)[C@@]1(N=C(C)O2)C(=O)COC(C)=O,Moderate
@@ -2439,7 +2412,6 @@ Difenoxin,OC(=O)C1(CCN(CCC(C#N)(C2=CC=CC=C2)C2=CC=CC=C2)CC1)C1=CC=CC=C1,Clofedan
 Buspirone,O=C1CC2(CCCC2)CC(=O)N1CCCCN1CCN(CC1)C1=NC=CC=N1,Larotrectinib,O[C@H]1CCN(C1)C(=O)NC1=C2N=C(C=CN2N=C1)N1CCC[C@@H]1C1=C(F)C=CC(F)=C1,Moderate
 Pemetrexed,NC1=NC(=O)C2=C(NC=C2CCC2=CC=C(C=C2)C(=O)N[C@@H](CCC(O)=O)C(O)=O)N1,Ofloxacin,CC1COC2=C3N1C=C(C(O)=O)C(=O)C3=CC(F)=C2N1CCN(C)CC1,Moderate
 Miconazole,ClC1=CC(Cl)=C(COC(CN2C=CN=C2)C2=C(Cl)C=C(Cl)C=C2)C=C1,Glasdegib,CN1CC[C@H](C[C@@H]1C1=NC2=CC=CC=C2N1)NC(=O)NC1=CC=C(C=C1)C#N,Moderate
-Carboplatin,[H][N]([H])([H])[Pt]1(OC(=O)C2(CCC2)C(=O)O1)[N]([H])([H])[H],Ruxolitinib,N#CC[C@H](C1CCCC1)N1C=C(C=N1)C1=C2C=CNC2=NC=N1,Moderate
 Palbociclib,CC(=O)C1=C(C)C2=CN=C(NC3=NC=C(C=C3)N3CCNCC3)N=C2N(C2CCCC2)C1=O,Fosnetupitant,CN(C(=O)C(C)(C)C1=CC(=CC(=C1)C(F)(F)F)C(F)(F)F)C1=CN=C(C=C1C1=CC=CC=C1C)N1CC[N+](C)(COP(O)([O-])=O)CC1,Moderate
 Asenapine,CN1CC2C(C1)C1=C(OC3=CC=C(Cl)C=C23)C=CC=C1,Gilteritinib,CCC1=C(NC2CCOCC2)N=C(NC2=CC=C(N3CCC(CC3)N3CCN(C)CC3)C(OC)=C2)C(=N1)C(N)=O,Moderate
 Hydroxyzine,OCCOCCN1CCN(CC1)C(C1=CC=CC=C1)C1=CC=C(Cl)C=C1,Triptorelin,CC(C)C[C@H](NC(=O)[C@@H](CC1=CNC2=CC=CC=C12)NC(=O)[C@H](CC1=CC=C(O)C=C1)NC(=O)[C@H](CO)NC(=O)[C@H](CC1=CNC2=C1C=CC=C2)NC(=O)[C@H](CC1=CNC=N1)NC(=O)[C@@H]1CCC(=O)N1)C(=O)N[C@@H](CCCNC(N)=N)C(=O)N1CCC[C@H]1C(=O)NCC(N)=O,Moderate
@@ -2599,7 +2571,6 @@ Oxybutynin,CCN(CC)CC#CCOC(=O)C(O)(C1CCCCC1)C1=CC=CC=C1,Eluxadoline,COC1=CC=C(CN(
 Hydroxychloroquine,CCN(CCO)CCCC(C)NC1=C2C=CC(Cl)=CC2=NC=C1,Ponatinib,CN1CCN(CC2=CC=C(NC(=O)C3=CC(C#CC4=CN=C5C=CC=NN45)=C(C)C=C3)C=C2C(F)(F)F)CC1,Moderate
 Gabapentin,NCC1(CC(O)=O)CCCCC1,Chlorpheniramine,CN(C)CCC(C1=CC=C(Cl)C=C1)C1=CC=CC=N1,Moderate
 Metformin,CN(C)C(=N)NC(N)=N,Lisinopril,NCCCC[C@H](N[C@@H](CCC1=CC=CC=C1)C(O)=O)C(=O)N1CCC[C@H]1C(O)=O,Moderate
-Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Pitavastatin,O[C@H](C[C@H](O)C=CC1=C(N=C2C=CC=CC2=C1C1=CC=C(F)C=C1)C1CC1)CC(O)=O,Moderate
 Ramipril,[H][C@@]12CCC[C@]1([H])N([C@@H](C2)C(O)=O)C(=O)[C@H](C)N[C@@H](CCC1=CC=CC=C1)C(=O)OCC,Everolimus,[H][C@@]1(C[C@@H](C)[C@]2([H])CC(=O)[C@H](C)C=C(C)[C@@H](O)[C@@H](OC)C(=O)[C@H](C)C[C@H](C)C=CC=CC=C(C)[C@H](C[C@]3([H])CC[C@@H](C)[C@@](O)(O3)C(=O)C(=O)N3CCCC[C@@]3([H])C(=O)O2)OC)CC[C@@H](OCCO)[C@@H](C1)OC,Moderate
 Aprepitant,C[C@@H](O[C@H]1OCCN(CC2=NNC(=O)N2)[C@H]1C1=CC=C(F)C=C1)C1=CC(=CC(=C1)C(F)(F)F)C(F)(F)F,Fluvastatin,CC(C)N1C(C=CC(O)CC(O)CC(O)=O)=C(C2=CC=CC=C12)C1=CC=C(F)C=C1,Moderate
 Pemetrexed,NC1=NC(=O)C2=C(NC=C2CCC2=CC=C(C=C2)C(=O)N[C@@H](CCC(O)=O)C(O)=O)N1,Cefapirin,[H][C@]12SCC(COC(C)=O)=C(N1C(=O)[C@H]2NC(=O)CSC1=CC=NC=C1)C(O)=O,Moderate
@@ -2733,7 +2704,6 @@ Hydrocortisone,[H][C@@]12CC[C@](O)(C(=O)CO)[C@@]1(C)C[C@H](O)[C@@]1([H])[C@@]2([
 Carbinoxamine,CN(C)CCOC(C1=CC=C(Cl)C=C1)C1=CC=CC=N1,Aclidinium,OC(C(=O)O[C@H]1C[N+]2(CCCOC3=CC=CC=C3)CCC1CC2)(C1=CC=CS1)C1=CC=CS1,Moderate
 Salmeterol,OCC1=C(O)C=CC(=C1)C(O)CNCCCCCCOCCCCC1=CC=CC=C1,Dronedarone,CCCCN(CCCC)CCCOC1=CC=C(C=C1)C(=O)C1=C(CCCC)OC2=C1C=C(NS(C)(=O)=O)C=C2,Moderate
 Urea,NC(N)=O,Maraviroc,CC(C)C1=NN=C(C)N1[C@H]1C[C@@H]2CC[C@H](C1)N2CC[C@H](NC(=O)C1CCC(F)(F)CC1)C1=CC=CC=C1,Moderate
-Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Isoniazid,NNC(=O)C1=CC=NC=C1,Moderate
 Cyclophosphamide,ClCCN(CCCl)P1(=O)NCCCO1,Alpelisib,CC1=C(SC(NC(=O)N2CCC[C@H]2C(N)=O)=N1)C1=CC(=NC=C1)C(C)(C)C(F)(F)F,Moderate
 Deferasirox,OC(=O)C1=CC=C(C=C1)N1N=C(N=C1C1=CC=CC=C1O)C1=CC=CC=C1O,Ulipristal,CN(C)C1=CC=C(C=C1)[C@H]1C[C@@]2(C)[C@@H](CC[C@]2(O)C(C)=O)[C@@H]2CCC3=CC(=O)CCC3=C12,Moderate
 Labetalol,CC(CCC1=CC=CC=C1)NCC(O)C1=CC(C(N)=O)=C(O)C=C1,Fingolimod,CCCCCCCCC1=CC=C(CCC(N)(CO)CO)C=C1,Major
@@ -2838,7 +2808,6 @@ Bosentan,COC1=CC=CC=C1OC1=C(NS(=O)(=O)C2=CC=C(C=C2)C(C)(C)C)N=C(N=C1OCCO)C1=NC=C
 Vorinostat,ONC(=O)CCCCCCC(=O)NC1=CC=CC=C1,Linagliptin,CC#CCN1C(=NC2=C1C(=O)N(CC1=NC3=C(C=CC=C3)C(C)=N1)C(=O)N2C)N1CCC[C@@H](N)C1,Moderate
 Leuprolide,CCNC(=O)[C@@H]1CCCN1C(=O)[C@H](CCCNC(N)=N)NC(=O)[C@H](CC(C)C)NC(=O)[C@@H](CC(C)C)NC(=O)[C@H](CC1=CC=C(O)C=C1)NC(=O)[C@H](CO)NC(=O)[C@H](CC1=CNC2=C1C=CC=C2)NC(=O)[C@H](CC1=CNC=N1)NC(=O)[C@@H]1CCC(=O)N1,Osimertinib,COC1=C(NC2=NC=CC(=N2)C2=CN(C)C3=C2C=CC=C3)C=C(NC(=O)C=C)C(=C1)N(C)CCN(C)C,Major
 Imatinib,CN1CCN(CC2=CC=C(C=C2)C(=O)NC2=CC(NC3=NC=CC(=N3)C3=CN=CC=C3)=C(C)C=C2)CC1,Ruxolitinib,N#CC[C@H](C1CCCC1)N1C=C(C=N1)C1=C2C=CNC2=NC=N1,Minor
-Carboplatin,[H][N]([H])([H])[Pt]1(OC(=O)C2(CCC2)C(=O)O1)[N]([H])([H])[H],Fludarabine,NC1=NC(F)=NC2=C1N=CN2[C@@H]1O[C@H](CO)[C@@H](O)[C@@H]1O,Moderate
 Carisoprodol,CCCC(C)(COC(N)=O)COC(=O)NC(C)C,Phentolamine,CC1=CC=C(C=C1)N(CC1=NCCN1)C1=CC(O)=CC=C1,Moderate
 Metoclopramide,CCN(CC)CCNC(=O)C1=CC(Cl)=C(N)C=C1OC,Methotrimeprazine,COC1=CC2=C(SC3=C(C=CC=C3)N2C[C@H](C)CN(C)C)C=C1,Major
 Sorafenib,CNC(=O)C1=NC=CC(OC2=CC=C(NC(=O)NC3=CC(=C(Cl)C=C3)C(F)(F)F)C=C2)=C1,Abiraterone,[H][C@@]12CC=C(C3=CC=CN=C3)[C@@]1(C)CC[C@@]1([H])[C@@]2([H])CC=C2C[C@@H](O)CC[C@]12C,Moderate
@@ -2961,7 +2930,6 @@ Cobimetinib,OC1(CN(C1)C(=O)C1=C(NC2=C(F)C=C(I)C=C2)C(F)=C(F)C=C1)[C@@H]1CCCCN1,C
 Flurbiprofen,CC(C(O)=O)C1=CC(F)=C(C=C1)C1=CC=CC=C1,Fosaprepitant,C[C@@H](O[C@H]1OCCN(CC2=NC(=O)N(N2)P(O)(O)=O)[C@H]1C1=CC=C(F)C=C1)C1=CC(=CC(=C1)C(F)(F)F)C(F)(F)F,Moderate
 Phenobarbital,CCC1(C(=O)NC(=O)NC1=O)C1=CC=CC=C1,Neratinib,CCOC1=C(NC(=O)C=CCN(C)C)C=C2C(NC3=CC=C(OCC4=CC=CC=N4)C(Cl)=C3)=C(C=NC2=C1)C#N,Major
 Disulfiram,CCN(CC)C(=S)SSC(=S)N(CC)CC,Atorvastatin,CC(C)C1=C(C(=O)NC2=CC=CC=C2)C(=C(N1CC[C@@H](O)C[C@@H](O)CC(O)=O)C1=CC=C(F)C=C1)C1=CC=CC=C1,Moderate
-Carboplatin,[H][N]([H])([H])[Pt]1(OC(=O)C2(CCC2)C(=O)O1)[N]([H])([H])[H],Hydralazine,NNC1=NN=CC2=CC=CC=C12,Moderate
 Albendazole,CCCSC1=CC2=C(C=C1)N=C(NC(=O)OC)N2,Omacetaxine mepesuccinate,[H][C@@]1(OC(=O)[C@@](O)(CCCC(C)(C)O)CC(=O)OC)C(OC)=C[C@]23CCCN2CCC2=CC4=C(OCO4)C=C2[C@]13[H],Moderate
 Ticagrelor,CCCSC1=NC2=C(N=NN2[C@@H]2C[C@H](OCCO)[C@@H](O)[C@H]2O)C(N[C@@H]2C[C@H]2C2=CC(F)=C(F)C=C2)=N1,Grazoprevir,COC1=CC2=NC3=C(CCCCC[C@@H]4C[C@H]4OC(=O)N[C@H](C(=O)N4C[C@@H](C[C@H]4C(=O)N[C@@]4(C[C@H]4C=C)C(=O)NS(=O)(=O)C4CC4)O3)C(C)(C)C)N=C2C=C1,Moderate
 Morphine,[H][C@@]12OC3=C(O)C=CC4=C3[C@@]11CCN(C)[C@]([H])(C4)[C@]1([H])C=C[C@@H]2O,Propranolol,CC(C)NCC(O)COC1=CC=CC2=C1C=CC=C2,Moderate
@@ -3045,7 +3013,6 @@ Glycerin,OCC(O)CO,Oliceridine,COC1=C(CNCC[C@]2(CCOC3(CCCC3)C2)C2=NC=CC=C2)SC=C1,
 Etodolac,CCC1=C2NC3=C(CCOC3(CC)CC(O)=O)C2=CC=C1,Teriflunomide,CC(O)=C(/C#N)C(=O)NC1=CC=C(C=C1)C(F)(F)F,Major
 Saquinavir,[H][C@@]12CCCC[C@]1([H])CN(C[C@@H](O)[C@H](CC1=CC=CC=C1)NC(=O)[C@H](CC(N)=O)NC(=O)C1=NC3=C(C=CC=C3)C=C1)[C@@H](C2)C(=O)NC(C)(C)C,Magnesium citrate,[Mg++].[Mg++].[Mg++].OC(CC([O-])=O)(CC([O-])=O)C([O-])=O.OC(CC([O-])=O)(CC([O-])=O)C([O-])=O,Moderate
 Leflunomide,CC1=C(C=NO1)C(=O)NC1=CC=C(C=C1)C(F)(F)F,Eribulin,[H][C@@]12CC(=C)[C@]([H])(CC[C@@]3([H])C[C@@H](C)C(=C)[C@@]([H])(C[C@]4([H])O[C@H](C[C@H](O)CN)[C@H](OC)[C@@]4([H])CC(=O)C[C@@]4([H])CC[C@]5([H])O[C@@]6([H])[C@H]7O[C@@]8(C[C@]7([H])O[C@@]6([H])[C@@]([H])(O8)[C@@]5([H])O4)CC1)O3)O2,Major
-Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Nelarabine,COC1=NC(N)=NC2=C1N=CN2[C@@H]1O[C@H](CO)[C@@H](O)[C@@H]1O,Moderate
 Pentoxifylline,CN1C=NC2=C1C(=O)N(CCCCC(C)=O)C(=O)N2C,Ticagrelor,CCCSC1=NC2=C(N=NN2[C@@H]2C[C@H](OCCO)[C@@H](O)[C@H]2O)C(N[C@@H]2C[C@H]2C2=CC(F)=C(F)C=C2)=N1,Moderate
 Sirolimus,[H][C@@]1(C[C@@H](C)[C@]2([H])CC(=O)[C@H](C)C=C(C)[C@@H](O)[C@@H](OC)C(=O)[C@H](C)C[C@H](C)C=CC=CC=C(C)[C@H](C[C@]3([H])CC[C@@H](C)[C@@](O)(O3)C(=O)C(=O)N3CCCC[C@@]3([H])C(=O)O2)OC)CC[C@@H](O)[C@@H](C1)OC,Quetiapine,OCCOCCN1CCN(CC1)C1=NC2=CC=CC=C2SC2=CC=CC=C12,Moderate
 Cyproheptadine,CN1CCC(CC1)=C1C2=CC=CC=C2C=CC2=CC=CC=C12,Diamorphine,[H][C@@]12C=C[C@H](OC(C)=O)[C@@H]3OC4=C(OC(C)=O)C=CC5=C4[C@]13CCN(C)[C@@H]2C5,Moderate
@@ -3119,7 +3086,6 @@ Hydrocodone,[H][C@@]12OC3=C(OC)C=CC4=C3[C@@]11CCN(C)[C@]([H])(C4)[C@]1([H])CCC2=
 Dofetilide,CN(CCOC1=CC=C(NS(C)(=O)=O)C=C1)CCC1=CC=C(NS(C)(=O)=O)C=C1,Iodipamide,OC(=O)C1=C(I)C(NC(=O)CCCCC(=O)NC2=C(I)C=C(I)C(C(O)=O)=C2I)=C(I)C=C1I,Moderate
 Nifedipine,COC(=O)C1=C(C)NC(C)=C(C1C1=CC=CC=C1[N+]([O-])=O)C(=O)OC,Ivacaftor,CC(C)(C)C1=CC(=C(O)C=C1NC(=O)C1=CNC2=CC=CC=C2C1=O)C(C)(C)C,Moderate
 Aprepitant,C[C@@H](O[C@H]1OCCN(CC2=NNC(=O)N2)[C@H]1C1=CC=C(F)C=C1)C1=CC(=CC(=C1)C(F)(F)F)C(F)(F)F,Phenylbutazone,CCCCC1C(=O)N(N(C1=O)C1=CC=CC=C1)C1=CC=CC=C1,Moderate
-Cisplatin,[H][N]([H])([H])[Pt](Cl)(Cl)[N]([H])([H])[H],Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Moderate
 Dofetilide,CN(CCOC1=CC=C(NS(C)(=O)=O)C=C1)CCC1=CC=C(NS(C)(=O)=O)C=C1,Osimertinib,COC1=C(NC2=NC=CC(=N2)C2=CN(C)C3=C2C=CC=C3)C=C(NC(=O)C=C)C(=C1)N(C)CCN(C)C,Major
 Lofexidine,CC(OC1=C(Cl)C=CC=C1Cl)C1=NCCN1,Empagliflozin,OC[C@H]1O[C@H]([C@H](O)[C@@H](O)[C@@H]1O)C1=CC=C(Cl)C(CC2=CC=C(O[C@H]3CCOC3)C=C2)=C1,Moderate
 Morphine,[H][C@@]12OC3=C(O)C=CC4=C3[C@@]11CCN(C)[C@]([H])(C4)[C@]1([H])C=C[C@@H]2O,Chlorpheniramine,CN(C)CCC(C1=CC=C(Cl)C=C1)C1=CC=CC=N1,Moderate
@@ -3140,7 +3106,6 @@ Thiethylperazine,CCSC1=CC2=C(SC3=CC=CC=C3N2CCCN2CCN(C)CC2)C=C1,Entacapone,CCN(CC
 Tetracycline,[H][C@@]12C[C@@]3([H])C(=C(O)[C@]1(O)C(=O)C(C(N)=O)=C(O)[C@H]2N(C)C)C(=O)C1=C(O)C=CC=C1[C@@]3(C)O,Zinc acetate,[Zn++].CC([O-])=O.CC([O-])=O,Moderate
 Nefazodone,CCC1=NN(CCCN2CCN(CC2)C2=CC(Cl)=CC=C2)C(=O)N1CCOC1=CC=CC=C1,Clindamycin,[H][C@@](NC(=O)[C@@H]1C[C@@H](CCC)CN1C)([C@H](C)Cl)[C@@]1([H])O[C@H](SC)[C@H](O)[C@@H](O)[C@H]1O,Moderate
 Levacetylmethadol,CC[C@H](OC(C)=O)C(C[C@H](C)N(C)C)(C1=CC=CC=C1)C1=CC=CC=C1,Brigatinib,COC1=CC(=CC=C1NC1=NC=C(Cl)C(NC2=CC=CC=C2P(C)(C)=O)=N1)N1CCC(CC1)N1CCN(C)CC1,Moderate
-Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Didanosine,OC[C@@H]1CC[C@@H](O1)N1C=NC2=C1NC=NC2=O,Moderate
 Rifapentine,CO[C@H]1C=CO[C@@]2(C)OC3=C(C2=O)C2=C(C(O)=C3C)C(O)=C(NC(=O)C(C)=C/C=C/[C@H](C)[C@H](O)[C@@H](C)[C@@H](O)[C@@H](C)[C@H](OC(C)=O)[C@@H]1C)C(C=NN1CCN(CC1)C1CCCC1)=C2O,Picosulfuric acid,OS(=O)(=O)OC1=CC=C(C=C1)C(C1=CC=C(OS(O)(=O)=O)C=C1)C1=CC=CC=N1,Moderate
 Trihexyphenidyl,OC(CCN1CCCCC1)(C1CCCCC1)C1=CC=CC=C1,Ioflupane I-123,[H][C@]12CC[C@]([H])([C@H]([C@H](C1)C1=CC=C([123I])C=C1)C(=O)OC)N2CCCF,Moderate
 Dicoumarol,OC1=C(CC2=C(O)C3=C(OC2=O)C=CC=C3)C(=O)OC2=C1C=CC=C2,Etravirine,CC1=CC(=CC(C)=C1OC1=C(Br)C(N)=NC(NC2=CC=C(C=C2)C#N)=N1)C#N,Moderate
@@ -3279,7 +3244,6 @@ Codeine,[H][C@]12C=C[C@H](O)[C@@H]3OC4=C5C(C[C@H]1N(C)CC[C@@]235)=CC=C4OC,Valben
 Maprotiline,CNCCCC12CCC(C3=CC=CC=C13)C1=CC=CC=C21,Histamine,NCCC1=CNC=N1,Moderate
 Phenobarbital,CCC1(C(=O)NC(=O)NC1=O)C1=CC=CC=C1,Chlorcyclizine,CN1CCN(CC1)C(C1=CC=CC=C1)C1=CC=C(Cl)C=C1,Moderate
 Bicalutamide,CC(O)(CS(=O)(=O)C1=CC=C(F)C=C1)C(=O)NC1=CC(=C(C=C1)C#N)C(F)(F)F,Bepridil,CC(C)COCC(CN(CC1=CC=CC=C1)C1=CC=CC=C1)N1CCCC1,Major
-Sorafenib,CNC(=O)C1=NC=CC(OC2=CC=C(NC(=O)NC3=CC(=C(Cl)C=C3)C(F)(F)F)C=C2)=C1,Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Moderate
 Fluconazole,OC(CN1C=NC=N1)(CN1C=NC=N1)C1=C(F)C=C(F)C=C1,Hydrocodone,[H][C@@]12OC3=C(OC)C=CC4=C3[C@@]11CCN(C)[C@]([H])(C4)[C@]1([H])CCC2=O,Major
 Sulfamethoxazole,CC1=CC(NS(=O)(=O)C2=CC=C(N)C=C2)=NO1,Idarubicin,C[C@@H]1O[C@H](C[C@H](N)[C@@H]1O)O[C@H]1C[C@@](O)(CC2=C1C(O)=C1C(=O)C3=CC=CC=C3C(=O)C1=C2O)C(C)=O,Minor
 Estazolam,ClC1=CC2=C(C=C1)N1C=NN=C1CN=C2C1=CC=CC=C1,Lapatinib,CS(=O)(=O)CCNCC1=CC=C(O1)C1=CC2=C(C=C1)N=CN=C2NC1=CC(Cl)=C(OCC2=CC(F)=CC=C2)C=C1,Moderate
@@ -3309,7 +3273,6 @@ Carteolol,CC(C)(C)NCC(O)COC1=CC=CC2=C1CCC(=O)N2,Dexamethasone,[H][C@@]12C[C@@H](
 Bendroflumethiazide,NS(=O)(=O)C1=CC2=C(NC(CC3=CC=CC=C3)NS2(=O)=O)C=C1C(F)(F)F,Arsenic trioxide,O=[As]O[As]=O,Major
 Toremifene,CN(C)CCOC1=CC=C(C=C1)C(=C(CCCl)C1=CC=CC=C1)C1=CC=CC=C1,Larotrectinib,O[C@H]1CCN(C1)C(=O)NC1=C2N=C(C=CN2N=C1)N1CCC[C@@H]1C1=C(F)C=CC(F)=C1,Moderate
 Methylphenobarbital,CCC1(C(=O)NC(=O)N(C)C1=O)C1=CC=CC=C1,Doxercalciferol,[H][C@@]1(CC[C@@]2([H])C(CCC[C@]12C)=CC=C1C[C@@H](O)C[C@H](O)C1=C)[C@H](C)C=C[C@H](C)C(C)C,Moderate
-Carboplatin,[H][N]([H])([H])[Pt]1(OC(=O)C2(CCC2)C(=O)O1)[N]([H])([H])[H],Dexlansoprazole,CC1=C(OCC(F)(F)F)C=CN=C1C[S@@](=O)C1=NC2=CC=CC=C2N1,Moderate
 Amitriptyline,CN(C)CCC=C1C2=CC=CC=C2CCC2=CC=CC=C12,Triclabendazole,CSC1=NC2=C(N1)C=C(Cl)C(OC1=CC=CC(Cl)=C1Cl)=C2,Moderate
 Tizanidine,ClC1=C(NC2=NCCN2)C2=NSN=C2C=C1,Ethanol,CCO,Moderate
 Amikacin,NCC[C@H](O)C(=O)N[C@@H]1C[C@H](N)[C@@H](O[C@H]2O[C@H](CN)[C@@H](O)[C@H](O)[C@H]2O)[C@H](O)[C@H]1O[C@H]1O[C@H](CO)[C@@H](O)[C@H](N)[C@H]1O,Cefotaxime,[H][C@]12SCC(COC(C)=O)=C(N1C(=O)[C@H]2NC(=O)C(=N/OC)C1=CSC(N)=N1)C(O)=O,Moderate
@@ -3358,7 +3321,6 @@ Diltiazem,COC1=CC=C(C=C1)[C@@H]1SC2=C(C=CC=C2)N(CCN(C)C)C(=O)[C@@H]1OC(C)=O,Flut
 Pasireotide,NCCCC[C@@H]1NC(=O)[C@@H](CC2=CNC3=C2C=CC=C3)NC(=O)[C@@H](NC(=O)[C@@H]2C[C@H](CN2C(=O)[C@H](CC2=CC=CC=C2)NC(=O)[C@H](CC2=CC=C(OCC3=CC=CC=C3)C=C2)NC1=O)OC(=O)NCCN)C1=CC=CC=C1,Histrelin,CC(O)=O.CC(O)=O.CCNC(=O)[C@@H]1CCCN1C(=O)[C@H](CCCNC(N)=N)NC(=O)[C@H](CC(C)C)NC(=O)[C@@H](CC1=CN(CC2=CC=CC=C2)C=N1)NC(=O)[C@H](CC1=CC=C(O)C=C1)NC(=O)[C@H](CO)NC(=O)[C@H](CC1=CNC2=C1C=CC=C2)NC(=O)[C@H](CC1=CNC=N1)NC(=O)[C@@H]1CCC(=O)N1,Major
 Fluphenazine,OCCN1CCN(CCCN2C3=CC=CC=C3SC3=C2C=C(C=C3)C(F)(F)F)CC1,Iohexol,CC(=O)N(CC(O)CO)C1=C(I)C(C(=O)NCC(O)CO)=C(I)C(C(=O)NCC(O)CO)=C1I,Major
 Clofazimine,CC(C)N=C1C=C2N(C3=CC=C(Cl)C=C3)C3=C(C=CC=C3)N=C2C=C1NC1=CC=C(Cl)C=C1,Sodium sulfate,[Na+].[Na+].[O-]S([O-])(=O)=O,Moderate
-Disopyramide,CC(C)N(CCC(C(N)=O)(C1=CC=CC=C1)C1=NC=CC=C1)C(C)C,Cisplatin,[H][N]([H])([H])[Pt](Cl)(Cl)[N]([H])([H])[H],Moderate
 Leflunomide,CC1=C(C=NO1)C(=O)NC1=CC=C(C=C1)C(F)(F)F,Posaconazole,CC[C@@H]([C@H](C)O)N1N=CN(C1=O)C1=CC=C(C=C1)N1CCN(CC1)C1=CC=C(OC[C@@H]2CO[C@](CN3C=NC=N3)(C2)C2=C(F)C=C(F)C=C2)C=C1,Major
 Phenacemide,NC(=O)NC(=O)CC1=CC=CC=C1,Levocetirizine,OC(=O)COCCN1CCN(CC1)[C@H](C1=CC=CC=C1)C1=CC=C(Cl)C=C1,Moderate
 Abarelix,CC(C)C[C@H](NC(=O)[C@@H](CC(N)=O)NC(=O)[C@H](CC1=CC=C(O)C=C1)N(C)C(=O)[C@H](CO)NC(=O)[C@@H](CC1=CN=CC=C1)NC(=O)[C@@H](CC1=CC=C(Cl)C=C1)NC(=O)[C@@H](CC1=CC2=C(C=CC=C2)C=C1)NC(C)=O)C(=O)N[C@@H](CCCCNC(C)C)C(=O)N1CCC[C@H]1C(=O)N[C@H](C)C(N)=O,Sevoflurane,FCOC(C(F)(F)F)C(F)(F)F,Moderate
@@ -3441,7 +3403,6 @@ Busulfan,CS(=O)(=O)OCCCCOS(C)(=O)=O,Melphalan,N[C@@H](CC1=CC=C(C=C1)N(CCCl)CCCl)
 Teniposide,[H][C@]12COC(=O)[C@]1([H])[C@H](C1=CC(OC)=C(O)C(OC)=C1)C1=C(C=C3OCOC3=C1)[C@H]2O[C@]1([H])O[C@]2([H])CO[C@H](O[C@@]2([H])[C@H](O)[C@H]1O)C1=CC=CS1,Fostamatinib,COC1=CC(NC2=NC=C(F)C(NC3=NC4=C(OC(C)(C)C(=O)N4COP(O)(O)=O)C=C3)=N2)=CC(OC)=C1OC,Moderate
 Dicyclomine,CCN(CC)CCOC(=O)C1(CCCCC1)C1CCCCC1,Chlorcyclizine,CN1CCN(CC1)C(C1=CC=CC=C1)C1=CC=C(Cl)C=C1,Moderate
 Vasopressin,NCCCCC(NC(=O)C1CCCN1C(=O)C1CSSCC(N)C(=O)NC(CC2=CC=C(O)C=C2)C(=O)NC(CC2=CC=CC=C2)C(=O)NC(CCC(N)=O)C(=O)NC(CC(N)=O)C(=O)N1)C(=O)NCC(N)=O.NC1CSSCC(NC(=O)C(CC(N)=O)NC(=O)C(CCC(N)=O)NC(=O)C(CC2=CC=CC=C2)NC(=O)C(CC2=CC=C(O)C=C2)NC1=O)C(=O)N1CCCC1C(=O)NC(CCCN=C(N)N)C(=O)NCC(N)=O,Ibuprofen,CC(C)CC1=CC=C(C=C1)C(C)C(O)=O,Moderate
-Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Methotrimeprazine,COC1=CC2=C(SC3=C(C=CC=C3)N2C[C@H](C)CN(C)C)C=C1,Moderate
 Dicoumarol,OC1=C(CC2=C(O)C3=C(OC2=O)C=CC=C3)C(=O)OC2=C1C=CC=C2,Nabumetone,COC1=CC2=C(C=C1)C=C(CCC(C)=O)C=C2,Major
 Rosiglitazone,CN(CCOC1=CC=C(CC2SC(=O)NC2=O)C=C1)C1=CC=CC=N1,Diazoxide,CC1=NS(=O)(=O)C2=C(N1)C=CC(Cl)=C2,Moderate
 Cyclosporine,CC[C@@H]1NC(=O)[C@H]([C@H](O)[C@H](C)CC=CC)N(C)C(=O)[C@H](C(C)C)N(C)C(=O)[C@H](CC(C)C)N(C)C(=O)[C@H](CC(C)C)N(C)C(=O)[C@@H](C)NC(=O)[C@H](C)NC(=O)[C@H](CC(C)C)N(C)C(=O)[C@@H](NC(=O)[C@H](CC(C)C)N(C)C(=O)CN(C)C1=O)C(C)C,Flibanserin,FC(F)(F)C1=CC(=CC=C1)N1CCN(CCN2C(=O)NC3=CC=CC=C23)CC1,Moderate
@@ -3559,7 +3520,6 @@ Fenoprofen,CC(C(O)=O)C1=CC(OC2=CC=CC=C2)=CC=C1,Iloprost,[H][C@]12C[C@@H](O)[C@H]
 Ramelteon,CCC(=O)NCC[C@@H]1CCC2=C1C1=C(OCC1)C=C2,Ivosidenib,[H][C@@](N(C(=O)[C@]1([H])CCC(=O)N1C1=NC=CC(=C1)C#N)C1=CC(F)=CN=C1)(C(=O)NC1CC(F)(F)C1)C1=C(Cl)C=CC=C1,Moderate
 Entacapone,CCN(CC)C(=O)C(=CC1=CC(=C(O)C(O)=C1)[N+]([O-])=O)C#N,Isoprenaline,CC(C)NCC(O)C1=CC(O)=C(O)C=C1,Moderate
 Carbamazepine,NC(=O)N1C2=CC=CC=C2C=CC2=CC=CC=C12,Sirolimus,[H][C@@]1(C[C@@H](C)[C@]2([H])CC(=O)[C@H](C)C=C(C)[C@@H](O)[C@@H](OC)C(=O)[C@H](C)C[C@H](C)C=CC=CC=C(C)[C@H](C[C@]3([H])CC[C@@H](C)[C@@](O)(O3)C(=O)C(=O)N3CCCC[C@@]3([H])C(=O)O2)OC)CC[C@@H](O)[C@@H](C1)OC,Major
-Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Rosuvastatin,CC(C)C1=NC(=NC(C2=CC=C(F)C=C2)=C1C=C[C@@H](O)C[C@@H](O)CC(=O)O)N(C)S(C)(=O)=O,Moderate
 Asenapine,CN1CC2C(C1)C1=C(OC3=CC=C(Cl)C=C23)C=CC=C1,Picosulfuric acid,OS(=O)(=O)OC1=CC=C(C=C1)C(C1=CC=C(OS(O)(=O)=O)C=C1)C1=CC=CC=N1,Moderate
 Valdecoxib,CC1=C(C(=NO1)C1=CC=CC=C1)C1=CC=C(C=C1)S(N)(=O)=O,Flurbiprofen,CC(C(O)=O)C1=CC(F)=C(C=C1)C1=CC=CC=C1,Moderate
 Dapsone,NC1=CC=C(C=C1)S(=O)(=O)C1=CC=C(N)C=C1,Zalcitabine,NC1=NC(=O)N(C=C1)[C@H]1CC[C@@H](CO)O1,Moderate
@@ -3776,7 +3736,6 @@ Methylphenobarbital,CCC1(C(=O)NC(=O)N(C)C1=O)C1=CC=CC=C1,Clofedanol,CN(C)CCC(O)(
 Droperidol,FC1=CC=C(C=C1)C(=O)CCCN1CCC(=CC1)N1C(=O)NC2=CC=CC=C12,Osimertinib,COC1=C(NC2=NC=CC(=N2)C2=CN(C)C3=C2C=CC=C3)C=C(NC(=O)C=C)C(=C1)N(C)CCN(C)C,Major
 Dicoumarol,OC1=C(CC2=C(O)C3=C(OC2=O)C=CC=C3)C(=O)OC2=C1C=CC=C2,Benzylpenicillin,[H][C@]12SC(C)(C)[C@@H](N1C(=O)[C@H]2NC(=O)CC1=CC=CC=C1)C(O)=O,Moderate
 Diphenhydramine,CN(C)CCOC(C1=CC=CC=C1)C1=CC=CC=C1,Brexanolone,[H][C@@]1(CC[C@@]2([H])[C@]3([H])CC[C@@]4([H])C[C@H](O)CC[C@]4(C)[C@@]3([H])CC[C@]12C)C(C)=O,Moderate
-Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Lomustine,ClCCN(N=O)C(=O)NC1CCCCC1,Moderate
 Empagliflozin,OC[C@H]1O[C@H]([C@H](O)[C@@H](O)[C@@H]1O)C1=CC=C(Cl)C(CC2=CC=C(O[C@H]3CCOC3)C=C2)=C1,Fostamatinib,COC1=CC(NC2=NC=C(F)C(NC3=NC4=C(OC(C)(C)C(=O)N4COP(O)(O)=O)C=C3)=N2)=CC(OC)=C1OC,Moderate
 Valproic acid,CCCC(CCC)C(O)=O,Cetirizine,OC(=O)COCCN1CCN(CC1)C(C1=CC=CC=C1)C1=CC=C(Cl)C=C1,Moderate
 Lactulose,OC[C@H]1O[C@](O)(CO)[C@@H](O)[C@@H]1O[C@@H]1O[C@H](CO)[C@H](O)[C@H](O)[C@H]1O,Magnesium sulfate,[Mg++].[O-]S([O-])(=O)=O,Moderate
@@ -3835,7 +3794,6 @@ Zafirlukast,COC1=CC(=CC=C1CC1=CN(C)C2=C1C=C(NC(=O)OC1CCCC1)C=C2)C(=O)NS(=O)(=O)C
 Dapsone,NC1=CC=C(C=C1)S(=O)(=O)C1=CC=C(N)C=C1,Dalfopristin,CCN(CC)CCS(=O)(=O)[C@@H]1CCN2[C@H]1C(=O)O[C@H](C(C)C)[C@H](C)C=CC(=O)NCC=CC(C)=C[C@@H](O)CC(=O)CC1=NC(=CO1)C2=O,Moderate
 Progesterone,[H][C@@]12CC[C@H](C(C)=O)[C@@]1(C)CC[C@@]1([H])[C@@]2([H])CCC2=CC(=O)CC[C@]12C,Tolazamide,CC1=CC=C(C=C1)S(=O)(=O)NC(=O)NN1CCCCCC1,Moderate
 Triamcinolone,[H][C@@]12C[C@@H](O)[C@](O)(C(=O)CO)[C@@]1(C)C[C@H](O)[C@@]1(F)[C@@]2([H])CCC2=CC(=O)C=C[C@]12C,Nifedipine,COC(=O)C1=C(C)NC(C)=C(C1C1=CC=CC=C1[N+]([O-])=O)C(=O)OC,Moderate
-Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Mercaptopurine,S=C1N=CNC2=C1NC=N2,Moderate
 Ceritinib,CC(C)OC1=C(NC2=NC=C(Cl)C(N2)=NC2=CC=CC=C2S(=O)(=O)C(C)C)C=C(C)C(=C1)C1CCNCC1,Gilteritinib,CCC1=C(NC2CCOCC2)N=C(NC2=CC=C(N3CCC(CC3)N3CCN(C)CC3)C(OC)=C2)C(=N1)C(N)=O,Major
 Clobazam,CN1C2=C(C=C(Cl)C=C2)N(C2=CC=CC=C2)C(=O)CC1=O,Metoclopramide,CCN(CC)CCNC(=O)C1=CC(Cl)=C(N)C=C1OC,Moderate
 Eprosartan,CCCCC1=NC=C(C=C(/CC2=CC=CS2)C(O)=O)N1CC1=CC=C(C=C1)C(O)=O,Sodium sulfate,[Na+].[Na+].[O-]S([O-])(=O)=O,Moderate
@@ -3948,7 +3906,6 @@ Amlodipine,CCOC(=O)C1=C(COCCN)NC(C)=C(C1C1=CC=CC=C1Cl)C(=O)OC,Cobimetinib,OC1(CN
 Iopamidol,C[C@H](O)C(=O)NC1=C(I)C(C(=O)NC(CO)CO)=C(I)C(C(=O)NC(CO)CO)=C1I,Amifampridine,NC1=CC=NC=C1N,Major
 Miconazole,ClC1=CC(Cl)=C(COC(CN2C=CN=C2)C2=C(Cl)C=C(Cl)C=C2)C=C1,Vilazodone,NC(=O)C1=CC2=CC(=CC=C2O1)N1CCN(CCCCC2=CNC3=C2C=C(C=C3)C#N)CC1,Moderate
 Aliskiren,COCCCOC1=C(OC)C=CC(C[C@@H](C[C@H](N)[C@@H](O)C[C@@H](C(C)C)C(=O)NCC(C)(C)C(N)=O)C(C)C)=C1,Neratinib,CCOC1=C(NC(=O)C=CCN(C)C)C=C2C(NC3=CC=C(OCC4=CC=CC=N4)C(Cl)=C3)=C(C=NC2=C1)C#N,Moderate
-Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Meloxicam,CN1C(C(=O)NC2=NC=C(C)S2)=C(O)C2=C(C=CC=C2)S1(=O)=O,Moderate
 Nevirapine,CC1=C2NC(=O)C3=C(N=CC=C3)N(C3CC3)C2=NC=C1,Medroxyprogesterone acetate,[H][C@@]12CC[C@](OC(C)=O)(C(C)=O)[C@@]1(C)CC[C@@]1([H])[C@@]2([H])C[C@H](C)C2=CC(=O)CC[C@]12C,Moderate
 Methadone,CCC(=O)C(CC(C)N(C)C)(C1=CC=CC=C1)C1=CC=CC=C1,Sunitinib,CCN(CC)CCNC(=O)C1=C(C)NC(C=C2/C(=O)NC3=C2C=C(F)C=C3)=C1C,Major
 Aripiprazole,ClC1=CC=CC(N2CCN(CCCCOC3=CC4=C(CCC(=O)N4)C=C3)CC2)=C1Cl,Alogliptin,CN1C(=O)C=C(N2CCC[C@@H](N)C2)N(CC2=C(C=CC=C2)C#N)C1=O,Moderate
@@ -4082,7 +4039,6 @@ Moxifloxacin,[H][C@]12CN(C[C@@]1([H])NCCC2)C1=C(F)C=C2C(=O)C(=CN(C3CC3)C2=C1OC)C
 Pyrazinamide,NC(=O)C1=NC=CN=C1,Methotrexate,CN(CC1=CN=C2N=C(N)N=C(N)C2=N1)C1=CC=C(C=C1)C(=O)N[C@@H](CCC(O)=O)C(O)=O,Moderate
 Ganciclovir,NC1=NC2=C(N=CN2COC(CO)CO)C(=O)N1,Trabectedin,[H][C@@]12[C@@H]3SC[C@]4(NCCC5=C4C=C(OC)C(O)=C5)C(=O)OC[C@H](N1[C@@H](O)[C@@H]1CC4=CC(C)=C(OC)C(O)=C4[C@H]2N1C)C1=C2OCOC2=C(C)C(OC(C)=O)=C31,Moderate
 Aminoglutethimide,CCC1(CCC(=O)NC1=O)C1=CC=C(N)C=C1,Aminophylline,NCCN.CN1C2=C(NC=N2)C(=O)N(C)C1=O.CN1C2=C(NC=N2)C(=O)N(C)C1=O,Moderate
-Tolmetin,CN1C(CC(O)=O)=CC=C1C(=O)C1=CC=C(C)C=C1,Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Moderate
 Acetazolamide,CC(=O)NC1=NN=C(S1)S(N)(=O)=O,Indium In-111 pentetate,[111In+3].OC(=O)CN(CCN(CCN(CC([O-])=O)CC([O-])=O)CC([O-])=O)CC(O)=O,Moderate
 Glimepiride,CCC1=C(C)CN(C(=O)NCCC2=CC=C(C=C2)S(=O)(=O)NC(=O)N[C@H]2CC[C@H](C)CC2)C1=O,Ritonavir,CC(C)[C@H](NC(=O)N(C)CC1=CSC(=N1)C(C)C)C(=O)N[C@H](C[C@H](O)[C@H](CC1=CC=CC=C1)NC(=O)OCC1=CN=CS1)CC1=CC=CC=C1,Moderate
 Dicyclomine,CCN(CC)CCOC(=O)C1(CCCCC1)C1CCCCC1,Levacetylmethadol,CC[C@H](OC(C)=O)C(C[C@H](C)N(C)C)(C1=CC=CC=C1)C1=CC=CC=C1,Moderate
@@ -4310,7 +4266,6 @@ Famotidine,NC(N)=NC1=NC(CSCCC(N)=NS(N)(=O)=O)=CS1,Ponatinib,CN1CCN(CC2=CC=C(NC(=
 Eluxadoline,COC1=CC=C(CN([C@@H](C)C2=NC(=CN2)C2=CC=CC=C2)C(=O)[C@@H](N)CC2=C(C)C=C(C=C2C)C(N)=O)C=C1C(O)=O,Artesunate,[H][C@@]12CC[C@@H](C)[C@]3([H])CC[C@@]4(C)OO[C@@]13[C@]([H])(O[C@@H](OC(=O)CCC(O)=O)[C@@H]2C)O4,Major
 Clarithromycin,[H][C@@]1(C[C@@](C)(OC)[C@@H](O)[C@H](C)O1)O[C@H]1[C@H](C)[C@@H](O[C@]2([H])O[C@H](C)C[C@@H]([C@H]2O)N(C)C)[C@@](C)(C[C@@H](C)C(=O)[C@H](C)[C@@H](O)[C@](C)(O)[C@@H](CC)OC(=O)[C@@H]1C)OC,Pirbuterol,CC(C)(C)NCC(O)C1=NC(CO)=C(O)C=C1,Moderate
 Etoposide,[H][C@]12COC(=O)[C@]1([H])[C@H](C1=CC(OC)=C(O)C(OC)=C1)C1=CC3=C(OCO3)C=C1[C@H]2O[C@@H]1O[C@]2([H])CO[C@@H](C)O[C@@]2([H])[C@H](O)[C@H]1O,Ixazomib,CC(C)C[C@H](NC(=O)CNC(=O)C1=CC(Cl)=CC=C1Cl)B(O)O,Moderate
-Cisplatin,[H][N]([H])([H])[Pt](Cl)(Cl)[N]([H])([H])[H],Ozanimod,CC(C)OC1=C(C=C(C=C1)C1=NC(=NO1)C1=C2CC[C@H](NCCO)C2=CC=C1)C#N,Major
 Griseofulvin,COC1=CC(OC)=C(Cl)C2=C1C(=O)[C@]1(O2)[C@H](C)CC(=O)C=C1OC,Mifepristone,[H][C@@]12CC[C@@](O)(C#CC)[C@@]1(C)C[C@H](C1=CC=C(C=C1)N(C)C)C1=C3CCC(=O)C=C3CC[C@@]21[H],Moderate
 Guanadrel,NC(N)=NCC1COC2(CCCCC2)O1,Pentoxifylline,CN1C=NC2=C1C(=O)N(CCCCC(C)=O)C(=O)N2C,Moderate
 Citalopram,CN(C)CCCC1(OCC2=C1C=CC(=C2)C#N)C1=CC=C(F)C=C1,Degarelix,CC(C)C[C@H](NC(=O)[C@@H](CC1=CC=C(NC(N)=O)C=C1)NC(=O)[C@H](CC1=CC=C(NC(=O)[C@@H]2CC(=O)NC(=O)N2)C=C1)NC(=O)[C@H](CO)NC(=O)[C@@H](CC1=CC=CN=C1)NC(=O)[C@@H](CC1=CC=C(Cl)C=C1)NC(=O)[C@@H](CC1=CC=C2C=CC=CC2=C1)NC(C)=O)C(=O)N[C@@H](CCCCNC(C)C)C(=O)N1CCC[C@H]1C(=O)N[C@H](C)C(N)=O,Major
@@ -4370,7 +4325,6 @@ Clozapine,CN1CCN(CC1)C1=NC2=CC(Cl)=CC=C2NC2=CC=CC=C12,Gilteritinib,CCC1=C(NC2CCO
 Tretinoin,CC(C=CC1=C(C)CCCC1(C)C)=C/C=C/C(/C)=C/C(O)=O,Armodafinil,NC(=O)C[S@@](=O)C(C1=CC=CC=C1)C1=CC=CC=C1,Minor
 Erythromycin,CC[C@H]1OC(=O)[C@H](C)[C@@H](O[C@H]2C[C@@](C)(OC)[C@@H](O)[C@H](C)O2)[C@H](C)[C@@H](O[C@@H]2O[C@H](C)C[C@@H]([C@H]2O)N(C)C)[C@](C)(O)C[C@@H](C)C(=O)[C@H](C)[C@@H](O)[C@]1(C)O,Salbutamol,CC(C)(C)NCC(O)C1=CC(CO)=C(O)C=C1,Moderate
 Methadone,CCC(=O)C(CC(C)N(C)C)(C1=CC=CC=C1)C1=CC=CC=C1,Mefloquine,OC(C1CCCCN1)C1=CC(=NC2=C1C=CC=C2C(F)(F)F)C(F)(F)F,Major
-Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Sodium sulfate,[Na+].[Na+].[O-]S([O-])(=O)=O,Moderate
 Itraconazole,CCC(C)N1N=CN(C1=O)C1=CC=C(C=C1)N1CCN(CC1)C1=CC=C(OC[C@H]2CO[C@@](CN3C=NC=N3)(O2)C2=C(Cl)C=C(Cl)C=C2)C=C1,Acalabrutinib,CC#CC(=O)N1CCC[C@H]1C1=NC(=C2N1C=CN=C2N)C1=CC=C(C=C1)C(=O)NC1=CC=CC=N1,Major
 Solifenacin,O=C(O[C@H]1CN2CCC1CC2)N1CCC2=CC=CC=C2[C@@H]1C1=CC=CC=C1,Ceritinib,CC(C)OC1=C(NC2=NC=C(Cl)C(N2)=NC2=CC=CC=C2S(=O)(=O)C(C)C)C=C(C)C(=C1)C1CCNCC1,Major
 Fenoldopam,OC1=CC=C(C=C1)C1CNCCC2=C(Cl)C(O)=C(O)C=C12,Diazoxide,CC1=NS(=O)(=O)C2=C(N1)C=CC(Cl)=C2,Moderate
@@ -4582,7 +4536,6 @@ Carbinoxamine,CN(C)CCOC(C1=CC=C(Cl)C=C1)C1=CC=CC=N1,Sertraline,CN[C@H]1CC[C@@H](
 Tolbutamide,CCCCNC(=O)NS(=O)(=O)C1=CC=C(C)C=C1,Metamfetamine,CN[C@@H](C)CC1=CC=CC=C1,Moderate
 Ezogabine,CCOC(=O)NC1=C(N)C=C(NCC2=CC=C(F)C=C2)C=C1,Pentoxyverine,CCN(CC)CCOCCOC(=O)C1(CCCC1)C1=CC=CC=C1,Moderate
 Ketoconazole,CC(=O)N1CCN(CC1)C1=CC=C(OCC2COC(CN3C=CN=C3)(O2)C2=CC=C(Cl)C=C2Cl)C=C1,Pomalidomide,NC1=CC=CC2=C1C(=O)N(C1CCC(=O)NC1=O)C2=O,Moderate
-Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Ondansetron,CN1C2=C(C3=CC=CC=C13)C(=O)C(CN1C=CN=C1C)CC2,Moderate
 Abarelix,CC(C)C[C@H](NC(=O)[C@@H](CC(N)=O)NC(=O)[C@H](CC1=CC=C(O)C=C1)N(C)C(=O)[C@H](CO)NC(=O)[C@@H](CC1=CN=CC=C1)NC(=O)[C@@H](CC1=CC=C(Cl)C=C1)NC(=O)[C@@H](CC1=CC2=C(C=CC=C2)C=C1)NC(C)=O)C(=O)N[C@@H](CCCCNC(C)C)C(=O)N1CCC[C@H]1C(=O)N[C@H](C)C(N)=O,Picosulfuric acid,OS(=O)(=O)OC1=CC=C(C=C1)C(C1=CC=C(OS(O)(=O)=O)C=C1)C1=CC=CC=N1,Moderate
 Pimavanserin,CC(C)COC1=CC=C(CNC(=O)N(CC2=CC=C(F)C=C2)C2CCN(C)CC2)C=C1,Ribociclib,CN(C)C(=O)C1=CC2=CN=C(NC3=CC=C(C=N3)N3CCNCC3)N=C2N1C1CCCC1,Moderate
 Cyclophosphamide,ClCCN(CCCl)P1(=O)NCCCO1,Crizotinib,C[C@@H](OC1=CC(=CN=C1N)C1=CN(N=C1)C1CCNCC1)C1=C(Cl)C=CC(F)=C1Cl,Moderate
@@ -4607,7 +4560,6 @@ Promethazine,CC(CN1C2=CC=CC=C2SC2=CC=CC=C12)N(C)C,Pioglitazone,CCC1=CN=C(CCOC2=C
 Carisoprodol,CCCC(C)(COC(N)=O)COC(=O)NC(C)C,Amyl Nitrite,CCCCCON=O,Moderate
 Bexarotene,CC1=CC2=C(C=C1C(=C)C1=CC=C(C=C1)C(O)=O)C(C)(C)CCC2(C)C,Nitisinone,[O-][N+](=O)C1=C(C=CC(=C1)C(F)(F)F)C(=O)C1C(=O)CCCC1=O,Moderate
 Chlorpropamide,CCCNC(=O)NS(=O)(=O)C1=CC=C(Cl)C=C1,Levofloxacin,C[C@H]1COC2=C3N1C=C(C(O)=O)C(=O)C3=CC(F)=C2N1CCN(C)CC1,Major
-Pentostatin,OC[C@H]1O[C@H](C[C@@H]1O)N1C=NC2=C1N=CNC[C@H]2O,Carboplatin,[H][N]([H])([H])[Pt]1(OC(=O)C2(CCC2)C(=O)O1)[N]([H])([H])[H],Moderate
 Conivaptan,CC1=NC2=C(CCN(C(=O)C3=CC=C(NC(=O)C4=CC=CC=C4C4=CC=CC=C4)C=C3)C3=CC=CC=C23)N1,Copanlisib,COC1=C(OCCCN2CCOCC2)C=CC2=C1N=C(NC(=O)C1=CN=C(N)N=C1)N1CCN=C21,Major
 Biperiden,OC(CCN1CCCCC1)(C1CC2CC1C=C2)C1=CC=CC=C1,Clofedanol,CN(C)CCC(O)(C1=CC=CC=C1)C1=CC=CC=C1Cl,Moderate
 Methylergometrine,[H][C@@]12CC3=CNC4=CC=CC(=C34)C1=C[C@H](CN2C)C(=O)N[C@@H](CC)CO,Cobicistat,CC(C)C1=NC(CN(C)C(=O)N[C@@H](CCN2CCOCC2)C(=O)N[C@H](CC[C@H](CC2=CC=CC=C2)NC(=O)OCC2=CN=CS2)CC2=CC=CC=C2)=CS1,Major
@@ -4835,7 +4787,6 @@ Mazindol,OC1(N2CCN=C2C2=CC=CC=C12)C1=CC=C(Cl)C=C1,Vortioxetine,CC1=CC=C(SC2=CC=C
 Pentobarbital,CCCC(C)C1(CC)C(=O)NC(=O)NC1=O,Entrectinib,CN1CCN(CC1)C1=CC=C(C(=O)NC2=NNC3=CC=C(CC4=CC(F)=CC(F)=C4)C=C23)C(NC2CCOCC2)=C1,Moderate
 Gentamicin,[H][C@@]1(CN)CC[C@@H](N)[C@@H](O[C@]2([H])[C@@H](N)C[C@@H](N)[C@H](O[C@@]3([H])OC[C@](C)(O)[C@H](NC)[C@H]3O)[C@H]2O)O1.[H][C@]1(CC[C@@H](N)[C@@H](O[C@]2([H])[C@@H](N)C[C@@H](N)[C@H](O[C@@]3([H])OC[C@](C)(O)[C@H](NC)[C@H]3O)[C@H]2O)O1)C(C)N.[H][C@]1(CC[C@@H](N)[C@@H](O[C@]2([H])[C@@H](N)C[C@@H](N)[C@H](O[C@@]3([H])OC[C@](C)(O)[C@H](NC)[C@H]3O)[C@H]2O)O1)C(C)NC,Metocurine,[H][C@@]12CC3=CC=C(OC4=C5C(CC[N+](C)(C)[C@]5([H])CC5=CC(OC6=C(OC)C=C(CC[N+]1(C)C)C2=C6)=C(OC)C=C5)=CC(OC)=C4OC)C=C3,Major
 Olmesartan,CCCC1=NC(=C(N1CC1=CC=C(C=C1)C1=C(C=CC=C1)C1=NN=NN1)C(O)=O)C(C)(C)O,Tetracosactide,CSCC[C@H](NC(=O)[C@H](CO)NC(=O)[C@H](CC1=CC=C(O)C=C1)NC(=O)[C@@H](N)CO)C(=O)N[C@@H](CCC(O)=O)C(=O)N[C@@H](CC1=CN=CN1)C(=O)N[C@@H](CC1=CC=CC=C1)C(=O)N[C@@H](CCCNC(N)=N)C(=O)N[C@@H](CC1=CNC2=C1C=CC=C2)C(=O)NCC(=O)N[C@@H](CCCCN)C(=O)N1CCC[C@H]1C(=O)N[C@@H](C(C)C)C(=O)NCC(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](CCCNC(N)=N)C(=O)N[C@@H](CCCNC(N)=N)C(=O)N1CCC[C@H]1C(=O)N[C@@H](C(C)C)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H](C(C)C)C(=O)N[C@@H](CC1=CC=C(O)C=C1)C(=O)N1CCC[C@H]1C(O)=O,Moderate
-Cisplatin,[H][N]([H])([H])[Pt](Cl)(Cl)[N]([H])([H])[H],Decitabine,NC1=NC(=O)N(C=N1)[C@H]1C[C@H](O)[C@@H](CO)O1,Moderate
 Midazolam,CC1=NC=C2CN=C(C3=CC=CC=C3F)C3=C(C=CC(Cl)=C3)N12,Clarithromycin,[H][C@@]1(C[C@@](C)(OC)[C@@H](O)[C@H](C)O1)O[C@H]1[C@H](C)[C@@H](O[C@]2([H])O[C@H](C)C[C@@H]([C@H]2O)N(C)C)[C@@](C)(C[C@@H](C)C(=O)[C@H](C)[C@@H](O)[C@](C)(O)[C@@H](CC)OC(=O)[C@@H]1C)OC,Moderate
 Propantheline,CC(C)[N+](C)(CCOC(=O)C1C2=CC=CC=C2OC2=CC=CC=C12)C(C)C,Pimozide,FC1=CC=C(C=C1)C(CCCN1CCC(CC1)N1C(=O)NC2=CC=CC=C12)C1=CC=C(F)C=C1,Moderate
 Chlorpropamide,CCCNC(=O)NS(=O)(=O)C1=CC=C(Cl)C=C1,Delafloxacin,NC1=NC(N2C=C(C(O)=O)C(=O)C3=CC(F)=C(N4CC(O)C4)C(Cl)=C23)=C(F)C=C1F,Major
@@ -4977,7 +4928,6 @@ Daunorubicin,COC1=CC=CC2=C1C(=O)C1=C(O)C3=C(C[C@](O)(C[C@@H]3O[C@H]3C[C@H](N)[C@
 Acalabrutinib,CC#CC(=O)N1CCC[C@H]1C1=NC(=C2N1C=CN=C2N)C1=CC=C(C=C1)C(=O)NC1=CC=CC=N1,Elagolix,COC1=CC=CC(=C1F)C1=C(C)N(CC2=C(C=CC=C2F)C(F)(F)F)C(=O)N(C[C@H](NCCCC(O)=O)C2=CC=CC=C2)C1=O,Moderate
 Acalabrutinib,CC#CC(=O)N1CCC[C@H]1C1=NC(=C2N1C=CN=C2N)C1=CC=C(C=C1)C(=O)NC1=CC=CC=N1,Avapritinib,CN1C=C(C=N1)C1=CN2N=CN=C(N3CCN(CC3)C3=NC=C(C=N3)[C@@](C)(N)C3=CC=C(F)C=C3)C2=C1,Major
 Timolol,[H][C@](O)(CNC(C)(C)C)COC1=NSN=C1N1CCOCC1,Iopodic acid,CN(C)C=NC1=C(I)C=C(I)C(CCC(O)=O)=C1I,Moderate
-Cisplatin,[H][N]([H])([H])[Pt](Cl)(Cl)[N]([H])([H])[H],Triamcinolone,[H][C@@]12C[C@@H](O)[C@](O)(C(=O)CO)[C@@]1(C)C[C@H](O)[C@@]1(F)[C@@]2([H])CCC2=CC(=O)C=C[C@]12C,Moderate
 Zafirlukast,COC1=CC(=CC=C1CC1=CN(C)C2=C1C=C(NC(=O)OC1CCCC1)C=C2)C(=O)NS(=O)(=O)C1=CC=CC=C1C,Dabrafenib,CC(C)(C)C1=NC(=C(S1)C1=NC(N)=NC=C1)C1=C(F)C(NS(=O)(=O)C2=C(F)C=CC=C2F)=CC=C1,Moderate
 Brompheniramine,CN(C)CCC(C1=CC=C(Br)C=C1)C1=CC=CC=N1,Chlorphenesin,OCC(O)COC1=CC=C(Cl)C=C1,Moderate
 Alvimopan,C[C@H]1CN(C[C@H](CC2=CC=CC=C2)C(=O)NCC(O)=O)CC[C@@]1(C)C1=CC(O)=CC=C1,Oliceridine,COC1=C(CNCC[C@]2(CCOC3(CCCC3)C2)C2=NC=CC=C2)SC=C1,Major
@@ -4986,7 +4936,6 @@ Acetohexamide,CC(=O)C1=CC=C(C=C1)S(=O)(=O)NC(=O)NC1CCCCC1,Gemfibrozil,CC1=CC(OCC
 Nadolol,CC(C)(C)NCC(O)COC1=CC=CC2=C1C[C@H](O)[C@H](O)C2,Brigatinib,COC1=CC(=CC=C1NC1=NC=C(Cl)C(NC2=CC=CC=C2P(C)(C)=O)=N1)N1CCC(CC1)N1CCN(C)CC1,Moderate
 Ticagrelor,CCCSC1=NC2=C(N=NN2[C@@H]2C[C@H](OCCO)[C@@H](O)[C@H]2O)C(N[C@@H]2C[C@H]2C2=CC(F)=C(F)C=C2)=N1,Ledipasvir,COC(=O)N[C@@H](C(C)C)C(=O)N1CC2(CC2)C[C@H]1C1=NC(=CN1)C1=CC=C2C3=CC=C(C=C3C(F)(F)C2=C1)C1=CC=C2NC(=NC2=C1)[C@@H]1[C@H]2CC[C@H](C2)N1C(=O)[C@@H](NC(=O)OC)C(C)C,Moderate
 Nabumetone,COC1=CC2=C(C=C1)C=C(CCC(C)=O)C=C2,Sibutramine,CC(C)CC(N(C)C)C1(CCC1)C1=CC=C(Cl)C=C1,Moderate
-Cyclophosphamide,ClCCN(CCCl)P1(=O)NCCCO1,Carboplatin,[H][N]([H])([H])[Pt]1(OC(=O)C2(CCC2)C(=O)O1)[N]([H])([H])[H],Moderate
 Thioridazine,CSC1=CC2=C(SC3=CC=CC=C3N2CCC2CCCCN2C)C=C1,Pasireotide,NCCCC[C@@H]1NC(=O)[C@@H](CC2=CNC3=C2C=CC=C3)NC(=O)[C@@H](NC(=O)[C@@H]2C[C@H](CN2C(=O)[C@H](CC2=CC=CC=C2)NC(=O)[C@H](CC2=CC=C(OCC3=CC=CC=C3)C=C2)NC1=O)OC(=O)NCCN)C1=CC=CC=C1,Major
 Pentamidine,NC(=N)C1=CC=C(OCCCCCOC2=CC=C(C=C2)C(N)=N)C=C1,Indacaterol,CCC1=C(CC)C=C2CC(CC2=C1)NC[C@H](O)C1=C2C=CC(=O)NC2=C(O)C=C1,Moderate
 Goserelin,CC(C)C[C@H](NC(=O)[C@@H](COC(C)(C)C)NC(=O)[C@H](CC1=CC=C(O)C=C1)NC(=O)[C@H](CO)NC(=O)[C@H](CC1=CNC2=CC=CC=C12)NC(=O)[C@H](CC1=CN=CN1)NC(=O)[C@@H]1CCC(=O)N1)C(=O)N[C@@H](CCCN=C(N)N)C(=O)N1CCC[C@H]1C(=O)NNC(N)=O,Omacetaxine mepesuccinate,[H][C@@]1(OC(=O)[C@@](O)(CCCC(C)(C)O)CC(=O)OC)C(OC)=C[C@]23CCCN2CCC2=CC4=C(OCO4)C=C2[C@]13[H],Moderate
@@ -5285,7 +5234,6 @@ Sorafenib,CNC(=O)C1=NC=CC(OC2=CC=C(NC(=O)NC3=CC(=C(Cl)C=C3)C(F)(F)F)C=C2)=C1,Ter
 Salbutamol,CC(C)(C)NCC(O)C1=CC(CO)=C(O)C=C1,Romidepsin,CC=C1/NC(=O)[C@H]2CSSCCC=C[C@H](CC(=O)N[C@H](C(C)C)C(=O)N2)OC(=O)[C@@H](NC1=O)C(C)C,Moderate
 Amiodarone,CCCCC1=C(C(=O)C2=CC(I)=C(OCCN(CC)CC)C(I)=C2)C2=C(O1)C=CC=C2,Deferasirox,OC(=O)C1=CC=C(C=C1)N1N=C(N=C1C1=CC=CC=C1O)C1=CC=CC=C1O,Moderate
 Phentermine,CC(C)(N)CC1=CC=CC=C1,Droxidopa,N[C@@H]([C@H](O)C1=CC(O)=C(O)C=C1)C(O)=O,Moderate
-Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Hydralazine,NNC1=NN=CC2=CC=CC=C12,Moderate
 Levofloxacin,C[C@H]1COC2=C3N1C=C(C(O)=O)C(=O)C3=CC(F)=C2N1CCN(C)CC1,Magnesium hydroxide,[OH-].[OH-].[Mg++],Moderate
 Itraconazole,CCC(C)N1N=CN(C1=O)C1=CC=C(C=C1)N1CCN(CC1)C1=CC=C(OC[C@H]2CO[C@@](CN3C=NC=N3)(O2)C2=C(Cl)C=C(Cl)C=C2)C=C1,Lusutrombopag,CCCCCCO[C@@H](C)C1=C(OC)C(=CC=C1)C1=CSC(NC(=O)C2=CC(Cl)=C(C=C(/C)C(O)=O)C(Cl)=C2)=N1,Moderate
 Dicoumarol,OC1=C(CC2=C(O)C3=C(OC2=O)C=CC=C3)C(=O)OC2=C1C=CC=C2,Saquinavir,[H][C@@]12CCCC[C@]1([H])CN(C[C@@H](O)[C@H](CC1=CC=CC=C1)NC(=O)[C@H](CC(N)=O)NC(=O)C1=NC3=C(C=CC=C3)C=C1)[C@@H](C2)C(=O)NC(C)(C)C,Moderate
@@ -5472,11 +5420,9 @@ Clorazepic acid,OC(=O)C1N=C(C2=CC=CC=C2)C2=C(NC1=O)C=CC(Cl)=C2,Dasatinib,CC1=NC(
 Etoposide,[H][C@]12COC(=O)[C@]1([H])[C@H](C1=CC(OC)=C(O)C(OC)=C1)C1=CC3=C(OCO3)C=C1[C@H]2O[C@@H]1O[C@]2([H])CO[C@@H](C)O[C@@]2([H])[C@H](O)[C@H]1O,Etravirine,CC1=CC(=CC(C)=C1OC1=C(Br)C(N)=NC(NC2=CC=C(C=C2)C#N)=N1)C#N,Moderate
 Simvastatin,[H][C@]12[C@H](C[C@@H](C)C=C1C=C[C@H](C)[C@@H]2CC[C@@H]1C[C@@H](O)CC(=O)O1)OC(=O)C(C)(C)CC,Telotristat ethyl,CCOC(=O)[C@@H](N)CC1=CC=C(C=C1)C1=NC(N)=NC(O[C@H](C2=CC=C(Cl)C=C2N2C=CC(C)=N2)C(F)(F)F)=C1,Moderate
 Erlotinib,COCCOC1=CC2=C(C=C1OCCOC)C(NC1=CC(=CC=C1)C#C)=NC=N2,Nafcillin,[H][C@]12SC(C)(C)[C@@H](N1C(=O)[C@H]2NC(=O)C1=C(OCC)C=CC2=CC=CC=C12)C(O)=O,Moderate
-Carboplatin,[H][N]([H])([H])[Pt]1(OC(=O)C2(CCC2)C(=O)O1)[N]([H])([H])[H],Strontium chloride Sr-89,[Cl-].[Cl-].[89Sr++],Moderate
 Lidocaine,CCN(CC)CC(=O)NC1=C(C)C=CC=C1C,Doxacurium,COC1=CC(CC2C3=C(OC)C(OC)=C(OC)C=C3CC[N+]2(C)CCCOC(=O)CCC(=O)OCCC[N+]2(C)CCC3=CC(OC)=C(OC)C(OC)=C3C2CC2=CC(OC)=C(OC)C(OC)=C2)=CC(OC)=C1OC,Moderate
 Cilostazol,O=C1CCC2=C(N1)C=CC(OCCCCC1=NN=NN1C1CCCCC1)=C2,Ivabradine,COC1=C(OC)C=C2[C@@H](CN(C)CCCN3CCC4=CC(OC)=C(OC)C=C4CC3=O)CC2=C1,Major
 Methotrexate,CN(CC1=CN=C2N=C(N)N=C(N)C2=N1)C1=CC=C(C=C1)C(=O)N[C@@H](CCC(O)=O)C(O)=O,Eltrombopag,CC1=NN(C(=O)C1=N/NC1=CC=CC(C2=CC=CC(=C2)C(O)=O)=C1O)C1=CC=C(C)C(C)=C1,Moderate
-Cisplatin,[H][N]([H])([H])[Pt](Cl)(Cl)[N]([H])([H])[H],Thioridazine,CSC1=CC2=C(SC3=CC=CC=C3N2CCC2CCCCN2C)C=C1,Moderate
 Streptomycin,CN[C@H]1[C@H](O)[C@@H](O)[C@H](CO)O[C@H]1O[C@H]1[C@H](O[C@H]2[C@H](O)[C@@H](O)[C@H](NC(N)=N)[C@@H](O)[C@@H]2NC(N)=N)O[C@@H](C)[C@]1(O)C=O,Mivacurium,COC1=CC(C[C@@H]2C3=CC(OC)=C(OC)C=C3CC[N+]2(C)CCCOC(=O)CCC=CCCC(=O)OCCC[N+]2(C)CCC3=CC(OC)=C(OC)C=C3[C@H]2CC2=CC(OC)=C(OC)C(OC)=C2)=CC(OC)=C1OC,Major
 Ciprofloxacin,OC(=O)C1=CN(C2CC2)C2=CC(N3CCNCC3)=C(F)C=C2C1=O,Mercaptopurine,S=C1N=CNC2=C1NC=N2,Minor
 Ethionamide,CCC1=NC=CC(=C1)C(N)=S,Tolbutamide,CCCCNC(=O)NS(=O)(=O)C1=CC=C(C)C=C1,Moderate
@@ -5486,7 +5432,6 @@ Salsalate,OC(=O)C1=CC=CC=C1OC(=O)C1=CC=CC=C1O,Aluminum hydroxide,[OH-].[OH-].[OH
 Dolasetron,[H][C@@]1(C[C@@]2([H])C[C@]3([H])C[C@@]([H])(C1)N2CC3=O)OC(=O)C1=CNC2=C1C=CC=C2,Ofloxacin,CC1COC2=C3N1C=C(C(O)=O)C(=O)C3=CC(F)=C2N1CCN(C)CC1,Major
 Furosemide,NS(=O)(=O)C1=C(Cl)C=C(NCC2=CC=CO2)C(=C1)C(O)=O,Sodium zirconium cyclosilicate,[Na+].[Na+].[Zr].[O-][Si]1([O-])O[Si]([O-])([O-])O[Si]([O-])([O-])O1,Moderate
 Cobicistat,CC(C)C1=NC(CN(C)C(=O)N[C@@H](CCN2CCOCC2)C(=O)N[C@H](CC[C@H](CC2=CC=CC=C2)NC(=O)OCC2=CN=CS2)CC2=CC=CC=C2)=CS1,Oliceridine,COC1=C(CNCC[C@]2(CCOC3(CCCC3)C2)C2=NC=CC=C2)SC=C1,Major
-Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Lomitapide,FC(F)(F)CNC(=O)C1(CCCCN2CCC(CC2)NC(=O)C2=C(C=CC=C2)C2=CC=C(C=C2)C(F)(F)F)C2=CC=CC=C2C2=CC=CC=C12,Major
 Ethanol,CCO,Fosphenytoin,OP(O)(=O)OCN1C(=O)NC(C1=O)(C1=CC=CC=C1)C1=CC=CC=C1,Moderate
 Pomalidomide,NC1=CC=CC2=C1C(=O)N(C1CCC(=O)NC1=O)C2=O,Tucatinib,CC1=CC(NC2=NC=NC3=CC=C(NC4=NC(C)(C)CO4)C=C23)=CC=C1OC1=CC2=NC=NN2C=C1,Moderate
 Dyphylline,CN1C2=C(N(CC(O)CO)C=N2)C(=O)N(C)C1=O,Rapacuronium,[H][C@@]12C[C@@H]([C@H](OC(=O)CC)[C@@]1(C)CC[C@@]1([H])[C@@]2([H])CC[C@@]2([H])C[C@H](OC(C)=O)[C@H](C[C@]12C)N1CCCCC1)[N+]1(CC=C)CCCCC1,Moderate
@@ -5530,7 +5475,6 @@ Ibutilide,CCCCCCCN(CC)CCCC(O)C1=CC=C(NS(C)(=O)=O)C=C1,Bisacodyl,CC(=O)OC1=CC=C(C
 Lanreotide,[H]N([H])CCCCC1N([H])C(=O)C(CC2=CN([H])C3=CC=CC=C23)N([H])C(=O)C(CC2=CC=C(O)C=C2)N([H])C(=O)C(CSSCC(N([H])C(=O)C(N([H])C1=O)C(C)C)C(=O)N([H])C(C(C)O)C(=O)N([H])[H])N([H])C(=O)C(CC1=CC2=CC=CC=C2C=C1)N([H])[H],Selpercatinib,COC1=NC=C(CN2C3CC2CN(C3)C2=CC=C(C=N2)C2=CC(OCC(C)(C)O)=CN3N=CC(C#N)=C23)C=C1,Moderate
 Fenfluramine,CCNC(C)CC1=CC=CC(=C1)C(F)(F)F,Sufentanil,CCC(=O)N(C1=CC=CC=C1)C1(COC)CCN(CCC2=CC=CS2)CC1,Major
 Mitoxantrone,OCCNCCNC1=CC=C(NCCNCCO)C2=C1C(=O)C1=C(C(O)=CC=C1O)C2=O,Tolvaptan,CC1=CC=CC=C1C(=O)NC1=CC(C)=C(C=C1)C(=O)N1CCC[C@@H](O)C2=C1C=CC(Cl)=C2,Moderate
-Cladribine,NC1=C2N=CN([C@H]3C[C@H](O)[C@@H](CO)O3)C2=NC(Cl)=N1,Carboplatin,[H][N]([H])([H])[Pt]1(OC(=O)C2(CCC2)C(=O)O1)[N]([H])([H])[H],Major
 Sitagliptin,N[C@@H](CC(=O)N1CCN2C(C1)=NN=C2C(F)(F)F)CC1=CC(F)=C(F)C=C1F,Mephentermine,CNC(C)(C)CC1=CC=CC=C1,Moderate
 Mitotane,ClC(Cl)C(C1=CC=C(Cl)C=C1)C1=CC=CC=C1Cl,Osimertinib,COC1=C(NC2=NC=CC(=N2)C2=CN(C)C3=C2C=CC=C3)C=C(NC(=O)C=C)C(=C1)N(C)CCN(C)C,Major
 Pasireotide,NCCCC[C@@H]1NC(=O)[C@@H](CC2=CNC3=C2C=CC=C3)NC(=O)[C@@H](NC(=O)[C@@H]2C[C@H](CN2C(=O)[C@H](CC2=CC=CC=C2)NC(=O)[C@H](CC2=CC=C(OCC3=CC=CC=C3)C=C2)NC1=O)OC(=O)NCCN)C1=CC=CC=C1,Sodium sulfate,[Na+].[Na+].[O-]S([O-])(=O)=O,Moderate
@@ -5557,7 +5501,6 @@ Tripelennamine,CN(C)CCN(CC1=CC=CC=C1)C1=CC=CC=N1,Rasagiline,C#CCN[C@@H]1CCC2=CC=
 Benzatropine,[H][C@]12CC[C@]([H])(C[C@@]([H])(C1)OC(C1=CC=CC=C1)C1=CC=CC=C1)N2C,Phenylephrine,CNC[C@H](O)C1=CC(O)=CC=C1,Moderate
 Zolpidem,CN(C)C(=O)CC1=C(N=C2C=CC(C)=CN12)C1=CC=C(C)C=C1,Ceritinib,CC(C)OC1=C(NC2=NC=C(Cl)C(N2)=NC2=CC=CC=C2S(=O)(=O)C(C)C)C=C(C)C(=C1)C1CCNCC1,Moderate
 Promazine,CN(C)CCCN1C2=CC=CC=C2SC2=CC=CC=C12,Iopamidol,C[C@H](O)C(=O)NC1=C(I)C(C(=O)NC(CO)CO)=C(I)C(C(=O)NC(CO)CO)=C1I,Major
-Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Siponimod,CCC1=CC(=CC=C1CN1CC(C1)C(O)=O)C(C)=NOCC1=CC=C(C2CCCCC2)C(=C1)C(F)(F)F,Major
 Ezogabine,CCOC(=O)NC1=C(N)C=C(NCC2=CC=C(F)C=C2)C=C1,Pasireotide,NCCCC[C@@H]1NC(=O)[C@@H](CC2=CNC3=C2C=CC=C3)NC(=O)[C@@H](NC(=O)[C@@H]2C[C@H](CN2C(=O)[C@H](CC2=CC=CC=C2)NC(=O)[C@H](CC2=CC=C(OCC3=CC=CC=C3)C=C2)NC1=O)OC(=O)NCCN)C1=CC=CC=C1,Major
 Nefazodone,CCC1=NN(CCCN2CCN(CC2)C2=CC(Cl)=CC=C2)C(=O)N1CCOC1=CC=CC=C1,Crizotinib,C[C@@H](OC1=CC(=CN=C1N)C1=CN(N=C1)C1CCNCC1)C1=C(Cl)C=CC(F)=C1Cl,Major
 Imipramine,CN(C)CCCN1C2=CC=CC=C2CCC2=CC=CC=C12,Ethinylestradiol,[H][C@@]12CC[C@@](O)(C#C)[C@@]1(C)CC[C@]1([H])C3=C(CC[C@@]21[H])C=C(O)C=C3,Minor
@@ -5775,7 +5718,6 @@ Ceritinib,CC(C)OC1=C(NC2=NC=C(Cl)C(N2)=NC2=CC=CC=C2S(=O)(=O)C(C)C)C=C(C)C(=C1)C1
 Procyclidine,OC(CCN1CCCC1)(C1CCCCC1)C1=CC=CC=C1,Umeclidinium,OC(C1=CC=CC=C1)(C1=CC=CC=C1)C12CC[N+](CCOCC3=CC=CC=C3)(CC1)CC2,Moderate
 Fedratinib,CC1=CN=C(NC2=CC=C(OCCN3CCCC3)C=C2)N=C1NC1=CC=CC(=C1)S(=O)(=O)NC(C)(C)C,Lurbinectedin,[H][C@@]12[C@@H]3SC[C@]4(NCCC5=C4NC4=CC=C(OC)C=C54)C(=O)OC[C@H](N1[C@@H](O)[C@@H]1CC4=CC(C)=C(OC)C(O)=C4[C@@]2([H])N1C)C1=C2OCOC2=C(C)C(OC(C)=O)=C31,Major
 Alendronic acid,NCCCC(O)(P(O)(O)=O)P(O)(O)=O,Ranitidine,CNC(NCCSCC1=CC=C(CN(C)C)O1)=C[N+]([O-])=O,Minor
-Carboplatin,[H][N]([H])([H])[Pt]1(OC(=O)C2(CCC2)C(=O)O1)[N]([H])([H])[H],Norfloxacin,CCN1C=C(C(O)=O)C(=O)C2=CC(F)=C(C=C12)N1CCNCC1,Minor
 Venlafaxine,COC1=CC=C(C=C1)C(CN(C)C)C1(O)CCCCC1,Terbutaline,CC(C)(C)NCC(O)C1=CC(O)=CC(O)=C1,Moderate
 Atazanavir,COC(=O)N[C@H](C(=O)N[C@@H](CC1=CC=CC=C1)[C@@H](O)CN(CC1=CC=C(C=C1)C1=CC=CC=N1)NC(=O)[C@@H](NC(=O)OC)C(C)(C)C)C(C)(C)C,Axitinib,CNC(=O)C1=C(SC2=CC=C3C(NN=C3C=CC3=CC=CC=N3)=C2)C=CC=C1,Major
 Saquinavir,[H][C@@]12CCCC[C@]1([H])CN(C[C@@H](O)[C@H](CC1=CC=CC=C1)NC(=O)[C@H](CC(N)=O)NC(=O)C1=NC3=C(C=CC=C3)C=C1)[C@@H](C2)C(=O)NC(C)(C)C,Naloxegol,COCCOCCOCCOCCOCCOCCOCCO[C@H]1CC[C@@]2(O)[C@H]3CC4=CC=C(O)C5=C4[C@@]2(CCN3CC=C)[C@H]1O5,Major
@@ -6022,7 +5964,6 @@ Panobinostat,CC1=C(CCNCC2=CC=C(C=CC(=O)NO)C=C2)C2=CC=CC=C2N1,Ivabradine,COC1=C(O
 Romidepsin,CC=C1/NC(=O)[C@H]2CSSCCC=C[C@H](CC(=O)N[C@H](C(C)C)C(=O)N2)OC(=O)[C@@H](NC1=O)C(C)C,Fostamatinib,COC1=CC(NC2=NC=C(F)C(NC3=NC4=C(OC(C)(C)C(=O)N4COP(O)(O)=O)C=C3)=N2)=CC(OC)=C1OC,Moderate
 Terazosin,COC1=C(OC)C=C2C(N)=NC(=NC2=C1)N1CCN(CC1)C(=O)C1CCCO1,Empagliflozin,OC[C@H]1O[C@H]([C@H](O)[C@@H](O)[C@@H]1O)C1=CC=C(Cl)C(CC2=CC=C(O[C@H]3CCOC3)C=C2)=C1,Moderate
 Venlafaxine,COC1=CC=C(C=C1)C(CN(C)C)C1(O)CCCCC1,Triprolidine,CC1=CC=C(C=C1)C(=C/CN1CCCC1)C1=CC=CC=N1,Moderate
-Cisplatin,[H][N]([H])([H])[Pt](Cl)(Cl)[N]([H])([H])[H],Amphotericin B,[H][C@]12C[C@@H](O[C@@H]3O[C@H](C)[C@@H](O)[C@H](N)[C@@H]3O)C=CC=CC=CC=CC=CC=CC=C[C@H](C)[C@@H](O)[C@@H](C)[C@H](C)OC(=O)C[C@H](O)C[C@H](O)CC[C@@H](O)[C@H](O)C[C@H](O)C[C@](O)(C[C@H](O)[C@H]1C(O)=O)O2,Moderate
 Ipratropium,[H][C@]12CC[C@]([H])(C[C@@H](C1)OC(=O)C(CO)C1=CC=CC=C1)[N+]2(C)C(C)C,Alimemazine,CC(CN(C)C)CN1C2=CC=CC=C2SC2=CC=CC=C12,Moderate
 Streptozocin,CN(N=O)C(=O)N[C@H]1[C@@H](O)O[C@H](CO)[C@@H](O)[C@@H]1O,Ozanimod,CC(C)OC1=C(C=C(C=C1)C1=NC(=NO1)C1=C2CC[C@H](NCCO)C2=CC=C1)C#N,Major
 Arformoterol,COC1=CC=C(C[C@@H](C)NC[C@H](O)C2=CC(NC=O)=C(O)C=C2)C=C1,Vemurafenib,CCCS(=O)(=O)NC1=C(F)C(C(=O)C2=CNC3=NC=C(C=C23)C2=CC=C(Cl)C=C2)=C(F)C=C1,Moderate
@@ -6094,7 +6035,6 @@ Ponatinib,CN1CCN(CC2=CC=C(NC(=O)C3=CC(C#CC4=CN=C5C=CC=NN45)=C(C)C=C3)C=C2C(F)(F)
 Mitotane,ClC(Cl)C(C1=CC=C(Cl)C=C1)C1=CC=CC=C1Cl,Fedratinib,CC1=CN=C(NC2=CC=C(OCCN3CCCC3)C=C2)N=C1NC1=CC=CC(=C1)S(=O)(=O)NC(C)(C)C,Major
 Azatadine,CN1CCC(CC1)=C1C2=CC=CC=C2CCC2=C1N=CC=C2,Clonazepam,[O-][N+](=O)C1=CC2=C(NC(=O)CN=C2C2=CC=CC=C2Cl)C=C1,Moderate
 Halofantrine,CCCCN(CCCC)CCC(O)C1=C2C=CC(=CC2=C2C=C(Cl)C=C(Cl)C2=C1)C(F)(F)F,Dabrafenib,CC(C)(C)C1=NC(=C(S1)C1=NC(N)=NC=C1)C1=C(F)C(NS(=O)(=O)C2=C(F)C=CC=C2F)=CC=C1,Moderate
-Carboplatin,[H][N]([H])([H])[Pt]1(OC(=O)C2(CCC2)C(=O)O1)[N]([H])([H])[H],Hydroxyurea,NC(=O)NO,Moderate
 Troglitazone,CC1=C(C)C2=C(CCC(C)(COC3=CC=C(CC4SC(=O)NC4=O)C=C3)O2)C(C)=C1O,Megestrol acetate,[H][C@@]12CC[C@](OC(C)=O)(C(C)=O)[C@@]1(C)CC[C@@]1([H])[C@@]2([H])C=C(C)C2=CC(=O)CC[C@]12C,Moderate
 Cladribine,NC1=C2N=CN([C@H]3C[C@H](O)[C@@H](CO)O3)C2=NC(Cl)=N1,Zanubrutinib,NC(=O)C1=C2NCC[C@@H](C3CCN(CC3)C(=O)C=C)N2N=C1C1=CC=C(OC2=CC=CC=C2)C=C1,Major
 Prednisolone,[H][C@@]12CC[C@](O)(C(=O)CO)[C@@]1(C)C[C@H](O)[C@@]1([H])[C@@]2([H])CCC2=CC(=O)C=C[C@]12C,Bupropion,CC(NC(C)(C)C)C(=O)C1=CC(Cl)=CC=C1,Major
@@ -6693,7 +6633,6 @@ Isradipine,COC(=O)C1=C(C)NC(C)=C(C1C1=CC=CC2=NON=C12)C(=O)OC(C)C,Aprepitant,C[C@
 Norgestrel,CCC12CCC3C(CCC4=CC(=O)CCC34)C1CCC2(O)C#C,Ertugliflozin,CCOC1=CC=C(CC2=CC(=CC=C2Cl)[C@]23OC[C@](CO)(O2)[C@@H](O)[C@H](O)[C@H]3O)C=C1,Moderate
 Ezogabine,CCOC(=O)NC1=C(N)C=C(NCC2=CC=C(F)C=C2)C=C1,Mepyramine,COC1=CC=C(CN(CCN(C)C)C2=NC=CC=C2)C=C1,Moderate
 Bicalutamide,CC(O)(CS(=O)(=O)C1=CC=C(F)C=C1)C(=O)NC1=CC(=C(C=C1)C#N)C(F)(F)F,Trabectedin,[H][C@@]12[C@@H]3SC[C@]4(NCCC5=C4C=C(OC)C(O)=C5)C(=O)OC[C@H](N1[C@@H](O)[C@@H]1CC4=CC(C)=C(OC)C(O)=C4[C@H]2N1C)C1=C2OCOC2=C(C)C(OC(C)=O)=C31,Moderate
-Zoledronic acid,OC(CN1C=CN=C1)(P(O)(O)=O)P(O)(O)=O,Cisplatin,[H][N]([H])([H])[Pt](Cl)(Cl)[N]([H])([H])[H],Moderate
 Esmolol,COC(=O)CCC1=CC=C(OCC(O)CNC(C)C)C=C1,Siponimod,CCC1=CC(=CC=C1CN1CC(C1)C(O)=O)C(C)=NOCC1=CC=C(C2CCCCC2)C(=C1)C(F)(F)F,Major
 Vemurafenib,CCCS(=O)(=O)NC1=C(F)C(C(=O)C2=CNC3=NC=C(C=C23)C2=CC=C(Cl)C=C2)=C(F)C=C1,Grazoprevir,COC1=CC2=NC3=C(CCCCC[C@@H]4C[C@H]4OC(=O)N[C@H](C(=O)N4C[C@@H](C[C@H]4C(=O)N[C@@]4(C[C@H]4C=C)C(=O)NS(=O)(=O)C4CC4)O3)C(C)(C)C)N=C2C=C1,Moderate
 Aminoglutethimide,CCC1(CCC(=O)NC1=O)C1=CC=C(N)C=C1,Rolapitant,C[C@@H](OC[C@]1(CC[C@]2(CCC(=O)N2)CN1)C1=CC=CC=C1)C1=CC(=CC(=C1)C(F)(F)F)C(F)(F)F,Moderate
@@ -6701,7 +6640,6 @@ Estradiol,[H][C@@]12CC[C@H](O)[C@@]1(C)CC[C@]1([H])C3=C(CC[C@@]21[H])C=C(O)C=C3,
 Disulfiram,CCN(CC)C(=S)SSC(=S)N(CC)CC,Aurothioglucose,OC[C@H]1O[C@H](S[Au])[C@H](O)[C@@H](O)[C@@H]1O,Moderate
 Thalidomide,O=C1N(C2CCC(=O)NC2=O)C(=O)C2=CC=CC=C12,Suvorexant,[H][C@@]1(C)CCN(CCN1C(=O)C1=C(C=CC(C)=C1)N1N=CC=N1)C1=NC2=C(O1)C=CC(Cl)=C2,Moderate
 Cisapride,CO[C@H]1CN(CCCOC2=CC=C(F)C=C2)CC[C@H]1NC(=O)C1=CC(Cl)=C(N)C=C1OC,Halothane,[H]C(Cl)(Br)C(F)(F)F,Major
-Torasemide,CC(C)NC(=O)NS(=O)(=O)C1=C(NC2=CC=CC(C)=C2)C=CN=C1,Cisplatin,[H][N]([H])([H])[Pt](Cl)(Cl)[N]([H])([H])[H],Moderate
 Epoprostenol,[H][C@]12C[C@@H](O)[C@H](C=C[C@@H](O)CCCCC)[C@@]1([H])CC(O2)=CCCCC(O)=O,Dapagliflozin,CCOC1=CC=C(CC2=C(Cl)C=CC(=C2)[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)C=C1,Moderate
 Trimethoprim,COC1=CC(CC2=CN=C(N)N=C2N)=CC(OC)=C1OC,Warfarin,CC(=O)CC(C1=CC=CC=C1)C1=C(O)C2=C(OC1=O)C=CC=C2,Moderate
 Triamcinolone,[H][C@@]12C[C@@H](O)[C@](O)(C(=O)CO)[C@@]1(C)C[C@H](O)[C@@]1(F)[C@@]2([H])CCC2=CC(=O)C=C[C@]12C,Dalfopristin,CCN(CC)CCS(=O)(=O)[C@@H]1CCN2[C@H]1C(=O)O[C@H](C(C)C)[C@H](C)C=CC(=O)NCC=CC(C)=C[C@@H](O)CC(=O)CC1=NC(=CO1)C2=O,Moderate
@@ -6838,7 +6776,6 @@ Baloxavir marboxil,[H][C@@]12COCCN1C(=O)C1=C(OCOC(=O)OC)C(=O)C=CN1N2[C@H]1C2=CC=
 Levothyroxine,N[C@@H](CC1=CC(I)=C(OC2=CC(I)=C(O)C(I)=C2)C(I)=C1)C(O)=O,Trimipramine,CC(CN(C)C)CN1C2=CC=CC=C2CCC2=CC=CC=C12,Moderate
 Rofecoxib,CS(=O)(=O)C1=CC=C(C=C1)C1=C(C(=O)OC1)C1=CC=CC=C1,Streptomycin,CN[C@H]1[C@H](O)[C@@H](O)[C@H](CO)O[C@H]1O[C@H]1[C@H](O[C@H]2[C@H](O)[C@@H](O)[C@H](NC(N)=N)[C@@H](O)[C@@H]2NC(N)=N)O[C@@H](C)[C@]1(O)C=O,Moderate
 Betamethasone,[H][C@@]12C[C@H](C)[C@](O)(C(=O)CO)[C@@]1(C)C[C@H](O)[C@@]1(F)[C@@]2([H])CCC2=CC(=O)C=C[C@]12C,Voriconazole,C[C@@H](C1=NC=NC=C1F)[C@](O)(CN1C=NC=N1)C1=C(F)C=C(F)C=C1,Moderate
-Cisplatin,[H][N]([H])([H])[Pt](Cl)(Cl)[N]([H])([H])[H],Diroximel fumarate,COC(=O)C=CC(=O)OCCN1C(=O)CCC1=O,Moderate
 Butabarbital,CCC(C)C1(CC)C(=O)NC(=O)NC1=O,Ixabepilone,[H][C@]12C[C@H](NC(=O)C[C@H](O)C(C)(C)C(=O)[C@H](C)[C@@H](O)[C@@H](C)CCC[C@@]1(C)O2)C(C)=CC1=CSC(C)=N1,Moderate
 Fingolimod,CCCCCCCCC1=CC=C(CCC(N)(CO)CO)C=C1,Selpercatinib,COC1=NC=C(CN2C3CC2CN(C3)C2=CC=C(C=N2)C2=CC(OCC(C)(C)O)=CN3N=CC(C#N)=C23)C=C1,Major
 Triamcinolone,[H][C@@]12C[C@@H](O)[C@](O)(C(=O)CO)[C@@]1(C)C[C@H](O)[C@@]1(F)[C@@]2([H])CCC2=CC(=O)C=C[C@]12C,Methyltestosterone,[H][C@@]12CC[C@](C)(O)[C@@]1(C)CC[C@@]1([H])[C@@]2([H])CCC2=CC(=O)CC[C@]12C,Moderate
@@ -6974,7 +6911,6 @@ Halofantrine,CCCCN(CCCC)CCC(O)C1=C2C=CC(=CC2=C2C=C(Cl)C=C(Cl)C2=C1)C(F)(F)F,Selp
 Dexamethasone,[H][C@@]12C[C@@H](C)[C@](O)(C(=O)CO)[C@@]1(C)C[C@H](O)[C@@]1(F)[C@@]2([H])CCC2=CC(=O)C=C[C@]12C,Voxelotor,CC(C)N1N=CC=C1C1=C(COC2=CC=CC(O)=C2C=O)C=CC=N1,Major
 Osilodrostat,FC1=C(C=CC(=C1)C#N)[C@H]1CCC2=CN=CN12,Selpercatinib,COC1=NC=C(CN2C3CC2CN(C3)C2=CC=C(C=N2)C2=CC(OCC(C)(C)O)=CN3N=CC(C#N)=C23)C=C1,Major
 Theophylline,CN1C2=C(NC=N2)C(=O)N(C)C1=O,Triazolam,CC1=NN=C2CN=C(C3=CC=CC=C3Cl)C3=C(C=CC(Cl)=C3)N12,Minor
-Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Thalidomide,O=C1N(C2CCC(=O)NC2=O)C(=O)C2=CC=CC=C12,Major
 Idarubicin,C[C@@H]1O[C@H](C[C@H](N)[C@@H]1O)O[C@H]1C[C@@](O)(CC2=C1C(O)=C1C(=O)C3=CC=CC=C3C(=O)C1=C2O)C(C)=O,Glecaprevir,[H][C@@]12CN(C(=O)[C@@]([H])(NC(=O)O[C@]3([H])CCC[C@@]3([H])OCC=CC(F)(F)C3=NC4=C(C=CC=C4)N=C3O1)C(C)(C)C)[C@@]([H])(C2)C(=O)N[C@@]1(C[C@H]1C(F)F)C(=O)NS(=O)(=O)C1(C)CC1,Moderate
 Butabarbital,CCC(C)C1(CC)C(=O)NC(=O)NC1=O,Darolutamide,C[C@@H](CN1C=CC(=N1)C1=CC=C(C#N)C(Cl)=C1)NC(=O)C1=NNC(=C1)C(C)O,Moderate
 Valsartan,CCCCC(=O)N(CC1=CC=C(C=C1)C1=CC=CC=C1C1=NNN=N1)[C@@H](C(C)C)C(O)=O,Ozanimod,CC(C)OC1=C(C=C(C=C1)C1=NC(=NO1)C1=C2CC[C@H](NCCO)C2=CC=C1)C#N,Moderate
@@ -7016,7 +6952,6 @@ Fenfluramine,CCNC(C)CC1=CC=CC(=C1)C(F)(F)F,Ethanol,CCO,Moderate
 Phenylpropanolamine,CC(N)C(O)C1=CC=CC=C1,Pseudoephedrine,CN[C@@H](C)[C@@H](O)C1=CC=CC=C1,Moderate
 Bosentan,COC1=CC=CC=C1OC1=C(NS(=O)(=O)C2=CC=C(C=C2)C(C)(C)C)N=C(N=C1OCCO)C1=NC=CC=N1,Copanlisib,COC1=C(OCCCN2CCOCC2)C=CC2=C1N=C(NC(=O)C1=CN=C(N)N=C1)N1CCN=C21,Moderate
 Vinblastine,[H][C@@]12N(C)C3=CC(OC)=C(C=C3[C@@]11CCN3CC=C[C@@](CC)([C@@H](OC(C)=O)[C@]2(O)C(=O)OC)[C@@]13[H])[C@]1(C[C@@]2([H])CN(C[C@](O)(CC)C2)CCC2=C1NC1=C2C=CC=C1)C(=O)OC,Lapatinib,CS(=O)(=O)CCNCC1=CC=C(O1)C1=CC2=C(C=C1)N=CN=C2NC1=CC(Cl)=C(OCC2=CC(F)=CC=C2)C=C1,Moderate
-Carboplatin,[H][N]([H])([H])[Pt]1(OC(=O)C2(CCC2)C(=O)O1)[N]([H])([H])[H],Plazomicin,CN[C@@H]1[C@@H](O)[C@@H](O[C@H]2[C@@H](C[C@H](N)[C@@H](O[C@H]3OC(CNCCO)=CC[C@H]3N)[C@@H]2O)NC(=O)[C@@H](O)CCN)OC[C@]1(C)O,Moderate
 Digitoxin,[H][C@@]1(CC[C@]2(O)[C@]3([H])CC[C@]4([H])C[C@H](CC[C@]4(C)[C@@]3([H])CC[C@]12C)O[C@H]1C[C@H](O)[C@H](O[C@H]2C[C@H](O)[C@H](O[C@H]3C[C@H](O)[C@H](O)[C@@H](C)O3)[C@@H](C)O2)[C@@H](C)O1)C1=CC(=O)OC1,Pasireotide,NCCCC[C@@H]1NC(=O)[C@@H](CC2=CNC3=C2C=CC=C3)NC(=O)[C@@H](NC(=O)[C@@H]2C[C@H](CN2C(=O)[C@H](CC2=CC=CC=C2)NC(=O)[C@H](CC2=CC=C(OCC3=CC=CC=C3)C=C2)NC1=O)OC(=O)NCCN)C1=CC=CC=C1,Moderate
 Erythromycin,CC[C@H]1OC(=O)[C@H](C)[C@@H](O[C@H]2C[C@@](C)(OC)[C@@H](O)[C@H](C)O2)[C@H](C)[C@@H](O[C@@H]2O[C@H](C)C[C@@H]([C@H]2O)N(C)C)[C@](C)(O)C[C@@H](C)C(=O)[C@H](C)[C@@H](O)[C@]1(C)O,Indinavir,CC(C)(C)NC(=O)[C@@H]1CN(CC2=CN=CC=C2)CCN1C[C@@H](O)C[C@@H](CC1=CC=CC=C1)C(=O)N[C@@H]1[C@H](O)CC2=CC=CC=C12,Major
 Lansoprazole,CC1=C(OCC(F)(F)F)C=CN=C1CS(=O)C1=NC2=CC=CC=C2N1,Hydrochlorothiazide,NS(=O)(=O)C1=C(Cl)C=C2NCNS(=O)(=O)C2=C1,Moderate
@@ -7412,7 +7347,6 @@ Aripiprazole,ClC1=CC=CC(N2CCN(CCCCOC3=CC4=C(CCC(=O)N4)C=C3)CC2)=C1Cl,Phenindamin
 Mesoridazine,CN1CCCCC1CCN1C2=C(SC3=C1C=C(C=C3)S(C)=O)C=CC=C2,Hydroxychloroquine,CCN(CCO)CCCC(C)NC1=C2C=CC(Cl)=CC2=NC=C1,Major
 Nateglinide,CC(C)[C@H]1CC[C@@H](CC1)C(=O)N[C@H](CC1=CC=CC=C1)C(O)=O,Propiomazine,CCC(=O)C1=CC2=C(SC3=CC=CC=C3N2CC(C)N(C)C)C=C1,Moderate
 Celecoxib,CC1=CC=C(C=C1)C1=CC(=NN1C1=CC=C(C=C1)S(N)(=O)=O)C(F)(F)F,Sodium sulfate,[Na+].[Na+].[O-]S([O-])(=O)=O,Moderate
-Cisplatin,[H][N]([H])([H])[Pt](Cl)(Cl)[N]([H])([H])[H],Etelcalcetide,C[C@@H](NC(=O)[C@@H](CCCNC(N)=N)NC(=O)[C@@H](CCCNC(N)=N)NC(=O)[C@@H](CCCNC(N)=N)NC(=O)[C@@H](C)NC(=O)[C@@H](CSSC[C@H](N)C(O)=O)NC(C)=O)C(=O)N[C@H](CCCNC(N)=N)C(N)=O,Major
 Repaglinide,CCOC1=C(C=CC(CC(=O)N[C@@H](CC(C)C)C2=CC=CC=C2N2CCCCC2)=C1)C(O)=O,Felbamate,NC(=O)OCC(COC(N)=O)C1=CC=CC=C1,Moderate
 Glyburide,COC1=C(C=C(Cl)C=C1)C(=O)NCCC1=CC=C(C=C1)S(=O)(=O)NC(=O)NC1CCCCC1,Omacetaxine mepesuccinate,[H][C@@]1(OC(=O)[C@@](O)(CCCC(C)(C)O)CC(=O)OC)C(OC)=C[C@]23CCCN2CCC2=CC4=C(OCO4)C=C2[C@]13[H],Moderate
 Atropine,CN1[C@H]2CC[C@@H]1C[C@@H](C2)OC(=O)C(CO)C1=CC=CC=C1,Macimorelin,CC(C)(N)C(=O)N[C@H](CC1=CNC2=CC=CC=C12)C(=O)N[C@H](CC1=CNC2=CC=CC=C12)NC=O,Moderate
@@ -7741,12 +7675,10 @@ Ponatinib,CN1CCN(CC2=CC=C(NC(=O)C3=CC(C#CC4=CN=C5C=CC=NN45)=C(C)C=C3)C=C2C(F)(F)
 Artesunate,[H][C@@]12CC[C@@H](C)[C@]3([H])CC[C@@]4(C)OO[C@@]13[C@]([H])(O[C@@H](OC(=O)CCC(O)=O)[C@@H]2C)O4,Enasidenib,CC(C)(O)CNC1=NC(=NC(NC2=CC(=NC=C2)C(F)(F)F)=N1)C1=NC(=CC=C1)C(F)(F)F,Moderate
 Liothyronine,N[C@@H](CC1=CC(I)=C(OC2=CC(I)=C(O)C=C2)C(I)=C1)C(O)=O,Metaraminol,C[C@H](N)[C@H](O)C1=CC(O)=CC=C1,Moderate
 Mecamylamine,CNC1(C)C2CCC(C2)C1(C)C,Iloprost,[H][C@]12C[C@@H](O)[C@H](C=C[C@@H](O)C(C)CC#CC)[C@@]1([H])CC(C2)=CCCCC(O)=O,Moderate
-Clofarabine,[H][C@]1(F)[C@H](O)[C@@H](CO)O[C@H]1N1C=NC2=C(N)N=C(Cl)N=C12,Carboplatin,[H][N]([H])([H])[Pt]1(OC(=O)C2(CCC2)C(=O)O1)[N]([H])([H])[H],Moderate
 Papaverine,COC1=C(OC)C=C(CC2=NC=CC3=CC(OC)=C(OC)C=C23)C=C1,Gilteritinib,CCC1=C(NC2CCOCC2)N=C(NC2=CC=C(N3CCC(CC3)N3CCN(C)CC3)C(OC)=C2)C(=N1)C(N)=O,Major
 Benzphetamine,C[C@@H](CC1=CC=CC=C1)N(C)CC1=CC=CC=C1,Fostamatinib,COC1=CC(NC2=NC=C(F)C(NC3=NC4=C(OC(C)(C)C(=O)N4COP(O)(O)=O)C=C3)=N2)=CC(OC)=C1OC,Moderate
 Nitroglycerin,[O-][N+](=O)OCC(CO[N+]([O-])=O)O[N+]([O-])=O,Selexipag,CC(C)N(CCCCOCC(=O)NS(C)(=O)=O)C1=NC(C2=CC=CC=C2)=C(N=C1)C1=CC=CC=C1,Moderate
 Pirbuterol,CC(C)(C)NCC(O)C1=NC(CO)=C(O)C=C1,Triptorelin,CC(C)C[C@H](NC(=O)[C@@H](CC1=CNC2=CC=CC=C12)NC(=O)[C@H](CC1=CC=C(O)C=C1)NC(=O)[C@H](CO)NC(=O)[C@H](CC1=CNC2=C1C=CC=C2)NC(=O)[C@H](CC1=CNC=N1)NC(=O)[C@@H]1CCC(=O)N1)C(=O)N[C@@H](CCCNC(N)=N)C(=O)N1CCC[C@H]1C(=O)NCC(N)=O,Moderate
-Cerivastatin,COCC1=C(C2=CC=C(F)C=C2)C(C=C[C@@H](O)C[C@@H](O)CC(O)=O)=C(C(C)C)N=C1C(C)C,Cisplatin,[H][N]([H])([H])[Pt](Cl)(Cl)[N]([H])([H])[H],Moderate
 Triprolidine,CC1=CC=C(C=C1)C(=C/CN1CCCC1)C1=CC=CC=N1,Alfentanil,CCN1N=NN(CCN2CCC(COC)(CC2)N(C(=O)CC)C2=CC=CC=C2)C1=O,Moderate
 Eszopiclone,CN1CCN(CC1)C(=O)O[C@@H]1N(C(=O)C2=NC=CN=C12)C1=NC=C(Cl)C=C1,Hydrocodone,[H][C@@]12OC3=C(OC)C=CC4=C3[C@@]11CCN(C)[C@]([H])(C4)[C@]1([H])CCC2=O,Major
 Magnesium hydroxide,[OH-].[OH-].[Mg++],Magnesium carbonate,[Mg++].[O-]C([O-])=O,Moderate
@@ -7867,7 +7799,6 @@ Valbenazine,COC1=C(OC)C=C2[C@H]3C[C@@H](OC(=O)[C@@H](N)C(C)C)[C@H](CC(C)C)CN3CCC
 Pirfenidone,CC1=CN(C(=O)C=C1)C1=CC=CC=C1,Eslicarbazepine,NC(=O)N1C2=C(C[C@H](O)C3=C1C=CC=C3)C=CC=C2,Moderate
 Glimepiride,CCC1=C(C)CN(C(=O)NCCC2=CC=C(C=C2)S(=O)(=O)NC(=O)N[C@H]2CC[C@H](C)CC2)C1=O,Meloxicam,CN1C(C(=O)NC2=NC=C(C)S2)=C(O)C2=C(C=CC=C2)S1(=O)=O,Moderate
 Toremifene,CN(C)CCOC1=CC=C(C=C1)C(=C(CCCl)C1=CC=CC=C1)C1=CC=CC=C1,Lactulose,OC[C@H]1O[C@](O)(CO)[C@@H](O)[C@@H]1O[C@@H]1O[C@H](CO)[C@H](O)[C@H](O)[C@H]1O,Moderate
-Lovastatin,[H][C@]12[C@H](C[C@@H](C)C=C1C=C[C@H](C)[C@@H]2CC[C@@H]1C[C@@H](O)CC(=O)O1)OC(=O)[C@@H](C)CC,Carboplatin,[H][N]([H])([H])[Pt]1(OC(=O)C2(CCC2)C(=O)O1)[N]([H])([H])[H],Moderate
 Tasimelteon,CCC(=O)NC[C@@H]1C[C@H]1C1=CC=CC2=C1CCO2,Rucaparib,CNCC1=CC=C(C=C1)C1=C2CCNC(=O)C3=C2C(N1)=CC(F)=C3,Moderate
 Benzatropine,[H][C@]12CC[C@]([H])(C[C@@]([H])(C1)OC(C1=CC=CC=C1)C1=CC=CC=C1)N2C,Acrivastine,[H]C(CN1CCCC1)=C(C1=CC=C(C)C=C1)C1=CC=CC(=N1)C([H])=C(/[H])C(O)=O,Moderate
 Citalopram,CN(C)CCCC1(OCC2=C1C=CC(=C2)C#N)C1=CC=C(F)C=C1,Indacaterol,CCC1=C(CC)C=C2CC(CC2=C1)NC[C@H](O)C1=C2C=CC(=O)NC2=C(O)C=C1,Moderate
@@ -7876,7 +7807,6 @@ Methylprednisolone,[H][C@@]12CC[C@](O)(C(=O)CO)[C@@]1(C)C[C@H](O)[C@@]1([H])[C@@
 Diethylstilbestrol,CCC(=C(CC)C1=CC=C(O)C=C1)C1=CC=C(O)C=C1,Budesonide,[H][C@@]12C[C@H]3OC(CCC)O[C@@]3(C(=O)CO)[C@@]1(C)C[C@H](O)[C@@]1([H])[C@@]2([H])CCC2=CC(=O)C=C[C@]12C,Moderate
 Crizotinib,C[C@@H](OC1=CC(=CN=C1N)C1=CN(N=C1)C1CCNCC1)C1=C(Cl)C=CC(F)=C1Cl,Magnesium citrate,[Mg++].[Mg++].[Mg++].OC(CC([O-])=O)(CC([O-])=O)C([O-])=O.OC(CC([O-])=O)(CC([O-])=O)C([O-])=O,Moderate
 Abarelix,CC(C)C[C@H](NC(=O)[C@@H](CC(N)=O)NC(=O)[C@H](CC1=CC=C(O)C=C1)N(C)C(=O)[C@H](CO)NC(=O)[C@@H](CC1=CN=CC=C1)NC(=O)[C@@H](CC1=CC=C(Cl)C=C1)NC(=O)[C@@H](CC1=CC2=C(C=CC=C2)C=C1)NC(C)=O)C(=O)N[C@@H](CCCCNC(C)C)C(=O)N1CCC[C@H]1C(=O)N[C@H](C)C(N)=O,Salbutamol,CC(C)(C)NCC(O)C1=CC(CO)=C(O)C=C1,Moderate
-Carboplatin,[H][N]([H])([H])[Pt]1(OC(=O)C2(CCC2)C(=O)O1)[N]([H])([H])[H],Mercaptopurine,S=C1N=CNC2=C1NC=N2,Moderate
 Sertraline,CN[C@H]1CC[C@@H](C2=CC(Cl)=C(Cl)C=C2)C2=CC=CC=C12,Ioflupane I-123,[H][C@]12CC[C@]([H])([C@H]([C@H](C1)C1=CC=C([123I])C=C1)C(=O)OC)N2CCCF,Moderate
 Betaxolol,CC(C)NCC(O)COC1=CC=C(CCOCC2CC2)C=C1,Gadobutrol,OC[C@H](O)[C@H](CO)[N+]12CC[N+]3(CC([O-])=O)CC[N+]4(CC([O-])=O)CC[N+](CC([O-])=O)(CC1)[Gd-]234,Moderate
 Cyclosporine,CC[C@@H]1NC(=O)[C@H]([C@H](O)[C@H](C)CC=CC)N(C)C(=O)[C@H](C(C)C)N(C)C(=O)[C@H](CC(C)C)N(C)C(=O)[C@H](CC(C)C)N(C)C(=O)[C@@H](C)NC(=O)[C@H](C)NC(=O)[C@H](CC(C)C)N(C)C(=O)[C@@H](NC(=O)[C@H](CC(C)C)N(C)C(=O)CN(C)C1=O)C(C)C,Itraconazole,CCC(C)N1N=CN(C1=O)C1=CC=C(C=C1)N1CCN(CC1)C1=CC=C(OC[C@H]2CO[C@@](CN3C=NC=N3)(O2)C2=C(Cl)C=C(Cl)C=C2)C=C1,Major
@@ -7951,7 +7881,6 @@ Miglitol,OCCN1C[C@H](O)[C@@H](O)[C@H](O)[C@H]1CO,Fenfluramine,CCNC(C)CC1=CC=CC(=
 Dronabinol,[H][C@@]12C=C(C)CC[C@@]1([H])C(C)(C)OC1=C2C(O)=CC(CCCCC)=C1,Tripelennamine,CN(C)CCN(CC1=CC=CC=C1)C1=CC=CC=N1,Moderate
 Rifapentine,CO[C@H]1C=CO[C@@]2(C)OC3=C(C2=O)C2=C(C(O)=C3C)C(O)=C(NC(=O)C(C)=C/C=C/[C@H](C)[C@H](O)[C@@H](C)[C@@H](O)[C@@H](C)[C@H](OC(C)=O)[C@@H]1C)C(C=NN1CCN(CC1)C1CCCC1)=C2O,Linagliptin,CC#CCN1C(=NC2=C1C(=O)N(CC1=NC3=C(C=CC=C3)C(C)=N1)C(=O)N2C)N1CCC[C@@H](N)C1,Moderate
 Picosulfuric acid,OS(=O)(=O)OC1=CC=C(C=C1)C(C1=CC=C(OS(O)(=O)=O)C=C1)C1=CC=CC=N1,Lefamulin,[H][C@@]12C(=O)CC[C@]11CCC(C)[C@@]2(C)[C@@H](C[C@@](C)(C=C)[C@@H](O)[C@@H]1C)OC(=O)CS[C@@H]1CC[C@@H](N)C[C@H]1O,Moderate
-Beclomethasone dipropionate,[H][C@@]12C[C@H](C)[C@](OC(=O)CC)(C(=O)COC(=O)CC)[C@@]1(C)C[C@H](O)[C@@]1(Cl)[C@@]2([H])CCC2=CC(=O)C=C[C@]12C,Cisplatin,[H][N]([H])([H])[Pt](Cl)(Cl)[N]([H])([H])[H],Moderate
 Isoprenaline,CC(C)NCC(O)C1=CC(O)=C(O)C=C1,Desvenlafaxine,CN(C)CC(C1=CC=C(O)C=C1)C1(O)CCCCC1,Moderate
 Cimetidine,CNC(NCCSCC1=C(C)NC=N1)=NC#N,Eliglustat,CCCCCCCC(=O)N[C@H](CN1CCCC1)[C@H](O)C1=CC=C2OCCOC2=C1,Major
 Miglitol,OCCN1C[C@H](O)[C@@H](O)[C@H](O)[C@H]1CO,Dopamine,NCCC1=CC(O)=C(O)C=C1,Moderate
@@ -8017,7 +7946,6 @@ Epinephrine,CNC[C@H](O)C1=CC(O)=C(O)C=C1,Nebivolol,OC(CNCC(O)C1CCC2=C(O1)C=CC(F)
 Orciprenaline,CC(C)NCC(O)C1=CC(O)=CC(O)=C1,Ritodrine,C[C@@H](NCCC1=CC=C(O)C=C1)[C@@H](O)C1=CC=C(O)C=C1,Moderate
 Nizatidine,CNC(NCCSCC1=CSC(CN(C)C)=N1)=C[N+]([O-])=O,Velpatasvir,COC[C@H]1C[C@H](N(C1)C(=O)[C@H](NC(=O)OC)C1=CC=CC=C1)C1=NC=C(N1)C1=CC=C2C(COC3=CC4=C(C=CC5=C4NC(=N5)[C@@H]4CC[C@H](C)N4C(=O)[C@@H](NC(=O)OC)C(C)C)C=C23)=C1,Moderate
 Primidone,CCC1(C(=O)NCNC1=O)C1=CC=CC=C1,Mepyramine,COC1=CC=C(CN(CCN(C)C)C2=NC=CC=C2)C=C1,Moderate
-Mitomycin,[H][C@]12CN3C4=C([C@@H](COC(N)=O)[C@@]3(OC)[C@@]1([H])N2)C(=O)C(N)=C(C)C4=O,Carboplatin,[H][N]([H])([H])[Pt]1(OC(=O)C2(CCC2)C(=O)O1)[N]([H])([H])[H],Moderate
 Quinine,[H][C@]1(C[C@@H]2CC[N@]1C[C@@H]2C=C)[C@H](O)C1=CC=NC2=CC=C(OC)C=C12,Thalidomide,O=C1N(C2CCC(=O)NC2=O)C(=O)C2=CC=CC=C12,Moderate
 Propranolol,CC(C)NCC(O)COC1=CC=CC2=C1C=CC=C2,Gadofosveset trisodium,[Na+].[Na+].[Na+].[Gd+3].[O-]C(=O)CN(CCN(CC([O-])=O)CC([O-])=O)C[C@H](COP([O-])(=O)OC1CCC(CC1)(C1=CC=CC=C1)C1=CC=CC=C1)N(CC([O-])=O)CC([O-])=O,Moderate
 Morphine,[H][C@@]12OC3=C(O)C=CC4=C3[C@@]11CCN(C)[C@]([H])(C4)[C@]1([H])C=C[C@@H]2O,Isosorbide dinitrate,[H][C@]12OC[C@H](O[N+]([O-])=O)[C@@]1([H])OC[C@H]2O[N+]([O-])=O,Moderate
@@ -8246,7 +8174,6 @@ Methyldopa,C[C@](N)(CC1=CC=C(O)C(O)=C1)C(O)=O,Canagliflozin,[H][C@]1(O[C@H](CO)[
 Aprepitant,C[C@@H](O[C@H]1OCCN(CC2=NNC(=O)N2)[C@H]1C1=CC=C(F)C=C1)C1=CC(=CC(=C1)C(F)(F)F)C(F)(F)F,Pazopanib,CN(C1=CC2=NN(C)C(C)=C2C=C1)C1=CC=NC(NC2=CC=C(C)C(=C2)S(N)(=O)=O)=N1,Moderate
 Dasatinib,CC1=NC(NC2=NC=C(S2)C(=O)NC2=C(C)C=CC=C2Cl)=CC(=N1)N1CCN(CCO)CC1,Niraparib,NC(=O)C1=CC=CC2=CN(N=C12)C1=CC=C(C=C1)[C@@H]1CCCNC1,Moderate
 Ranolazine,COC1=CC=CC=C1OCC(O)CN1CCN(CC(=O)NC2=C(C)C=CC=C2C)CC1,Vemurafenib,CCCS(=O)(=O)NC1=C(F)C(C(=O)C2=CNC3=NC=C(C=C23)C2=CC=C(Cl)C=C2)=C(F)C=C1,Major
-Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Ezogabine,CCOC(=O)NC1=C(N)C=C(NCC2=CC=C(F)C=C2)C=C1,Moderate
 Disopyramide,CC(C)N(CCC(C(N)=O)(C1=CC=CC=C1)C1=NC=CC=C1)C(C)C,Clidinium,C[N@@+]12CC[C@@H](CC1)C(C2)OC(=O)C(O)(C1=CC=CC=C1)C1=CC=CC=C1,Moderate
 Orciprenaline,CC(C)NCC(O)C1=CC(O)=CC(O)=C1,Rucaparib,CNCC1=CC=C(C=C1)C1=C2CCNC(=O)C3=C2C(N1)=CC(F)=C3,Moderate
 Disopyramide,CC(C)N(CCC(C(N)=O)(C1=CC=CC=C1)C1=NC=CC=C1)C(C)C,Lidocaine,CCN(CC)CC(=O)NC1=C(C)C=CC=C1C,Moderate
@@ -8832,7 +8759,6 @@ Amitriptyline,CN(C)CCC=C1C2=CC=CC=C2CCC2=CC=CC=C12,Clarithromycin,[H][C@@]1(C[C@
 Ranolazine,COC1=CC=CC=C1OCC(O)CN1CCN(CC(=O)NC2=C(C)C=CC=C2C)CC1,Simvastatin,[H][C@]12[C@H](C[C@@H](C)C=C1C=C[C@H](C)[C@@H]2CC[C@@H]1C[C@@H](O)CC(=O)O1)OC(=O)C(C)(C)CC,Major
 Verapamil,COC1=C(OC)C=C(CCN(C)CCCC(C#N)(C(C)C)C2=CC(OC)=C(OC)C=C2)C=C1,Dexamethasone,[H][C@@]12C[C@@H](C)[C@](O)(C(=O)CO)[C@@]1(C)C[C@H](O)[C@@]1(F)[C@@]2([H])CCC2=CC(=O)C=C[C@]12C,Moderate
 Lactulose,OC[C@H]1O[C@](O)(CO)[C@@H](O)[C@@H]1O[C@@H]1O[C@H](CO)[C@H](O)[C@H](O)[C@H]1O,Midostaurin,CO[C@@H]1[C@@H](C[C@H]2O[C@]1(C)N1C3=C(C=CC=C3)C3=C1C1=C(C4=C(C=CC=C4)N21)C1=C3CNC1=O)N(C)C(=O)C1=CC=CC=C1,Moderate
-Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Sulfamethoxazole,CC1=CC(NS(=O)(=O)C2=CC=C(N)C=C2)=NO1,Minor
 Dapsone,NC1=CC=C(C=C1)S(=O)(=O)C1=CC=C(N)C=C1,Teriflunomide,CC(O)=C(/C#N)C(=O)NC1=CC=C(C=C1)C(F)(F)F,Moderate
 Metoprolol,COCCC1=CC=C(OCC(O)CNC(C)C)C=C1,Epinephrine,CNC[C@H](O)C1=CC(O)=C(O)C=C1,Moderate
 Tretinoin,CC(C=CC1=C(C)CCCC1(C)C)=C/C=C/C(/C)=C/C(O)=O,Cinoxacin,CCN1N=C(C(O)=O)C(=O)C2=CC3=C(OCO3)C=C12,Minor
@@ -8967,7 +8893,6 @@ Amitriptyline,CN(C)CCC=C1C2=CC=CC=C2CCC2=CC=CC=C12,Doxylamine,CN(C)CCOC(C)(C1=CC
 Alfentanil,CCN1N=NN(CCN2CCC(COC)(CC2)N(C(=O)CC)C2=CC=CC=C2)C1=O,Lapatinib,CS(=O)(=O)CCNCC1=CC=C(O1)C1=CC2=C(C=C1)N=CN=C2NC1=CC(Cl)=C(OCC2=CC(F)=CC=C2)C=C1,Moderate
 Calcium gluconate,[Ca++].[H][C@@](O)(CO)[C@@]([H])(O)[C@]([H])(O)[C@@]([H])(O)C([O-])=O.[H][C@@](O)(CO)[C@@]([H])(O)[C@]([H])(O)[C@@]([H])(O)C([O-])=O,Sarecycline,[H][C@@]12CC3=C(CN(C)OC)C=CC(O)=C3C(=O)C1=C(O)[C@]1(O)C(=O)C(C(N)=O)=C(O)[C@@H](N(C)C)[C@]1([H])C2,Moderate
 Hydrocodone,[H][C@@]12OC3=C(OC)C=CC4=C3[C@@]11CCN(C)[C@]([H])(C4)[C@]1([H])CCC2=O,Lasmiditan,CN1CCC(CC1)C(=O)C1=CC=CC(NC(=O)C2=C(F)C=C(F)C=C2F)=N1,Moderate
-Imatinib,CN1CCN(CC2=CC=C(C=C2)C(=O)NC2=CC(NC3=NC=CC(=N3)C3=CN=CC=C3)=C(C)C=C2)CC1,Carboplatin,[H][N]([H])([H])[Pt]1(OC(=O)C2(CCC2)C(=O)O1)[N]([H])([H])[H],Moderate
 Pioglitazone,CCC1=CN=C(CCOC2=CC=C(CC3SC(=O)NC3=O)C=C2)C=C1,Rufinamide,NC(=O)C1=CN(CC2=C(F)C=CC=C2F)N=N1,Moderate
 Foscarnet,OC(=O)P(O)(O)=O,Fludrocortisone,[H][C@@]12CC[C@](O)(C(=O)CO)[C@@]1(C)C[C@H](O)[C@@]1(F)[C@@]2([H])CCC2=CC(=O)CC[C@]12C,Moderate
 Sulfinpyrazone,O=C1C(CCS(=O)C2=CC=CC=C2)C(=O)N(N1C1=CC=CC=C1)C1=CC=CC=C1,Fostamatinib,COC1=CC(NC2=NC=C(F)C(NC3=NC4=C(OC(C)(C)C(=O)N4COP(O)(O)=O)C=C3)=N2)=CC(OC)=C1OC,Moderate
@@ -8995,13 +8920,11 @@ Ribociclib,CN(C)C(=O)C1=CC2=CN=C(NC3=CC=C(C=N3)N3CCNCC3)N=C2N1C1CCCC1,Entrectini
 Tamoxifen,CCC(=C(/C1=CC=CC=C1)C1=CC=C(OCCN(C)C)C=C1)C1=CC=CC=C1,Buprenorphine,CO[C@]12CC[C@@]3(C[C@@H]1[C@](C)(O)C(C)(C)C)[C@H]1CC4=C5C(O[C@@H]2[C@@]35CCN1CC1CC1)=C(O)C=C4,Moderate
 Fedratinib,CC1=CN=C(NC2=CC=C(OCCN3CCCC3)C=C2)N=C1NC1=CC=CC(=C1)S(=O)(=O)NC(C)(C)C,Zanubrutinib,NC(=O)C1=C2NCC[C@@H](C3CCN(CC3)C(=O)C=C)N2N=C1C1=CC=C(OC2=CC=CC=C2)C=C1,Major
 Hydrocortisone,[H][C@@]12CC[C@](O)(C(=O)CO)[C@@]1(C)C[C@H](O)[C@@]1([H])[C@@]2([H])CCC2=CC(=O)CC[C@]12C,Pramlintide,[H]N[C@@H](CCCCN)C(=O)N[C@H]1CSSC[C@H](NC(=O)[C@@]([H])(NC(=O)[C@H](C)NC(=O)[C@@]([H])(NC(=O)[C@H](CC(N)=O)NC1=O)[C@@H](C)O)[C@@H](C)O)C(=O)N[C@@H](C)C(=O)N[C@@]([H])([C@@H](C)O)C(=O)N[C@@H](CCC(N)=O)C(=O)N[C@@H](CCCNC(N)=N)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](C)C(=O)N[C@@H](CC(N)=O)C(=O)N[C@@H](CC1=CC=CC=C1)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](C(C)C)C(=O)N[C@@H](CC1=CN=CN1)C(=O)N[C@@H](CO)C(=O)N[C@@H](CO)C(=O)N[C@@H](CC(N)=O)C(=O)N[C@@H](CC(N)=O)C(=O)N[C@@H](CC1=CC=CC=C1)C(=O)NCC(=O)N1CCC[C@H]1C(=O)N[C@@]([H])([C@@H](C)CC)C(=O)N[C@@H](CC(C)C)C(=O)N1CCC[C@H]1C(=O)N1CCC[C@H]1C(=O)N[C@@]([H])([C@@H](C)O)C(=O)N[C@@H](CC(N)=O)C(=O)N[C@@H](C(C)C)C(=O)NCC(=O)N[C@@H](CO)C(=O)N[C@@H](CC(N)=O)C(=O)N[C@@]([H])([C@@H](C)O)C(=O)N[C@@H](CC1=CC=C(O)C=C1)C(N)=O,Moderate
-Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Dacarbazine,CN(C)N=NC1=C(N=CN1)C(N)=O,Moderate
 Efavirenz,FC(F)(F)[C@]1(OC(=O)NC2=C1C=C(Cl)C=C2)C#CC1CC1,Tretinoin,CC(C=CC1=C(C)CCCC1(C)C)=C/C=C/C(/C)=C/C(O)=O,Moderate
 Loperamide,CN(C)C(=O)C(CCN1CCC(O)(CC1)C1=CC=C(Cl)C=C1)(C1=CC=CC=C1)C1=CC=CC=C1,Encorafenib,COC(=O)N[C@@H](C)CNC1=NC=CC(=N1)C1=CN(N=C1C1=CC(Cl)=CC(NS(C)(=O)=O)=C1F)C(C)C,Moderate
 Mifepristone,[H][C@@]12CC[C@@](O)(C#CC)[C@@]1(C)C[C@H](C1=CC=C(C=C1)N(C)C)C1=C3CCC(=O)C=C3CC[C@@]21[H],Vorapaxar,[H][C@@]12C[C@]3([H])C[C@@H](CC[C@@]3([H])[C@H](C=CC3=CC=C(C=N3)C3=CC(F)=CC=C3)[C@]1([H])[C@@H](C)OC2=O)NC(=O)OCC,Major
 Sufentanil,CCC(=O)N(C1=CC=CC=C1)C1(COC)CCN(CCC2=CC=CS2)CC1,Dicyclomine,CCN(CC)CCOC(=O)C1(CCCCC1)C1CCCCC1,Moderate
 Papaverine,COC1=C(OC)C=C(CC2=NC=CC3=CC(OC)=C(OC)C=C23)C=C1,Osilodrostat,FC1=C(C=CC(=C1)C#N)[C@H]1CCC2=CN=CN12,Major
-Cisplatin,[H][N]([H])([H])[Pt](Cl)(Cl)[N]([H])([H])[H],Diazoxide,CC1=NS(=O)(=O)C2=C(N1)C=CC(Cl)=C2,Minor
 Cinoxacin,CCN1N=C(C(O)=O)C(=O)C2=CC3=C(OCO3)C=C12,Paclitaxel,[H][C@]12[C@H](OC(=O)C3=CC=CC=C3)[C@]3(O)C[C@H](OC(=O)[C@H](O)[C@@H](NC(=O)C4=CC=CC=C4)C4=CC=CC=C4)C(C)=C([C@@H](OC(C)=O)C(=O)[C@]1(C)[C@@H](O)C[C@H]1OC[C@@]21OC(C)=O)C3(C)C,Minor
 Thiabendazole,N1C2=CC=CC=C2N=C1C1=CSC=N1,Rasagiline,C#CCN[C@@H]1CCC2=CC=CC=C12,Major
 Cholecalciferol,CC(C)CCC[C@@H](C)[C@@]1([H])CC[C@@]2([H])C(CCC[C@]12C)=CC=C1C[C@@H](O)CCC1=C,Rufinamide,NC(=O)C1=CN(CC2=C(F)C=CC=C2F)N=N1,Moderate
@@ -9019,7 +8942,6 @@ Nevirapine,CC1=C2NC(=O)C3=C(N=CC=C3)N(C3CC3)C2=NC=C1,Sunitinib,CCN(CC)CCNC(=O)C1
 Betrixaban,COC1=CC=C(NC(=O)C2=CC=C(C=C2)C(=N)N(C)C)C(=C1)C(=O)NC1=CC=C(Cl)C=N1,Fedratinib,CC1=CN=C(NC2=CC=C(OCCN3CCCC3)C=C2)N=C1NC1=CC=CC(=C1)S(=O)(=O)NC(C)(C)C,Major
 Cyclosporine,CC[C@@H]1NC(=O)[C@H]([C@H](O)[C@H](C)CC=CC)N(C)C(=O)[C@H](C(C)C)N(C)C(=O)[C@H](CC(C)C)N(C)C(=O)[C@H](CC(C)C)N(C)C(=O)[C@@H](C)NC(=O)[C@H](C)NC(=O)[C@H](CC(C)C)N(C)C(=O)[C@@H](NC(=O)[C@H](CC(C)C)N(C)C(=O)CN(C)C1=O)C(C)C,Amobarbital,CCC1(CCC(C)C)C(=O)NC(=O)NC1=O,Moderate
 Riluzole,NC1=NC2=C(S1)C=C(OC(F)(F)F)C=C2,Obeticholic acid,[H][C@@]1(CC[C@@]2([H])[C@]3([H])[C@H](O)[C@H](CC)[C@]4([H])C[C@H](O)CC[C@]4(C)[C@@]3([H])CC[C@]12C)[C@H](C)CCC(O)=O,Moderate
-Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Tacrolimus,CO[C@@H]1C[C@@H](CC[C@H]1O)C=C(/C)[C@H]1OC(=O)[C@@H]2CCCCN2C(=O)C(=O)[C@]2(O)O[C@@H]([C@H](C[C@H]2C)OC)[C@H](C[C@@H](C)CC(C)=C[C@@H](CC=C)C(=O)C[C@H](O)[C@H]1C)OC,Moderate
 Bromocriptine,[H][C@@]12CCCN1C(=O)[C@H](CC(C)C)N1C(=O)[C@](NC(=O)[C@H]3CN(C)[C@]4([H])CC5=C(Br)NC6=CC=CC(=C56)C4=C3)(O[C@@]21O)C(C)C,Brigatinib,COC1=CC(=CC=C1NC1=NC=C(Cl)C(NC2=CC=CC=C2P(C)(C)=O)=N1)N1CCC(CC1)N1CCN(C)CC1,Moderate
 Streptozocin,CN(N=O)C(=O)N[C@H]1[C@@H](O)O[C@H](CO)[C@@H](O)[C@@H]1O,Iopamidol,C[C@H](O)C(=O)NC1=C(I)C(C(=O)NC(CO)CO)=C(I)C(C(=O)NC(CO)CO)=C1I,Major
 Pasireotide,NCCCC[C@@H]1NC(=O)[C@@H](CC2=CNC3=C2C=CC=C3)NC(=O)[C@@H](NC(=O)[C@@H]2C[C@H](CN2C(=O)[C@H](CC2=CC=CC=C2)NC(=O)[C@H](CC2=CC=C(OCC3=CC=CC=C3)C=C2)NC1=O)OC(=O)NCCN)C1=CC=CC=C1,Levamlodipine,CCOC(=O)C1=C(COCCN)NC(C)=C([C@@H]1C1=CC=CC=C1Cl)C(=O)OC,Moderate
@@ -9044,7 +8966,6 @@ Nabilone,[H][C@@]12CC(=O)CC[C@@]1([H])C(C)(C)OC1=CC(=CC(O)=C21)C(C)(C)CCCCCC,Ilo
 Cladribine,NC1=C2N=CN([C@H]3C[C@H](O)[C@@H](CO)O3)C2=NC(Cl)=N1,Fingolimod,CCCCCCCCC1=CC=C(CCC(N)(CO)CO)C=C1,Major
 Indium In-111 oxyquinoline,[111In+3].[O-]C1=CC=CC2=C1N=CC=C2.[O-]C1=CC=CC2=C1N=CC=C2.[O-]C1=CC=CC2=C1N=CC=C2,Fluticasone,[H][C@@]12C[C@@H](C)[C@](O)(C(=O)SCF)[C@@]1(C)C[C@H](O)[C@@]1(F)[C@@]2([H])C[C@H](F)C2=CC(=O)C=C[C@]12C,Moderate
 Zolpidem,CN(C)C(=O)CC1=C(N=C2C=CC(C)=CN12)C1=CC=C(C)C=C1,Enzalutamide,CNC(=O)C1=C(F)C=C(C=C1)N1C(=S)N(C(=O)C1(C)C)C1=CC=C(C#N)C(=C1)C(F)(F)F,Moderate
-Cisplatin,[H][N]([H])([H])[Pt](Cl)(Cl)[N]([H])([H])[H],Amisulpride,CCN1CCCC1CNC(=O)C1=CC(=C(N)C=C1OC)S(=O)(=O)CC,Moderate
 Ritonavir,CC(C)[C@H](NC(=O)N(C)CC1=CSC(=N1)C(C)C)C(=O)N[C@H](C[C@H](O)[C@H](CC1=CC=CC=C1)NC(=O)OCC1=CN=CS1)CC1=CC=CC=C1,Pramlintide,[H]N[C@@H](CCCCN)C(=O)N[C@H]1CSSC[C@H](NC(=O)[C@@]([H])(NC(=O)[C@H](C)NC(=O)[C@@]([H])(NC(=O)[C@H](CC(N)=O)NC1=O)[C@@H](C)O)[C@@H](C)O)C(=O)N[C@@H](C)C(=O)N[C@@]([H])([C@@H](C)O)C(=O)N[C@@H](CCC(N)=O)C(=O)N[C@@H](CCCNC(N)=N)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](C)C(=O)N[C@@H](CC(N)=O)C(=O)N[C@@H](CC1=CC=CC=C1)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](C(C)C)C(=O)N[C@@H](CC1=CN=CN1)C(=O)N[C@@H](CO)C(=O)N[C@@H](CO)C(=O)N[C@@H](CC(N)=O)C(=O)N[C@@H](CC(N)=O)C(=O)N[C@@H](CC1=CC=CC=C1)C(=O)NCC(=O)N1CCC[C@H]1C(=O)N[C@@]([H])([C@@H](C)CC)C(=O)N[C@@H](CC(C)C)C(=O)N1CCC[C@H]1C(=O)N1CCC[C@H]1C(=O)N[C@@]([H])([C@@H](C)O)C(=O)N[C@@H](CC(N)=O)C(=O)N[C@@H](C(C)C)C(=O)NCC(=O)N[C@@H](CO)C(=O)N[C@@H](CC(N)=O)C(=O)N[C@@]([H])([C@@H](C)O)C(=O)N[C@@H](CC1=CC=C(O)C=C1)C(N)=O,Moderate
 Betaxolol,CC(C)NCC(O)COC1=CC=C(CCOCC2CC2)C=C1,Formoterol,COC1=CC=C(CC(C)NCC(O)C2=CC(NC=O)=C(O)C=C2)C=C1,Moderate
 Dexmethylphenidate,[H][C@@](C(=O)OC)(C1=CC=CC=C1)[C@@]1([H])CCCCN1,Iopamidol,C[C@H](O)C(=O)NC1=C(I)C(C(=O)NC(CO)CO)=C(I)C(C(=O)NC(CO)CO)=C1I,Major
@@ -9240,7 +9161,6 @@ Chlorpropamide,CCCNC(=O)NS(=O)(=O)C1=CC=C(Cl)C=C1,Alpelisib,CC1=C(SC(NC(=O)N2CCC
 Clotrimazole,ClC1=CC=CC=C1C(N1C=CN=C1)(C1=CC=CC=C1)C1=CC=CC=C1,Silodosin,C[C@H](CC1=CC2=C(N(CCCO)CC2)C(=C1)C(N)=O)NCCOC1=CC=CC=C1OCC(F)(F)F,Moderate
 Foscarnet,OC(=O)P(O)(O)=O,Isoprenaline,CC(C)NCC(O)C1=CC(O)=C(O)C=C1,Moderate
 Eprosartan,CCCCC1=NC=C(C=C(/CC2=CC=CS2)C(O)=O)N1CC1=CC=C(C=C1)C(O)=O,Doxepin,[H]C(CCN(C)C)=C1C2=CC=CC=C2COC2=CC=CC=C12,Moderate
-Carboplatin,[H][N]([H])([H])[Pt]1(OC(=O)C2(CCC2)C(=O)O1)[N]([H])([H])[H],Samarium (153Sm) lexidronam,[153Sm+3].OP(O)(=O)CN(CCN(CP(O)([O-])=O)CP(O)([O-])=O)CP(O)([O-])=O,Major
 Procainamide,CCN(CC)CCNC(=O)C1=CC=C(N)C=C1,Pasireotide,NCCCC[C@@H]1NC(=O)[C@@H](CC2=CNC3=C2C=CC=C3)NC(=O)[C@@H](NC(=O)[C@@H]2C[C@H](CN2C(=O)[C@H](CC2=CC=CC=C2)NC(=O)[C@H](CC2=CC=C(OCC3=CC=CC=C3)C=C2)NC1=O)OC(=O)NCCN)C1=CC=CC=C1,Major
 Tripelennamine,CN(C)CCN(CC1=CC=CC=C1)C1=CC=CC=N1,Remifentanil,CCC(=O)N(C1=CC=CC=C1)C1(CCN(CCC(=O)OC)CC1)C(=O)OC,Moderate
 Nefazodone,CCC1=NN(CCCN2CCN(CC2)C2=CC(Cl)=CC=C2)C(=O)N1CCOC1=CC=CC=C1,Ifosfamide,ClCCNP1(=O)OCCCN1CCCl,Moderate
@@ -9318,7 +9238,6 @@ Sparfloxacin,C[C@H]1CN(C[C@@H](C)N1)C1=C(F)C(N)=C2C(=O)C(=CN(C3CC3)C2=C1F)C(O)=O
 Tramadol,COC1=CC=CC(=C1)C1(O)CCCCC1CN(C)C,Ceritinib,CC(C)OC1=C(NC2=NC=C(Cl)C(N2)=NC2=CC=CC=C2S(=O)(=O)C(C)C)C=C(C)C(=C1)C1CCNCC1,Major
 Glimepiride,CCC1=C(C)CN(C(=O)NCCC2=CC=C(C=C2)S(=O)(=O)NC(=O)N[C@H]2CC[C@H](C)CC2)C1=O,Perphenazine,OCCN1CCN(CCCN2C3=CC=CC=C3SC3=C2C=C(Cl)C=C3)CC1,Moderate
 Procarbazine,CNNCC1=CC=C(C=C1)C(=O)NC(C)C,Ephedrine,CN[C@@H](C)[C@H](O)C1=CC=CC=C1,Major
-Capreomycin,[H][C@@]1(CCN=C(N)N1)[C@]1([H])NC(=O)C(NC(=O)[C@H](CNC(=O)C[C@@H](N)CCCN)NC(=O)[C@H](C)NC(=O)[C@@H](N)CNC1=O)=C/NC(N)=O.[H][C@@]1(CCN=C(N)N1)[C@]1([H])NC(=O)C(NC(=O)[C@H](CNC(=O)C[C@@H](N)CCCN)NC(=O)[C@H](CO)NC(=O)[C@@H](N)CNC1=O)=C/NC(N)=O,Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Moderate
 Betamethasone,[H][C@@]12C[C@H](C)[C@](O)(C(=O)CO)[C@@]1(C)C[C@H](O)[C@@]1(F)[C@@]2([H])CCC2=CC(=O)C=C[C@]12C,Roflumilast,FC(F)OC1=C(OCC2CC2)C=C(C=C1)C(=O)NC1=C(Cl)C=NC=C1Cl,Moderate
 Quinapril,CCOC(=O)[C@H](CCC1=CC=CC=C1)N[C@@H](C)C(=O)N1CC2=CC=CC=C2C[C@H]1C(O)=O,Levofloxacin,C[C@H]1COC2=C3N1C=C(C(O)=O)C(=O)C3=CC(F)=C2N1CCN(C)CC1,Moderate
 Ketorolac,OC(=O)C1CCN2C1=CC=C2C(=O)C1=CC=CC=C1,Cilostazol,O=C1CCC2=C(N1)C=CC(OCCCCC1=NN=NN1C1CCCCC1)=C2,Moderate
@@ -9445,7 +9364,6 @@ Zafirlukast,COC1=CC(=CC=C1CC1=CN(C)C2=C1C=C(NC(=O)OC1CCCC1)C=C2)C(=O)NS(=O)(=O)C
 Pasireotide,NCCCC[C@@H]1NC(=O)[C@@H](CC2=CNC3=C2C=CC=C3)NC(=O)[C@@H](NC(=O)[C@@H]2C[C@H](CN2C(=O)[C@H](CC2=CC=CC=C2)NC(=O)[C@H](CC2=CC=C(OCC3=CC=CC=C3)C=C2)NC1=O)OC(=O)NCCN)C1=CC=CC=C1,Rucaparib,CNCC1=CC=C(C=C1)C1=C2CCNC(=O)C3=C2C(N1)=CC(F)=C3,Major
 Troglitazone,CC1=C(C)C2=C(CCC(C)(COC3=CC=C(CC4SC(=O)NC4=O)C=C3)O2)C(C)=C1O,Ixabepilone,[H][C@]12C[C@H](NC(=O)C[C@H](O)C(C)(C)C(=O)[C@H](C)[C@@H](O)[C@@H](C)CCC[C@@]1(C)O2)C(C)=CC1=CSC(C)=N1,Moderate
 Pentoxifylline,CN1C=NC2=C1C(=O)N(CCCCC(C)=O)C(=O)N2C,Tadalafil,[H][C@]12CC3=C(NC4=CC=CC=C34)[C@H](N1C(=O)CN(C)C2=O)C1=CC2=C(OCO2)C=C1,Moderate
-Cisplatin,[H][N]([H])([H])[Pt](Cl)(Cl)[N]([H])([H])[H],Aurothioglucose,OC[C@H]1O[C@H](S[Au])[C@H](O)[C@@H](O)[C@@H]1O,Moderate
 Mazindol,OC1(N2CCN=C2C2=CC=CC=C12)C1=CC=C(Cl)C=C1,Dapagliflozin,CCOC1=CC=C(CC2=C(Cl)C=CC(=C2)[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)C=C1,Moderate
 Hydrochlorothiazide,NS(=O)(=O)C1=C(Cl)C=C2NCNS(=O)(=O)C2=C1,Sibutramine,CC(C)CC(N(C)C)C1(CCC1)C1=CC=C(Cl)C=C1,Moderate
 Naltrexone,[H][C@@]12OC3=C(O)C=CC4=C3[C@@]11CCN(CC3CC3)[C@]([H])(C4)[C@]1(O)CCC2=O,Alfentanil,CCN1N=NN(CCN2CCC(COC)(CC2)N(C(=O)CC)C2=CC=CC=C2)C1=O,Major
@@ -9619,7 +9537,6 @@ Cyclosporine,CC[C@@H]1NC(=O)[C@H]([C@H](O)[C@H](C)CC=CC)N(C)C(=O)[C@H](C(C)C)N(C
 Salsalate,OC(=O)C1=CC=CC=C1OC(=O)C1=CC=CC=C1O,Ticagrelor,CCCSC1=NC2=C(N=NN2[C@@H]2C[C@H](OCCO)[C@@H](O)[C@H]2O)C(N[C@@H]2C[C@H]2C2=CC(F)=C(F)C=C2)=N1,Moderate
 Rifabutin,CO[C@H]1C=CO[C@@]2(C)OC3=C(C2=O)C2=C(C(O)=C3C)C(=O)C(NC(=O)C(C)=C/C=C/[C@H](C)[C@H](O)[C@@H](C)[C@@H](O)[C@@H](C)[C@H](OC(C)=O)[C@@H]1C)=C1NC3(CCN(CC3)CC(C)C)N=C21,Midostaurin,CO[C@@H]1[C@@H](C[C@H]2O[C@]1(C)N1C3=C(C=CC=C3)C3=C1C1=C(C4=C(C=CC=C4)N21)C1=C3CNC1=O)N(C)C(=O)C1=CC=CC=C1,Moderate
 Secobarbital,CCCC(C)C1(CC=C)C(=O)NC(=O)NC1=O,Aprepitant,C[C@@H](O[C@H]1OCCN(CC2=NNC(=O)N2)[C@H]1C1=CC=C(F)C=C1)C1=CC(=CC(=C1)C(F)(F)F)C(F)(F)F,Moderate
-Cisplatin,[H][N]([H])([H])[Pt](Cl)(Cl)[N]([H])([H])[H],Iodipamide,OC(=O)C1=C(I)C(NC(=O)CCCCC(=O)NC2=C(I)C=C(I)C(C(O)=O)=C2I)=C(I)C=C1I,Major
 Erlotinib,COCCOC1=CC2=C(C=C1OCCOC)C(NC1=CC(=CC=C1)C#C)=NC=N2,Pexidartinib,FC(F)(F)C1=CC=C(CNC2=NC=C(CC3=CNC4=NC=C(Cl)C=C34)C=C2)C=N1,Major
 Perphenazine,OCCN1CCN(CCCN2C3=CC=CC=C3SC3=C2C=C(Cl)C=C3)CC1,Pazopanib,CN(C1=CC2=NN(C)C(C)=C2C=C1)C1=CC=NC(NC2=CC=C(C)C(=C2)S(N)(=O)=O)=N1,Moderate
 Triflupromazine,CN(C)CCCN1C2=CC=CC=C2SC2=C1C=C(C=C2)C(F)(F)F,Glipizide,CC1=NC=C(N=C1)C(=O)NCCC1=CC=C(C=C1)S(=O)(=O)NC(=O)NC1CCCCC1,Moderate
@@ -10128,7 +10045,6 @@ Methazolamide,CN1N=C(SC1=NC(C)=O)S(N)(=O)=O,Semaglutide,CC[C@H](C)[C@H](NC(=O)[C
 Erythromycin,CC[C@H]1OC(=O)[C@H](C)[C@@H](O[C@H]2C[C@@](C)(OC)[C@@H](O)[C@H](C)O2)[C@H](C)[C@@H](O[C@@H]2O[C@H](C)C[C@@H]([C@H]2O)N(C)C)[C@](C)(O)C[C@@H](C)C(=O)[C@H](C)[C@@H](O)[C@]1(C)O,Desloratadine,ClC1=CC2=C(C=C1)C(=C1CCNCC1)C1=C(CC2)C=CC=N1,Minor
 Dronedarone,CCCCN(CCCC)CCCOC1=CC=C(C=C1)C(=O)C1=C(CCCC)OC2=C1C=C(NS(C)(=O)=O)C=C2,Romidepsin,CC=C1/NC(=O)[C@H]2CSSCCC=C[C@H](CC(=O)N[C@H](C(C)C)C(=O)N2)OC(=O)[C@@H](NC1=O)C(C)C,Major
 Pemetrexed,NC1=NC(=O)C2=C(NC=C2CCC2=CC=C(C=C2)C(=O)N[C@@H](CCC(O)=O)C(O)=O)N1,Ruxolitinib,N#CC[C@H](C1CCCC1)N1C=C(C=N1)C1=C2C=CNC2=NC=N1,Moderate
-Carboplatin,[H][N]([H])([H])[Pt]1(OC(=O)C2(CCC2)C(=O)O1)[N]([H])([H])[H],Cabazitaxel,[H][C@]12[C@H](OC(=O)C3=CC=CC=C3)[C@]3(O)C[C@H](OC(=O)[C@H](O)[C@@H](NC(=O)OC(C)(C)C)C4=CC=CC=C4)C(C)=C([C@@H](OC)C(=O)[C@]1(C)[C@H](C[C@H]1OC[C@@]21OC(C)=O)OC)C3(C)C,Moderate
 Pentazocine,CC1C2CC3=C(C=C(O)C=C3)C1(C)CCN2CC=C(C)C,Picosulfuric acid,OS(=O)(=O)OC1=CC=C(C=C1)C(C1=CC=C(OS(O)(=O)=O)C=C1)C1=CC=CC=N1,Moderate
 Chlorphenesin,OCC(O)COC1=CC=C(Cl)C=C1,Gabapentin,NCC1(CC(O)=O)CCCCC1,Moderate
 Hydroxychloroquine,CCN(CCO)CCCC(C)NC1=C2C=CC(Cl)=CC2=NC=C1,Ixazomib,CC(C)C[C@H](NC(=O)CNC(=O)C1=CC(Cl)=CC=C1Cl)B(O)O,Moderate
@@ -10139,7 +10055,6 @@ Fenoprofen,CC(C(O)=O)C1=CC(OC2=CC=CC=C2)=CC=C1,Budesonide,[H][C@@]12C[C@H]3OC(CC
 Clotrimazole,ClC1=CC=CC=C1C(N1C=CN=C1)(C1=CC=CC=C1)C1=CC=CC=C1,Stiripentol,CC(C)(C)C(O)C=CC1=CC2=C(OCO2)C=C1,Moderate
 Cetirizine,OC(=O)COCCN1CCN(CC1)C(C1=CC=CC=C1)C1=CC=C(Cl)C=C1,Clomipramine,CN(C)CCCN1C2=CC=CC=C2CCC2=C1C=C(Cl)C=C2,Moderate
 Timolol,[H][C@](O)(CNC(C)(C)C)COC1=NSN=C1N1CCOCC1,Empagliflozin,OC[C@H]1O[C@H]([C@H](O)[C@@H](O)[C@@H]1O)C1=CC=C(Cl)C(CC2=CC=C(O[C@H]3CCOC3)C=C2)=C1,Moderate
-Cisplatin,[H][N]([H])([H])[Pt](Cl)(Cl)[N]([H])([H])[H],Ethotoin,CCN1C(=O)NC(C1=O)C1=CC=CC=C1,Moderate
 Topiramate,[H][C@@]12CO[C@@]3(COS(N)(=O)=O)OC(C)(C)O[C@@]3([H])[C@]1([H])OC(C)(C)O2,Dronabinol,[H][C@@]12C=C(C)CC[C@@]1([H])C(C)(C)OC1=C2C(O)=CC(CCCCC)=C1,Moderate
 Decitabine,NC1=NC(=O)N(C=N1)[C@H]1C[C@H](O)[C@@H](CO)O1,Dimethyl fumarate,[H]C(=C([H])C(=O)OC)C(=O)OC,Moderate
 Penbutolol,CC(C)(C)NC[C@H](O)COC1=CC=CC=C1C1CCCC1,Iopamidol,C[C@H](O)C(=O)NC1=C(I)C(C(=O)NC(CO)CO)=C(I)C(C(=O)NC(CO)CO)=C1I,Moderate
@@ -10197,7 +10112,6 @@ Potassium chloride,[Cl-].[K+],Captopril,C[C@H](CS)C(=O)N1CCC[C@H]1C(O)=O,Major
 Trihexyphenidyl,OC(CCN1CCCCC1)(C1CCCCC1)C1=CC=CC=C1,Scopolamine,CN1[C@H]2C[C@@H](C[C@@H]1[C@H]1O[C@@H]21)OC(=O)[C@H](CO)C1=CC=CC=C1,Moderate
 Dexbrompheniramine,CN(C)CC[C@@H](C1=CC=C(Br)C=C1)C1=CC=CC=N1,Asenapine,CN1CC2C(C1)C1=C(OC3=CC=C(Cl)C=C23)C=CC=C1,Moderate
 Hydroflumethiazide,NS(=O)(=O)C1=CC2=C(NCNS2(=O)=O)C=C1C(F)(F)F,Canagliflozin,[H][C@]1(O[C@H](CO)[C@@H](O)[C@H](O)[C@H]1O)C1=CC=C(C)C(CC2=CC=C(S2)C2=CC=C(F)C=C2)=C1,Moderate
-Carboplatin,[H][N]([H])([H])[Pt]1(OC(=O)C2(CCC2)C(=O)O1)[N]([H])([H])[H],Atorvastatin,CC(C)C1=C(C(=O)NC2=CC=CC=C2)C(=C(N1CC[C@@H](O)C[C@@H](O)CC(O)=O)C1=CC=C(F)C=C1)C1=CC=CC=C1,Moderate
 Budesonide,[H][C@@]12C[C@H]3OC(CCC)O[C@@]3(C(=O)CO)[C@@]1(C)C[C@H](O)[C@@]1([H])[C@@]2([H])CCC2=CC(=O)C=C[C@]12C,Fosnetupitant,CN(C(=O)C(C)(C)C1=CC(=CC(=C1)C(F)(F)F)C(F)(F)F)C1=CN=C(C=C1C1=CC=CC=C1C)N1CC[N+](C)(COP(O)([O-])=O)CC1,Moderate
 Abiraterone,[H][C@@]12CC=C(C3=CC=CN=C3)[C@@]1(C)CC[C@@]1([H])[C@@]2([H])CC=C2C[C@@H](O)CC[C@]12C,Entrectinib,CN1CCN(CC1)C1=CC=C(C(=O)NC2=NNC3=CC=C(CC4=CC(F)=CC(F)=C4)C=C23)C(NC2CCOCC2)=C1,Moderate
 Phenylbutazone,CCCCC1C(=O)N(N(C1=O)C1=CC=CC=C1)C1=CC=CC=C1,Sirolimus,[H][C@@]1(C[C@@H](C)[C@]2([H])CC(=O)[C@H](C)C=C(C)[C@@H](O)[C@@H](OC)C(=O)[C@H](C)C[C@H](C)C=CC=CC=C(C)[C@H](C[C@]3([H])CC[C@@H](C)[C@@](O)(O3)C(=O)C(=O)N3CCCC[C@@]3([H])C(=O)O2)OC)CC[C@@H](O)[C@@H](C1)OC,Major
@@ -10300,7 +10214,6 @@ Nafcillin,[H][C@]12SC(C)(C)[C@@H](N1C(=O)[C@H]2NC(=O)C1=C(OCC)C=CC2=CC=CC=C12)C(
 Aliskiren,COCCCOC1=C(OC)C=CC(C[C@@H](C[C@H](N)[C@@H](O)C[C@@H](C(C)C)C(=O)NCC(C)(C)C(N)=O)C(C)C)=C1,Selexipag,CC(C)N(CCCCOCC(=O)NS(C)(=O)=O)C1=NC(C2=CC=CC=C2)=C(N=C1)C1=CC=CC=C1,Moderate
 Tramadol,COC1=CC=CC(=C1)C1(O)CCCCC1CN(C)C,Lorcaserin,C[C@H]1CNCCC2=CC=C(Cl)C=C12,Major
 Scopolamine,CN1[C@H]2C[C@@H](C[C@@H]1[C@H]1O[C@@H]21)OC(=O)[C@H](CO)C1=CC=CC=C1,Fesoterodine,CC(C)N(CC[C@H](C1=CC=CC=C1)C1=C(OC(=O)C(C)C)C=CC(CO)=C1)C(C)C,Moderate
-Furosemide,NS(=O)(=O)C1=C(Cl)C=C(NCC2=CC=CO2)C(=C1)C(O)=O,Carboplatin,[H][N]([H])([H])[Pt]1(OC(=O)C2(CCC2)C(=O)O1)[N]([H])([H])[H],Moderate
 Apomorphine,[H][C@]12CC3=C(C(O)=C(O)C=C3)C3=CC=CC(CCN1C)=C23,Hydroxychloroquine,CCN(CCO)CCCC(C)NC1=C2C=CC(Cl)=CC2=NC=C1,Major
 Alendronic acid,NCCCC(O)(P(O)(O)=O)P(O)(O)=O,Tetraferric tricitrate decahydrate,O.O.O.O.O.O.O.O.O.O.[Fe+3].[Fe+3].[Fe+3].[Fe+3].[O-]C(=O)CC([O-])(CC([O-])=O)C([O-])=O.[O-]C(=O)CC([O-])(CC([O-])=O)C([O-])=O.[O-]C(=O)CC([O-])(CC([O-])=O)C([O-])=O,Moderate
 Valsartan,CCCCC(=O)N(CC1=CC=C(C=C1)C1=CC=CC=C1C1=NNN=N1)[C@@H](C(C)C)C(O)=O,Ertugliflozin,CCOC1=CC=C(CC2=CC(=CC=C2Cl)[C@]23OC[C@](CO)(O2)[C@@H](O)[C@H](O)[C@H]3O)C=C1,Moderate
@@ -10334,7 +10247,6 @@ Furosemide,NS(=O)(=O)C1=C(Cl)C=C(NCC2=CC=CO2)C(=C1)C(O)=O,Deflazacort,[H][C@@]12
 Mitotane,ClC(Cl)C(C1=CC=C(Cl)C=C1)C1=CC=CC=C1Cl,Avapritinib,CN1C=C(C=N1)C1=CN2N=CN=C(N3CCN(CC3)C3=NC=C(C=N3)[C@@](C)(N)C3=CC=C(F)C=C3)C2=C1,Major
 Enalapril,CCOC(=O)[C@H](CCC1=CC=CC=C1)N[C@@H](C)C(=O)N1CCC[C@H]1C(O)=O,Trabectedin,[H][C@@]12[C@@H]3SC[C@]4(NCCC5=C4C=C(OC)C(O)=C5)C(=O)OC[C@H](N1[C@@H](O)[C@@H]1CC4=CC(C)=C(OC)C(O)=C4[C@H]2N1C)C1=C2OCOC2=C(C)C(OC(C)=O)=C31,Moderate
 Valdecoxib,CC1=C(C(=NO1)C1=CC=CC=C1)C1=CC=C(C=C1)S(N)(=O)=O,Iopromide,COCC(=O)NC1=C(I)C(C(=O)N(C)CC(O)CO)=C(I)C(C(=O)NCC(O)CO)=C1I,Major
-Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Pitolisant,ClC1=CC=C(CCCOCCCN2CCCCC2)C=C1,Moderate
 Dicoumarol,OC1=C(CC2=C(O)C3=C(OC2=O)C=CC=C3)C(=O)OC2=C1C=CC=C2,Bicalutamide,CC(O)(CS(=O)(=O)C1=CC=C(F)C=C1)C(=O)NC1=CC(=C(C=C1)C#N)C(F)(F)F,Minor
 Clarithromycin,[H][C@@]1(C[C@@](C)(OC)[C@@H](O)[C@H](C)O1)O[C@H]1[C@H](C)[C@@H](O[C@]2([H])O[C@H](C)C[C@@H]([C@H]2O)N(C)C)[C@@](C)(C[C@@H](C)C(=O)[C@H](C)[C@@H](O)[C@](C)(O)[C@@H](CC)OC(=O)[C@@H]1C)OC,Rilpivirine,CC1=CC(C=CC#N)=CC(C)=C1NC1=CC=NC(NC2=CC=C(C=C2)C#N)=N1,Moderate
 Repaglinide,CCOC1=C(C=CC(CC(=O)N[C@@H](CC(C)C)C2=CC=CC=C2N2CCCCC2)=C1)C(O)=O,Choline salicylate,C[N+](C)(C)CCO.OC1=CC=CC=C1C([O-])=O,Moderate
@@ -10612,7 +10524,6 @@ Mitotane,ClC(Cl)C(C1=CC=C(Cl)C=C1)C1=CC=CC=C1Cl,Apixaban,COC1=CC=C(C=C1)N1N=C(C(
 Cisapride,CO[C@H]1CN(CCCOC2=CC=C(F)C=C2)CC[C@H]1NC(=O)C1=CC(Cl)=C(N)C=C1OC,Lofexidine,CC(OC1=C(Cl)C=CC=C1Cl)C1=NCCN1,Major
 Trabectedin,[H][C@@]12[C@@H]3SC[C@]4(NCCC5=C4C=C(OC)C(O)=C5)C(=O)OC[C@H](N1[C@@H](O)[C@@H]1CC4=CC(C)=C(OC)C(O)=C4[C@H]2N1C)C1=C2OCOC2=C(C)C(OC(C)=O)=C31,Diiodohydroxyquinoline,OC1=C2N=CC=CC2=C(I)C=C1I,Moderate
 Mifepristone,[H][C@@]12CC[C@@](O)(C#CC)[C@@]1(C)C[C@H](C1=CC=C(C=C1)N(C)C)C1=C3CCC(=O)C=C3CC[C@@]21[H],Nintedanib,COC(=O)C1=CC=C2C(NC(=O)C2=C(/NC2=CC=C(C=C2)N(C)C(=O)CN2CCN(C)CC2)C2=CC=CC=C2)=C1,Moderate
-Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Osilodrostat,FC1=C(C=CC(=C1)C#N)[C@H]1CCC2=CN=CN12,Moderate
 Bacitracin,CC[C@H](C)[C@H](N)C1=N[C@@H](CS1)C(=O)N[C@@H](CC(C)C)C(=O)N[C@H](CCC(O)=O)C(=O)N[C@@H]([C@@H](C)CC)C(=O)N[C@H]1CCCCNC(=O)[C@H](CC(N)=O)NC(=O)[C@@H](CC(O)=O)NC(=O)[C@H](CC2=CNC=N2)NC(=O)[C@@H](CC2=CC=CC=C2)NC(=O)[C@@H](NC(=O)[C@@H](CCCN)NC1=O)[C@@H](C)CC,Iodipamide,OC(=O)C1=C(I)C(NC(=O)CCCCC(=O)NC2=C(I)C=C(I)C(C(O)=O)=C2I)=C(I)C=C1I,Major
 Warfarin,CC(=O)CC(C1=CC=CC=C1)C1=C(O)C2=C(OC1=O)C=CC=C2,Selpercatinib,COC1=NC=C(CN2C3CC2CN(C3)C2=CC=C(C=N2)C2=CC(OCC(C)(C)O)=CN3N=CC(C#N)=C23)C=C1,Moderate
 Probucol,CC(C)(SC1=CC(=C(O)C(=C1)C(C)(C)C)C(C)(C)C)SC1=CC(=C(O)C(=C1)C(C)(C)C)C(C)(C)C,Glycerin,OCC(O)CO,Moderate
@@ -10733,7 +10644,6 @@ Cefdinir,[H][C@]12SCC(C=C)=C(N1C(=O)[C@H]2NC(=O)C(=N/O)C1=CSC(N)=N1)C(O)=O,Magne
 Tamoxifen,CCC(=C(/C1=CC=CC=C1)C1=CC=C(OCCN(C)C)C=C1)C1=CC=CC=C1,Maraviroc,CC(C)C1=NN=C(C)N1[C@H]1C[C@@H]2CC[C@H](C1)N2CC[C@H](NC(=O)C1CCC(F)(F)CC1)C1=CC=CC=C1,Moderate
 Fenoldopam,OC1=CC=C(C=C1)C1CNCCC2=C(Cl)C(O)=C(O)C=C12,Bupropion,CC(NC(C)(C)C)C(=O)C1=CC(Cl)=CC=C1,Moderate
 Tofacitinib,C[C@@H]1CCN(C[C@@H]1N(C)C1=NC=NC2=C1C=CN2)C(=O)CC#N,Pomalidomide,NC1=CC=CC2=C1C(=O)N(C1CCC(=O)NC1=O)C2=O,Major
-Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Dimethyl fumarate,[H]C(=C([H])C(=O)OC)C(=O)OC,Moderate
 Crizotinib,C[C@@H](OC1=CC(=CN=C1N)C1=CN(N=C1)C1CCNCC1)C1=C(Cl)C=CC(F)=C1Cl,Secnidazole,CC(O)CN1C(C)=NC=C1N(=O)=O,Moderate
 Bosentan,COC1=CC=CC=C1OC1=C(NS(=O)(=O)C2=CC=C(C=C2)C(C)(C)C)N=C(N=C1OCCO)C1=NC=CC=N1,Palbociclib,CC(=O)C1=C(C)C2=CN=C(NC3=NC=C(C=C3)N3CCNCC3)N=C2N(C2CCCC2)C1=O,Moderate
 Flunisolide,[H][C@@]12C[C@@]3([H])[C@]4([H])C[C@H](F)C5=CC(=O)C=C[C@]5(C)[C@@]4([H])[C@@H](O)C[C@]3(C)[C@@]1(OC(C)(C)O2)C(=O)CO,Formoterol,COC1=CC=C(CC(C)NCC(O)C2=CC(NC=O)=C(O)C=C2)C=C1,Minor
@@ -10828,7 +10738,6 @@ Ergocalciferol,CC(C)[C@@H](C)C=C[C@@H](C)[C@@]1([H])CC[C@@]2([H])C(CCC[C@]12C)=C
 Nefazodone,CCC1=NN(CCCN2CCN(CC2)C2=CC(Cl)=CC=C2)C(=O)N1CCOC1=CC=CC=C1,Pentoxyverine,CCN(CC)CCOCCOC(=O)C1(CCCC1)C1=CC=CC=C1,Moderate
 Trimipramine,CC(CN(C)C)CN1C2=CC=CC=C2CCC2=CC=CC=C12,Vemurafenib,CCCS(=O)(=O)NC1=C(F)C(C(=O)C2=CNC3=NC=C(C=C23)C2=CC=C(Cl)C=C2)=C(F)C=C1,Major
 Methyldopa,C[C@](N)(CC1=CC=C(O)C(O)=C1)C(O)=O,Iloprost,[H][C@]12C[C@@H](O)[C@H](C=C[C@@H](O)C(C)CC#CC)[C@@]1([H])CC(C2)=CCCCC(O)=O,Moderate
-Cisplatin,[H][N]([H])([H])[Pt](Cl)(Cl)[N]([H])([H])[H],Methoxyflurane,COC(F)(F)C(Cl)Cl,Moderate
 Bictegravir,OC1=C2N(C[C@H]3O[C@@H]4CC[C@@H](C4)N3C2=O)C=C(C(=O)NCC2=C(F)C=C(F)C=C2F)C1=O,Ferrous fumarate,[Fe++].[H]C(=C([H])C([O-])=O)C([O-])=O,Major
 Dicoumarol,OC1=C(CC2=C(O)C3=C(OC2=O)C=CC=C3)C(=O)OC2=C1C=CC=C2,Tolterodine,CC(C)N(CC[C@H](C1=CC=CC=C1)C1=C(O)C=CC(C)=C1)C(C)C,Moderate
 Tripelennamine,CN(C)CCN(CC1=CC=CC=C1)C1=CC=CC=N1,Phenyltoloxamine,CN(C)CCOC1=CC=CC=C1CC1=CC=CC=C1,Moderate
@@ -10841,7 +10750,6 @@ Triflupromazine,CN(C)CCCN1C2=CC=CC=C2SC2=C1C=C(C=C2)C(F)(F)F,Diazoxide,CC1=NS(=O
 Digoxin,[H][C@]12CC[C@]3([H])[C@]([H])(C[C@@H](O)[C@]4(C)[C@H](CC[C@]34O)C3=CC(=O)OC3)[C@@]1(C)CC[C@@H](C2)O[C@H]1C[C@H](O)[C@H](O[C@H]2C[C@H](O)[C@H](O[C@H]3C[C@H](O)[C@H](O)[C@@H](C)O3)[C@@H](C)O2)[C@@H](C)O1,Sodium bicarbonate,[Na+].OC([O-])=O,Minor
 Vardenafil,CCCC1=NC(C)=C2N1NC(=NC2=O)C1=C(OCC)C=CC(=C1)S(=O)(=O)N1CCN(CC)CC1,Picosulfuric acid,OS(=O)(=O)OC1=CC=C(C=C1)C(C1=CC=C(OS(O)(=O)=O)C=C1)C1=CC=CC=N1,Moderate
 Trimethobenzamide,COC1=CC(=CC(OC)=C1OC)C(=O)NCC1=CC=C(OCCN(C)C)C=C1,Promethazine,CC(CN1C2=CC=CC=C2SC2=CC=CC=C12)N(C)C,Moderate
-Cisplatin,[H][N]([H])([H])[Pt](Cl)(Cl)[N]([H])([H])[H],Zalcitabine,NC1=NC(=O)N(C=C1)[C@H]1CC[C@@H](CO)O1,Moderate
 Methdilazine,CN1CCC(CN2C3=CC=CC=C3SC3=CC=CC=C23)C1,Suvorexant,[H][C@@]1(C)CCN(CCN1C(=O)C1=C(C=CC(C)=C1)N1N=CC=N1)C1=NC2=C(O1)C=CC(Cl)=C2,Moderate
 Fludrocortisone,[H][C@@]12CC[C@](O)(C(=O)CO)[C@@]1(C)C[C@H](O)[C@@]1(F)[C@@]2([H])CCC2=CC(=O)CC[C@]12C,Rucaparib,CNCC1=CC=C(C=C1)C1=C2CCNC(=O)C3=C2C(N1)=CC(F)=C3,Moderate
 Cladribine,NC1=C2N=CN([C@H]3C[C@H](O)[C@@H](CO)O3)C2=NC(Cl)=N1,Decitabine,NC1=NC(=O)N(C=N1)[C@H]1C[C@H](O)[C@@H](CO)O1,Major
@@ -11023,13 +10931,11 @@ Minoxidil,NC1=CC(=NC(N)=[N+]1[O-])N1CCCCC1,Prochlorperazine,CN1CCN(CCCN2C3=CC=CC
 Cevimeline,CC1O[C@@]2(CS1)CN1CCC2CC1,Miconazole,ClC1=CC(Cl)=C(COC(CN2C=CN=C2)C2=C(Cl)C=C(Cl)C=C2)C=C1,Moderate
 Nateglinide,CC(C)[C@H]1CC[C@@H](CC1)C(=O)N[C@H](CC1=CC=CC=C1)C(O)=O,Mifepristone,[H][C@@]12CC[C@@](O)(C#CC)[C@@]1(C)C[C@H](C1=CC=C(C=C1)N(C)C)C1=C3CCC(=O)C=C3CC[C@@]21[H],Moderate
 Abiraterone,[H][C@@]12CC=C(C3=CC=CN=C3)[C@@]1(C)CC[C@@]1([H])[C@@]2([H])CC=C2C[C@@H](O)CC[C@]12C,Eribulin,[H][C@@]12CC(=C)[C@]([H])(CC[C@@]3([H])C[C@@H](C)C(=C)[C@@]([H])(C[C@]4([H])O[C@H](C[C@H](O)CN)[C@H](OC)[C@@]4([H])CC(=O)C[C@@]4([H])CC[C@]5([H])O[C@@]6([H])[C@H]7O[C@@]8(C[C@]7([H])O[C@@]6([H])[C@@]([H])(O8)[C@@]5([H])O4)CC1)O3)O2,Moderate
-Temozolomide,CN1N=NC2=C(N=CN2C1=O)C(N)=O,Carboplatin,[H][N]([H])([H])[Pt]1(OC(=O)C2(CCC2)C(=O)O1)[N]([H])([H])[H],Moderate
 Fluphenazine,OCCN1CCN(CCCN2C3=CC=CC=C3SC3=C2C=C(C=C3)C(F)(F)F)CC1,Vemurafenib,CCCS(=O)(=O)NC1=C(F)C(C(=O)C2=CNC3=NC=C(C=C23)C2=CC=C(Cl)C=C2)=C(F)C=C1,Major
 Scopolamine,CN1[C@H]2C[C@@H](C[C@@H]1[C@H]1O[C@@H]21)OC(=O)[C@H](CO)C1=CC=CC=C1,Oliceridine,COC1=C(CNCC[C@]2(CCOC3(CCCC3)C2)C2=NC=CC=C2)SC=C1,Moderate
 Prednisolone,[H][C@@]12CC[C@](O)(C(=O)CO)[C@@]1(C)C[C@H](O)[C@@]1([H])[C@@]2([H])CCC2=CC(=O)C=C[C@]12C,Thalidomide,O=C1N(C2CCC(=O)NC2=O)C(=O)C2=CC=CC=C12,Major
 Droperidol,FC1=CC=C(C=C1)C(=O)CCCN1CCC(=CC1)N1C(=O)NC2=CC=CC=C12,Amphotericin B,[H][C@]12C[C@@H](O[C@@H]3O[C@H](C)[C@@H](O)[C@H](N)[C@@H]3O)C=CC=CC=CC=CC=CC=CC=C[C@H](C)[C@@H](O)[C@@H](C)[C@H](C)OC(=O)C[C@H](O)C[C@H](O)CC[C@@H](O)[C@H](O)C[C@H](O)C[C@](O)(C[C@H](O)[C@H]1C(O)=O)O2,Major
 Sonidegib,[H][C@]1(C)CN(C[C@@]([H])(C)O1)C1=CC=C(NC(=O)C2=CC=CC(=C2C)C2=CC=C(OC(F)(F)F)C=C2)C=N1,Fedratinib,CC1=CN=C(NC2=CC=C(OCCN3CCCC3)C=C2)N=C1NC1=CC=CC(=C1)S(=O)(=O)NC(C)(C)C,Major
-Cisplatin,[H][N]([H])([H])[Pt](Cl)(Cl)[N]([H])([H])[H],Levofloxacin,C[C@H]1COC2=C3N1C=C(C(O)=O)C(=O)C3=CC(F)=C2N1CCN(C)CC1,Minor
 Oxybutynin,CCN(CC)CC#CCOC(=O)C(O)(C1CCCCC1)C1=CC=CC=C1,Lorlatinib,C[C@H]1OC2=C(N)N=CC(=C2)C2=C(C#N)N(C)N=C2CN(C)C(=O)C2=C1C=C(F)C=C2,Moderate
 Leuprolide,CCNC(=O)[C@@H]1CCCN1C(=O)[C@H](CCCNC(N)=N)NC(=O)[C@H](CC(C)C)NC(=O)[C@@H](CC(C)C)NC(=O)[C@H](CC1=CC=C(O)C=C1)NC(=O)[C@H](CO)NC(=O)[C@H](CC1=CNC2=C1C=CC=C2)NC(=O)[C@H](CC1=CNC=N1)NC(=O)[C@@H]1CCC(=O)N1,Apomorphine,[H][C@]12CC3=C(C(O)=C(O)C=C3)C3=CC=CC(CCN1C)=C23,Moderate
 Octreotide,[H][C@]1(NC(=O)[C@H](CCCCN)NC(=O)[C@@H](CC2=CNC3=C2C=CC=C3)NC(=O)[C@H](CC2=CC=CC=C2)NC(=O)[C@H](CSSC[C@H](NC1=O)C(=O)N[C@H](CO)[C@@H](C)O)NC(=O)[C@H](N)CC1=CC=CC=C1)[C@@H](C)O,Acarbose,[H]C(=O)[C@H](O)[C@@H](O)[C@]([H])(O[C@@]1([H])O[C@H](CO)[C@@]([H])(O[C@H]2O[C@H](C)[C@@H](N[C@@]3([H])C=C(CO)[C@@H](O)[C@H](O)[C@H]3O)[C@H](O)[C@H]2O)[C@H](O)[C@H]1O)[C@H](O)CO,Moderate
@@ -11048,7 +10954,6 @@ Isoprenaline,CC(C)NCC(O)C1=CC(O)=C(O)C=C1,Carvedilol,COC1=CC=CC=C1OCCNCC(O)COC1=
 Carbamazepine,NC(=O)N1C2=CC=CC=C2C=CC2=CC=CC=C12,Medroxyprogesterone acetate,[H][C@@]12CC[C@](OC(C)=O)(C(C)=O)[C@@]1(C)CC[C@@]1([H])[C@@]2([H])C[C@H](C)C2=CC(=O)CC[C@]12C,Moderate
 Ethinylestradiol,[H][C@@]12CC[C@@](O)(C#C)[C@@]1(C)CC[C@]1([H])C3=C(CC[C@@]21[H])C=C(O)C=C3,Ceftriaxone,[H][C@]12SCC(CSC3=NC(=O)C(=O)NN3C)=C(N1C(=O)[C@H]2NC(=O)C(=N/OC)C1=CSC(N)=N1)C(O)=O,Moderate
 Etoposide,[H][C@]12COC(=O)[C@]1([H])[C@H](C1=CC(OC)=C(O)C(OC)=C1)C1=CC3=C(OCO3)C=C1[C@H]2O[C@@H]1O[C@]2([H])CO[C@@H](C)O[C@@]2([H])[C@H](O)[C@H]1O,Ofloxacin,CC1COC2=C3N1C=C(C(O)=O)C(=O)C3=CC(F)=C2N1CCN(C)CC1,Minor
-Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Etoposide,[H][C@]12COC(=O)[C@]1([H])[C@H](C1=CC(OC)=C(O)C(OC)=C1)C1=CC3=C(OCO3)C=C1[C@H]2O[C@@H]1O[C@]2([H])CO[C@@H](C)O[C@@]2([H])[C@H](O)[C@H]1O,Moderate
 Vitamin E,CC(C)CCC[C@@H](C)CCC[C@@H](C)CCC[C@]1(C)CCC2=C(O1)C(C)=C(C)C(O)=C2C,Capecitabine,CCCCCOC(=O)NC1=NC(=O)N(C=C1F)[C@@H]1O[C@H](C)[C@@H](O)[C@H]1O,Moderate
 Gefitinib,COC1=C(OCCCN2CCOCC2)C=C2C(NC3=CC(Cl)=C(F)C=C3)=NC=NC2=C1,Voxelotor,CC(C)N1N=CC=C1C1=C(COC2=CC=CC(O)=C2C=O)C=CC=N1,Moderate
 Tramadol,COC1=CC=CC(=C1)C1(O)CCCCC1CN(C)C,Dexbrompheniramine,CN(C)CC[C@@H](C1=CC=C(Br)C=C1)C1=CC=CC=N1,Moderate
@@ -11122,7 +11027,6 @@ Clozapine,CN1CCN(CC1)C1=NC2=CC(Cl)=CC=C2NC2=CC=CC=C12,Dactinomycin,[H][C@@]12CCC
 Nifedipine,COC(=O)C1=C(C)NC(C)=C(C1C1=CC=CC=C1[N+]([O-])=O)C(=O)OC,Bosutinib,COC1=CC(NC2=C(C=NC3=CC(OCCCN4CCN(C)CC4)=C(OC)C=C23)C#N)=C(Cl)C=C1Cl,Moderate
 Bepridil,CC(C)COCC(CN(CC1=CC=CC=C1)C1=CC=CC=C1)N1CCCC1,Abiraterone,[H][C@@]12CC=C(C3=CC=CN=C3)[C@@]1(C)CC[C@@]1([H])[C@@]2([H])CC=C2C[C@@H](O)CC[C@]12C,Major
 Valsartan,CCCCC(=O)N(CC1=CC=C(C=C1)C1=CC=CC=C1C1=NNN=N1)[C@@H](C(C)C)C(O)=O,Potassium Iodide,[K+].[I-],Major
-Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Fludarabine,NC1=NC(F)=NC2=C1N=CN2[C@@H]1O[C@H](CO)[C@@H](O)[C@@H]1O,Moderate
 Benazepril,[H][C@@]1(CCC2=CC=CC=C2N(CC(O)=O)C1=O)N[C@@H](CCC1=CC=CC=C1)C(=O)OCC,Nitrous acid,ON=O,Moderate
 Sufentanil,CCC(=O)N(C1=CC=CC=C1)C1(COC)CCN(CCC2=CC=CS2)CC1,Fostamatinib,COC1=CC(NC2=NC=C(F)C(NC3=NC4=C(OC(C)(C)C(=O)N4COP(O)(O)=O)C=C3)=N2)=CC(OC)=C1OC,Moderate
 Primaquine,COC1=CC(NC(C)CCCN)=C2N=CC=CC2=C1,Bepridil,CC(C)COCC(CN(CC1=CC=CC=C1)C1=CC=CC=C1)N1CCCC1,Major
@@ -11145,7 +11049,6 @@ Clotrimazole,ClC1=CC=CC=C1C(N1C=CN=C1)(C1=CC=CC=C1)C1=CC=CC=C1,Lefamulin,[H][C@@
 Triamcinolone,[H][C@@]12C[C@@H](O)[C@](O)(C(=O)CO)[C@@]1(C)C[C@H](O)[C@@]1(F)[C@@]2([H])CCC2=CC(=O)C=C[C@]12C,Cenobamate,NC(=O)O[C@@H](CN1N=CN=N1)C1=C(Cl)C=CC=C1,Moderate
 Vinblastine,[H][C@@]12N(C)C3=CC(OC)=C(C=C3[C@@]11CCN3CC=C[C@@](CC)([C@@H](OC(C)=O)[C@]2(O)C(=O)OC)[C@@]13[H])[C@]1(C[C@@]2([H])CN(C[C@](O)(CC)C2)CCC2=C1NC1=C2C=CC=C1)C(=O)OC,Sodium aurothiomalate,[Na+].[Na+].[O-]C(=O)CC(S[Au])C([O-])=O,Moderate
 Pentazocine,CC1C2CC3=C(C=C(O)C=C3)C1(C)CCN2CC=C(C)C,Iopamidol,C[C@H](O)C(=O)NC1=C(I)C(C(=O)NC(CO)CO)=C(I)C(C(=O)NC(CO)CO)=C1I,Major
-Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Risperidone,CC1=C(CCN2CCC(CC2)C2=NOC3=C2C=CC(F)=C3)C(=O)N2CCCCC2=N1,Moderate
 Lacosamide,COC[C@@H](NC(C)=O)C(=O)NCC1=CC=CC=C1,Pasireotide,NCCCC[C@@H]1NC(=O)[C@@H](CC2=CNC3=C2C=CC=C3)NC(=O)[C@@H](NC(=O)[C@@H]2C[C@H](CN2C(=O)[C@H](CC2=CC=CC=C2)NC(=O)[C@H](CC2=CC=C(OCC3=CC=CC=C3)C=C2)NC1=O)OC(=O)NCCN)C1=CC=CC=C1,Moderate
 Potassium chloride,[Cl-].[K+],Desipramine,CNCCCN1C2=CC=CC=C2CCC2=CC=CC=C12,Major
 Clonazepam,[O-][N+](=O)C1=CC2=C(NC(=O)CN=C2C2=CC=CC=C2Cl)C=C1,Iodide I-131,[131I-],Moderate
@@ -11229,7 +11132,6 @@ Brompheniramine,CN(C)CCC(C1=CC=C(Br)C=C1)C1=CC=CC=N1,Tapentadol,CC[C@H]([C@@H](C
 Haloperidol,OC1(CCN(CCCC(=O)C2=CC=C(F)C=C2)CC1)C1=CC=C(Cl)C=C1,Idarubicin,C[C@@H]1O[C@H](C[C@H](N)[C@@H]1O)O[C@H]1C[C@@](O)(CC2=C1C(O)=C1C(=O)C3=CC=CC=C3C(=O)C1=C2O)C(C)=O,Major
 Histrelin,CC(O)=O.CC(O)=O.CCNC(=O)[C@@H]1CCCN1C(=O)[C@H](CCCNC(N)=N)NC(=O)[C@H](CC(C)C)NC(=O)[C@@H](CC1=CN(CC2=CC=CC=C2)C=N1)NC(=O)[C@H](CC1=CC=C(O)C=C1)NC(=O)[C@H](CO)NC(=O)[C@H](CC1=CNC2=C1C=CC=C2)NC(=O)[C@H](CC1=CNC=N1)NC(=O)[C@@H]1CCC(=O)N1,Ivabradine,COC1=C(OC)C=C2[C@@H](CN(C)CCCN3CCC4=CC(OC)=C(OC)C=C4CC3=O)CC2=C1,Major
 Famotidine,NC(N)=NC1=NC(CSCCC(N)=NS(N)(=O)=O)=CS1,Thalidomide,O=C1N(C2CCC(=O)NC2=O)C(=O)C2=CC=CC=C12,Moderate
-Cisplatin,[H][N]([H])([H])[Pt](Cl)(Cl)[N]([H])([H])[H],Gemifloxacin,CON=C1/CN(CC1CN)C1=NC2=C(C=C1F)C(=O)C(=CN2C1CC1)C(O)=O,Minor
 Dextropropoxyphene,CCC(=O)O[C@@](CC1=CC=CC=C1)([C@H](C)CN(C)C)C1=CC=CC=C1,Ethanol,CCO,Major
 Cyclosporine,CC[C@@H]1NC(=O)[C@H]([C@H](O)[C@H](C)CC=CC)N(C)C(=O)[C@H](C(C)C)N(C)C(=O)[C@H](CC(C)C)N(C)C(=O)[C@H](CC(C)C)N(C)C(=O)[C@@H](C)NC(=O)[C@H](C)NC(=O)[C@H](CC(C)C)N(C)C(=O)[C@@H](NC(=O)[C@H](CC(C)C)N(C)C(=O)CN(C)C1=O)C(C)C,Fluoxymesterone,[H][C@@]12CC[C@](C)(O)[C@@]1(C)C[C@H](O)[C@@]1(F)[C@@]2([H])CCC2=CC(=O)CC[C@]12C,Moderate
 Efavirenz,FC(F)(F)[C@]1(OC(=O)NC2=C1C=C(Cl)C=C2)C#CC1CC1,Salbutamol,CC(C)(C)NCC(O)C1=CC(CO)=C(O)C=C1,Moderate
@@ -11270,7 +11172,6 @@ Posaconazole,CC[C@@H]([C@H](C)O)N1N=CN(C1=O)C1=CC=C(C=C1)N1CCN(CC1)C1=CC=C(OC[C@
 Nortriptyline,CNCCC=C1C2=CC=CC=C2CCC2=CC=CC=C12,Nilutamide,CC1(C)NC(=O)N(C1=O)C1=CC(=C(C=C1)[N+]([O-])=O)C(F)(F)F,Moderate
 Empagliflozin,OC[C@H]1O[C@H]([C@H](O)[C@@H](O)[C@@H]1O)C1=CC=C(Cl)C(CC2=CC=C(O[C@H]3CCOC3)C=C2)=C1,Eluxadoline,COC1=CC=C(CN([C@@H](C)C2=NC(=CN2)C2=CC=CC=C2)C(=O)[C@@H](N)CC2=C(C)C=C(C=C2C)C(N)=O)C=C1C(O)=O,Moderate
 Rolapitant,C[C@@H](OC[C@]1(CC[C@]2(CCC(=O)N2)CN1)C1=CC=CC=C1)C1=CC(=CC(=C1)C(F)(F)F)C(F)(F)F,Naldemedine,[H][C@@]12OC3=C4C(C[C@@]5([H])N(CC6CC6)CC[C@@]14[C@@]5(O)CC(C(=O)NC(C)(C)C1=NC(=NO1)C1=CC=CC=C1)=C2O)=CC=C3O,Moderate
-Amitriptyline,CN(C)CCC=C1C2=CC=CC=C2CCC2=CC=CC=C12,Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Moderate
 Solifenacin,O=C(O[C@H]1CN2CCC1CC2)N1CCC2=CC=CC=C2[C@@H]1C1=CC=CC=C1,Fingolimod,CCCCCCCCC1=CC=C(CCC(N)(CO)CO)C=C1,Major
 Irinotecan,CCC1=C2CN3C(=CC4=C(COC(=O)[C@]4(O)CC)C3=O)C2=NC2=CC=C(OC(=O)N3CCC(CC3)N3CCCCC3)C=C12,Crizotinib,C[C@@H](OC1=CC(=CN=C1N)C1=CN(N=C1)C1CCNCC1)C1=C(Cl)C=CC(F)=C1Cl,Moderate
 Nabilone,[H][C@@]12CC(=O)CC[C@@]1([H])C(C)(C)OC1=CC(=CC(O)=C21)C(C)(C)CCCCCC,Fenoldopam,OC1=CC=C(C=C1)C1CNCCC2=C(Cl)C(O)=C(O)C=C12,Moderate
@@ -11342,7 +11243,6 @@ Praziquantel,O=C(C1CCCCC1)N1CC2N(CCC3=CC=CC=C23)C(=O)C1,Phenobarbital,CCC1(C(=O)
 Streptomycin,CN[C@H]1[C@H](O)[C@@H](O)[C@H](CO)O[C@H]1O[C@H]1[C@H](O[C@H]2[C@H](O)[C@@H](O)[C@H](NC(N)=N)[C@@H](O)[C@@H]2NC(N)=N)O[C@@H](C)[C@]1(O)C=O,Cefradine,[H][C@]12SCC(C)=C(N1C(=O)[C@H]2NC(=O)[C@H](N)C1=CCC=CC1)C(O)=O,Moderate
 Leuprolide,CCNC(=O)[C@@H]1CCCN1C(=O)[C@H](CCCNC(N)=N)NC(=O)[C@H](CC(C)C)NC(=O)[C@@H](CC(C)C)NC(=O)[C@H](CC1=CC=C(O)C=C1)NC(=O)[C@H](CO)NC(=O)[C@H](CC1=CNC2=C1C=CC=C2)NC(=O)[C@H](CC1=CNC=N1)NC(=O)[C@@H]1CCC(=O)N1,Promethazine,CC(CN1C2=CC=CC=C2SC2=CC=CC=C12)N(C)C,Moderate
 Apomorphine,[H][C@]12CC3=C(C(O)=C(O)C=C3)C3=CC=CC(CCN1C)=C23,Fingolimod,CCCCCCCCC1=CC=C(CCC(N)(CO)CO)C=C1,Major
-Trovafloxacin,[H][C@@]12CN(C[C@]1([H])[C@H]2N)C1=NC2=C(C=C1F)C(=O)C(=CN2C1=C(F)C=C(F)C=C1)C(O)=O,Carboplatin,[H][N]([H])([H])[Pt]1(OC(=O)C2(CCC2)C(=O)O1)[N]([H])([H])[H],Minor
 Potassium chloride,[Cl-].[K+],Homatropine,[H][C@]12CC[C@]([H])(C[C@@H](C1)OC(=O)C(O)C1=CC=CC=C1)N2C,Major
 Lumacaftor,CC1=CC=C(NC(=O)C2(CC2)C2=CC=C3OC(F)(F)OC3=C2)N=C1C1=CC(=CC=C1)C(O)=O,Siponimod,CCC1=CC(=CC=C1CN1CC(C1)C(O)=O)C(C)=NOCC1=CC=C(C2CCCCC2)C(=C1)C(F)(F)F,Major
 Cerivastatin,COCC1=C(C2=CC=C(F)C=C2)C(C=C[C@@H](O)C[C@@H](O)CC(O)=O)=C(C(C)C)N=C1C(C)C,Lenalidomide,NC1=CC=CC2=C1CN(C1CCC(=O)NC1=O)C2=O,Major
@@ -11351,7 +11251,6 @@ Mirtazapine,CN1CCN2C(C1)C1=CC=CC=C1CC1=C2N=CC=C1,Cimetidine,CNC(NCCSCC1=C(C)NC=N
 Procyclidine,OC(CCN1CCCC1)(C1CCCCC1)C1=CC=CC=C1,Chlorcyclizine,CN1CCN(CC1)C(C1=CC=CC=C1)C1=CC=C(Cl)C=C1,Moderate
 Acarbose,[H]C(=O)[C@H](O)[C@@H](O)[C@]([H])(O[C@@]1([H])O[C@H](CO)[C@@]([H])(O[C@H]2O[C@H](C)[C@@H](N[C@@]3([H])C=C(CO)[C@@H](O)[C@H](O)[C@H]3O)[C@H](O)[C@H]2O)[C@H](O)[C@H]1O)[C@H](O)CO,Lumateperone,[H][C@]12CCN(CCCC(=O)C3=CC=C(F)C=C3)C[C@@]1([H])C1=CC=CC3=C1N2CCN3C,Moderate
 Magnesium carbonate,[Mg++].[O-]C([O-])=O,Neratinib,CCOC1=C(NC(=O)C=CCN(C)C)C=C2C(NC3=CC=C(OCC4=CC=CC=N4)C(Cl)=C3)=C(C=NC2=C1)C#N,Moderate
-Carmustine,ClCCNC(=O)N(CCCl)N=O,Carboplatin,[H][N]([H])([H])[Pt]1(OC(=O)C2(CCC2)C(=O)O1)[N]([H])([H])[H],Moderate
 Streptomycin,CN[C@H]1[C@H](O)[C@@H](O)[C@H](CO)O[C@H]1O[C@H]1[C@H](O[C@H]2[C@H](O)[C@@H](O)[C@H](NC(N)=N)[C@@H](O)[C@@H]2NC(N)=N)O[C@@H](C)[C@]1(O)C=O,Cefoxitin,[H][C@]12SCC(COC(N)=O)=C(N1C(=O)[C@]2(NC(=O)CC1=CC=CS1)OC)C(O)=O,Moderate
 Alprazolam,CC1=NN=C2CN=C(C3=CC=CC=C3)C3=C(C=CC(Cl)=C3)N12,Crizotinib,C[C@@H](OC1=CC(=CN=C1N)C1=CN(N=C1)C1CCNCC1)C1=C(Cl)C=CC(F)=C1Cl,Moderate
 Triprolidine,CC1=CC=C(C=C1)C(=C/CN1CCCC1)C1=CC=CC=N1,Duloxetine,CNCC[C@H](OC1=CC=CC2=CC=CC=C12)C1=CC=CS1,Moderate
@@ -11410,7 +11309,6 @@ Imatinib,CN1CCN(CC2=CC=C(C=C2)C(=O)NC2=CC(NC3=NC=CC(=N3)C3=CN=CC=C3)=C(C)C=C2)CC
 Piroxicam,CN1C(C(=O)NC2=NC=CC=C2)=C(O)C2=C(C=CC=C2)S1(=O)=O,Tolbutamide,CCCCNC(=O)NS(=O)(=O)C1=CC=C(C)C=C1,Moderate
 Imatinib,CN1CCN(CC2=CC=C(C=C2)C(=O)NC2=CC(NC3=NC=CC(=N3)C3=CN=CC=C3)=C(C)C=C2)CC1,Telaprevir,[H][C@@]12CCC[C@]1([H])[C@H](N(C2)C(=O)[C@@H](NC(=O)[C@@H](NC(=O)C1=NC=CN=C1)C1CCCCC1)C(C)(C)C)C(=O)N[C@@H](CCC)C(=O)C(=O)NC1CC1,Moderate
 Methotrexate,CN(CC1=CN=C2N=C(N)N=C(N)C2=N1)C1=CC=C(C=C1)C(=O)N[C@@H](CCC(O)=O)C(O)=O,Tamoxifen,CCC(=C(/C1=CC=CC=C1)C1=CC=C(OCCN(C)C)C=C1)C1=CC=CC=C1,Moderate
-Cisplatin,[H][N]([H])([H])[Pt](Cl)(Cl)[N]([H])([H])[H],Trovafloxacin,[H][C@@]12CN(C[C@]1([H])[C@H]2N)C1=NC2=C(C=C1F)C(=O)C(=CN2C1=C(F)C=C(F)C=C1)C(O)=O,Minor
 Toremifene,CN(C)CCOC1=CC=C(C=C1)C(=C(CCCl)C1=CC=CC=C1)C1=CC=CC=C1,Ivacaftor,CC(C)(C)C1=CC(=C(O)C=C1NC(=O)C1=CNC2=CC=CC=C2C1=O)C(C)(C)C,Moderate
 Propranolol,CC(C)NCC(O)COC1=CC=CC2=C1C=CC=C2,Thalidomide,O=C1N(C2CCC(=O)NC2=O)C(=O)C2=CC=CC=C12,Moderate
 Arsenic trioxide,O=[As]O[As]=O,Alimemazine,CC(CN(C)C)CN1C2=CC=CC=C2SC2=CC=CC=C12,Major
@@ -11444,7 +11342,6 @@ Dexbrompheniramine,CN(C)CC[C@@H](C1=CC=C(Br)C=C1)C1=CC=CC=N1,Ziconotide,[H][C@]1
 Lindane,Cl[C@H]1[C@H](Cl)[C@@H](Cl)[C@@H](Cl)[C@H](Cl)[C@H]1Cl,Bupropion,CC(NC(C)(C)C)C(=O)C1=CC(Cl)=CC=C1,Major
 Zinc chloride,[Cl-].[Cl-].[Zn++],Melphalan flufenamide,CCOC(=O)[C@H](CC1=CC=C(F)C=C1)NC(=O)[C@@H](N)CC1=CC=C(C=C1)N(CCCl)CCCl,Minor
 Tamoxifen,CCC(=C(/C1=CC=CC=C1)C1=CC=C(OCCN(C)C)C=C1)C1=CC=CC=C1,Sunitinib,CCN(CC)CCNC(=O)C1=C(C)NC(C=C2/C(=O)NC3=C2C=C(F)C=C3)=C1C,Moderate
-Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Glasdegib,CN1CC[C@H](C[C@@H]1C1=NC2=CC=CC=C2N1)NC(=O)NC1=CC=C(C=C1)C#N,Moderate
 Azatadine,CN1CCC(CC1)=C1C2=CC=CC=C2CCC2=C1N=CC=C2,Oxybutynin,CCN(CC)CC#CCOC(=O)C(O)(C1CCCCC1)C1=CC=CC=C1,Moderate
 Floxuridine,OC[C@H]1O[C@H](C[C@@H]1O)N1C=C(F)C(=O)NC1=O,Doxorubicin,COC1=CC=CC2=C1C(=O)C1=C(O)C3=C(C[C@](O)(C[C@@H]3O[C@H]3C[C@H](N)[C@H](O)[C@H](C)O3)C(=O)CO)C(O)=C1C2=O,Moderate
 Epirubicin,COC1=CC=CC2=C1C(=O)C1=C(O)C3=C(C[C@](O)(C[C@@H]3O[C@H]3C[C@H](N)[C@@H](O)[C@H](C)O3)C(=O)CO)C(O)=C1C2=O,Dextropropoxyphene,CCC(=O)O[C@@](CC1=CC=CC=C1)([C@H](C)CN(C)C)C1=CC=CC=C1,Moderate
@@ -11459,7 +11356,6 @@ Lansoprazole,CC1=C(OCC(F)(F)F)C=CN=C1CS(=O)C1=NC2=CC=CC=C2N1,Ketoconazole,CC(=O)
 Chlorphenesin,OCC(O)COC1=CC=C(Cl)C=C1,Flavoxate,CC1=C(OC2=C(C=CC=C2C(=O)OCCN2CCCCC2)C1=O)C1=CC=CC=C1,Moderate
 Cladribine,NC1=C2N=CN([C@H]3C[C@H](O)[C@@H](CO)O3)C2=NC(Cl)=N1,Triamcinolone,[H][C@@]12C[C@@H](O)[C@](O)(C(=O)CO)[C@@]1(C)C[C@H](O)[C@@]1(F)[C@@]2([H])CCC2=CC(=O)C=C[C@]12C,Major
 Tacrolimus,CO[C@@H]1C[C@@H](CC[C@H]1O)C=C(/C)[C@H]1OC(=O)[C@@H]2CCCCN2C(=O)C(=O)[C@]2(O)O[C@@H]([C@H](C[C@H]2C)OC)[C@H](C[C@@H](C)CC(C)=C[C@@H](CC=C)C(=O)C[C@H](O)[C@H]1C)OC,Glycerol phenylbutyrate,O=C(CCCC1=CC=CC=C1)OCC(COC(=O)CCCC1=CC=CC=C1)OC(=O)CCCC1=CC=CC=C1,Moderate
-Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Propofol,CC(C)C1=CC=CC(C(C)C)=C1O,Moderate
 Thiethylperazine,CCSC1=CC2=C(SC3=CC=CC=C3N2CCCN2CCN(C)CC2)C=C1,Haloperidol,OC1(CCN(CCCC(=O)C2=CC=C(F)C=C2)CC1)C1=CC=C(Cl)C=C1,Moderate
 Nizatidine,CNC(NCCSCC1=CSC(CN(C)C)=N1)=C[N+]([O-])=O,Ketoprofen,CC(C(O)=O)C1=CC(=CC=C1)C(=O)C1=CC=CC=C1,Minor
 Gatifloxacin,COC1=C2N(C=C(C(O)=O)C(=O)C2=CC(F)=C1N1CCNC(C)C1)C1CC1,Calcium glubionate anhydrous,OC[C@@H](O)[C@@H](O)[C@H](O)[C@@H](O)C(=O)O[Ca]OC(=O)[C@H](O)[C@@H](O)[C@H](O[C@@H]1O[C@H](CO)[C@H](O)[C@H](O)[C@H]1O)[C@H](O)CO,Moderate
@@ -11570,7 +11466,6 @@ Enoxacin,CCN1C=C(C(O)=O)C(=O)C2=CC(F)=C(N=C12)N1CCNCC1,Miglitol,OCCN1C[C@H](O)[C
 Omeprazole,COC1=CC2=C(C=C1)N=C(N2)S(=O)CC1=NC=C(C)C(OC)=C1C,Brivaracetam,CCC[C@H]1CN([C@@H](CC)C(N)=O)C(=O)C1,Minor
 Cetirizine,OC(=O)COCCN1CCN(CC1)C(C1=CC=CC=C1)C1=CC=C(Cl)C=C1,Deutetrabenazine,[2H]C([2H])([2H])OC1=CC2=C(C=C1OC([2H])([2H])[2H])[C@@H]1CC(=O)[C@@H](CC(C)C)CN1CC2,Moderate
 Betaxolol,CC(C)NCC(O)COC1=CC=C(CCOCC2CC2)C=C1,Methscopolamine,C[N+]1(C)[C@H]2C[C@@H](C[C@@H]1[C@H]1O[C@@H]21)OC(=O)[C@H](CO)C1=CC=CC=C1,Moderate
-Venlafaxine,COC1=CC=C(C=C1)C(CN(C)C)C1(O)CCCCC1,Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Moderate
 Treprostinil,[H][C@]12C[C@@H](O)[C@H](CC[C@@H](O)CCCCC)[C@@]1([H])CC1=C(C2)C(OCC(O)=O)=CC=C1,Mannitol,OC[C@@H](O)[C@@H](O)[C@H](O)[C@H](O)CO,Moderate
 Ranitidine,CNC(NCCSCC1=CC=C(CN(C)C)O1)=C[N+]([O-])=O,Didanosine,OC[C@@H]1CC[C@@H](O1)N1C=NC2=C1NC=NC2=O,Minor
 Phentermine,CC(C)(N)CC1=CC=CC=C1,Epinephrine,CNC[C@H](O)C1=CC(O)=C(O)C=C1,Moderate
@@ -11773,7 +11668,6 @@ Altretamine,CN(C)C1=NC(=NC(=N1)N(C)C)N(C)C,Azathioprine,CN1C=NC(=C1SC1=NC=NC2=C1
 Epirubicin,COC1=CC=CC2=C1C(=O)C1=C(O)C3=C(C[C@](O)(C[C@@H]3O[C@H]3C[C@H](N)[C@@H](O)[C@H](C)O3)C(=O)CO)C(O)=C1C2=O,Terbutaline,CC(C)(C)NCC(O)C1=CC(O)=CC(O)=C1,Moderate
 Nicardipine,COC(=O)C1=C(C)NC(C)=C(C1C1=CC(=CC=C1)[N+]([O-])=O)C(=O)OCCN(C)CC1=CC=CC=C1,Tacrolimus,CO[C@@H]1C[C@@H](CC[C@H]1O)C=C(/C)[C@H]1OC(=O)[C@@H]2CCCCN2C(=O)C(=O)[C@]2(O)O[C@@H]([C@H](C[C@H]2C)OC)[C@H](C[C@@H](C)CC(C)=C[C@@H](CC=C)C(=O)C[C@H](O)[C@H]1C)OC,Moderate
 Difenoxin,OC(=O)C1(CCN(CCC(C#N)(C2=CC=CC=C2)C2=CC=CC=C2)CC1)C1=CC=CC=C1,Eslicarbazepine,NC(=O)N1C2=C(C[C@H](O)C3=C1C=CC=C3)C=CC=C2,Moderate
-Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Roflumilast,FC(F)OC1=C(OCC2CC2)C=C(C=C1)C(=O)NC1=C(Cl)C=NC=C1Cl,Moderate
 Netilmicin,CCN[C@@H]1C[C@H](N)[C@@H](O[C@H]2OC(CN)=CC[C@H]2N)[C@H](O)[C@H]1O[C@H]1OC[C@](C)(O)[C@H](NC)[C@H]1O,Temsirolimus,OCC(C)(CO)C(=O)O[C@@H]1CC[C@@H](C[C@@H](C)[C@]2([H])CC(=O)[C@H](C)C=C(C)[C@@H](O)[C@@H](OC)C(=O)[C@H](C)C[C@H](C)C=CC=CC=C(C)[C@@H](OC)C[C@]3([H])CC[C@@H](C)[C@@](O)(O3)C(=O)C(=O)N3CCCC[C@H]3C(=O)O2)C[C@H]1OC,Major
 Voriconazole,C[C@@H](C1=NC=NC=C1F)[C@](O)(CN1C=NC=N1)C1=C(F)C=C(F)C=C1,Apixaban,COC1=CC=C(C=C1)N1N=C(C(N)=O)C2=C1C(=O)N(CC2)C1=CC=C(C=C1)N1CCCCC1=O,Major
 Loxapine,CN1CCN(CC1)C1=NC2=CC=CC=C2OC2=C1C=C(Cl)C=C2,Meclizine,CC1=CC(CN2CCN(CC2)C(C2=CC=CC=C2)C2=CC=C(Cl)C=C2)=CC=C1,Moderate
@@ -11849,7 +11743,6 @@ Enzalutamide,CNC(=O)C1=C(F)C=C(C=C1)N1C(=S)N(C(=O)C1(C)C)C1=CC=C(C#N)C(=C1)C(F)(
 Propranolol,CC(C)NCC(O)COC1=CC=CC2=C1C=CC=C2,Hydrocortisone,[H][C@@]12CC[C@](O)(C(=O)CO)[C@@]1(C)C[C@H](O)[C@@]1([H])[C@@]2([H])CCC2=CC(=O)CC[C@]12C,Moderate
 Calcium acetate,[Ca++].CC([O-])=O.CC([O-])=O,Benzthiazide,NS(=O)(=O)C1=CC2=C(C=C1Cl)N=C(CSCC1=CC=CC=C1)NS2(=O)=O,Moderate
 Aprepitant,C[C@@H](O[C@H]1OCCN(CC2=NNC(=O)N2)[C@H]1C1=CC=C(F)C=C1)C1=CC(=CC(=C1)C(F)(F)F)C(F)(F)F,Vilazodone,NC(=O)C1=CC2=CC(=CC=C2O1)N1CCN(CCCCC2=CNC3=C2C=C(C=C3)C#N)CC1,Moderate
-Pravastatin,[H][C@]12[C@H](C[C@H](O)C=C1C=C[C@H](C)[C@@H]2CC[C@@H](O)C[C@@H](O)CC(O)=O)OC(=O)[C@@H](C)CC,Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Moderate
 Pseudoephedrine,CN[C@@H](C)[C@@H](O)C1=CC=CC=C1,Bromocriptine,[H][C@@]12CCCN1C(=O)[C@H](CC(C)C)N1C(=O)[C@](NC(=O)[C@H]3CN(C)[C@]4([H])CC5=C(Br)NC6=CC=CC(=C56)C4=C3)(O[C@@]21O)C(C)C,Moderate
 Mesoridazine,CN1CCCCC1CCN1C2=C(SC3=C1C=C(C=C3)S(C)=O)C=CC=C2,Aluminum hydroxide,[OH-].[OH-].[OH-].[Al+3],Minor
 Ticlopidine,ClC1=CC=CC=C1CN1CCC2=C(C1)C=CS2,Zanubrutinib,NC(=O)C1=C2NCC[C@@H](C3CCN(CC3)C(=O)C=C)N2N=C1C1=CC=C(OC2=CC=CC=C2)C=C1,Major
@@ -11987,7 +11880,6 @@ Nisoldipine,COC(=O)C1=C(C)NC(C)=C(C1C1=CC=CC=C1[N+]([O-])=O)C(=O)OCC(C)C,Tacroli
 Tretinoin,CC(C=CC1=C(C)CCCC1(C)C)=C/C=C/C(/C)=C/C(O)=O,Abiraterone,[H][C@@]12CC=C(C3=CC=CN=C3)[C@@]1(C)CC[C@@]1([H])[C@@]2([H])CC=C2C[C@@H](O)CC[C@]12C,Moderate
 Dofetilide,CN(CCOC1=CC=C(NS(C)(=O)=O)C=C1)CCC1=CC=C(NS(C)(=O)=O)C=C1,Idarubicin,C[C@@H]1O[C@H](C[C@H](N)[C@@H]1O)O[C@H]1C[C@@](O)(CC2=C1C(O)=C1C(=O)C3=CC=CC=C3C(=O)C1=C2O)C(C)=O,Major
 Propantheline,CC(C)[N+](C)(CCOC(=O)C1C2=CC=CC=C2OC2=CC=CC=C12)C(C)C,Rivastigmine,CCN(C)C(=O)OC1=CC=CC(=C1)[C@H](C)N(C)C,Moderate
-Bortezomib,CC(C)C[C@H](NC(=O)[C@H](CC1=CC=CC=C1)NC(=O)C1=CN=CC=N1)B(O)O,Cisplatin,[H][N]([H])([H])[Pt](Cl)(Cl)[N]([H])([H])[H],Moderate
 Urea,NC(N)=O,Milnacipran,CCN(CC)C(=O)C1(CC1CN)C1=CC=CC=C1,Moderate
 Diflunisal,OC(=O)C1=C(O)C=CC(=C1)C1=C(F)C=C(F)C=C1,Niraparib,NC(=O)C1=CC=CC2=CN(N=C12)C1=CC=C(C=C1)[C@@H]1CCCNC1,Moderate
 Pioglitazone,CCC1=CN=C(CCOC2=CC=C(CC3SC(=O)NC3=O)C=C2)C=C1,Histrelin,CC(O)=O.CC(O)=O.CCNC(=O)[C@@H]1CCCN1C(=O)[C@H](CCCNC(N)=N)NC(=O)[C@H](CC(C)C)NC(=O)[C@@H](CC1=CN(CC2=CC=CC=C2)C=N1)NC(=O)[C@H](CC1=CC=C(O)C=C1)NC(=O)[C@H](CO)NC(=O)[C@H](CC1=CNC2=C1C=CC=C2)NC(=O)[C@H](CC1=CNC=N1)NC(=O)[C@@H]1CCC(=O)N1,Moderate
@@ -12101,7 +11993,6 @@ Indomethacin,COC1=CC2=C(C=C1)N(C(=O)C1=CC=C(Cl)C=C1)C(C)=C2CC(O)=O,Treprostinil,
 Tucatinib,CC1=CC(NC2=NC=NC3=CC=C(NC4=NC(C)(C)CO4)C=C23)=CC=C1OC1=CC2=NC=NN2C=C1,Copanlisib,COC1=C(OCCCN2CCOCC2)C=CC2=C1N=C(NC(=O)C1=CN=C(N)N=C1)N1CCN=C21,Major
 Oxcarbazepine,NC(=O)N1C2=CC=CC=C2CC(=O)C2=C1C=CC=C2,Metoclopramide,CCN(CC)CCNC(=O)C1=CC(Cl)=C(N)C=C1OC,Moderate
 Clomipramine,CN(C)CCCN1C2=CC=CC=C2CCC2=C1C=C(Cl)C=C2,Rivaroxaban,ClC1=CC=C(S1)C(=O)NC[C@H]1CN(C(=O)O1)C1=CC=C(C=C1)N1CCOCC1=O,Moderate
-Cisplatin,[H][N]([H])([H])[Pt](Cl)(Cl)[N]([H])([H])[H],Mitoxantrone,OCCNCCNC1=CC=C(NCCNCCO)C2=C1C(=O)C1=C(C(O)=CC=C1O)C2=O,Moderate
 Liothyronine,N[C@@H](CC1=CC(I)=C(OC2=CC(I)=C(O)C=C2)C(I)=C1)C(O)=O,Phendimetrazine,C[C@H]1[C@@H](OCCN1C)C1=CC=CC=C1,Moderate
 Prednisolone,[H][C@@]12CC[C@](O)(C(=O)CO)[C@@]1(C)C[C@H](O)[C@@]1([H])[C@@]2([H])CCC2=CC(=O)C=C[C@]12C,Digitoxin,[H][C@@]1(CC[C@]2(O)[C@]3([H])CC[C@]4([H])C[C@H](CC[C@]4(C)[C@@]3([H])CC[C@]12C)O[C@H]1C[C@H](O)[C@H](O[C@H]2C[C@H](O)[C@H](O[C@H]3C[C@H](O)[C@H](O)[C@@H](C)O3)[C@@H](C)O2)[C@@H](C)O1)C1=CC(=O)OC1,Moderate
 Indapamide,CC1CC2=CC=CC=C2N1NC(=O)C1=CC(=C(Cl)C=C1)S(N)(=O)=O,Calcium citrate,[Ca++].[Ca++].[Ca++].OC(CC([O-])=O)(CC([O-])=O)C([O-])=O.OC(CC([O-])=O)(CC([O-])=O)C([O-])=O,Moderate
@@ -12462,7 +12353,6 @@ Chloramphenicol,OC[C@@H](NC(=O)C(Cl)Cl)[C@H](O)C1=CC=C(C=C1)[N+]([O-])=O,Lenalid
 Aprepitant,C[C@@H](O[C@H]1OCCN(CC2=NNC(=O)N2)[C@H]1C1=CC=C(F)C=C1)C1=CC(=CC(=C1)C(F)(F)F)C(F)(F)F,Dutasteride,[H][C@@]1(CC[C@@]2([H])[C@]3([H])CC[C@@]4([H])NC(=O)C=C[C@]4(C)[C@@]3([H])CC[C@]12C)C(=O)NC1=CC(=CC=C1C(F)(F)F)C(F)(F)F,Moderate
 Sibutramine,CC(C)CC(N(C)C)C1(CCC1)C1=CC=C(Cl)C=C1,Lapatinib,CS(=O)(=O)CCNCC1=CC=C(O1)C1=CC2=C(C=C1)N=CN=C2NC1=CC(Cl)=C(OCC2=CC(F)=CC=C2)C=C1,Moderate
 Obeticholic acid,[H][C@@]1(CC[C@@]2([H])[C@]3([H])[C@H](O)[C@H](CC)[C@]4([H])C[C@H](O)CC[C@]4(C)[C@@]3([H])CC[C@]12C)[C@H](C)CCC(O)=O,Bendamustine,CN1C(CCCC(O)=O)=NC2=CC(=CC=C12)N(CCCl)CCCl,Moderate
-Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Lenvatinib,COC1=C(C=C2C(OC3=CC=C(NC(=O)NC4CC4)C(Cl)=C3)=CC=NC2=C1)C(N)=O,Moderate
 Butalbital,CC(C)CC1(CC=C)C(=O)NC(=O)NC1=O,Dasatinib,CC1=NC(NC2=NC=C(S2)C(=O)NC2=C(C)C=CC=C2Cl)=CC(=N1)N1CCN(CCO)CC1,Moderate
 Betamethasone,[H][C@@]12C[C@H](C)[C@](O)(C(=O)CO)[C@@]1(C)C[C@H](O)[C@@]1(F)[C@@]2([H])CCC2=CC(=O)C=C[C@]12C,Bisoprolol,CC(C)NCC(O)COC1=CC=C(COCCOC(C)C)C=C1,Moderate
 Methysergide,[H][C@@]12CC3=CN(C)C4=C3C(=CC=C4)C1=C[C@H](CN2C)C(=O)NC(CC)CO,Fedratinib,CC1=CN=C(NC2=CC=C(OCCN3CCCC3)C=C2)N=C1NC1=CC=CC(=C1)S(=O)(=O)NC(C)(C)C,Moderate
@@ -12519,7 +12409,6 @@ Fosphenytoin,OP(O)(=O)OCN1C(=O)NC(C1=O)(C1=CC=CC=C1)C1=CC=CC=C1,Ticagrelor,CCCSC
 Atomoxetine,CNCC[C@@H](OC1=CC=CC=C1C)C1=CC=CC=C1,Terbutaline,CC(C)(C)NCC(O)C1=CC(O)=CC(O)=C1,Moderate
 Chlorpheniramine,CN(C)CCC(C1=CC=C(Cl)C=C1)C1=CC=CC=N1,Opicapone,CC1=C(C2=NOC(=N2)C2=CC(=C(O)C(O)=C2)[N+]([O-])=O)C(Cl)=[N+]([O-])C(C)=C1Cl,Moderate
 Clonidine,ClC1=CC=CC(Cl)=C1NC1=NCCN1,Triamcinolone,[H][C@@]12C[C@@H](O)[C@](O)(C(=O)CO)[C@@]1(C)C[C@H](O)[C@@]1(F)[C@@]2([H])CCC2=CC(=O)C=C[C@]12C,Moderate
-Bumetanide,CCCCNC1=C(OC2=CC=CC=C2)C(=CC(=C1)C(O)=O)S(N)(=O)=O,Carboplatin,[H][N]([H])([H])[Pt]1(OC(=O)C2(CCC2)C(=O)O1)[N]([H])([H])[H],Moderate
 Atenolol,CC(C)NCC(O)COC1=CC=C(CC(N)=O)C=C1,Terbutaline,CC(C)(C)NCC(O)C1=CC(O)=CC(O)=C1,Moderate
 Panobinostat,CC1=C(CCNCC2=CC=C(C=CC(=O)NO)C=C2)C2=CC=CC=C2N1,Duvelisib,C[C@H](NC1=C2N=CNC2=NC=N1)C1=CC2=CC=CC(Cl)=C2C(=O)N1C1=CC=CC=C1,Moderate
 Betamethasone,[H][C@@]12C[C@H](C)[C@](O)(C(=O)CO)[C@@]1(C)C[C@H](O)[C@@]1(F)[C@@]2([H])CCC2=CC(=O)C=C[C@]12C,Salmeterol,OCC1=C(O)C=CC(=C1)C(O)CNCCCCCCOCCCCC1=CC=CC=C1,Minor
@@ -12607,7 +12496,6 @@ Clotrimazole,ClC1=CC=CC=C1C(N1C=CN=C1)(C1=CC=CC=C1)C1=CC=CC=C1,Budesonide,[H][C@
 Telbivudine,CC1=CN([C@@H]2C[C@@H](O)[C@H](CO)O2)C(=O)NC1=O,Carfilzomib,CC(C)C[C@H](NC(=O)[C@H](CCC1=CC=CC=C1)NC(=O)CN1CCOCC1)C(=O)N[C@@H](CC1=CC=CC=C1)C(=O)N[C@@H](CC(C)C)C(=O)[C@@]1(C)CO1,Moderate
 Glimepiride,CCC1=C(C)CN(C(=O)NCCC2=CC=C(C=C2)S(=O)(=O)NC(=O)N[C@H]2CC[C@H](C)CC2)C1=O,Sparfloxacin,C[C@H]1CN(C[C@@H](C)N1)C1=C(F)C(N)=C2C(=O)C(=CN(C3CC3)C2=C1F)C(O)=O,Major
 Prochlorperazine,CN1CCN(CCCN2C3=CC=CC=C3SC3=C2C=C(Cl)C=C3)CC1,Bisacodyl,CC(=O)OC1=CC=C(C=C1)C(C1=CC=C(OC(C)=O)C=C1)C1=CC=CC=N1,Moderate
-Carboplatin,[H][N]([H])([H])[Pt]1(OC(=O)C2(CCC2)C(=O)O1)[N]([H])([H])[H],Baricitinib,CCS(=O)(=O)N1CC(CC#N)(C1)N1C=C(C=N1)C1=C2C=CNC2=NC=N1,Major
 Loperamide,CN(C)C(=O)C(CCN1CCC(O)(CC1)C1=CC=C(Cl)C=C1)(C1=CC=CC=C1)C1=CC=CC=C1,Apraclonidine,NC1=CC(Cl)=C(NC2=NCCN2)C(Cl)=C1,Moderate
 Lidocaine,CCN(CC)CC(=O)NC1=C(C)C=CC=C1C,Quazepam,FC1=CC=CC=C1C1=NCC(=S)N(CC(F)(F)F)C2=C1C=C(Cl)C=C2,Moderate
 Fluvoxamine,COCCCCC(=N/OCCN)C1=CC=C(C=C1)C(F)(F)F,Larotrectinib,O[C@H]1CCN(C1)C(=O)NC1=C2N=C(C=CN2N=C1)N1CCC[C@@H]1C1=C(F)C=CC(F)=C1,Moderate
@@ -12693,7 +12581,6 @@ Aprepitant,C[C@@H](O[C@H]1OCCN(CC2=NNC(=O)N2)[C@H]1C1=CC=C(F)C=C1)C1=CC(=CC(=C1)
 Doxepin,[H]C(CCN(C)C)=C1C2=CC=CC=C2COC2=CC=CC=C12,Phenobarbital,CCC1(C(=O)NC(=O)NC1=O)C1=CC=CC=C1,Moderate
 Dextropropoxyphene,CCC(=O)O[C@@](CC1=CC=CC=C1)([C@H](C)CN(C)C)C1=CC=CC=C1,Dasatinib,CC1=NC(NC2=NC=C(S2)C(=O)NC2=C(C)C=CC=C2Cl)=CC(=N1)N1CCN(CCO)CC1,Moderate
 Doxorubicin,COC1=CC=CC2=C1C(=O)C1=C(O)C3=C(C[C@](O)(C[C@@H]3O[C@H]3C[C@H](N)[C@H](O)[C@H](C)O3)C(=O)CO)C(O)=C1C2=O,Procainamide,CCN(CC)CCNC(=O)C1=CC=C(N)C=C1,Major
-Chlorambucil,OC(=O)CCCC1=CC=C(C=C1)N(CCCl)CCCl,Cisplatin,[H][N]([H])([H])[Pt](Cl)(Cl)[N]([H])([H])[H],Moderate
 Indomethacin,COC1=CC2=C(C=C1)N(C(=O)C1=CC=C(Cl)C=C1)C(C)=C2CC(O)=O,Warfarin,CC(=O)CC(C1=CC=CC=C1)C1=C(O)C2=C(OC1=O)C=CC=C2,Major
 Thiothixene,CN(C)S(=O)(=O)C1=CC2=C(SC3=CC=CC=C3C2=CCCN2CCN(C)CC2)C=C1,Lorcaserin,C[C@H]1CNCCC2=CC=C(Cl)C=C12,Moderate
 Beclomethasone dipropionate,[H][C@@]12C[C@H](C)[C@](OC(=O)CC)(C(=O)COC(=O)CC)[C@@]1(C)C[C@H](O)[C@@]1(Cl)[C@@]2([H])CCC2=CC(=O)C=C[C@]12C,Hydrochlorothiazide,NS(=O)(=O)C1=C(Cl)C=C2NCNS(=O)(=O)C2=C1,Moderate
@@ -12703,7 +12590,6 @@ Cimetidine,CNC(NCCSCC1=C(C)NC=N1)=NC#N,Nifedipine,COC(=O)C1=C(C)NC(C)=C(C1C1=CC=
 Iloperidone,COC1=C(OCCCN2CCC(CC2)C2=NOC3=C2C=CC(F)=C3)C=CC(=C1)C(C)=O,Linagliptin,CC#CCN1C(=NC2=C1C(=O)N(CC1=NC3=C(C=CC=C3)C(C)=N1)C(=O)N2C)N1CCC[C@@H](N)C1,Moderate
 Ascorbic acid,[H][C@@]1(OC(=O)C(O)=C1O)[C@@H](O)CO,Mexiletine,CC(N)COC1=C(C)C=CC=C1C,Minor
 Metamfetamine,CN[C@@H](C)CC1=CC=CC=C1,Sodium acetate,[Na+].CC([O-])=O,Moderate
-Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Picosulfuric acid,OS(=O)(=O)OC1=CC=C(C=C1)C(C1=CC=C(OS(O)(=O)=O)C=C1)C1=CC=CC=N1,Moderate
 Pentamidine,NC(=N)C1=CC=C(OCCCCCOC2=CC=C(C=C2)C(N)=N)C=C1,Promethazine,CC(CN1C2=CC=CC=C2SC2=CC=CC=C12)N(C)C,Moderate
 Ethanol,CCO,Lemborexant,CC1=NC=C(OC[C@]2(C[C@H]2C(=O)NC2=NC=C(F)C=C2)C2=CC=CC(F)=C2)C(C)=N1,Moderate
 Flutamide,CC(C)C(=O)NC1=CC(=C(C=C1)[N+]([O-])=O)C(F)(F)F,Lactulose,OC[C@H]1O[C@](O)(CO)[C@@H](O)[C@@H]1O[C@@H]1O[C@H](CO)[C@H](O)[C@H](O)[C@H]1O,Moderate
@@ -12733,7 +12619,6 @@ Procainamide,CCN(CC)CCNC(=O)C1=CC=C(N)C=C1,Siponimod,CCC1=CC(=CC=C1CN1CC(C1)C(O)
 Tucatinib,CC1=CC(NC2=NC=NC3=CC=C(NC4=NC(C)(C)CO4)C=C23)=CC=C1OC1=CC2=NC=NN2C=C1,Lorlatinib,C[C@H]1OC2=C(N)N=CC(=C2)C2=C(C#N)N(C)N=C2CN(C)C(=O)C2=C1C=C(F)C=C2,Major
 Isradipine,COC(=O)C1=C(C)NC(C)=C(C1C1=CC=CC2=NON=C12)C(=O)OC(C)C,Calcium lactate,[Ca++].CC(O)C([O-])=O.CC(O)C([O-])=O,Moderate
 Dactinomycin,[H][C@@]12CCCN1C(=O)[C@H](NC(=O)[C@@H](NC(=O)C1=C3N=C4C(OC3=C(C)C=C1)=C(C)C(=O)C(N)=C4C(=O)N[C@H]1[C@@H](C)OC(=O)[C@H](C(C)C)N(C)C(=O)CN(C)C(=O)[C@]3([H])CCCN3C(=O)[C@H](NC1=O)C(C)C)[C@@H](C)OC(=O)[C@H](C(C)C)N(C)C(=O)CN(C)C2=O)C(C)C,Monomethyl fumarate,COC(=O)C=CC(O)=O,Moderate
-Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Meclofenamic acid,CC1=C(Cl)C(NC2=CC=CC=C2C(O)=O)=C(Cl)C=C1,Moderate
 Nilotinib,CC1=CN(C=N1)C1=CC(NC(=O)C2=CC=C(C)C(NC3=NC=CC(=N3)C3=CN=CC=C3)=C2)=CC(=C1)C(F)(F)F,Vandetanib,COC1=C(OCC2CCN(C)CC2)C=C2N=CN=C(NC3=C(F)C=C(Br)C=C3)C2=C1,Major
 Amitriptyline,CN(C)CCC=C1C2=CC=CC=C2CCC2=CC=CC=C12,Macimorelin,CC(C)(N)C(=O)N[C@H](CC1=CNC2=CC=CC=C12)C(=O)N[C@H](CC1=CNC2=CC=CC=C12)NC=O,Major
 Norfloxacin,CCN1C=C(C(O)=O)C(=O)C2=CC(F)=C(C=C12)N1CCNCC1,Lapatinib,CS(=O)(=O)CCNCC1=CC=C(O1)C1=CC2=C(C=C1)N=CN=C2NC1=CC(Cl)=C(OCC2=CC(F)=CC=C2)C=C1,Moderate
@@ -12790,7 +12675,6 @@ Norepinephrine,NC[C@H](O)C1=CC(O)=C(O)C=C1,Ozanimod,CC(C)OC1=C(C=C(C=C1)C1=NC(=N
 Olsalazine,OC(=O)C1=CC(=CC=C1O)N=NC1=CC=C(O)C(=C1)C(O)=O,Ioversol,OCCN(C(=O)CO)C1=C(I)C(C(=O)NCC(O)CO)=C(I)C(C(=O)NCC(O)CO)=C1I,Major
 Amitriptyline,CN(C)CCC=C1C2=CC=CC=C2CCC2=CC=CC=C12,Cyclizine,CN1CCN(CC1)C(C1=CC=CC=C1)C1=CC=CC=C1,Moderate
 Mazindol,OC1(N2CCN=C2C2=CC=CC=C12)C1=CC=C(Cl)C=C1,Escitalopram,CN(C)CCC[C@]1(OCC2=C1C=CC(=C2)C#N)C1=CC=C(F)C=C1,Major
-Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Nilutamide,CC1(C)NC(=O)N(C1=O)C1=CC(=C(C=C1)[N+]([O-])=O)C(F)(F)F,Moderate
 Sibutramine,CC(C)CC(N(C)C)C1(CCC1)C1=CC=C(Cl)C=C1,Edoxaban,CN(C)C(=O)[C@H]1CC[C@H](NC(=O)C(=O)NC2=NC=C(Cl)C=C2)[C@@H](C1)NC(=O)C1=NC2=C(CN(C)CC2)S1,Moderate
 Trifluoperazine,CN1CCN(CCCN2C3=CC=CC=C3SC3=C2C=C(C=C3)C(F)(F)F)CC1,Amyl Nitrite,CCCCCON=O,Moderate
 Naproxen,COC1=CC2=C(C=C1)C=C(C=C2)[C@H](C)C(O)=O,Iodixanol,CC(=O)N(CC(O)CN(C(C)=O)C1=C(I)C(C(=O)NCC(O)CO)=C(I)C(C(=O)NCC(O)CO)=C1I)C1=C(I)C(C(=O)NCC(O)CO)=C(I)C(C(=O)NCC(O)CO)=C1I,Major
@@ -12843,7 +12727,6 @@ Maprotiline,CNCCCC12CCC(C3=CC=CC=C13)C1=CC=CC=C21,Bicalutamide,CC(O)(CS(=O)(=O)C
 Vandetanib,COC1=C(OCC2CCN(C)CC2)C=C2N=CN=C(NC3=C(F)C=C(Br)C=C3)C2=C1,Cenobamate,NC(=O)O[C@@H](CN1N=CN=N1)C1=C(Cl)C=CC=C1,Moderate
 Carbamazepine,NC(=O)N1C2=CC=CC=C2C=CC2=CC=CC=C12,Azatadine,CN1CCC(CC1)=C1C2=CC=CC=C2CCC2=C1N=CC=C2,Moderate
 Chlorothiazide,NS(=O)(=O)C1=C(Cl)C=C2NC=NS(=O)(=O)C2=C1,Sodium sulfate,[Na+].[Na+].[O-]S([O-])(=O)=O,Moderate
-Cisplatin,[H][N]([H])([H])[Pt](Cl)(Cl)[N]([H])([H])[H],Ponatinib,CN1CCN(CC2=CC=C(NC(=O)C3=CC(C#CC4=CN=C5C=CC=NN45)=C(C)C=C3)C=C2C(F)(F)F)CC1,Moderate
 Nalbuphine,O[C@H]1CC[C@@]2(O)[C@H]3CC4=CC=C(O)C5=C4[C@@]2(CCN3CC2CCC2)[C@H]1O5,Ticagrelor,CCCSC1=NC2=C(N=NN2[C@@H]2C[C@H](OCCO)[C@@H](O)[C@H]2O)C(N[C@@H]2C[C@H]2C2=CC(F)=C(F)C=C2)=N1,Moderate
 Ethotoin,CCN1C(=O)NC(C1=O)C1=CC=CC=C1,Trabectedin,[H][C@@]12[C@@H]3SC[C@]4(NCCC5=C4C=C(OC)C(O)=C5)C(=O)OC[C@H](N1[C@@H](O)[C@@H]1CC4=CC(C)=C(OC)C(O)=C4[C@H]2N1C)C1=C2OCOC2=C(C)C(OC(C)=O)=C31,Moderate
 Atomoxetine,CNCC[C@@H](OC1=CC=CC=C1C)C1=CC=CC=C1,Naltrexone,[H][C@@]12OC3=C(O)C=CC4=C3[C@@]11CCN(CC3CC3)[C@]([H])(C4)[C@]1(O)CCC2=O,Moderate
@@ -12853,7 +12736,6 @@ Efavirenz,FC(F)(F)[C@]1(OC(=O)NC2=C1C=C(Cl)C=C2)C#CC1CC1,Bicalutamide,CC(O)(CS(=
 Loperamide,CN(C)C(=O)C(CCN1CCC(O)(CC1)C1=CC=C(Cl)C=C1)(C1=CC=CC=C1)C1=CC=CC=C1,Telavancin,CCCCCCCCCCNCCN[C@@]1(C)C[C@H](O[C@@H]2[C@@H](O)[C@H](O)[C@@H](CO)O[C@H]2OC2=C3OC4=CC=C(C=C4Cl)[C@@H](O)[C@@H](NC(=O)[C@@H](CC(C)C)NC)C(=O)N[C@@H](CC(N)=O)C(=O)N[C@@H]4C(C=C2OC2=C(Cl)C=C(C=C2)[C@@H](O)[C@@H]2NC(=O)[C@H](NC4=O)C4=CC(=C(O)C=C4)C4=C(O)C(CNCP(O)(O)=O)=C(O)C=C4[C@H](NC2=O)C(O)=O)=C3)O[C@@H](C)[C@H]1O,Moderate
 Tamsulosin,CCOC1=CC=CC=C1OCCN[C@H](C)CC1=CC(=C(OC)C=C1)S(N)(=O)=O,Miconazole,ClC1=CC(Cl)=C(COC(CN2C=CN=C2)C2=C(Cl)C=C(Cl)C=C2)C=C1,Moderate
 Tioguanine,NC1=NC(=S)C2=C(N1)N=CN2,Clozapine,CN1CCN(CC1)C1=NC2=CC(Cl)=CC=C2NC2=CC=CC=C12,Major
-Torasemide,CC(C)NC(=O)NS(=O)(=O)C1=C(NC2=CC=CC(C)=C2)C=CN=C1,Carboplatin,[H][N]([H])([H])[Pt]1(OC(=O)C2(CCC2)C(=O)O1)[N]([H])([H])[H],Moderate
 Vinblastine,[H][C@@]12N(C)C3=CC(OC)=C(C=C3[C@@]11CCN3CC=C[C@@](CC)([C@@H](OC(C)=O)[C@]2(O)C(=O)OC)[C@@]13[H])[C@]1(C[C@@]2([H])CN(C[C@](O)(CC)C2)CCC2=C1NC1=C2C=CC=C1)C(=O)OC,Ribociclib,CN(C)C(=O)C1=CC2=CN=C(NC3=CC=C(C=N3)N3CCNCC3)N=C2N1C1CCCC1,Moderate
 Aprepitant,C[C@@H](O[C@H]1OCCN(CC2=NNC(=O)N2)[C@H]1C1=CC=C(F)C=C1)C1=CC(=CC(=C1)C(F)(F)F)C(F)(F)F,Sirolimus,[H][C@@]1(C[C@@H](C)[C@]2([H])CC(=O)[C@H](C)C=C(C)[C@@H](O)[C@@H](OC)C(=O)[C@H](C)C[C@H](C)C=CC=CC=C(C)[C@H](C[C@]3([H])CC[C@@H](C)[C@@](O)(O3)C(=O)C(=O)N3CCCC[C@@]3([H])C(=O)O2)OC)CC[C@@H](O)[C@@H](C1)OC,Moderate
 Mitotane,ClC(Cl)C(C1=CC=C(Cl)C=C1)C1=CC=CC=C1Cl,Estradiol,[H][C@@]12CC[C@H](O)[C@@]1(C)CC[C@]1([H])C3=C(CC[C@@]21[H])C=C(O)C=C3,Moderate
@@ -13173,7 +13055,6 @@ Pentamidine,NC(=N)C1=CC=C(OCCCCCOC2=CC=C(C=C2)C(N)=N)C=C1,Sitagliptin,N[C@@H](CC
 Cabozantinib,COC1=CC2=C(C=C1OC)C(OC1=CC=C(NC(=O)C3(CC3)C(=O)NC3=CC=C(F)C=C3)C=C1)=CC=N2,Lefamulin,[H][C@@]12C(=O)CC[C@]11CCC(C)[C@@]2(C)[C@@H](C[C@@](C)(C=C)[C@@H](O)[C@@H]1C)OC(=O)CS[C@@H]1CC[C@@H](N)C[C@H]1O,Major
 Anagrelide,ClC1=CC=C2N=C3NC(=O)CN3CC2=C1Cl,Diazepam,CN1C2=C(C=C(Cl)C=C2)C(=NCC1=O)C1=CC=CC=C1,Moderate
 Codeine,[H][C@]12C=C[C@H](O)[C@@H]3OC4=C5C(C[C@H]1N(C)CC[C@@]235)=CC=C4OC,Procyclidine,OC(CCN1CCCC1)(C1CCCCC1)C1=CC=CC=C1,Moderate
-Carboplatin,[H][N]([H])([H])[Pt]1(OC(=O)C2(CCC2)C(=O)O1)[N]([H])([H])[H],Amiodarone,CCCCC1=C(C(=O)C2=CC(I)=C(OCCN(CC)CC)C(I)=C2)C2=C(O1)C=CC=C2,Moderate
 Modafinil,NC(=O)CS(=O)C(C1=CC=CC=C1)C1=CC=CC=C1,Vilanterol,OCC1=C(O)C=CC(=C1)[C@@H](O)CNCCCCCCOCCOCC1=C(Cl)C=CC=C1Cl,Moderate
 Fexofenadine,CC(C)(C(O)=O)C1=CC=C(C=C1)C(O)CCCN1CCC(CC1)C(O)(C1=CC=CC=C1)C1=CC=CC=C1,Erdafitinib,COC1=CC(=CC(OC)=C1)N(CCNC(C)C)C1=CC=C2N=CC(=NC2=C1)C1=CN(C)N=C1,Moderate
 Pyrimethamine,CCC1=C(C(N)=NC(N)=N1)C1=CC=C(Cl)C=C1,Sapropterin,[H][C@@]1(CNC2=C(N1)C(=O)NC(N)=N2)[C@@H](O)[C@H](C)O,Moderate
@@ -13201,7 +13082,6 @@ Chloramphenicol,OC[C@@H](NC(=O)C(Cl)Cl)[C@H](O)C1=CC=C(C=C1)[N+]([O-])=O,Cefproz
 Iodipamide,OC(=O)C1=C(I)C(NC(=O)CCCCC(=O)NC2=C(I)C=C(I)C(C(O)=O)=C2I)=C(I)C=C1I,Edetate disodium anhydrous,[Na+].[Na+].OC(=O)CN(CCN(CC(O)=O)CC([O-])=O)CC([O-])=O,Major
 Apixaban,COC1=CC=C(C=C1)N1N=C(C(N)=O)C2=C1C(=O)N(CC2)C1=CC=C(C=C1)N1CCCCC1=O,Enzalutamide,CNC(=O)C1=C(F)C=C(C=C1)N1C(=S)N(C(=O)C1(C)C)C1=CC=C(C#N)C(=C1)C(F)(F)F,Major
 Sulindac,CC1=C(CC(O)=O)C2=CC(F)=CC=C2C1=C/C1=CC=C(C=C1)S(C)=O,Streptomycin,CN[C@H]1[C@H](O)[C@@H](O)[C@H](CO)O[C@H]1O[C@H]1[C@H](O[C@H]2[C@H](O)[C@@H](O)[C@H](NC(N)=N)[C@@H](O)[C@@H]2NC(N)=N)O[C@@H](C)[C@]1(O)C=O,Moderate
-Netilmicin,CCN[C@@H]1C[C@H](N)[C@@H](O[C@H]2OC(CN)=CC[C@H]2N)[C@H](O)[C@H]1O[C@H]1OC[C@](C)(O)[C@H](NC)[C@H]1O,Carboplatin,[H][N]([H])([H])[Pt]1(OC(=O)C2(CCC2)C(=O)O1)[N]([H])([H])[H],Moderate
 Nimodipine,COCCOC(=O)C1=C(C)NC(C)=C(C1C1=CC(=CC=C1)[N+]([O-])=O)C(=O)OC(C)C,Procarbazine,CNNCC1=CC=C(C=C1)C(=O)NC(C)C,Moderate
 Etodolac,CCC1=C2NC3=C(CCOC3(CC)CC(O)=O)C2=CC=C1,Iohexol,CC(=O)N(CC(O)CO)C1=C(I)C(C(=O)NCC(O)CO)=C(I)C(C(=O)NCC(O)CO)=C1I,Major
 Pregabalin,CC(C)C[C@H](CN)CC(O)=O,Clemastine,CN1CCC[C@@H]1CCO[C@](C)(C1=CC=CC=C1)C1=CC=C(Cl)C=C1,Moderate
@@ -13382,7 +13262,6 @@ Apalutamide,CNC(=O)C1=CC=C(C=C1F)N1C(=S)N(C(=O)C11CCC1)C1=CC(=C(N=C1)C#N)C(F)(F)
 Methylprednisolone,[H][C@@]12CC[C@](O)(C(=O)CO)[C@@]1(C)C[C@H](O)[C@@]1([H])[C@@]2([H])C[C@H](C)C2=CC(=O)C=C[C@]12C,Vilanterol,OCC1=C(O)C=CC(=C1)[C@@H](O)CNCCCCCCOCCOCC1=C(Cl)C=CC=C1Cl,Minor
 Fluvastatin,CC(C)N1C(C=CC(O)CC(O)CC(O)=O)=C(C2=CC=CC=C12)C1=CC=C(F)C=C1,Ixazomib,CC(C)C[C@H](NC(=O)CNC(=O)C1=CC(Cl)=CC=C1Cl)B(O)O,Moderate
 Pasireotide,NCCCC[C@@H]1NC(=O)[C@@H](CC2=CNC3=C2C=CC=C3)NC(=O)[C@@H](NC(=O)[C@@H]2C[C@H](CN2C(=O)[C@H](CC2=CC=CC=C2)NC(=O)[C@H](CC2=CC=C(OCC3=CC=CC=C3)C=C2)NC1=O)OC(=O)NCCN)C1=CC=CC=C1,Avapritinib,CN1C=C(C=N1)C1=CN2N=CN=C(N3CCN(CC3)C3=NC=C(C=N3)[C@@](C)(N)C3=CC=C(F)C=C3)C2=C1,Moderate
-Tacrine,NC1=C2CCCCC2=NC2=CC=CC=C12,Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Moderate
 Ciprofloxacin,OC(=O)C1=CN(C2CC2)C2=CC(N3CCNCC3)=C(F)C=C2C1=O,Dapagliflozin,CCOC1=CC=C(CC2=C(Cl)C=CC(=C2)[C@@H]2O[C@H](CO)[C@@H](O)[C@H](O)[C@H]2O)C=C1,Moderate
 Mirtazapine,CN1CCN2C(C1)C1=CC=CC=C1CC1=C2N=CC=C1,Dolasetron,[H][C@@]1(C[C@@]2([H])C[C@]3([H])C[C@@]([H])(C1)N2CC3=O)OC(=O)C1=CNC2=C1C=CC=C2,Major
 Levofloxacin,C[C@H]1COC2=C3N1C=C(C(O)=O)C(=O)C3=CC(F)=C2N1CCN(C)CC1,Lefamulin,[H][C@@]12C(=O)CC[C@]11CCC(C)[C@@]2(C)[C@@H](C[C@@](C)(C=C)[C@@H](O)[C@@H]1C)OC(=O)CS[C@@H]1CC[C@@H](N)C[C@H]1O,Major
@@ -13514,7 +13393,6 @@ Protriptyline,CNCCCC1C2=CC=CC=C2C=CC2=CC=CC=C12,Romidepsin,CC=C1/NC(=O)[C@H]2CSS
 Fosnetupitant,CN(C(=O)C(C)(C)C1=CC(=CC(=C1)C(F)(F)F)C(F)(F)F)C1=CN=C(C=C1C1=CC=CC=C1C)N1CC[N+](C)(COP(O)([O-])=O)CC1,Upadacitinib,CC[C@@H]1CN(C[C@@H]1C1=CN=C2C=NC3=C(C=CN3)N12)C(=O)NCC(F)(F)F,Moderate
 Tetracycline,[H][C@@]12C[C@@]3([H])C(=C(O)[C@]1(O)C(=O)C(C(N)=O)=C(O)[C@H]2N(C)C)C(=O)C1=C(O)C=CC=C1[C@@]3(C)O,Bismuth subsalicylate,O[Bi]1OC(=O)C2=CC=CC=C2O1,Moderate
 Carmustine,ClCCNC(=O)N(CCCl)N=O,Radium Ra 223 dichloride,[Cl-].[Cl-].[223Ra++],Moderate
-Cisplatin,[H][N]([H])([H])[Pt](Cl)(Cl)[N]([H])([H])[H],Lurbinectedin,[H][C@@]12[C@@H]3SC[C@]4(NCCC5=C4NC4=CC=C(OC)C=C54)C(=O)OC[C@H](N1[C@@H](O)[C@@H]1CC4=CC(C)=C(OC)C(O)=C4[C@@]2([H])N1C)C1=C2OCOC2=C(C)C(OC(C)=O)=C31,Moderate
 Diflunisal,OC(=O)C1=C(O)C=CC(=C1)C1=C(F)C=C(F)C=C1,Macimorelin,CC(C)(N)C(=O)N[C@H](CC1=CNC2=CC=CC=C12)C(=O)N[C@H](CC1=CNC2=CC=CC=C12)NC=O,Moderate
 Chloramphenicol,OC[C@@H](NC(=O)C(Cl)Cl)[C@H](O)C1=CC=C(C=C1)[N+]([O-])=O,Deferiprone,CN1C=CC(=O)C(O)=C1C,Major
 Perphenazine,OCCN1CCN(CCCN2C3=CC=CC=C3SC3=C2C=C(Cl)C=C3)CC1,Alogliptin,CN1C(=O)C=C(N2CCC[C@@H](N)C2)N(CC2=C(C=CC=C2)C#N)C1=O,Moderate
@@ -13536,7 +13414,6 @@ Pentazocine,CC1C2CC3=C(C=C(O)C=C3)C1(C)CCN2CC=C(C)C,Dolasetron,[H][C@@]1(C[C@@]2
 Bupropion,CC(NC(C)(C)C)C(=O)C1=CC(Cl)=CC=C1,Quetiapine,OCCOCCN1CCN(CC1)C1=NC2=CC=CC=C2SC2=CC=CC=C12,Major
 Clomipramine,CN(C)CCCN1C2=CC=CC=C2CCC2=C1C=C(Cl)C=C2,Abiraterone,[H][C@@]12CC=C(C3=CC=CN=C3)[C@@]1(C)CC[C@@]1([H])[C@@]2([H])CC=C2C[C@@H](O)CC[C@]12C,Moderate
 Niacin,OC(=O)C1=CN=CC=C1,Chlorpropamide,CCCNC(=O)NS(=O)(=O)C1=CC=C(Cl)C=C1,Moderate
-Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Degarelix,CC(C)C[C@H](NC(=O)[C@@H](CC1=CC=C(NC(N)=O)C=C1)NC(=O)[C@H](CC1=CC=C(NC(=O)[C@@H]2CC(=O)NC(=O)N2)C=C1)NC(=O)[C@H](CO)NC(=O)[C@@H](CC1=CC=CN=C1)NC(=O)[C@@H](CC1=CC=C(Cl)C=C1)NC(=O)[C@@H](CC1=CC=C2C=CC=CC2=C1)NC(C)=O)C(=O)N[C@@H](CCCCNC(C)C)C(=O)N1CCC[C@H]1C(=O)N[C@H](C)C(N)=O,Moderate
 Mycophenolate mofetil,COC1=C(CC=C(/C)CCC(=O)OCCN2CCOCC2)C(O)=C2C(=O)OCC2=C1C,Paromomycin,NC[C@@H]1O[C@H](O[C@@H]2[C@@H](CO)O[C@@H](O[C@@H]3[C@@H](O)[C@H](N)C[C@H](N)[C@H]3O[C@H]3O[C@H](CO)[C@@H](O)[C@H](O)[C@H]3N)[C@@H]2O)[C@H](N)[C@@H](O)[C@@H]1O,Moderate
 Dicoumarol,OC1=C(CC2=C(O)C3=C(OC2=O)C=CC=C3)C(=O)OC2=C1C=CC=C2,Flutamide,CC(C)C(=O)NC1=CC(=C(C=C1)[N+]([O-])=O)C(F)(F)F,Moderate
 Vincristine,[H][C@@]12N3CC[C@@]11C4=C(C=C(OC)C(=C4)[C@]4(C[C@H]5C[N@](C[C@](O)(CC)C5)CCC5=C4NC4=CC=CC=C54)C(=O)OC)N(C=O)[C@@]1([H])[C@](O)([C@H](OC(C)=O)[C@]2(CC)C=CC3)C(=O)OC,Diroximel fumarate,COC(=O)C=CC(=O)OCCN1C(=O)CCC1=O,Moderate
@@ -13669,7 +13546,6 @@ Paricalcitol,[H][C@@]1(CC[C@@]2([H])C(CCC[C@]12C)=CC=C1C[C@@H](O)C[C@H](O)C1)[C@
 Propafenone,CCCNCC(O)COC1=C(C=CC=C1)C(=O)CCC1=CC=CC=C1,Roflumilast,FC(F)OC1=C(OCC2CC2)C=C(C=C1)C(=O)NC1=C(Cl)C=NC=C1Cl,Moderate
 Imipramine,CN(C)CCCN1C2=CC=CC=C2CCC2=CC=CC=C12,Brompheniramine,CN(C)CCC(C1=CC=C(Br)C=C1)C1=CC=CC=N1,Moderate
 Benzylpenicillin,[H][C@]12SC(C)(C)[C@@H](N1C(=O)[C@H]2NC(=O)CC1=CC=CC=C1)C(O)=O,Picosulfuric acid,OS(=O)(=O)OC1=CC=C(C=C1)C(C1=CC=C(OS(O)(=O)=O)C=C1)C1=CC=CC=N1,Moderate
-Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Alimemazine,CC(CN(C)C)CN1C2=CC=CC=C2SC2=CC=CC=C12,Moderate
 Papaverine,COC1=C(OC)C=C(CC2=NC=CC3=CC(OC)=C(OC)C=C23)C=C1,Bepridil,CC(C)COCC(CN(CC1=CC=CC=C1)C1=CC=CC=C1)N1CCCC1,Major
 Mitoxantrone,OCCNCCNC1=CC=C(NCCNCCO)C2=C1C(=O)C1=C(C(O)=CC=C1O)C2=O,Siponimod,CCC1=CC(=CC=C1CN1CC(C1)C(O)=O)C(C)=NOCC1=CC=C(C2CCCCC2)C(=C1)C(F)(F)F,Major
 Streptozocin,CN(N=O)C(=O)N[C@H]1[C@@H](O)O[C@H](CO)[C@@H](O)[C@@H]1O,Methotrexate,CN(CC1=CN=C2N=C(N)N=C(N)C2=N1)C1=CC=C(C=C1)C(=O)N[C@@H](CCC(O)=O)C(O)=O,Moderate
@@ -13693,7 +13569,6 @@ Imatinib,CN1CCN(CC2=CC=C(C=C2)C(=O)NC2=CC(NC3=NC=CC(=N3)C3=CN=CC=C3)=C(C)C=C2)CC
 Loperamide,CN(C)C(=O)C(CCN1CCC(O)(CC1)C1=CC=C(Cl)C=C1)(C1=CC=CC=C1)C1=CC=CC=C1,Oliceridine,COC1=C(CNCC[C@]2(CCOC3(CCCC3)C2)C2=NC=CC=C2)SC=C1,Moderate
 Promethazine,CC(CN1C2=CC=CC=C2SC2=CC=CC=C12)N(C)C,Mepenzolate,C[N+]1(C)CCCC(C1)OC(=O)C(O)(C1=CC=CC=C1)C1=CC=CC=C1,Moderate
 Buprenorphine,CO[C@]12CC[C@@]3(C[C@@H]1[C@](C)(O)C(C)(C)C)[C@H]1CC4=C5C(O[C@@H]2[C@@]35CCN1CC1CC1)=C(O)C=C4,Ivosidenib,[H][C@@](N(C(=O)[C@]1([H])CCC(=O)N1C1=NC=CC(=C1)C#N)C1=CC(F)=CN=C1)(C(=O)NC1CC(F)(F)C1)C1=C(Cl)C=CC=C1,Major
-Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Etodolac,CCC1=C2NC3=C(CCOC3(CC)CC(O)=O)C2=CC=C1,Moderate
 Glimepiride,CCC1=C(C)CN(C(=O)NCCC2=CC=C(C=C2)S(=O)(=O)NC(=O)N[C@H]2CC[C@H](C)CC2)C1=O,Omeprazole,COC1=CC2=C(C=C1)N=C(N2)S(=O)CC1=NC=C(C)C(OC)=C1C,Minor
 Erythromycin,CC[C@H]1OC(=O)[C@H](C)[C@@H](O[C@H]2C[C@@](C)(OC)[C@@H](O)[C@H](C)O2)[C@H](C)[C@@H](O[C@@H]2O[C@H](C)C[C@@H]([C@H]2O)N(C)C)[C@](C)(O)C[C@@H](C)C(=O)[C@H](C)[C@@H](O)[C@]1(C)O,Ulipristal,CN(C)C1=CC=C(C=C1)[C@H]1C[C@@]2(C)[C@@H](CC[C@]2(O)C(C)=O)[C@@H]2CCC3=CC(=O)CCC3=C12,Minor
 Diflunisal,OC(=O)C1=C(O)C=CC(=C1)C1=C(F)C=C(F)C=C1,Sodium sulfate,[Na+].[Na+].[O-]S([O-])(=O)=O,Moderate
@@ -13828,7 +13703,6 @@ Bupropion,CC(NC(C)(C)C)C(=O)C1=CC(Cl)=CC=C1,Dexamethasone,[H][C@@]12C[C@@H](C)[C
 Dactinomycin,[H][C@@]12CCCN1C(=O)[C@H](NC(=O)[C@@H](NC(=O)C1=C3N=C4C(OC3=C(C)C=C1)=C(C)C(=O)C(N)=C4C(=O)N[C@H]1[C@@H](C)OC(=O)[C@H](C(C)C)N(C)C(=O)CN(C)C(=O)[C@]3([H])CCCN3C(=O)[C@H](NC1=O)C(C)C)[C@@H](C)OC(=O)[C@H](C(C)C)N(C)C(=O)CN(C)C2=O)C(C)C,Levofloxacin,C[C@H]1COC2=C3N1C=C(C(O)=O)C(=O)C3=CC(F)=C2N1CCN(C)CC1,Minor
 Methadone,CCC(=O)C(CC(C)N(C)C)(C1=CC=CC=C1)C1=CC=CC=C1,Triclabendazole,CSC1=NC2=C(N1)C=C(Cl)C(OC1=CC=CC(Cl)=C1Cl)=C2,Major
 Tramadol,COC1=CC=CC(=C1)C1(O)CCCCC1CN(C)C,Iohexol,CC(=O)N(CC(O)CO)C1=C(I)C(C(=O)NCC(O)CO)=C(I)C(C(=O)NCC(O)CO)=C1I,Major
-Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Salsalate,OC(=O)C1=CC=CC=C1OC(=O)C1=CC=CC=C1O,Moderate
 Venlafaxine,COC1=CC=C(C=C1)C(CN(C)C)C1(O)CCCCC1,Gilteritinib,CCC1=C(NC2CCOCC2)N=C(NC2=CC=C(N3CCC(CC3)N3CCN(C)CC3)C(OC)=C2)C(=N1)C(N)=O,Moderate
 Thalidomide,O=C1N(C2CCC(=O)NC2=O)C(=O)C2=CC=CC=C12,Ivosidenib,[H][C@@](N(C(=O)[C@]1([H])CCC(=O)N1C1=NC=CC(=C1)C#N)C1=CC(F)=CN=C1)(C(=O)NC1CC(F)(F)C1)C1=C(Cl)C=CC=C1,Moderate
 Nabilone,[H][C@@]12CC(=O)CC[C@@]1([H])C(C)(C)OC1=CC(=CC(O)=C21)C(C)(C)CCCCCC,Trimipramine,CC(CN(C)C)CN1C2=CC=CC=C2CCC2=CC=CC=C12,Moderate
@@ -13908,7 +13782,6 @@ Tetracycline,[H][C@@]12C[C@@]3([H])C(=C(O)[C@]1(O)C(=O)C(C(N)=O)=C(O)[C@H]2N(C)C
 Tolvaptan,CC1=CC=CC=C1C(=O)NC1=CC(C)=C(C=C1)C(=O)N1CCC[C@@H](O)C2=C1C=CC(Cl)=C2,Vemurafenib,CCCS(=O)(=O)NC1=C(F)C(C(=O)C2=CNC3=NC=C(C=C23)C2=CC=C(Cl)C=C2)=C(F)C=C1,Moderate
 Papaverine,COC1=C(OC)C=C(CC2=NC=CC3=CC(OC)=C(OC)C=C23)C=C1,Sunitinib,CCN(CC)CCNC(=O)C1=C(C)NC(C=C2/C(=O)NC3=C2C=C(F)C=C3)=C1C,Major
 Fludrocortisone,[H][C@@]12CC[C@](O)(C(=O)CO)[C@@]1(C)C[C@H](O)[C@@]1(F)[C@@]2([H])CCC2=CC(=O)CC[C@]12C,Trifluoperazine,CN1CCN(CCCN2C3=CC=CC=C3SC3=C2C=C(C=C3)C(F)(F)F)CC1,Moderate
-Carboplatin,[H][N]([H])([H])[Pt]1(OC(=O)C2(CCC2)C(=O)O1)[N]([H])([H])[H],Sodium aurothiomalate,[Na+].[Na+].[O-]C(=O)CC(S[Au])C([O-])=O,Moderate
 Desmopressin,NC(=O)CC[C@@H]1NC(=O)[C@H](CC2=CC=CC=C2)NC(=O)[C@H](CC2=CC=C(O)C=C2)NC(=O)CCSSC[C@H](NC(=O)[C@H](CC(N)=O)NC1=O)C(=O)N1CCC[C@H]1C(=O)N[C@H](CCCNC(N)=N)C(=O)NCC(N)=O,Buprenorphine,CO[C@]12CC[C@@]3(C[C@@H]1[C@](C)(O)C(C)(C)C)[C@H]1CC4=C5C(O[C@@H]2[C@@]35CCN1CC1CC1)=C(O)C=C4,Moderate
 Apixaban,COC1=CC=C(C=C1)N1N=C(C(N)=O)C2=C1C(=O)N(CC2)C1=CC=C(C=C1)N1CCCCC1=O,Boceprevir,[H][C@]12CN([C@H](C(=O)NC(CC3CCC3)C(=O)C(N)=O)[C@@]1([H])C2(C)C)C(=O)[C@@H](NC(=O)NC(C)(C)C)C(C)(C)C,Major
 Ipratropium,[H][C@]12CC[C@]([H])(C[C@@H](C1)OC(=O)C(CO)C1=CC=CC=C1)[N+]2(C)C(C)C,Homatropine,[H][C@]12CC[C@]([H])(C[C@@H](C1)OC(=O)C(O)C1=CC=CC=C1)N2C,Moderate
@@ -14105,7 +13978,6 @@ Sucralfate,O.O[Al](O)O.O[Al](O)OS(=O)(=O)OC[C@H]1O[C@@](COS(=O)(=O)O[Al](O)O)(O[
 Secobarbital,CCCC(C)C1(CC=C)C(=O)NC(=O)NC1=O,Saxagliptin,[H][C@@]12C[C@]1([H])N([C@@H](C2)C#N)C(=O)[C@@H](N)C12CC3CC(CC(O)(C3)C1)C2,Moderate
 Etacrynic acid,CCC(=C)C(=O)C1=C(Cl)C(Cl)=C(OCC(O)=O)C=C1,Dexamethasone,[H][C@@]12C[C@@H](C)[C@](O)(C(=O)CO)[C@@]1(C)C[C@H](O)[C@@]1(F)[C@@]2([H])CCC2=CC(=O)C=C[C@]12C,Moderate
 Phenytoin,O=C1NC(=O)C(N1)(C1=CC=CC=C1)C1=CC=CC=C1,Roflumilast,FC(F)OC1=C(OCC2CC2)C=C(C=C1)C(=O)NC1=C(Cl)C=NC=C1Cl,Moderate
-Carmustine,ClCCNC(=O)N(CCCl)N=O,Cisplatin,[H][N]([H])([H])[Pt](Cl)(Cl)[N]([H])([H])[H],Moderate
 Ruxolitinib,N#CC[C@H](C1CCCC1)N1C=C(C=N1)C1=C2C=CNC2=NC=N1,Lemborexant,CC1=NC=C(OC[C@]2(C[C@H]2C(=O)NC2=NC=C(F)C=C2)C2=CC=CC(F)=C2)C(C)=N1,Moderate
 Imatinib,CN1CCN(CC2=CC=C(C=C2)C(=O)NC2=CC(NC3=NC=CC(=N3)C3=CN=CC=C3)=C(C)C=C2)CC1,Cabazitaxel,[H][C@]12[C@H](OC(=O)C3=CC=CC=C3)[C@]3(O)C[C@H](OC(=O)[C@H](O)[C@@H](NC(=O)OC(C)(C)C)C4=CC=CC=C4)C(C)=C([C@@H](OC)C(=O)[C@]1(C)[C@H](C[C@H]1OC[C@@]21OC(C)=O)OC)C3(C)C,Moderate
 Fluoxetine,CNCCC(OC1=CC=C(C=C1)C(F)(F)F)C1=CC=CC=C1,Nateglinide,CC(C)[C@H]1CC[C@@H](CC1)C(=O)N[C@H](CC1=CC=CC=C1)C(O)=O,Moderate
@@ -14289,7 +14161,6 @@ Fluvastatin,CC(C)N1C(C=CC(O)CC(O)CC(O)=O)=C(C2=CC=CC=C12)C1=CC=C(F)C=C1,Daroluta
 Thiethylperazine,CCSC1=CC2=C(SC3=CC=CC=C3N2CCCN2CCN(C)CC2)C=C1,Indapamide,CC1CC2=CC=CC=C2N1NC(=O)C1=CC(=C(Cl)C=C1)S(N)(=O)=O,Moderate
 Regorafenib,CNC(=O)C1=CC(OC2=CC(F)=C(NC(=O)NC3=CC=C(Cl)C(=C3)C(F)(F)F)C=C2)=CC=N1,Remdesivir,CCC(CC)COC(=O)[C@H](C)N[P@](=O)(OC[C@H]1O[C@](C#N)([C@H](O)[C@@H]1O)C1=CC=C2N1N=CN=C2N)OC1=CC=CC=C1,Moderate
 Olsalazine,OC(=O)C1=CC(=CC=C1O)N=NC1=CC=C(O)C(=C1)C(O)=O,Lutetium Lu 177 dotatate,[177Lu+3].C[C@@H](O)[C@H](NC(=O)[C@@H]1CSSC[C@H](NC(=O)[C@@H](CC2=CC=CC=C2)NC(=O)CN2CCN(CC([O-])=O)CCN(CC([O-])=O)CCN(CC([O-])=O)CC2)C(=O)N[C@@H](CC2=CC=C(O)C=C2)C(=O)N[C@H](CC2=CNC3=C2C=CC=C3)C(=O)N[C@@H](CCCCN)C(=O)N[C@@H]([C@@H](C)O)C(=O)N1)C(O)=O,Moderate
-Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Dactinomycin,[H][C@@]12CCCN1C(=O)[C@H](NC(=O)[C@@H](NC(=O)C1=C3N=C4C(OC3=C(C)C=C1)=C(C)C(=O)C(N)=C4C(=O)N[C@H]1[C@@H](C)OC(=O)[C@H](C(C)C)N(C)C(=O)CN(C)C(=O)[C@]3([H])CCCN3C(=O)[C@H](NC1=O)C(C)C)[C@@H](C)OC(=O)[C@H](C(C)C)N(C)C(=O)CN(C)C2=O)C(C)C,Moderate
 Goserelin,CC(C)C[C@H](NC(=O)[C@@H](COC(C)(C)C)NC(=O)[C@H](CC1=CC=C(O)C=C1)NC(=O)[C@H](CO)NC(=O)[C@H](CC1=CNC2=CC=CC=C12)NC(=O)[C@H](CC1=CN=CN1)NC(=O)[C@@H]1CCC(=O)N1)C(=O)N[C@@H](CCCN=C(N)N)C(=O)N1CCC[C@H]1C(=O)NNC(N)=O,Ofloxacin,CC1COC2=C3N1C=C(C(O)=O)C(=O)C3=CC(F)=C2N1CCN(C)CC1,Moderate
 Primidone,CCC1(C(=O)NCNC1=O)C1=CC=CC=C1,Upadacitinib,CC[C@@H]1CN(C[C@@H]1C1=CN=C2C=NC3=C(C=CN3)N12)C(=O)NCC(F)(F)F,Major
 Amprenavir,CC(C)CN(C[C@@H](O)[C@H](CC1=CC=CC=C1)NC(=O)O[C@H]1CCOC1)S(=O)(=O)C1=CC=C(N)C=C1,Ponatinib,CN1CCN(CC2=CC=C(NC(=O)C3=CC(C#CC4=CN=C5C=CC=NN45)=C(C)C=C3)C=C2C(F)(F)F)CC1,Major
@@ -14350,7 +14221,6 @@ Droperidol,FC1=CC=C(C=C1)C(=O)CCCN1CCC(=CC1)N1C(=O)NC2=CC=CC=C12,Tripelennamine,
 Tioguanine,NC1=NC(=S)C2=C(N1)N=CN2,Rosuvastatin,CC(C)C1=NC(=NC(C2=CC=C(F)C=C2)=C1C=C[C@@H](O)C[C@@H](O)CC(=O)O)N(C)S(C)(=O)=O,Moderate
 Pilocarpine,CC[C@H]1[C@@H](CC2=CN=CN2C)COC1=O,Crizotinib,C[C@@H](OC1=CC(=CN=C1N)C1=CN(N=C1)C1CCNCC1)C1=C(Cl)C=CC(F)=C1Cl,Moderate
 Dasatinib,CC1=NC(NC2=NC=C(S2)C(=O)NC2=C(C)C=CC=C2Cl)=CC(=N1)N1CCN(CCO)CC1,Hydroxychloroquine,CCN(CCO)CCCC(C)NC1=C2C=CC(Cl)=CC2=NC=C1,Major
-Carboplatin,[H][N]([H])([H])[Pt]1(OC(=O)C2(CCC2)C(=O)O1)[N]([H])([H])[H],Teriflunomide,CC(O)=C(/C#N)C(=O)NC1=CC=C(C=C1)C(F)(F)F,Major
 Sulindac,CC1=C(CC(O)=O)C2=CC(F)=CC=C2C1=C/C1=CC=C(C=C1)S(C)=O,Pemetrexed,NC1=NC(=O)C2=C(NC=C2CCC2=CC=C(C=C2)C(=O)N[C@@H](CCC(O)=O)C(O)=O)N1,Moderate
 Butalbital,CC(C)CC1(CC=C)C(=O)NC(=O)NC1=O,Fostamatinib,COC1=CC(NC2=NC=C(F)C(NC3=NC4=C(OC(C)(C)C(=O)N4COP(O)(O)=O)C=C3)=N2)=CC(OC)=C1OC,Moderate
 Valdecoxib,CC1=C(C(=NO1)C1=CC=CC=C1)C1=CC=C(C=C1)S(N)(=O)=O,Ivacaftor,CC(C)(C)C1=CC(=C(O)C=C1NC(=O)C1=CNC2=CC=CC=C2C1=O)C(C)(C)C,Moderate
@@ -14409,7 +14279,6 @@ Metformin,CN(C)C(=N)NC(N)=N,Lopinavir,CC(C)[C@H](N1CCCNC1=O)C(=O)N[C@H](C[C@H](O
 Phenytoin,O=C1NC(=O)C(N1)(C1=CC=CC=C1)C1=CC=CC=C1,Methylprednisolone,[H][C@@]12CC[C@](O)(C(=O)CO)[C@@]1(C)C[C@H](O)[C@@]1([H])[C@@]2([H])C[C@H](C)C2=CC(=O)C=C[C@]12C,Moderate
 Argatroban,C[C@@H]1CCN([C@H](C1)C(O)=O)C(=O)[C@H](CCCNC(N)=N)NS(=O)(=O)C1=CC=CC2=C1NCC(C)C2,Ponatinib,CN1CCN(CC2=CC=C(NC(=O)C3=CC(C#CC4=CN=C5C=CC=NN45)=C(C)C=C3)C=C2C(F)(F)F)CC1,Major
 Indinavir,CC(C)(C)NC(=O)[C@@H]1CN(CC2=CN=CC=C2)CCN1C[C@@H](O)C[C@@H](CC1=CC=CC=C1)C(=O)N[C@@H]1[C@H](O)CC2=CC=CC=C12,Hydroxychloroquine,CCN(CCO)CCCC(C)NC1=C2C=CC(Cl)=CC2=NC=C1,Moderate
-Olanzapine,CN1CCN(CC1)C1=NC2=CC=CC=C2NC2=C1C=C(C)S2,Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Moderate
 Piroxicam,CN1C(C(=O)NC2=NC=CC=C2)=C(O)C2=C(C=CC=C2)S1(=O)=O,Ibuprofen,CC(C)CC1=CC=C(C=C1)C(C)C(O)=O,Moderate
 Sildenafil,CCCC1=NN(C)C2=C1N=C(NC2=O)C1=CC(=CC=C1OCC)S(=O)(=O)N1CCN(C)CC1,Ivacaftor,CC(C)(C)C1=CC(=C(O)C=C1NC(=O)C1=CNC2=CC=CC=C2C1=O)C(C)(C)C,Moderate
 Warfarin,CC(=O)CC(C1=CC=CC=C1)C1=C(O)C2=C(OC1=O)C=CC=C2,Cefoperazone,[H][C@]12SCC(CSC3=NN=NN3C)=C(N1C(=O)[C@@]2([H])NC(=O)[C@H](NC(=O)N1CCN(CC)C(=O)C1=O)C1=CC=C(O)C=C1)C(O)=O,Moderate
@@ -14744,7 +14613,6 @@ Hydroflumethiazide,NS(=O)(=O)C1=CC2=C(NCNS2(=O)=O)C=C1C(F)(F)F,Salbutamol,CC(C)(
 Betaxolol,CC(C)NCC(O)COC1=CC=C(CCOCC2CC2)C=C1,Empagliflozin,OC[C@H]1O[C@H]([C@H](O)[C@@H](O)[C@@H]1O)C1=CC=C(Cl)C(CC2=CC=C(O[C@H]3CCOC3)C=C2)=C1,Moderate
 Dronabinol,[H][C@@]12C=C(C)CC[C@@]1([H])C(C)(C)OC1=C2C(O)=CC(CCCCC)=C1,Azilsartan medoxomil,CCOC1=NC2=C(N1CC1=CC=C(C=C1)C1=CC=CC=C1C1=NOC(=O)N1)C(=CC=C2)C(=O)OCC1=C(C)OC(=O)O1,Moderate
 Trimethobenzamide,COC1=CC(=CC(OC)=C1OC)C(=O)NCC1=CC=C(OCCN(C)C)C=C1,Nalbuphine,O[C@H]1CC[C@@]2(O)[C@H]3CC4=CC=C(O)C5=C4[C@@]2(CCN3CC2CCC2)[C@H]1O5,Moderate
-Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Streptomycin,CN[C@H]1[C@H](O)[C@@H](O)[C@H](CO)O[C@H]1O[C@H]1[C@H](O[C@H]2[C@H](O)[C@@H](O)[C@H](NC(N)=N)[C@@H](O)[C@@H]2NC(N)=N)O[C@@H](C)[C@]1(O)C=O,Moderate
 Tolterodine,CC(C)N(CC[C@H](C1=CC=CC=C1)C1=C(O)C=CC(C)=C1)C(C)C,Bupropion,CC(NC(C)(C)C)C(=O)C1=CC(Cl)=CC=C1,Minor
 Cyclizine,CN1CCN(CC1)C(C1=CC=CC=C1)C1=CC=CC=C1,Bromocriptine,[H][C@@]12CCCN1C(=O)[C@H](CC(C)C)N1C(=O)[C@](NC(=O)[C@H]3CN(C)[C@]4([H])CC5=C(Br)NC6=CC=CC(=C56)C4=C3)(O[C@@]21O)C(C)C,Moderate
 Codeine,[H][C@]12C=C[C@H](O)[C@@H]3OC4=C5C(C[C@H]1N(C)CC[C@@]235)=CC=C4OC,Stiripentol,CC(C)(C)C(O)C=CC1=CC2=C(OCO2)C=C1,Moderate
@@ -15073,7 +14941,6 @@ Meperidine,CCOC(=O)C1(CCN(C)CC1)C1=CC=CC=C1,Lorlatinib,C[C@H]1OC2=C(N)N=CC(=C2)C
 Cetirizine,OC(=O)COCCN1CCN(CC1)C(C1=CC=CC=C1)C1=CC=C(Cl)C=C1,Doxepin,[H]C(CCN(C)C)=C1C2=CC=CC=C2COC2=CC=CC=C12,Moderate
 Fentanyl,CCC(=O)N(C1CCN(CCC2=CC=CC=C2)CC1)C1=CC=CC=C1,Dasatinib,CC1=NC(NC2=NC=C(S2)C(=O)NC2=C(C)C=CC=C2Cl)=CC(=N1)N1CCN(CCO)CC1,Major
 Etoposide,[H][C@]12COC(=O)[C@]1([H])[C@H](C1=CC(OC)=C(O)C(OC)=C1)C1=CC3=C(OCO3)C=C1[C@H]2O[C@@H]1O[C@]2([H])CO[C@@H](C)O[C@@]2([H])[C@H](O)[C@H]1O,Flibanserin,FC(F)(F)C1=CC(=CC=C1)N1CCN(CCN2C(=O)NC3=CC=CC=C23)CC1,Moderate
-Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Radium Ra 223 dichloride,[Cl-].[Cl-].[223Ra++],Moderate
 Bexarotene,CC1=CC2=C(C=C1C(=C)C1=CC=C(C=C1)C(O)=O)C(C)(C)CCC2(C)C,Verteporfin,COC(=O)CCC1=C2NC(C=C3/N=C(/C=C4NC(=C/C5=N/C(=C2)/C(CCC(O)=O)=C5C)C(C=C)=C4C)C2=CC=C([C@@H](C(=O)OC)[C@@]32C)C(=O)OC)=C1C,Moderate
 Betamethasone,[H][C@@]12C[C@H](C)[C@](O)(C(=O)CO)[C@@]1(C)C[C@H](O)[C@@]1(F)[C@@]2([H])CCC2=CC(=O)C=C[C@]12C,Ceritinib,CC(C)OC1=C(NC2=NC=C(Cl)C(N2)=NC2=CC=CC=C2S(=O)(=O)C(C)C)C=C(C)C(=C1)C1CCNCC1,Moderate
 Tolcapone,CC1=CC=C(C=C1)C(=O)C1=CC(=C(O)C(O)=C1)[N+]([O-])=O,Clofarabine,[H][C@]1(F)[C@H](O)[C@@H](CO)O[C@H]1N1C=NC2=C(N)N=C(Cl)N=C12,Moderate
@@ -15391,7 +15258,6 @@ Tioguanine,NC1=NC(=S)C2=C(N1)N=CN2,Itraconazole,CCC(C)N1N=CN(C1=O)C1=CC=C(C=C1)N
 Panobinostat,CC1=C(CCNCC2=CC=C(C=CC(=O)NO)C=C2)C2=CC=CC=C2N1,Bosutinib,COC1=CC(NC2=C(C=NC3=CC(OCCCN4CCN(C)CC4)=C(OC)C=C23)C#N)=C(Cl)C=C1Cl,Major
 Trandolapril,[H][C@@]12C[C@H](N(C(=O)[C@H](C)N[C@@H](CCC3=CC=CC=C3)C(=O)OCC)[C@@]1([H])CCCC2)C(O)=O,Icatibant,[H][C@]12C[C@]([H])(N(C(=O)[C@@]3([H])CC4=C(CN3C(=O)[C@H](CO)NC(=O)[C@H](CC3=CC=CS3)NC(=O)CNC(=O)[C@]3([H])C[C@@H](O)CN3C(=O)[C@@H]3CCCN3C(=O)[C@H](CCCNC(N)=N)NC(=O)[C@H](N)CCCNC(N)=N)C=CC=C4)[C@@]1([H])CCCC2)C(=O)N[C@@H](CCCNC(N)=N)C(O)=O,Moderate
 Nortriptyline,CNCCC=C1C2=CC=CC=C2CCC2=CC=CC=C12,Dacomitinib,COC1=C(NC(=O)C=CCN2CCCCC2)C=C2C(NC3=CC(Cl)=C(F)C=C3)=NC=NC2=C1,Moderate
-Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Upadacitinib,CC[C@@H]1CN(C[C@@H]1C1=CN=C2C=NC3=C(C=CN3)N12)C(=O)NCC(F)(F)F,Major
 Linezolid,CC(=O)NC[C@H]1CN(C(=O)O1)C1=CC(F)=C(C=C1)N1CCOCC1,Epoprostenol,[H][C@]12C[C@@H](O)[C@H](C=C[C@@H](O)CCCCC)[C@@]1([H])CC(O2)=CCCCC(O)=O,Moderate
 Orciprenaline,CC(C)NCC(O)C1=CC(O)=CC(O)=C1,Droxidopa,N[C@@H]([C@H](O)C1=CC(O)=C(O)C=C1)C(O)=O,Moderate
 Levocetirizine,OC(=O)COCCN1CCN(CC1)[C@H](C1=CC=CC=C1)C1=CC=C(Cl)C=C1,Brexpiprazole,O=C1NC2=CC(OCCCCN3CCN(CC3)C3=C4C=CSC4=CC=C3)=CC=C2C=C1,Moderate
@@ -15479,7 +15345,6 @@ Attapulgite,[O--].[O--].[O--].[O--].[O--].[O--].[O--].[O--].[O--].[O--].[Mg++].[
 Diclofenac,OC(=O)CC1=CC=CC=C1NC1=C(Cl)C=CC=C1Cl,Budesonide,[H][C@@]12C[C@H]3OC(CCC)O[C@@]3(C(=O)CO)[C@@]1(C)C[C@H](O)[C@@]1([H])[C@@]2([H])CCC2=CC(=O)C=C[C@]12C,Moderate
 Leflunomide,CC1=C(C=NO1)C(=O)NC1=CC=C(C=C1)C(F)(F)F,Abemaciclib,CCN1CCN(CC2=CC=C(NC3=NC=C(F)C(=N3)C3=CC(F)=C4N=C(C)N(C(C)C)C4=C3)N=C2)CC1,Major
 Mitotane,ClC(Cl)C(C1=CC=C(Cl)C=C1)C1=CC=CC=C1Cl,Crizotinib,C[C@@H](OC1=CC(=CN=C1N)C1=CN(N=C1)C1CCNCC1)C1=C(Cl)C=CC(F)=C1Cl,Major
-Cisplatin,[H][N]([H])([H])[Pt](Cl)(Cl)[N]([H])([H])[H],Deferiprone,CN1C=CC(=O)C(O)=C1C,Major
 Bortezomib,CC(C)C[C@H](NC(=O)[C@H](CC1=CC=CC=C1)NC(=O)C1=CN=CC=N1)B(O)O,Pitavastatin,O[C@H](C[C@H](O)C=CC1=C(N=C2C=CC=CC2=C1C1=CC=C(F)C=C1)C1CC1)CC(O)=O,Moderate
 Amitriptyline,CN(C)CCC=C1C2=CC=CC=C2CCC2=CC=CC=C12,Dicyclomine,CCN(CC)CCOC(=O)C1(CCCCC1)C1CCCCC1,Moderate
 Epirubicin,COC1=CC=CC2=C1C(=O)C1=C(O)C3=C(C[C@](O)(C[C@@H]3O[C@H]3C[C@H](N)[C@@H](O)[C@H](C)O3)C(=O)CO)C(O)=C1C2=O,Olaparib,FC1=CC=C(CC2=NNC(=O)C3=CC=CC=C23)C=C1C(=O)N1CCN(CC1)C(=O)C1CC1,Moderate
@@ -15506,7 +15371,6 @@ Tolbutamide,CCCCNC(=O)NS(=O)(=O)C1=CC=C(C)C=C1,Paliperidone,CC1=C(CCN2CCC(CC2)C2
 Piroxicam,CN1C(C(=O)NC2=NC=CC=C2)=C(O)C2=C(C=CC=C2)S1(=O)=O,Ivacaftor,CC(C)(C)C1=CC(=C(O)C=C1NC(=O)C1=CNC2=CC=CC=C2C1=O)C(C)(C)C,Moderate
 Encorafenib,COC(=O)N[C@@H](C)CNC1=NC=CC(=N1)C1=CN(N=C1C1=CC(Cl)=CC(NS(C)(=O)=O)=C1F)C(C)C,Osilodrostat,FC1=C(C=CC(=C1)C#N)[C@H]1CCC2=CN=CN12,Moderate
 Phenytoin,O=C1NC(=O)C(N1)(C1=CC=CC=C1)C1=CC=CC=C1,Eliglustat,CCCCCCCC(=O)N[C@H](CN1CCCC1)[C@H](O)C1=CC=C2OCCOC2=C1,Major
-Carboplatin,[H][N]([H])([H])[Pt]1(OC(=O)C2(CCC2)C(=O)O1)[N]([H])([H])[H],Idarubicin,C[C@@H]1O[C@H](C[C@H](N)[C@@H]1O)O[C@H]1C[C@@](O)(CC2=C1C(O)=C1C(=O)C3=CC=CC=C3C(=O)C1=C2O)C(C)=O,Moderate
 Abiraterone,[H][C@@]12CC=C(C3=CC=CN=C3)[C@@]1(C)CC[C@@]1([H])[C@@]2([H])CC=C2C[C@@H](O)CC[C@]12C,Dasabuvir,COC1=C(C=C(C=C1C1=CC2=CC=C(NS(C)(=O)=O)C=C2C=C1)N1C=CC(=O)NC1=O)C(C)(C)C,Moderate
 Sorafenib,CNC(=O)C1=NC=CC(OC2=CC=C(NC(=O)NC3=CC(=C(Cl)C=C3)C(F)(F)F)C=C2)=C1,Docetaxel,[H][C@@]1(C[C@@]2(O)[C@@H](OC(=O)C3=CC=CC=C3)[C@]3([H])[C@@]4(CO[C@@H]4C[C@H](O)[C@@]3(C)C(=O)[C@H](O)C(=C1C)C2(C)C)OC(C)=O)OC(=O)[C@H](O)[C@@H](NC(=O)OC(C)(C)C)C1=CC=CC=C1,Moderate
 Codeine,[H][C@]12C=C[C@H](O)[C@@H]3OC4=C5C(C[C@H]1N(C)CC[C@@]235)=CC=C4OC,Methylphenobarbital,CCC1(C(=O)NC(=O)N(C)C1=O)C1=CC=CC=C1,Major
@@ -15605,7 +15469,6 @@ Mepyramine,COC1=CC=C(CN(CCN(C)C)C2=NC=CC=C2)C=C1,Sodium oxybate,[Na+].OCCCC([O-]
 Triflupromazine,CN(C)CCCN1C2=CC=CC=C2SC2=C1C=C(C=C2)C(F)(F)F,Ondansetron,CN1C2=C(C3=CC=CC=C13)C(=O)C(CN1C=CN=C1C)CC2,Moderate
 Diphenhydramine,CN(C)CCOC(C1=CC=CC=C1)C1=CC=CC=C1,Orphenadrine,CN(C)CCOC(C1=CC=CC=C1)C1=CC=CC=C1C,Moderate
 Idarubicin,C[C@@H]1O[C@H](C[C@H](N)[C@@H]1O)O[C@H]1C[C@@](O)(CC2=C1C(O)=C1C(=O)C3=CC=CC=C3C(=O)C1=C2O)C(C)=O,Probucol,CC(C)(SC1=CC(=C(O)C(=C1)C(C)(C)C)C(C)(C)C)SC1=CC(=C(O)C(=C1)C(C)(C)C)C(C)(C)C,Moderate
-Carboplatin,[H][N]([H])([H])[Pt]1(OC(=O)C2(CCC2)C(=O)O1)[N]([H])([H])[H],Olaparib,FC1=CC=C(CC2=NNC(=O)C3=CC=CC=C23)C=C1C(=O)N1CCN(CC1)C(=O)C1CC1,Moderate
 Erythromycin,CC[C@H]1OC(=O)[C@H](C)[C@@H](O[C@H]2C[C@@](C)(OC)[C@@H](O)[C@H](C)O2)[C@H](C)[C@@H](O[C@@H]2O[C@H](C)C[C@@H]([C@H]2O)N(C)C)[C@](C)(O)C[C@@H](C)C(=O)[C@H](C)[C@@H](O)[C@]1(C)O,Remdesivir,CCC(CC)COC(=O)[C@H](C)N[P@](=O)(OC[C@H]1O[C@](C#N)([C@H](O)[C@@H]1O)C1=CC=C2N1N=CN=C2N)OC1=CC=CC=C1,Moderate
 Bupropion,CC(NC(C)(C)C)C(=O)C1=CC(Cl)=CC=C1,Ofloxacin,CC1COC2=C3N1C=C(C(O)=O)C(=O)C3=CC(F)=C2N1CCN(C)CC1,Major
 Betamethasone,[H][C@@]12C[C@H](C)[C@](O)(C(=O)CO)[C@@]1(C)C[C@H](O)[C@@]1(F)[C@@]2([H])CCC2=CC(=O)C=C[C@]12C,Estradiol,[H][C@@]12CC[C@H](O)[C@@]1(C)CC[C@]1([H])C3=C(CC[C@@]21[H])C=C(O)C=C3,Moderate
@@ -15656,13 +15519,11 @@ Vincristine,[H][C@@]12N3CC[C@@]11C4=C(C=C(OC)C(=C4)[C@]4(C[C@H]5C[N@](C[C@](O)(C
 Alprazolam,CC1=NN=C2CN=C(C3=CC=CC=C3)C3=C(C=CC(Cl)=C3)N12,Thalidomide,O=C1N(C2CCC(=O)NC2=O)C(=O)C2=CC=CC=C12,Moderate
 Romidepsin,CC=C1/NC(=O)[C@H]2CSSCCC=C[C@H](CC(=O)N[C@H](C(C)C)C(=O)N2)OC(=O)[C@@H](NC1=O)C(C)C,Tofacitinib,C[C@@H]1CCN(C[C@@H]1N(C)C1=NC=NC2=C1C=CN2)C(=O)CC#N,Major
 Prochlorperazine,CN1CCN(CCCN2C3=CC=CC=C3SC3=C2C=C(Cl)C=C3)CC1,Meclizine,CC1=CC(CN2CCN(CC2)C(C2=CC=CC=C2)C2=CC=C(Cl)C=C2)=CC=C1,Moderate
-Cisplatin,[H][N]([H])([H])[Pt](Cl)(Cl)[N]([H])([H])[H],Etidronic acid,CC(O)(P(O)(O)=O)P(O)(O)=O,Moderate
 Methotrexate,CN(CC1=CN=C2N=C(N)N=C(N)C2=N1)C1=CC=C(C=C1)C(=O)N[C@@H](CCC(O)=O)C(O)=O,Ribociclib,CN(C)C(=O)C1=CC2=CN=C(NC3=CC=C(C=N3)N3CCNCC3)N=C2N1C1CCCC1,Moderate
 Indomethacin,COC1=CC2=C(C=C1)N(C(=O)C1=CC=C(Cl)C=C1)C(C)=C2CC(O)=O,Ruxolitinib,N#CC[C@H](C1CCCC1)N1C=C(C=N1)C1=C2C=CNC2=NC=N1,Moderate
 Temazepam,CN1C2=C(C=C(Cl)C=C2)C(=NC(O)C1=O)C1=CC=CC=C1,Azatadine,CN1CCC(CC1)=C1C2=CC=CC=C2CCC2=C1N=CC=C2,Moderate
 Cytarabine,NC1=NC(=O)N(C=C1)[C@@H]1O[C@H](CO)[C@@H](O)[C@@H]1O,Niraparib,NC(=O)C1=CC=CC2=CN(N=C12)C1=CC=C(C=C1)[C@@H]1CCCNC1,Moderate
 Quetiapine,OCCOCCN1CCN(CC1)C1=NC2=CC=CC=C2SC2=CC=CC=C12,Amyl Nitrite,CCCCCON=O,Moderate
-Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Tinidazole,CCS(=O)(=O)CCN1C(C)=NC=C1[N+]([O-])=O,Moderate
 Bexarotene,CC1=CC2=C(C=C1C(=C)C1=CC=C(C=C1)C(O)=O)C(C)(C)CCC2(C)C,Levonorgestrel,[H][C@@]12CC[C@@](O)(C#C)[C@@]1(CC)CC[C@]1([H])[C@@]3([H])CCC(=O)C=C3CC[C@@]21[H],Major
 Streptozocin,CN(N=O)C(=O)N[C@H]1[C@@H](O)O[C@H](CO)[C@@H](O)[C@@H]1O,Thalidomide,O=C1N(C2CCC(=O)NC2=O)C(=O)C2=CC=CC=C12,Major
 Lomefloxacin,CCN1C=C(C(O)=O)C(=O)C2=CC(F)=C(N3CCNC(C)C3)C(F)=C12,Zinc gluconate,[Zn++].[H][C@@](O)(CO)[C@@]([H])(O)[C@]([H])(O)[C@@]([H])(O)C([O-])=O.[H][C@@](O)(CO)[C@@]([H])(O)[C@]([H])(O)[C@@]([H])(O)C([O-])=O,Moderate
@@ -15814,7 +15675,6 @@ Sibutramine,CC(C)CC(N(C)C)C1(CCC1)C1=CC=C(Cl)C=C1,Mephentermine,CNC(C)(C)CC1=CC=
 Betamethasone,[H][C@@]12C[C@H](C)[C@](O)(C(=O)CO)[C@@]1(C)C[C@H](O)[C@@]1(F)[C@@]2([H])CCC2=CC(=O)C=C[C@]12C,Naproxen,COC1=CC2=C(C=C1)C=C(C=C2)[C@H](C)C(O)=O,Moderate
 Midodrine,COC1=CC(C(O)CNC(=O)CN)=C(OC)C=C1,Metformin,CN(C)C(=N)NC(N)=N,Minor
 Cetirizine,OC(=O)COCCN1CCN(CC1)C(C1=CC=CC=C1)C1=CC=C(Cl)C=C1,Triprolidine,CC1=CC=C(C=C1)C(=C/CN1CCCC1)C1=CC=CC=N1,Moderate
-Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Flecainide,FC(F)(F)COC1=CC(C(=O)NCC2CCCCN2)=C(OCC(F)(F)F)C=C1,Moderate
 Argatroban,C[C@@H]1CCN([C@H](C1)C(O)=O)C(=O)[C@H](CCCNC(N)=N)NS(=O)(=O)C1=CC=CC2=C1NCC(C)C2,Vorapaxar,[H][C@@]12C[C@]3([H])C[C@@H](CC[C@@]3([H])[C@H](C=CC3=CC=C(C=N3)C3=CC(F)=CC=C3)[C@]1([H])[C@@H](C)OC2=O)NC(=O)OCC,Major
 Mitotane,ClC(Cl)C(C1=CC=C(Cl)C=C1)C1=CC=CC=C1Cl,Lurbinectedin,[H][C@@]12[C@@H]3SC[C@]4(NCCC5=C4NC4=CC=C(OC)C=C54)C(=O)OC[C@H](N1[C@@H](O)[C@@H]1CC4=CC(C)=C(OC)C(O)=C4[C@@]2([H])N1C)C1=C2OCOC2=C(C)C(OC(C)=O)=C31,Major
 Progesterone,[H][C@@]12CC[C@H](C(C)=O)[C@@]1(C)CC[C@@]1([H])[C@@]2([H])CCC2=CC(=O)CC[C@]12C,Fedratinib,CC1=CN=C(NC2=CC=C(OCCN3CCCC3)C=C2)N=C1NC1=CC=CC(=C1)S(=O)(=O)NC(C)(C)C,Moderate
@@ -16314,9 +16174,7 @@ Clonazepam,[O-][N+](=O)C1=CC2=C(NC(=O)CN=C2C2=CC=CC=C2Cl)C=C1,Chlorpheniramine,C
 Penicillamine,[H][C@](N)(C(O)=O)C(C)(C)S,Tetraferric tricitrate decahydrate,O.O.O.O.O.O.O.O.O.O.[Fe+3].[Fe+3].[Fe+3].[Fe+3].[O-]C(=O)CC([O-])(CC([O-])=O)C([O-])=O.[O-]C(=O)CC([O-])(CC([O-])=O)C([O-])=O.[O-]C(=O)CC([O-])(CC([O-])=O)C([O-])=O,Moderate
 Albendazole,CCCSC1=CC2=C(C=C1)N=C(NC(=O)OC)N2,Lefamulin,[H][C@@]12C(=O)CC[C@]11CCC(C)[C@@]2(C)[C@@H](C[C@@](C)(C=C)[C@@H](O)[C@@H]1C)OC(=O)CS[C@@H]1CC[C@@H](N)C[C@H]1O,Moderate
 Terfenadine,CC(C)(C)C1=CC=C(C=C1)C(O)CCCN1CCC(CC1)C(O)(C1=CC=CC=C1)C1=CC=CC=C1,Galantamine,[H][C@]12C[C@@H](O)C=C[C@]11CCN(C)CC3=C1C(O2)=C(OC)C=C3,Moderate
-Terfenadine,CC(C)(C)C1=CC=C(C=C1)C(O)CCCN1CCC(CC1)C(O)(C1=CC=CC=C1)C1=CC=CC=C1,Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Moderate
 Flibanserin,FC(F)(F)C1=CC(=CC=C1)N1CCN(CCN2C(=O)NC3=CC=CC=C23)CC1,Rivaroxaban,ClC1=CC=C(S1)C(=O)NC[C@H]1CN(C(=O)O1)C1=CC=C(C=C1)N1CCOCC1=O,Moderate
-Cidofovir,NC1=NC(=O)N(C[C@@H](CO)OCP(O)(O)=O)C=C1,Carboplatin,[H][N]([H])([H])[Pt]1(OC(=O)C2(CCC2)C(=O)O1)[N]([H])([H])[H],Major
 Dronedarone,CCCCN(CCCC)CCCOC1=CC=C(C=C1)C(=O)C1=C(CCCC)OC2=C1C=C(NS(C)(=O)=O)C=C2,Pirfenidone,CC1=CN(C(=O)C=C1)C1=CC=CC=C1,Moderate
 Alimemazine,CC(CN(C)C)CN1C2=CC=CC=C2SC2=CC=CC=C12,Lithium carbonate,[Li+].[Li+].[O-]C([O-])=O,Moderate
 Bosentan,COC1=CC=CC=C1OC1=C(NS(=O)(=O)C2=CC=C(C=C2)C(C)(C)C)N=C(N=C1OCCO)C1=NC=CC=N1,Rivaroxaban,ClC1=CC=C(S1)C(=O)NC[C@H]1CN(C(=O)O1)C1=CC=C(C=C1)N1CCOCC1=O,Moderate
@@ -16344,7 +16202,6 @@ Dapsone,NC1=CC=C(C=C1)S(=O)(=O)C1=CC=C(N)C=C1,Bosentan,COC1=CC=CC=C1OC1=C(NS(=O)
 Bicalutamide,CC(O)(CS(=O)(=O)C1=CC=C(F)C=C1)C(=O)NC1=CC(=C(C=C1)C#N)C(F)(F)F,Alimemazine,CC(CN(C)C)CN1C2=CC=CC=C2SC2=CC=CC=C12,Moderate
 Dasatinib,CC1=NC(NC2=NC=C(S2)C(=O)NC2=C(C)C=CC=C2Cl)=CC(=N1)N1CCN(CCO)CC1,Acalabrutinib,CC#CC(=O)N1CCC[C@H]1C1=NC(=C2N1C=CN=C2N)C1=CC=C(C=C1)C(=O)NC1=CC=CC=N1,Major
 Triflupromazine,CN(C)CCCN1C2=CC=CC=C2SC2=C1C=C(C=C2)C(F)(F)F,Doxepin,[H]C(CCN(C)C)=C1C2=CC=CC=C2COC2=CC=CC=C12,Moderate
-Cisplatin,[H][N]([H])([H])[Pt](Cl)(Cl)[N]([H])([H])[H],Prednisone,[H][C@@]12CC[C@](O)(C(=O)CO)[C@@]1(C)CC(=O)[C@@]1([H])[C@@]2([H])CCC2=CC(=O)C=C[C@]12C,Moderate
 Orciprenaline,CC(C)NCC(O)C1=CC(O)=CC(O)=C1,Clomipramine,CN(C)CCCN1C2=CC=CC=C2CCC2=C1C=C(Cl)C=C2,Moderate
 Cerivastatin,COCC1=C(C2=CC=C(F)C=C2)C(C=C[C@@H](O)C[C@@H](O)CC(O)=O)=C(C(C)C)N=C1C(C)C,Darolutamide,C[C@@H](CN1C=CC(=N1)C1=CC=C(C#N)C(Cl)=C1)NC(=O)C1=NNC(=C1)C(C)O,Moderate
 Pemetrexed,NC1=NC(=O)C2=C(NC=C2CCC2=CC=C(C=C2)C(=O)N[C@@H](CCC(O)=O)C(O)=O)N1,Cefditoren,[H][C@]12SCC(C=C/C3=C(C)N=CS3)=C(N1C(=O)[C@H]2NC(=O)C(=N/OC)C1=CSC(N)=N1)C(O)=O,Moderate
@@ -16528,7 +16385,6 @@ Clotrimazole,ClC1=CC=CC=C1C(N1C=CN=C1)(C1=CC=CC=C1)C1=CC=CC=C1,Valdecoxib,CC1=C(
 Oxybutynin,CCN(CC)CC#CCOC(=O)C(O)(C1CCCCC1)C1=CC=CC=C1,Nilotinib,CC1=CN(C=N1)C1=CC(NC(=O)C2=CC=C(C)C(NC3=NC=CC(=N3)C3=CN=CC=C3)=C2)=CC(=C1)C(F)(F)F,Moderate
 Sulindac,CC1=C(CC(O)=O)C2=CC(F)=CC=C2C1=C/C1=CC=C(C=C1)S(C)=O,Linaclotide,[H][C@]1(CSSC[C@]2([H])NC(=O)[C@H](CC3=CC=C(O)C=C3)NC(=O)[C@H](CCC(O)=O)NC(=O)[C@@H]3CSSC[C@H](NC(=O)[C@H](C)NC(=O)[C@@H]4CCCN4C(=O)[C@H](CC(N)=O)NC(=O)[C@H](CSSC[C@H](N)C(=O)N3)NC2=O)C(=O)N[C@@]([H])([C@@H](C)O)C(=O)NCC(=O)N1)C(=O)N[C@@H](CC1=CC=C(O)C=C1)C(O)=O,Minor
 Topotecan,CC[C@@]1(O)C(=O)OCC2=C1C=C1N(CC3=CC4=C(C=CC(O)=C4CN(C)C)N=C13)C2=O,Samarium (153Sm) lexidronam,[153Sm+3].OP(O)(=O)CN(CCN(CP(O)([O-])=O)CP(O)([O-])=O)CP(O)([O-])=O,Major
-Carboplatin,[H][N]([H])([H])[Pt]1(OC(=O)C2(CCC2)C(=O)O1)[N]([H])([H])[H],Carfilzomib,CC(C)C[C@H](NC(=O)[C@H](CCC1=CC=CC=C1)NC(=O)CN1CCOCC1)C(=O)N[C@@H](CC1=CC=CC=C1)C(=O)N[C@@H](CC(C)C)C(=O)[C@@]1(C)CO1,Moderate
 Clotrimazole,ClC1=CC=CC=C1C(N1C=CN=C1)(C1=CC=CC=C1)C1=CC=CC=C1,Vilazodone,NC(=O)C1=CC2=CC(=CC=C2O1)N1CCN(CCCCC2=CNC3=C2C=C(C=C3)C#N)CC1,Moderate
 Terbutaline,CC(C)(C)NCC(O)C1=CC(O)=CC(O)=C1,Glyburide,COC1=C(C=C(Cl)C=C1)C(=O)NCCC1=CC=C(C=C1)S(=O)(=O)NC(=O)NC1CCCCC1,Moderate
 Phentermine,CC(C)(N)CC1=CC=CC=C1,Isometheptene,CNC(C)CCC=C(C)C,Moderate
@@ -16548,7 +16404,6 @@ Primidone,CCC1(C(=O)NCNC1=O)C1=CC=CC=C1,Cobicistat,CC(C)C1=NC(CN(C)C(=O)N[C@@H](
 Loratadine,CCOC(=O)N1CCC(CC1)=C1C2=C(CCC3=C1N=CC=C3)C=C(Cl)C=C2,Isavuconazonium,[H]C(C)(OC(=O)N(C)C1=C(COC(=O)CNC)C=CC=N1)[N+]1=CN(C[C@](O)(C2=C(F)C=CC(F)=C2)[C@@]([H])(C)C2=NC(=CS2)C2=CC=C(C=C2)C#N)N=C1,Moderate
 Maraviroc,CC(C)C1=NN=C(C)N1[C@H]1C[C@@H]2CC[C@H](C1)N2CC[C@H](NC(=O)C1CCC(F)(F)CC1)C1=CC=CC=C1,Ozanimod,CC(C)OC1=C(C=C(C=C1)C1=NC(=NO1)C1=C2CC[C@H](NCCO)C2=CC=C1)C#N,Moderate
 Trovafloxacin,[H][C@@]12CN(C[C@]1([H])[C@H]2N)C1=NC2=C(C=C1F)C(=O)C(=CN2C1=C(F)C=C(F)C=C1)C(O)=O,Docetaxel,[H][C@@]1(C[C@@]2(O)[C@@H](OC(=O)C3=CC=CC=C3)[C@]3([H])[C@@]4(CO[C@@H]4C[C@H](O)[C@@]3(C)C(=O)[C@H](O)C(=C1C)C2(C)C)OC(C)=O)OC(=O)[C@H](O)[C@@H](NC(=O)OC(C)(C)C)C1=CC=CC=C1,Minor
-Mitomycin,[H][C@]12CN3C4=C([C@@H](COC(N)=O)[C@@]3(OC)[C@@]1([H])N2)C(=O)C(N)=C(C)C4=O,Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Moderate
 Pazopanib,CN(C1=CC2=NN(C)C(C)=C2C=C1)C1=CC=NC(NC2=CC=C(C)C(=C2)S(N)(=O)=O)=N1,Osimertinib,COC1=C(NC2=NC=CC(=N2)C2=CN(C)C3=C2C=CC=C3)C=C(NC(=O)C=C)C(=C1)N(C)CCN(C)C,Major
 Meprobamate,CCCC(C)(COC(N)=O)COC(N)=O,Azatadine,CN1CCC(CC1)=C1C2=CC=CC=C2CCC2=C1N=CC=C2,Moderate
 Flutamide,CC(C)C(=O)NC1=CC(=C(C=C1)[N+]([O-])=O)C(F)(F)F,Perphenazine,OCCN1CCN(CCCN2C3=CC=CC=C3SC3=C2C=C(Cl)C=C3)CC1,Moderate
@@ -16710,7 +16565,6 @@ Butalbital,CC(C)CC1(CC=C)C(=O)NC(=O)NC1=O,Gilteritinib,CCC1=C(NC2CCOCC2)N=C(NC2=
 Pimozide,FC1=CC=C(C=C1)C(CCCN1CCC(CC1)N1C(=O)NC2=CC=CC=C12)C1=CC=C(F)C=C1,Umeclidinium,OC(C1=CC=CC=C1)(C1=CC=CC=C1)C12CC[N+](CCOCC3=CC=CC=C3)(CC1)CC2,Moderate
 Salmeterol,OCC1=C(O)C=CC(=C1)C(O)CNCCCCCCOCCCCC1=CC=CC=C1,Sparfloxacin,C[C@H]1CN(C[C@@H](C)N1)C1=C(F)C(N)=C2C(=O)C(=CN(C3CC3)C2=C1F)C(O)=O,Moderate
 Conivaptan,CC1=NC2=C(CCN(C(=O)C3=CC=C(NC(=O)C4=CC=CC=C4C4=CC=CC=C4)C=C3)C3=CC=CC=C23)N1,Entrectinib,CN1CCN(CC1)C1=CC=C(C(=O)NC2=NNC3=CC=C(CC4=CC(F)=CC(F)=C4)C=C23)C(NC2CCOCC2)=C1,Major
-Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Apomorphine,[H][C@]12CC3=C(C(O)=C(O)C=C3)C3=CC=CC(CCN1C)=C23,Moderate
 Nabumetone,COC1=CC2=C(C=C1)C=C(CCC(C)=O)C=C2,Methylprednisolone,[H][C@@]12CC[C@](O)(C(=O)CO)[C@@]1(C)C[C@H](O)[C@@]1([H])[C@@]2([H])C[C@H](C)C2=CC(=O)C=C[C@]12C,Moderate
 Sirolimus,[H][C@@]1(C[C@@H](C)[C@]2([H])CC(=O)[C@H](C)C=C(C)[C@@H](O)[C@@H](OC)C(=O)[C@H](C)C[C@H](C)C=CC=CC=C(C)[C@H](C[C@]3([H])CC[C@@H](C)[C@@](O)(O3)C(=O)C(=O)N3CCCC[C@@]3([H])C(=O)O2)OC)CC[C@@H](O)[C@@H](C1)OC,Rufinamide,NC(=O)C1=CN(CC2=C(F)C=CC=C2F)N=N1,Moderate
 Niraparib,NC(=O)C1=CC=CC2=CN(N=C12)C1=CC=C(C=C1)[C@@H]1CCCNC1,Selinexor,FC(F)(F)C1=CC(=CC(=C1)C1=NN(C=C/C(=O)NNC2=NC=CN=C2)C=N1)C(F)(F)F,Moderate
@@ -16828,7 +16682,6 @@ Diphenhydramine,CN(C)CCOC(C1=CC=CC=C1)C1=CC=CC=C1,Remimazolam,COC(=O)CC[C@@H]1N=
 Dicoumarol,OC1=C(CC2=C(O)C3=C(OC2=O)C=CC=C3)C(=O)OC2=C1C=CC=C2,Apalutamide,CNC(=O)C1=CC=C(C=C1F)N1C(=S)N(C(=O)C11CCC1)C1=CC(=C(N=C1)C#N)C(F)(F)F,Moderate
 Valdecoxib,CC1=C(C(=NO1)C1=CC=CC=C1)C1=CC=C(C=C1)S(N)(=O)=O,Everolimus,[H][C@@]1(C[C@@H](C)[C@]2([H])CC(=O)[C@H](C)C=C(C)[C@@H](O)[C@@H](OC)C(=O)[C@H](C)C[C@H](C)C=CC=CC=C(C)[C@H](C[C@]3([H])CC[C@@H](C)[C@@](O)(O3)C(=O)C(=O)N3CCCC[C@@]3([H])C(=O)O2)OC)CC[C@@H](OCCO)[C@@H](C1)OC,Major
 Linagliptin,CC#CCN1C(=NC2=C1C(=O)N(CC1=NC3=C(C=CC=C3)C(C)=N1)C(=O)N2C)N1CCC[C@@H](N)C1,Alpelisib,CC1=C(SC(NC(=O)N2CCC[C@H]2C(N)=O)=N1)C1=CC(=NC=C1)C(C)(C)C(F)(F)F,Moderate
-Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Vardenafil,CCCC1=NC(C)=C2N1NC(=NC2=O)C1=C(OCC)C=CC(=C1)S(=O)(=O)N1CCN(CC)CC1,Moderate
 Clozapine,CN1CCN(CC1)C1=NC2=CC(Cl)=CC=C2NC2=CC=CC=C12,Vinblastine,[H][C@@]12N(C)C3=CC(OC)=C(C=C3[C@@]11CCN3CC=C[C@@](CC)([C@@H](OC(C)=O)[C@]2(O)C(=O)OC)[C@@]13[H])[C@]1(C[C@@]2([H])CN(C[C@](O)(CC)C2)CCC2=C1NC1=C2C=CC=C1)C(=O)OC,Major
 Clonazepam,[O-][N+](=O)C1=CC2=C(NC(=O)CN=C2C2=CC=CC=C2Cl)C=C1,Amyl Nitrite,CCCCCON=O,Moderate
 Bexarotene,CC1=CC2=C(C=C1C(=C)C1=CC=C(C=C1)C(O)=O)C(C)(C)CCC2(C)C,Suvorexant,[H][C@@]1(C)CCN(CCN1C(=O)C1=C(C=CC(C)=C1)N1N=CC=N1)C1=NC2=C(O1)C=CC(Cl)=C2,Moderate
@@ -17191,7 +17044,6 @@ Oxazepam,OC1N=C(C2=CC=CC=C2)C2=C(NC1=O)C=CC(Cl)=C2,Sodium bicarbonate,[Na+].OC([
 Atenolol,CC(C)NCC(O)COC1=CC=C(CC(N)=O)C=C1,Pasireotide,NCCCC[C@@H]1NC(=O)[C@@H](CC2=CNC3=C2C=CC=C3)NC(=O)[C@@H](NC(=O)[C@@H]2C[C@H](CN2C(=O)[C@H](CC2=CC=CC=C2)NC(=O)[C@H](CC2=CC=C(OCC3=CC=CC=C3)C=C2)NC1=O)OC(=O)NCCN)C1=CC=CC=C1,Moderate
 Bromfenac,NC1=C(CC(O)=O)C=CC=C1C(=O)C1=CC=C(Br)C=C1,Tolbutamide,CCCCNC(=O)NS(=O)(=O)C1=CC=C(C)C=C1,Moderate
 Melphalan,N[C@@H](CC1=CC=C(C=C1)N(CCCl)CCCl)C(O)=O,Nelarabine,COC1=NC(N)=NC2=C1N=CN2[C@@H]1O[C@H](CO)[C@@H](O)[C@@H]1O,Moderate
-Cisplatin,[H][N]([H])([H])[Pt](Cl)(Cl)[N]([H])([H])[H],Pomalidomide,NC1=CC=CC2=C1C(=O)N(C1CCC(=O)NC1=O)C2=O,Moderate
 Promethazine,CC(CN1C2=CC=CC=C2SC2=CC=CC=C12)N(C)C,Romidepsin,CC=C1/NC(=O)[C@H]2CSSCCC=C[C@H](CC(=O)N[C@H](C(C)C)C(=O)N2)OC(=O)[C@@H](NC1=O)C(C)C,Moderate
 Escitalopram,CN(C)CCC[C@]1(OCC2=C1C=CC(=C2)C#N)C1=CC=C(F)C=C1,Enzalutamide,CNC(=O)C1=C(F)C=C(C=C1)N1C(=S)N(C(=O)C1(C)C)C1=CC=C(C#N)C(=C1)C(F)(F)F,Major
 Bortezomib,CC(C)C[C@H](NC(=O)[C@H](CC1=CC=CC=C1)NC(=O)C1=CN=CC=N1)B(O)O,Posaconazole,CC[C@@H]([C@H](C)O)N1N=CN(C1=O)C1=CC=C(C=C1)N1CCN(CC1)C1=CC=C(OC[C@@H]2CO[C@](CN3C=NC=N3)(C2)C2=C(F)C=C(F)C=C2)C=C1,Moderate
@@ -17224,7 +17076,6 @@ Nevirapine,CC1=C2NC(=O)C3=C(N=CC=C3)N(C3CC3)C2=NC=C1,Tretinoin,CC(C=CC1=C(C)CCCC
 Cerivastatin,COCC1=C(C2=CC=C(F)C=C2)C(C=C[C@@H](O)C[C@@H](O)CC(O)=O)=C(C(C)C)N=C1C(C)C,Dasatinib,CC1=NC(NC2=NC=C(S2)C(=O)NC2=C(C)C=CC=C2Cl)=CC(=N1)N1CCN(CCO)CC1,Moderate
 Vincristine,[H][C@@]12N3CC[C@@]11C4=C(C=C(OC)C(=C4)[C@]4(C[C@H]5C[N@](C[C@](O)(CC)C5)CCC5=C4NC4=CC=CC=C54)C(=O)OC)N(C=O)[C@@]1([H])[C@](O)([C@H](OC(C)=O)[C@]2(CC)C=CC3)C(=O)OC,Secnidazole,CC(O)CN1C(C)=NC=C1N(=O)=O,Moderate
 Flunisolide,[H][C@@]12C[C@@]3([H])[C@]4([H])C[C@H](F)C5=CC(=O)C=C[C@]5(C)[C@@]4([H])[C@@H](O)C[C@]3(C)[C@@]1(OC(C)(C)O2)C(=O)CO,Telithromycin,[H][C@@]12[C@@H](C)C(=O)[C@H](C)C[C@@](C)(OC)[C@H](O[C@@H]3O[C@H](C)C[C@@H]([C@H]3O)N(C)C)[C@@H](C)C(=O)[C@@H](C)C(=O)O[C@H](CC)[C@@]1(C)OC(=O)N2CCCCN1C=NC(=C1)C1=CC=CN=C1,Moderate
-Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Halothane,[H]C(Cl)(Br)C(F)(F)F,Moderate
 Torasemide,CC(C)NC(=O)NS(=O)(=O)C1=C(NC2=CC=CC(C)=C2)C=CN=C1,Kanamycin,NC[C@H]1O[C@H](O[C@@H]2[C@@H](N)C[C@@H](N)[C@H](O[C@H]3O[C@H](CO)[C@@H](O)[C@H](N)[C@H]3O)[C@H]2O)[C@H](O)[C@@H](O)[C@@H]1O,Major
 Methotrimeprazine,COC1=CC2=C(SC3=C(C=CC=C3)N2C[C@H](C)CN(C)C)C=C1,Potassium citrate,[K+].[K+].[K+].OC(CC([O-])=O)(CC([O-])=O)C([O-])=O,Major
 Codeine,[H][C@]12C=C[C@H](O)[C@@H]3OC4=C5C(C[C@H]1N(C)CC[C@@]235)=CC=C4OC,Carvedilol,COC1=CC=CC=C1OCCNCC(O)COC1=CC=CC2=C1C1=CC=CC=C1N2,Moderate
@@ -17250,7 +17101,6 @@ Clofarabine,[H][C@]1(F)[C@H](O)[C@@H](CO)O[C@H]1N1C=NC2=C(N)N=C(Cl)N=C12,Norflox
 Bexarotene,CC1=CC2=C(C=C1C(=C)C1=CC=C(C=C1)C(O)=O)C(C)(C)CCC2(C)C,Toremifene,CN(C)CCOC1=CC=C(C=C1)C(=C(CCCl)C1=CC=CC=C1)C1=CC=CC=C1,Moderate
 Procainamide,CCN(CC)CCNC(=O)C1=CC=C(N)C=C1,Midostaurin,CO[C@@H]1[C@@H](C[C@H]2O[C@]1(C)N1C3=C(C=CC=C3)C3=C1C1=C(C4=C(C=CC=C4)N21)C1=C3CNC1=O)N(C)C(=O)C1=CC=CC=C1,Major
 Teniposide,[H][C@]12COC(=O)[C@]1([H])[C@H](C1=CC(OC)=C(O)C(OC)=C1)C1=C(C=C3OCOC3=C1)[C@H]2O[C@]1([H])O[C@]2([H])CO[C@H](O[C@@]2([H])[C@H](O)[C@H]1O)C1=CC=CS1,Leflunomide,CC1=C(C=NO1)C(=O)NC1=CC=C(C=C1)C(F)(F)F,Major
-Zidovudine,CC1=CN([C@H]2C[C@H](N=[N+]=[N-])[C@@H](CO)O2)C(=O)NC1=O,Cisplatin,[H][N]([H])([H])[Pt](Cl)(Cl)[N]([H])([H])[H],Moderate
 Meclizine,CC1=CC(CN2CCN(CC2)C(C2=CC=CC=C2)C2=CC=C(Cl)C=C2)=CC=C1,Dacomitinib,COC1=C(NC(=O)C=CCN2CCCCC2)C=C2C(NC3=CC(Cl)=C(F)C=C3)=NC=NC2=C1,Moderate
 Valproic acid,CCCC(CCC)C(O)=O,Chlorphenesin,OCC(O)COC1=CC=C(Cl)C=C1,Moderate
 Pirbuterol,CC(C)(C)NCC(O)C1=NC(CO)=C(O)C=C1,Degarelix,CC(C)C[C@H](NC(=O)[C@@H](CC1=CC=C(NC(N)=O)C=C1)NC(=O)[C@H](CC1=CC=C(NC(=O)[C@@H]2CC(=O)NC(=O)N2)C=C1)NC(=O)[C@H](CO)NC(=O)[C@@H](CC1=CC=CN=C1)NC(=O)[C@@H](CC1=CC=C(Cl)C=C1)NC(=O)[C@@H](CC1=CC=C2C=CC=CC2=C1)NC(C)=O)C(=O)N[C@@H](CCCCNC(C)C)C(=O)N1CCC[C@H]1C(=O)N[C@H](C)C(N)=O,Moderate
@@ -17273,7 +17123,6 @@ Diclofenac,OC(=O)CC1=CC=CC=C1NC1=C(Cl)C=CC=C1Cl,Methylprednisolone,[H][C@@]12CC[
 Metformin,CN(C)C(=N)NC(N)=N,Perindopril,[H][C@]12C[C@H](N(C(=O)[C@H](C)N[C@@H](CCC)C(=O)OCC)[C@@]1([H])CCCC2)C(O)=O,Moderate
 Sirolimus,[H][C@@]1(C[C@@H](C)[C@]2([H])CC(=O)[C@H](C)C=C(C)[C@@H](O)[C@@H](OC)C(=O)[C@H](C)C[C@H](C)C=CC=CC=C(C)[C@H](C[C@]3([H])CC[C@@H](C)[C@@](O)(O3)C(=O)C(=O)N3CCCC[C@@]3([H])C(=O)O2)OC)CC[C@@H](O)[C@@H](C1)OC,Iodipamide,OC(=O)C1=C(I)C(NC(=O)CCCCC(=O)NC2=C(I)C=C(I)C(C(O)=O)=C2I)=C(I)C=C1I,Major
 Nilutamide,CC1(C)NC(=O)N(C1=O)C1=CC(=C(C=C1)[N+]([O-])=O)C(F)(F)F,Sertraline,CN[C@H]1CC[C@@H](C2=CC(Cl)=C(Cl)C=C2)C2=CC=CC=C12,Moderate
-Ascorbic acid,[H][C@@]1(OC(=O)C(O)=C1O)[C@@H](O)CO,Cisplatin,[H][N]([H])([H])[Pt](Cl)(Cl)[N]([H])([H])[H],Minor
 Doxycycline,[H][C@@]12[C@@H](C)C3=CC=CC(O)=C3C(=O)C1=C(O)[C@]1(O)C(=O)C(C(N)=O)=C(O)[C@@H](N(C)C)[C@]1([H])[C@H]2O,Mephenytoin,CCC1(NC(=O)N(C)C1=O)C1=CC=CC=C1,Moderate
 Halofantrine,CCCCN(CCCC)CCC(O)C1=C2C=CC(=CC2=C2C=C(Cl)C=C(Cl)C2=C1)C(F)(F)F,Lonafarnib,NC(=O)N1CCC(CC(=O)N2CCC(CC2)[C@H]2C3=C(CCC4=C2C(Br)=CC(Cl)=C4)C=C(Br)C=N3)CC1,Major
 Ranitidine,CNC(NCCSCC1=CC=C(CN(C)C)O1)=C[N+]([O-])=O,Tolbutamide,CCCCNC(=O)NS(=O)(=O)C1=CC=C(C)C=C1,Moderate
@@ -17428,7 +17277,6 @@ Acebutolol,CCCC(=O)NC1=CC=C(OCC(O)CNC(C)C)C(=C1)C(C)=O,Brigatinib,COC1=CC(=CC=C1
 Methadone,CCC(=O)C(CC(C)N(C)C)(C1=CC=CC=C1)C1=CC=CC=C1,Mepenzolate,C[N+]1(C)CCCC(C1)OC(=O)C(O)(C1=CC=CC=C1)C1=CC=CC=C1,Moderate
 Protriptyline,CNCCCC1C2=CC=CC=C2C=CC2=CC=CC=C12,Thiethylperazine,CCSC1=CC2=C(SC3=CC=CC=C3N2CCCN2CCN(C)CC2)C=C1,Moderate
 Promazine,CN(C)CCCN1C2=CC=CC=C2SC2=CC=CC=C12,Histrelin,CC(O)=O.CC(O)=O.CCNC(=O)[C@@H]1CCCN1C(=O)[C@H](CCCNC(N)=N)NC(=O)[C@H](CC(C)C)NC(=O)[C@@H](CC1=CN(CC2=CC=CC=C2)C=N1)NC(=O)[C@H](CC1=CC=C(O)C=C1)NC(=O)[C@H](CO)NC(=O)[C@H](CC1=CNC2=C1C=CC=C2)NC(=O)[C@H](CC1=CNC=N1)NC(=O)[C@@H]1CCC(=O)N1,Moderate
-Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Propafenone,CCCNCC(O)COC1=C(C=CC=C1)C(=O)CCC1=CC=CC=C1,Moderate
 Risperidone,CC1=C(CCN2CCC(CC2)C2=NOC3=C2C=CC(F)=C3)C(=O)N2CCCCC2=N1,Physostigmine,[H][C@]12N(C)CC[C@@]1(C)C1=C(C=CC(OC(=O)NC)=C1)N2C,Moderate
 Fenfluramine,CCNC(C)CC1=CC=CC(=C1)C(F)(F)F,Mirabegron,NC1=NC(CC(=O)NC2=CC=C(CCNC[C@H](O)C3=CC=CC=C3)C=C2)=CS1,Moderate
 Telithromycin,[H][C@@]12[C@@H](C)C(=O)[C@H](C)C[C@@](C)(OC)[C@H](O[C@@H]3O[C@H](C)C[C@@H]([C@H]3O)N(C)C)[C@@H](C)C(=O)[C@@H](C)C(=O)O[C@H](CC)[C@@]1(C)OC(=O)N2CCCCN1C=NC(=C1)C1=CC=CN=C1,Doxepin,[H]C(CCN(C)C)=C1C2=CC=CC=C2COC2=CC=CC=C12,Moderate
@@ -17577,7 +17425,6 @@ Betamethasone,[H][C@@]12C[C@H](C)[C@](O)(C(=O)CO)[C@@]1(C)C[C@H](O)[C@@]1(F)[C@@
 Chlorpromazine,CN(C)CCCN1C2=CC=CC=C2SC2=C1C=C(Cl)C=C2,Trimethobenzamide,COC1=CC(=CC(OC)=C1OC)C(=O)NCC1=CC=C(OCCN(C)C)C=C1,Moderate
 Diphenhydramine,CN(C)CCOC(C1=CC=CC=C1)C1=CC=CC=C1,Bromocriptine,[H][C@@]12CCCN1C(=O)[C@H](CC(C)C)N1C(=O)[C@](NC(=O)[C@H]3CN(C)[C@]4([H])CC5=C(Br)NC6=CC=CC(=C56)C4=C3)(O[C@@]21O)C(C)C,Moderate
 Propranolol,CC(C)NCC(O)COC1=CC=CC2=C1C=CC=C2,Rucaparib,CNCC1=CC=C(C=C1)C1=C2CCNC(=O)C3=C2C(N1)=CC(F)=C3,Moderate
-Oxaliplatin,[H][N]1([H])[C@@H]2CCCC[C@H]2[N]([H])([H])[Pt]11OC(=O)C(=O)O1,Sirolimus,[H][C@@]1(C[C@@H](C)[C@]2([H])CC(=O)[C@H](C)C=C(C)[C@@H](O)[C@@H](OC)C(=O)[C@H](C)C[C@H](C)C=CC=CC=C(C)[C@H](C[C@]3([H])CC[C@@H](C)[C@@](O)(O3)C(=O)C(=O)N3CCCC[C@@]3([H])C(=O)O2)OC)CC[C@@H](O)[C@@H](C1)OC,Moderate
 Triamcinolone,[H][C@@]12C[C@@H](O)[C@](O)(C(=O)CO)[C@@]1(C)C[C@H](O)[C@@]1(F)[C@@]2([H])CCC2=CC(=O)C=C[C@]12C,Methazolamide,CN1N=C(SC1=NC(C)=O)S(N)(=O)=O,Moderate
 Etravirine,CC1=CC(=CC(C)=C1OC1=C(Br)C(N)=NC(NC2=CC=C(C=C2)C#N)=N1)C#N,Fedratinib,CC1=CN=C(NC2=CC=C(OCCN3CCCC3)C=C2)N=C1NC1=CC=CC(=C1)S(=O)(=O)NC(C)(C)C,Major
 Ethanol,CCO,Phendimetrazine,C[C@H]1[C@@H](OCCN1C)C1=CC=CC=C1,Moderate
@@ -17671,7 +17518,6 @@ Lorazepam,OC1N=C(C2=CC=CC=C2Cl)C2=C(NC1=O)C=CC(Cl)=C2,Phentolamine,CC1=CC=C(C=C1
 Imatinib,CN1CCN(CC2=CC=C(C=C2)C(=O)NC2=CC(NC3=NC=CC(=N3)C3=CN=CC=C3)=C(C)C=C2)CC1,Promethazine,CC(CN1C2=CC=CC=C2SC2=CC=CC=C12)N(C)C,Moderate
 Erythromycin,CC[C@H]1OC(=O)[C@H](C)[C@@H](O[C@H]2C[C@@](C)(OC)[C@@H](O)[C@H](C)O2)[C@H](C)[C@@H](O[C@@H]2O[C@H](C)C[C@@H]([C@H]2O)N(C)C)[C@](C)(O)C[C@@H](C)C(=O)[C@H](C)[C@@H](O)[C@]1(C)O,Quazepam,FC1=CC=CC=C1C1=NCC(=S)N(CC(F)(F)F)C2=C1C=C(Cl)C=C2,Moderate
 Phenobarbital,CCC1(C(=O)NC(=O)NC1=O)C1=CC=CC=C1,Apremilast,CCOC1=CC(=CC=C1OC)[C@@H](CS(C)(=O)=O)N1C(=O)C2=CC=CC(NC(C)=O)=C2C1=O,Major
-Carboplatin,[H][N]([H])([H])[Pt]1(OC(=O)C2(CCC2)C(=O)O1)[N]([H])([H])[H],Levofloxacin,C[C@H]1COC2=C3N1C=C(C(O)=O)C(=O)C3=CC(F)=C2N1CCN(C)CC1,Minor
 Methylphenidate,COC(=O)C(C1CCCCN1)C1=CC=CC=C1,Isoprenaline,CC(C)NCC(O)C1=CC(O)=C(O)C=C1,Moderate
 Imipramine,CN(C)CCCN1C2=CC=CC=C2CCC2=CC=CC=C12,Revefenacin,CN(CCN1CCC(CC1)OC(=O)NC1=CC=CC=C1C1=CC=CC=C1)C(=O)C1=CC=C(CN2CCC(CC2)C(N)=O)C=C1,Moderate
 Fondaparinux,CO[C@H]1O[C@H](COS(O)(=O)=O)[C@@H](O[C@@H]2O[C@H]([C@@H](O[C@H]3O[C@H](COS(O)(=O)=O)[C@@H](O[C@@H]4O[C@@H]([C@@H](O[C@H]5O[C@H](COS(O)(=O)=O)[C@@H](O)[C@H](O)[C@H]5NS(O)(=O)=O)[C@H](O)[C@H]4O)C(O)=O)[C@H](OS(O)(=O)=O)[C@H]3NS(O)(=O)=O)[C@H](O)[C@H]2OS(O)(=O)=O)C(O)=O)[C@H](O)[C@H]1NS(O)(=O)=O,Ticagrelor,CCCSC1=NC2=C(N=NN2[C@@H]2C[C@H](OCCO)[C@@H](O)[C@H]2O)C(N[C@@H]2C[C@H]2C2=CC(F)=C(F)C=C2)=N1,Major
