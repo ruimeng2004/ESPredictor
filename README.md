@@ -21,7 +21,6 @@ DDI-ESPredictor requires several dependencies. Here are the main requirements:
 - scipy==1.10.1
 - pandas==2.3.1
 - matplotlib==3.9.2
-- tqdm==4.67.1
 
 ### Pip install Packages
 - transformers==4.39.3
