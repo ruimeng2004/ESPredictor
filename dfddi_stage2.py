@@ -13,70 +13,86 @@ from Suplement.feature_extractor import process_dataset
 from Suplement.Network.DrugInteractionModel import DrugInteractionModel
 from Suplement.SHAP_analysis.shap_analyzer import DrugSHAPAnalyzer
 
-# ===================== Model Training Function =====================
+# ===================== Model Training Function (stage2 aligned to stage3) =====================
 def train_model(model, train_loader, optimizer, criterion, margin_criterion, device, epochs=100):
     model.train()
+
     for epoch in range(epochs):
         epoch_loss = 0.0
         epoch_ce = 0.0
         epoch_margin = 0.0
-        
+
+        # --- 动态损失权重：前期CE权重大，后期margin逐步增大（与stage3一致） ---
+        progress = epoch / epochs
+        if progress > 0.7:
+            ce_weight, margin_weight = 0.5, 0.5
+        elif progress > 0.4:
+            ce_weight, margin_weight = 0.6, 0.4
+        else:
+            ce_weight, margin_weight = 0.8, 0.2
+
         for batch_idx, (drug_pairs, labels) in enumerate(train_loader):
             drug_pairs = drug_pairs.to(device)
             labels = labels.to(device)
-            
+
             drug1 = drug_pairs[:, 0, :]
             drug2 = drug_pairs[:, 1, :]
-            
+
             optimizer.zero_grad()
-            
-            probs, digit_caps = model._forward(drug1, drug2)
-            ce_loss = criterion(probs, labels)
-            margin_loss = margin_criterion(digit_caps, F.one_hot(labels, num_classes=86).float())
-            total_loss = ce_loss + 0.5 * margin_loss 
-            
+
+            # === 与 stage3 对齐：_forward 解包三项，CE 用 logits ===
+            probs, digit_caps, logits = model._forward(drug1, drug2)
+            ce_loss = criterion(logits, labels)
+
+            num_classes = digit_caps.size(1)  # 与 digit_caps 对齐
+            margin_loss = margin_criterion(
+                digit_caps, F.one_hot(labels, num_classes=num_classes).float()
+            )
+
+            total_loss = ce_weight * ce_loss + margin_weight * margin_loss
             total_loss.backward()
+
             torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
             optimizer.step()
-            
+
             epoch_loss += total_loss.item()
             epoch_ce += ce_loss.item()
             epoch_margin += margin_loss.item()
-        
+
         avg_loss = epoch_loss / len(train_loader)
         avg_ce = epoch_ce / len(train_loader)
         avg_margin = epoch_margin / len(train_loader)
-        
-        print(f"Epoch {epoch+1:03d} | Avg Loss: {avg_loss:.4f} | CE: {avg_ce:.4f} | Margin: {avg_margin:.4f}")
+        print(f"Epoch {epoch+1:03d} | Avg Loss: {avg_loss:.4f} | CE: {avg_ce:.4f} | Margin: {avg_margin:.4f} "
+              f"| Weights(CE/Margin)={ce_weight:.1f}/{margin_weight:.1f}")
 
-# ===================== Evaluation Metrics =====================
-def evaluate_model(model, test_loader, device, num_classes=3):
-    """模型评估函数 - 修改为多分类版本"""
+# ===================== Evaluation Metrics (stage2 aligned to stage3) =====================
+def evaluate_model(model, test_loader, device, num_classes=86):
+    """多分类评估（与stage3一致：用_logits_计算softmax）"""
     model.eval()
     all_logits, all_probs, all_labels = [], [], []
-    
+
     with torch.no_grad():
         for drug_pairs, labels in test_loader:
             drug_pairs = drug_pairs.to(device)
             labels = labels.to(device)
-            
+
             drug1 = drug_pairs[:, 0, :]
             drug2 = drug_pairs[:, 1, :]
-            logits = model(drug1, drug2)  
+
+            probs, digit_caps, logits = model._forward(drug1, drug2)
             probs = torch.softmax(logits, dim=1)
-            
+
             all_logits.append(logits.cpu())
             all_probs.append(probs.cpu())
             all_labels.append(labels.cpu())
-    
+
     all_logits = torch.cat(all_logits)
     all_probs = torch.cat(all_probs)
     all_labels = torch.cat(all_labels)
-    
+
     pred_labels = torch.argmax(all_logits, dim=1).numpy()
     true_labels = all_labels.numpy()
-    
-    # 多分类评估指标
+
     metrics = {
         'accuracy': accuracy_score(true_labels, pred_labels),
         'f1_weighted': f1_score(true_labels, pred_labels, average='weighted'),
@@ -85,61 +101,62 @@ def evaluate_model(model, test_loader, device, num_classes=3):
         'recall_weighted': recall_score(true_labels, pred_labels, average='weighted'),
         'auprc_weighted': average_precision_score(true_labels, all_probs.numpy(), average='weighted'),
     }
-    
-    # 多分类ROC AUC
+
     try:
         roc_auc_scores = []
         for i in range(num_classes):
             class_true = (true_labels == i).astype(int)
             class_probs = all_probs[:, i].numpy()
-            if len(np.unique(class_true)) > 1:  # 确保类别有正负样本
+            if len(np.unique(class_true)) > 1:
                 roc_auc_scores.append(roc_auc_score(class_true, class_probs))
-        metrics['roc_auc_avg'] = np.mean(roc_auc_scores)
+        metrics['roc_auc_avg'] = np.mean(roc_auc_scores) if len(roc_auc_scores) > 0 else float('nan')
     except Exception as e:
         print(f"无法计算ROC AUC: {e}")
         metrics['roc_auc_avg'] = float('nan')
-    
+
     return metrics, all_probs.numpy(), pred_labels
 
-# ===================== 5-Fold Cross Validation =====================
+# ===================== 5-Fold Cross Validation（保持不变，仅演示） =====================
 def run_5fold_cv(X, Y, feature_type, device, epochs=100):
     """执行5折交叉验证"""
     kf = KFold(n_splits=5, shuffle=True, random_state=42)
     fold_results = []
-    
-    input_dim = {
-        "bert": 300, "fingerprint": 1024, "3D": 128, 
-        "2D": 128, "1D": 128, "multi": 128 * 3 + 300
-    }[feature_type]
-    
+
+    feature_config = {
+        '1D': {'dim': 128, 'start': 0},
+        '2D': {'dim': 128, 'start': 128},
+        '3D': {'dim': 128, 'start': 256},
+        'bert': {'dim': 300, 'start': 384}
+    }
+
     for fold, (train_idx, val_idx) in enumerate(kf.split(X)):
         print(f"\n=== Fold {fold+1}/5 ===")
-        
+
         X_train_fold, X_val_fold = X[train_idx], X[val_idx]
         Y_train_fold, Y_val_fold = Y[train_idx], Y[val_idx]
-        
-        train_loader = DataLoader(TensorDataset(X_train_fold, Y_train_fold), 
-                                 batch_size=32, shuffle=True)
-        val_loader = DataLoader(TensorDataset(X_val_fold, Y_val_fold), 
-                               batch_size=32, shuffle=False)
-        
+
+        train_loader = DataLoader(TensorDataset(X_train_fold, Y_train_fold),
+                                  batch_size=32, shuffle=True)
+        val_loader = DataLoader(TensorDataset(X_val_fold, Y_val_fold),
+                                batch_size=32, shuffle=False)
+
         model = DrugInteractionModel(
-            input_dim=input_dim, 
-            hidden_dim=50,
+            feature_config=feature_config,
+            hidden_dim=64,
             num_classes=86,
             temperature=0.5
         ).to(device)
-        
+
         criterion = nn.CrossEntropyLoss().to(device)
         margin_criterion = model.margin_loss
         optimizer = optim.Adam(model.parameters(), lr=1e-3, weight_decay=1e-4)
-        
+
         print(f"Training on {len(train_idx)} samples...")
         train_model(model, train_loader, optimizer, criterion, margin_criterion, device, epochs=epochs)
-        
+
         print(f"Evaluating on {len(val_idx)} samples...")
-        metrics, all_probs, pred_labels = evaluate_model(model, val_loader, device)
-        
+        metrics, all_probs, pred_labels = evaluate_model(model, val_loader, device, num_classes=86)
+
         print(f"Fold {fold+1} Results:")
         print(f"Accuracy={metrics['accuracy']:.4f}")
         print(f"F1_weighted={metrics['f1_weighted']:.4f}")
@@ -148,87 +165,84 @@ def run_5fold_cv(X, Y, feature_type, device, epochs=100):
         print(f"Recall_weighted={metrics['recall_weighted']:.4f}")
         print(f"AUC-ROC={metrics['roc_auc_avg']:.4f}")
         print(f"AUPRC={metrics['auprc_weighted']:.4f}")
-        
+
         fold_results.append(metrics)
-    
-    # 计算平均指标
+
     avg_metrics = {}
     for metric in fold_results[0].keys():
         values = [r[metric] for r in fold_results]
         avg_metrics[metric] = np.mean(values)
-    
+
     print("\n=== 5-Fold Cross Validation Summary ===")
     for metric, value in avg_metrics.items():
         print(f"Average {metric}: {value:.4f}")
-    
+
     return avg_metrics
 
-# ===================== Main Function =====================
+# ===================== Main Function（仅改stage2训练/评估用法，其他保持不变） =====================
 if __name__ == "__main__":
     print(f"当前使用的设备: {'GPU' if torch.cuda.is_available() else 'CPU'} ({torch.cuda.get_device_name(0) if torch.cuda.is_available() else 'CPU'})")
     args = get_args()
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
-    
-    train = pd.read_csv('data/SecondStage_train.csv')
-    test = pd.read_csv('data/SecondStage_test.csv')
 
-    train.iloc[:, 4] = train.iloc[:, 4] - 1  # 假设第5列是标签列
+    train = pd.read_csv('data/drug_dataset/SecondStage_train.csv')
+    test = pd.read_csv('data/drug_dataset/SecondStage_test.csv')
+
+    train.iloc[:, 4] = train.iloc[:, 4] - 1
     test.iloc[:, 4] = test.iloc[:, 4] - 1
-    
+
     all_data = pd.concat([train, test], ignore_index=True)
-    
+
     alldrug, features = process_dataset(train_data=all_data, feature_type=args.feature, device=device)
-    
+
     X, Y = [], []
     for i in range(len(all_data)):
         drug1_id = all_data.iloc[i, 0]
         drug2_id = all_data.iloc[i, 2]
         X.append([alldrug[drug1_id], alldrug[drug2_id]])
         Y.append(all_data.iloc[i, 4])
-    
+
     X = torch.tensor(X, dtype=torch.float32)
     Y = torch.tensor(Y, dtype=torch.long)
-    
+
     # print("\n=== Starting 5-Fold Cross Validation ===")
     # cv_results = run_5fold_cv(X, Y, args.feature, device, epochs=100)
-    
+
     print("\n=== Training Final Model on Entire Dataset ===")
     train_loader = DataLoader(TensorDataset(X, Y), batch_size=32, shuffle=True)
-    
-    input_dim = {
-        "bert": 300, "fingerprint": 1024, "3D": 128, 
-        "2D": 128, "1D": 128, "multi": 128 * 3 + 300
-    }[args.feature]
-    
+
+    feature_config = {
+        '1D': {'dim': 128, 'start': 0},
+        '2D': {'dim': 128, 'start': 128},
+        '3D': {'dim': 128, 'start': 256},
+        'bert': {'dim': 300, 'start': 384}
+    }
+
     model = DrugInteractionModel(
-        input_dim=input_dim, 
+        feature_config=feature_config,
         hidden_dim=64,
         num_classes=86,
         temperature=0.5
     ).to(device)
-    
+
     criterion = nn.CrossEntropyLoss().to(device)
     margin_criterion = model.margin_loss
     optimizer = optim.AdamW(model.parameters(), lr=5e-4, weight_decay=1e-4)
     scheduler = optim.lr_scheduler.CosineAnnealingWarmRestarts(optimizer, T_0=10, T_mult=2)
-    
+
     print("Training final model...")
-    train_model(model, train_loader, optimizer, criterion, margin_criterion, device, epochs=100)
-    
+    train_model(model, train_loader, optimizer, criterion, margin_criterion, device, epochs=5)
+
     model_save_path = 'model.pth'
     torch.save(model.state_dict(), model_save_path)
     print(f"\nModel weights saved to {model_save_path}")
 
     # ===================== 评估最终模型 =====================
     print("\n=== Evaluating Final Model on Entire Dataset ===")
-    
-    # 创建测试数据加载器
+
     test_loader = DataLoader(TensorDataset(X, Y), batch_size=32, shuffle=False)
-    
-    # 评估模型
-    metrics, all_probs, pred_labels = evaluate_model(model, test_loader, device)
-    
-    # 打印评估结果
+    metrics, all_probs, pred_labels = evaluate_model(model, test_loader, device, num_classes=86)
+
     print("\n=== Final Model Performance ===")
     print(f"Accuracy: {metrics['accuracy']:.4f}")
     print(f"F1_weighted: {metrics['f1_weighted']:.4f}")
@@ -237,8 +251,7 @@ if __name__ == "__main__":
     print(f"Recall_weighted: {metrics['recall_weighted']:.4f}")
     print(f"AUC-ROC: {metrics['roc_auc_avg']:.4f}")
     print(f"AUPRC: {metrics['auprc_weighted']:.4f}")
-    
-    # 保存预测结果
+
     results_df = pd.DataFrame({
         'Drug1_ID': all_data.iloc[:, 0],
         'Drug2_ID': all_data.iloc[:, 2],
@@ -248,18 +261,18 @@ if __name__ == "__main__":
         'Prob_Class1': all_probs[:, 1],
         'Prob_Class2': all_probs[:, 2]
     })
-    
+
     results_df.to_csv('final_model_predictions.csv', index=False)
     print("\n预测结果已保存到 final_model_predictions.csv")
-    
-    # SHAP分析
+
+    # ===================== SHAP 分析（保持不变） =====================
     print("\n=== Starting SHAP Analysis (100 drug pairs) ===")
 
     feature_config = {
         '1D': {'dim': 128, 'start': 0},
         '2D': {'dim': 128, 'start': 128},
         '3D': {'dim': 128, 'start': 256},
-        'bert': {'dim': 300, 'start': 384}  
+        'bert': {'dim': 300, 'start': 384}
     }
 
     print("\n=== Data Validation ===")
@@ -274,35 +287,29 @@ if __name__ == "__main__":
 
     print("\nCalculating SHAP values (safe mode)...")
     shap_values = analyzer.compute_shap(
-        drug_pairs=X[:100].numpy(),  
-        nsamples=100,  
-        batch_size=2   
+        drug_pairs=X[:100].numpy(),
+        nsamples=100,
+        batch_size=2
     )
 
     df_summary = analyzer.save_shap_summary_to_csv("detailed_shap_analysis.csv")
 
-    # 计算SHAP值后...
-
     if not np.isnan(shap_values).all():
         print("\nGenerating visualizations...")
         analyzer.plot_comprehensive_analysis()
-        
-        # 分别获取两个药物的SHAP值
+
         shap_drugA = analyzer.shap_values[:, 0, :]
         shap_drugB = analyzer.shap_values[:, 1, :]
-        
-        # 定义视图分析函数
+
         def analyze_view_shap(shap_data, drug_name):
             print(f"\n=== {drug_name} Feature View Analysis ===")
             for name, config in feature_config.items():
                 start, end = config['start'], config['start'] + config['dim']
                 view_shap = shap_data[:, start:end]
-                
-                # 视图级别
+
                 view_contrib = np.nanmean(np.abs(view_shap))
                 print(f"{name} view average contribution: {view_contrib:.4f}")
-                
-                # 特征级别 (前3个)
+
                 mean_abs = np.nanmean(np.abs(view_shap), axis=0)
                 top_indices = np.argsort(mean_abs)[::-1][:3]
                 for idx in top_indices:
@@ -310,12 +317,10 @@ if __name__ == "__main__":
                     mean_shap = np.nanmean(view_shap[:, idx])
                     direction = "positive" if mean_shap > 0 else "negative"
                     print(f"  {feat_name}: {mean_abs[idx]:.4f} ({direction} impact)")
-        
-        # 执行分析
+
         analyze_view_shap(shap_drugA, "Drug A")
         analyze_view_shap(shap_drugB, "Drug B")
-        
-        # 比较总体贡献
+
         total_A = np.nanmean(np.abs(shap_drugA))
         total_B = np.nanmean(np.abs(shap_drugB))
         print(f"\nTotal Contribution | Drug A: {total_A:.4f} | Drug B: {total_B:.4f}")

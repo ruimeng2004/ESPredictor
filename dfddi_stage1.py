@@ -51,8 +51,8 @@ def train_model(model, train_loader, optimizer, criterion, margin_criterion, dev
             
             optimizer.zero_grad()
             
-            probs, digit_caps = model._forward(drug1, drug2)
-            ce_loss = criterion(probs, labels)
+            probs, digit_caps, logits = model._forward(drug1, drug2)
+            ce_loss = criterion(logits, labels)
             margin_loss = margin_criterion(digit_caps, F.one_hot(labels, num_classes=2).float())
             total_loss = ce_weight * ce_loss + margin_weight * margin_loss
             

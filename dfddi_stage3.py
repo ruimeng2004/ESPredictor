@@ -17,24 +17,14 @@ import matplotlib.pyplot as plt
 # ===================== Model Training Function =====================
 def train_model(model, train_loader, optimizer, criterion, margin_criterion, device, epochs=100):
     model.train()
-    
-    grad_history = {
-        'norms': [],
-        'lr': [],
-        'loss': [],
-        'ce': [],
-        'margin': []
-    }
-    
+    grad_history = {'norms': [], 'lr': [], 'loss': [], 'ce': [], 'margin': []}
     base_lr = 1e-3
     lr = base_lr
-    
+
     for epoch in range(epochs):
-        epoch_loss = 0.0
-        epoch_ce = 0.0
-        epoch_margin = 0.0
+        epoch_loss = epoch_ce = epoch_margin = 0.0
         epoch_grad_norms = []
-        
+
         progress = epoch / epochs
         if progress > 0.7:
             ce_weight, margin_weight = 0.5, 0.5
@@ -42,57 +32,55 @@ def train_model(model, train_loader, optimizer, criterion, margin_criterion, dev
             ce_weight, margin_weight = 0.6, 0.4
         else:
             ce_weight, margin_weight = 0.8, 0.2
-        
+
         for batch_idx, (drug_pairs, labels) in enumerate(train_loader):
             drug_pairs = drug_pairs.to(device)
             labels = labels.to(device)
-            
             drug1 = drug_pairs[:, 0, :]
             drug2 = drug_pairs[:, 1, :]
-            
+
             optimizer.zero_grad()
-            
-            probs, digit_caps = model._forward(drug1, drug2)
-            ce_loss = criterion(probs, labels)
-            margin_loss = margin_criterion(digit_caps, F.one_hot(labels, num_classes=3).float())
+
+            # === 与 stage1 一致：_forward 解包三项，CE 用 logits ===
+            probs, digit_caps, logits = model._forward(drug1, drug2)
+            ce_loss = criterion(logits, labels)
+            num_classes = digit_caps.size(1)
+            margin_loss = margin_criterion(
+                digit_caps, F.one_hot(labels, num_classes=num_classes).float()
+            )
             total_loss = ce_weight * ce_loss + margin_weight * margin_loss
-            
+
             total_loss.backward()
-            
-            total_norm = 0
+
+            total_norm = 0.0
             for p in model.parameters():
                 if p.grad is not None:
                     param_norm = p.grad.data.norm(2)
                     total_norm += param_norm.item() ** 2
-            total_norm = total_norm ** 0.5
+            total_norm **= 0.5
             epoch_grad_norms.append(total_norm)
-            
+
             torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm=1.0)
-            
             optimizer.step()
-            
+
             epoch_loss += total_loss.item()
             epoch_ce += ce_loss.item()
             epoch_margin += margin_loss.item()
-        
+
         avg_grad_norm = np.mean(epoch_grad_norms)
         grad_history['norms'].append(avg_grad_norm)
         grad_history['lr'].append(lr)
-        
-        avg_loss = epoch_loss / len(train_loader)
-        avg_ce = epoch_ce / len(train_loader)
-        avg_margin = epoch_margin / len(train_loader)
-        
-        grad_history['loss'].append(avg_loss)
-        grad_history['ce'].append(avg_ce)
-        grad_history['margin'].append(avg_margin)
-        
-        print(f"Epoch {epoch+1:03d} | Loss: {avg_loss:.4f} | CE: {avg_ce:.4f} | Margin: {avg_margin:.4f} | "
+        grad_history['loss'].append(epoch_loss / len(train_loader))
+        grad_history['ce'].append(epoch_ce / len(train_loader))
+        grad_history['margin'].append(epoch_margin / len(train_loader))
+
+        print(f"Epoch {epoch+1:03d} | Loss: {grad_history['loss'][-1]:.4f} | "
+              f"CE: {grad_history['ce'][-1]:.4f} | Margin: {grad_history['margin'][-1]:.4f} | "
               f"LR: {lr:.6f} | GradNorm: {avg_grad_norm:.4f}")
-    
+
     plot_gradient_history(grad_history)
-    
     return grad_history
+
 
 def plot_gradient_history(history):
     """绘制训练动态图"""
@@ -135,31 +123,31 @@ def plot_gradient_history(history):
 
 # ===================== Evaluation Metrics =====================
 def evaluate_model(model, test_loader, device, num_classes=3):
-    """模型评估函数 - 修改为多分类版本"""
     model.eval()
     all_logits, all_probs, all_labels = [], [], []
-    
+
     with torch.no_grad():
         for drug_pairs, labels in test_loader:
             drug_pairs = drug_pairs.to(device)
             labels = labels.to(device)
-            
             drug1 = drug_pairs[:, 0, :]
             drug2 = drug_pairs[:, 1, :]
-            logits = model(drug1, drug2)  
+
+            # === 跟 stage1 对齐：forward 显式拿 logits ===
+            logits = model(drug1, drug2, return_logits=True)
             probs = torch.softmax(logits, dim=1)
-            
+
             all_logits.append(logits.cpu())
             all_probs.append(probs.cpu())
             all_labels.append(labels.cpu())
-    
+
     all_logits = torch.cat(all_logits)
     all_probs = torch.cat(all_probs)
     all_labels = torch.cat(all_labels)
-    
+
     pred_labels = torch.argmax(all_logits, dim=1).numpy()
     true_labels = all_labels.numpy()
-    
+
     metrics = {
         'accuracy': accuracy_score(true_labels, pred_labels),
         'f1_weighted': f1_score(true_labels, pred_labels, average='weighted'),
@@ -168,20 +156,21 @@ def evaluate_model(model, test_loader, device, num_classes=3):
         'recall_weighted': recall_score(true_labels, pred_labels, average='weighted'),
         'auprc_weighted': average_precision_score(true_labels, all_probs.numpy(), average='weighted'),
     }
-    
+
     try:
         roc_auc_scores = []
         for i in range(num_classes):
             class_true = (true_labels == i).astype(int)
             class_probs = all_probs[:, i].numpy()
-            if len(np.unique(class_true)) > 1:  
+            if len(np.unique(class_true)) > 1:
                 roc_auc_scores.append(roc_auc_score(class_true, class_probs))
-        metrics['roc_auc_avg'] = np.mean(roc_auc_scores)
+        metrics['roc_auc_avg'] = np.mean(roc_auc_scores) if len(roc_auc_scores) > 0 else float('nan')
     except Exception as e:
         print(f"无法计算ROC AUC: {e}")
         metrics['roc_auc_avg'] = float('nan')
-    
+
     return metrics, all_probs.numpy(), pred_labels
+
 
 # ===================== 5-Fold Cross Validation =====================
 def run_5fold_cv(X, Y, feature_type, device, epochs=100):
@@ -284,8 +273,8 @@ if __name__ == "__main__":
     X = torch.tensor(X, dtype=torch.float32)
     Y = torch.tensor(Y, dtype=torch.long)
     
-    print("\n=== Starting 5-Fold Cross Validation ===")
-    cv_results = run_5fold_cv(X, Y, args.feature, device, epochs=100)
+    # print("\n=== Starting 5-Fold Cross Validation ===")
+    # cv_results = run_5fold_cv(X, Y, args.feature, device, epochs=100)
     
     print("\n=== Training Final Model on Entire Dataset ===")
     train_loader = DataLoader(TensorDataset(X, Y), batch_size=32, shuffle=True)
