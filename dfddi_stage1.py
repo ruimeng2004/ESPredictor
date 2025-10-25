@@ -307,6 +307,8 @@ if __name__ == "__main__":
     print("\nPerformance metrics:")
     print(f"Accuracy: {metrics['accuracy']:.4f}")
     print(f"F1: {metrics['f1']:.4f}")
+    print(f"Pre: {metrics['precision']:.4f}")
+    print(f"Rec: {metrics['recall']:.4f}")
     print(f"AUC-ROC: {metrics['auc_roc']:.4f}")
     print(f"AUPRC: {metrics['auprc']:.4f}")
 
