@@ -294,7 +294,7 @@ if __name__ == "__main__":
     print(f"Learning rate: Fixed at 1e-3")
     print(f"Loss weights: Dynamic adjustment based on training progress")
     
-    train_model(model, train_loader, optimizer, criterion, margin_criterion, device, epochs=100)
+    train_model(model, train_loader, optimizer, criterion, margin_criterion, device, epochs=5)
     
     model_save_path = 'model.pth'
     torch.save(model.state_dict(), model_save_path)
@@ -339,12 +339,34 @@ if __name__ == "__main__":
 
     print("\n=== Starting SHAP Analysis (100 drug pairs) ===")
 
-    feature_config = {
-        '1D': {'dim': 128, 'start': 0},
-        '2D': {'dim': 128, 'start': 128},
-        '3D': {'dim': 128, 'start': 256},
-        'bert': {'dim': 300, 'start': 384}  
+    # feature_config = {
+    #     '1D': {'dim': 128, 'start': 0},
+    #     '2D': {'dim': 128, 'start': 128},
+    #     '3D': {'dim': 128, 'start': 256},
+    #     'bert': {'dim': 300, 'start': 384}  
+    # }
+
+    dims_map = {
+        "bert": 300,
+        "fingerprint": 512,  # 你现在的 fingerprint 实现是 nBits=512，别再写 1024 了
+        "3D": 128,
+        "2D": 128,
+        "1D": 128,
+        "multi": 128 * 3 + 300
     }
+
+
+    if args.feature == "multi":
+        feature_config = {
+            '1D':   {'dim': 128, 'start': 0},
+            '2D':   {'dim': 128, 'start': 128},
+            '3D':   {'dim': 128, 'start': 256},
+            'bert': {'dim': 300, 'start': 384}
+        }
+    else:
+        feature_config = {
+            args.feature: {'dim': dims_map[args.feature], 'start': 0}
+        }
 
     print("\n=== Data Validation ===")
     print(f"Test data shape: {X.shape}")
