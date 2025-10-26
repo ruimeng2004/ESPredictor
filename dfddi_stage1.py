@@ -94,7 +94,7 @@ def train_model(model, train_loader, optimizer, criterion, margin_criterion, dev
     return grad_history
 
 def plot_gradient_history(history):
-    """绘制训练动态图"""
+
     plt.figure(figsize=(15, 10))
     
     plt.subplot(2, 2, 1)
@@ -133,7 +133,7 @@ def plot_gradient_history(history):
     plt.close()
 
 def evaluate_model(model, test_loader, device):
-    """模型评估函数"""
+
     model.eval()
     all_logits, all_probs, all_labels = [], [], []
     
@@ -173,7 +173,7 @@ def evaluate_model(model, test_loader, device):
     return metrics
 
 def run_5fold_cv(X, Y, feature_type, device, epochs=100):
-    """执行5折交叉验证"""
+
     kf = KFold(n_splits=5, shuffle=True, random_state=42)
     fold_results = []
     
