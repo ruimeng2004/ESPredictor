@@ -41,7 +41,6 @@ def train_model(model, train_loader, optimizer, criterion, margin_criterion, dev
 
             optimizer.zero_grad()
 
-            # === 与 stage1 一致：_forward 解包三项，CE 用 logits ===
             probs, digit_caps, logits = model._forward(drug1, drug2)
             ce_loss = criterion(logits, labels)
             num_classes = digit_caps.size(1)
@@ -83,7 +82,7 @@ def train_model(model, train_loader, optimizer, criterion, margin_criterion, dev
 
 
 def plot_gradient_history(history):
-    """绘制训练动态图"""
+
     plt.figure(figsize=(15, 10))
     
     plt.subplot(2, 2, 1)
@@ -133,7 +132,6 @@ def evaluate_model(model, test_loader, device, num_classes=3):
             drug1 = drug_pairs[:, 0, :]
             drug2 = drug_pairs[:, 1, :]
 
-            # === 跟 stage1 对齐：forward 显式拿 logits ===
             logits = model(drug1, drug2, return_logits=True)
             probs = torch.softmax(logits, dim=1)
 

@@ -144,7 +144,7 @@ def evaluate_model(model, test_loader, device):
             
             drug1 = drug_pairs[:, 0, :]
             drug2 = drug_pairs[:, 1, :]
-            logits = model(drug1, drug2)  
+            logits = model(drug1, drug2,return_logits=True)  
             probs = torch.softmax(logits, dim=1)
             
             all_logits.append(logits.cpu())
@@ -262,21 +262,38 @@ if __name__ == "__main__":
     X = torch.tensor(X, dtype=torch.float32)
     Y = torch.tensor(Y, dtype=torch.long)
 
-    feature_config = {
-        "bert": 300, "fingerprint": 1024, "3D": 128, 
-        "2D": 128, "1D": 128, "multi": 128 * 3 + 300
+    dims_map = {
+        "bert": 300,
+        "fingerprint": 512,  # 统一为 512
+        "3D": 128,
+        "2D": 128,
+        "1D": 128,
+        "multi": 128 * 3 + 300  # = 684
     }
-    print(f"\nFeature dimension validation: Expected={feature_config[args.feature]} | Actual={X.shape[2]} | {'✓' if X.shape[2] == feature_config[args.feature] else '✗'}")
+
+    def build_feature_config(feature: str) -> dict:
+        if feature == "multi":
+            return {
+                '1D':   {'dim': 128, 'start': 0},
+                '2D':   {'dim': 128, 'start': 128},
+                '3D':   {'dim': 128, 'start': 256},
+                'bert': {'dim': 300, 'start': 384}
+            }
+        else:
+            return {feature: {'dim': dims_map[feature], 'start': 0}}
+
 
     print("\n=== Training Final Model ===")
     train_loader = DataLoader(TensorDataset(X, Y), batch_size=32, shuffle=True)
+
+    feature_config = build_feature_config(args.feature)
     
-    feature_config = {
-        '1D': {'dim': 128, 'start': 0},
-        '2D': {'dim': 128, 'start': 128},
-        '3D': {'dim': 128, 'start': 256},
-        'bert': {'dim': 300, 'start': 384}
-    }
+    expected_dim = sum(v['dim'] for v in feature_config.values())
+    actual_dim = X.shape[2]
+    assert actual_dim == expected_dim, \
+        f"Feature dim mismatch: expected {expected_dim}, got {actual_dim}. " \
+        f"args.feature={args.feature}. 请检查 process_dataset 输出维度与 feature_config 是否一致。"
+
 
     model = DrugInteractionModel(
         feature_config=feature_config,
@@ -294,7 +311,7 @@ if __name__ == "__main__":
     print(f"Learning rate: Fixed at 1e-3")
     print(f"Loss weights: Dynamic adjustment based on training progress")
     
-    train_model(model, train_loader, optimizer, criterion, margin_criterion, device, epochs=5)
+    train_model(model, train_loader, optimizer, criterion, margin_criterion, device, epochs=100)
     
     model_save_path = 'model.pth'
     torch.save(model.state_dict(), model_save_path)
