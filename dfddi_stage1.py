@@ -268,7 +268,13 @@ if __name__ == "__main__":
         "3D": 128,
         "2D": 128,
         "1D": 128,
-        "multi": 128 * 3 + 300  # = 684
+        "multi": 128 * 3 + 300, 
+        "1D+2D": 128*2,
+        "1D+3D": 128*2,
+        "1D+BERT": 128+300,
+        "2D+3D": 128*2,
+        "2D+BERT": 128+300,
+        "3D+BERT": 128+300    # = 684
     }
 
     def build_feature_config(feature: str) -> dict:

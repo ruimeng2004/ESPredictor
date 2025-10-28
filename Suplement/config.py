@@ -25,7 +25,7 @@ def get_args():
     parser.add_argument('--feature',
                       type=str,
                       default='multi',
-                      choices=['bert', 'fingerprint', '1D', '2D', '3D', 'multi'],
+                      choices=['bert', 'fingerprint', '1D', '2D', '3D', 'multi','1D+2D','1D+3D','1D+BERT','2D+3D','2D+bert','3D+bert'],
                       help='Feature extraction method')
     
     parser.add_argument('--fusion',

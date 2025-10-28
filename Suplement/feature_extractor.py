@@ -11,21 +11,51 @@ from Suplement.FE.FE_3Ds.pretrain_MolMVC import EmbeddingModel
 
 def process_dataset(train_data, feature_type, device, save_dir="extracted_features"):
     os.makedirs(save_dir, exist_ok=True)
-    
+
+    # ==== 规范化 feature_type，支持大小写/加号组合 ====
+    raw_spec = str(feature_type).strip()
+    norm_spec = raw_spec.replace("BERT", "bert").replace("Bert", "bert").replace(" ", "")
+    is_combo = ("+" in norm_spec)
+    # 允许的视图名（与下方实现一致）
+    ALLOWED = {"1D", "2D", "3D", "bert", "fingerprint"}
+
+    if norm_spec.lower() == "multi":
+        views_in_order = ["1D", "2D", "3D", "bert"]
+    elif is_combo:
+        parts = [p for p in norm_spec.split("+") if p]  # 保持用户给定顺序
+        # 统一大小写：1D/2D/3D 保持，bert 已经小写
+        views_in_order = []
+        for p in parts:
+            key = p if p in {"1D", "2D", "3D"} else p.lower()
+            if key not in ALLOWED:
+                raise ValueError(f"Unsupported feature type in combo: {p}. "
+                                 f"Allowed: {sorted(list(ALLOWED))} or 'multi' or '+' combos.")
+            if key not in views_in_order:
+                views_in_order.append(key)
+        if not views_in_order:
+            raise ValueError(f"Empty/invalid combo in feature_type: {feature_type}")
+    else:
+        # 单视图
+        key = norm_spec if norm_spec in {"1D", "2D", "3D"} else norm_spec.lower()
+        if key not in ALLOWED and key != "multi":
+            raise ValueError(f"Unknown feature type: {feature_type}")
+        views_in_order = [key] if key != "multi" else ["1D", "2D", "3D", "bert"]
+
     drug1_ids = np.array(train_data["Drug1_ID"])
     drug2_ids = np.array(train_data["Drug2_ID"])
     all_drugs = np.unique(np.append(drug1_ids, drug2_ids))
     ftrain = list(all_drugs)
-    
+
     alldrugtrain = {}
     removelist = []
-    
+
     print(f"Starting to process {len(ftrain)} drugs...")
-    
+    print(f"Feature spec: {raw_spec} -> views: {views_in_order}")
+
     for drug_id in ftrain:
         try:
             print(f"\nProcessing drug: {drug_id}")
-            
+
             try:
                 index = list(drug1_ids).index(drug_id)
                 drug_col = "Drug1_ID"
@@ -41,20 +71,25 @@ def process_dataset(train_data, feature_type, device, save_dir="extracted_featur
                     removelist.append(drug_id)
                     print(f"Error: Drug {drug_id} not found in the dataset")
                     continue
-            
+
             drug_name = train_data.iloc[index][drug_col]
             smiles = train_data.iloc[index][smiles_col]
             print(f"Drug name: {drug_name}, SMILES: {smiles}")
-            
-            if feature_type == 'bert':
-                print("Using BERT feature extraction...")
-                drug_fingerprints = gnnsmile(smiles)
-                drug_fingerprints = list(drug_fingerprints[0])
-                print(f"BERT feature dimension: {len(drug_fingerprints)}")
-                
-            elif feature_type in ['1D', '2D', '3D', 'multi']:
-                print(f"Using MolMVC model for {feature_type} feature extraction...")
-                
+
+            # ===== 指定提取哪些模块 =====
+            need_bert = ("bert" in views_in_order)
+            need_molmvc = any(v in views_in_order for v in ["1D", "2D", "3D"])
+
+            # ====== 准备容器 ======
+            vecs_to_concat = []
+
+            # ====== 先做 MolMVC（如需要 1D/2D/3D 中任意一项）======
+            emb_1d = None
+            emb_2d = None
+            emb_3d = None
+            if need_molmvc:
+                print(f"Using MolMVC model for {','.join([v for v in views_in_order if v in ['1D','2D','3D']])} feature extraction...")
+
                 print("Step 1: Converting SMILES to data object...")
                 try:
                     data = smiles_to_data(smiles, xyz_path=None)
@@ -63,7 +98,7 @@ def process_dataset(train_data, feature_type, device, save_dir="extracted_featur
                     print(f"Error: Unable to convert SMILES to data object: {str(e)}")
                     removelist.append(drug_id)
                     continue
-                
+
                 print("Step 2: Preparing batch data...")
                 try:
                     batch = prepare_batch(data)
@@ -72,7 +107,7 @@ def process_dataset(train_data, feature_type, device, save_dir="extracted_featur
                     print(f"Error: Unable to prepare batch data: {str(e)}")
                     removelist.append(drug_id)
                     continue
-                
+
                 print("Step 3: Loading EmbeddingModel...")
                 try:
                     model = EmbeddingModel().to(device)
@@ -82,61 +117,80 @@ def process_dataset(train_data, feature_type, device, save_dir="extracted_featur
                     print(f"Error: Unable to load model: {str(e)}")
                     removelist.append(drug_id)
                     continue
-                
+
                 print("Step 4: Extracting embeddings...")
                 try:
                     with torch.no_grad():
-                        emb_1d_low, emb_1d_high, emb_2d, emb_3d = model(batch)
+                        emb_1d_low, emb_1d_high, emb_2d_t, emb_3d_t = model(batch)
                     print("Embeddings extracted successfully")
                 except Exception as e:
                     print(f"Error: Failed to extract embeddings: {str(e)}")
                     removelist.append(drug_id)
                     continue
-                
-                if feature_type == "1D":
+
+                # 平均 1D
+                if "1D" in views_in_order:
                     print("Processing 1D features...")
-                    emb_1d = (emb_1d_low + emb_1d_high) / 2
-                    drug_fingerprints = emb_1d.cpu().numpy().flatten().tolist()
-                    print(f"1D feature dimension: {len(drug_fingerprints)}")
-                    
-                elif feature_type == "2D":
+                    emb_1d = ((emb_1d_low + emb_1d_high) / 2).cpu().numpy().flatten()
+                    print(f"1D feature dimension: {emb_1d.shape[0]}")
+                # 2D
+                if "2D" in views_in_order:
                     print("Processing 2D features...")
-                    drug_fingerprints = emb_2d.cpu().numpy().flatten().tolist()
-                    print(f"2D feature dimension: {len(drug_fingerprints)}")
-                    
-                elif feature_type == "3D":
+                    emb_2d = emb_2d_t.cpu().numpy().flatten()
+                    print(f"2D feature dimension: {emb_2d.shape[0]}")
+                # 3D
+                if "3D" in views_in_order:
                     print("Processing 3D features...")
-                    drug_fingerprints = emb_3d.cpu().numpy().flatten().tolist()
-                    print(f"3D feature dimension: {len(drug_fingerprints)}")
-                    
-                elif feature_type == "multi":
-                    print("Processing multimodal features...")
-                    emb_1d = (emb_1d_low + emb_1d_high) / 2
-                    
-                    print("Extracting BERT features...")
-                    try:
-                        bert_features = np.array(gnnsmile(smiles)[0])
-                        print(f"BERT feature dimension: {len(bert_features)}")
-                    except Exception as e:
-                        print(f"Error: Failed to extract BERT features: {str(e)}")
-                        removelist.append(drug_id)
-                        continue
-                    
-                    print("Combining all features...")
-                    try:
-                        drug_fingerprints = np.concatenate([
-                            emb_1d.cpu().numpy().flatten(),
-                            emb_2d.cpu().numpy().flatten(),
-                            emb_3d.cpu().numpy().flatten(),
-                            bert_features
-                        ]).tolist()
-                        print(f"Multimodal feature total dimension: {len(drug_fingerprints)}")
-                    except Exception as e:
-                        print(f"Error: Failed to combine features: {str(e)}")
-                        removelist.append(drug_id)
-                        continue
-                
-            elif feature_type == "fingerprint":
+                    emb_3d = emb_3d_t.cpu().numpy().flatten()
+                    print(f"3D feature dimension: {emb_3d.shape[0]}")
+
+            # ====== 再做 BERT（如需要）======
+            bert_vec = None
+            if need_bert:
+                print("Extracting BERT features...")
+                try:
+                    bert_vec = np.array(gnnsmile(smiles)[0], dtype=np.float32)
+                    print(f"BERT feature dimension: {bert_vec.shape[0]}")
+                except Exception as e:
+                    print(f"Error: Failed to extract BERT features: {str(e)}")
+                    removelist.append(drug_id)
+                    continue
+
+            # ====== 组合向量（严格按 views_in_order 顺序）======
+            for v in views_in_order:
+                if v == "1D":
+                    if emb_1d is None:
+                        print("Error: 1D feature is required but missing.")
+                        removelist.append(drug_id); break
+                    vecs_to_concat.append(emb_1d)
+                elif v == "2D":
+                    if emb_2d is None:
+                        print("Error: 2D feature is required but missing.")
+                        removelist.append(drug_id); break
+                    vecs_to_concat.append(emb_2d)
+                elif v == "3D":
+                    if emb_3d is None:
+                        print("Error: 3D feature is required but missing.")
+                        removelist.append(drug_id); break
+                    vecs_to_concat.append(emb_3d)
+                elif v == "bert":
+                    if bert_vec is None:
+                        print("Error: BERT feature is required but missing.")
+                        removelist.append(drug_id); break
+                    vecs_to_concat.append(bert_vec)
+                elif v == "fingerprint":
+                    # 如需组合 fingerprint，可在此扩展；本次需求未涉及
+                    print("Error: fingerprint not supported inside combos in this implementation.")
+                    removelist.append(drug_id); break
+                else:
+                    print(f"Error: Unknown view '{v}' in combo.")
+                    removelist.append(drug_id); break
+
+            if drug_id in removelist:
+                continue
+
+            if len(views_in_order) == 1 and views_in_order[0] == "fingerprint":
+                # 单独 fingerprint 的老逻辑
                 print("Using fingerprint feature extraction...")
                 try:
                     mol = Chem.MolFromSmiles(smiles)
@@ -144,57 +198,61 @@ def process_dataset(train_data, feature_type, device, save_dir="extracted_featur
                         print(f"Error: Cannot create molecule from SMILES: {smiles}")
                         removelist.append(drug_id)
                         continue
-                    
                     fps = AllChem.GetMorganFingerprintAsBitVect(mol, 2, nBits=512)
-                    drug_fingerprints = [float(bit) for bit in fps.ToBitString()]
-                    print(f"Fingerprint feature dimension: {len(drug_fingerprints)}")
+                    fp_vec = np.array([float(bit) for bit in fps.ToBitString()], dtype=np.float32)
+                    vecs_to_concat = [fp_vec]
+                    print(f"Fingerprint feature dimension: {fp_vec.shape[0]}")
                 except Exception as e:
                     print(f"Error: Failed to extract fingerprint features: {str(e)}")
                     removelist.append(drug_id)
                     continue
-                
-            else:
-                raise ValueError(f"Unknown feature type: {feature_type}")
-                
-            alldrugtrain[drug_id] = drug_fingerprints
+
+            # ====== 得到最终指纹向量 ======
+            drug_fingerprints = np.concatenate(vecs_to_concat, axis=-1).astype(np.float32)
+            print(f"Final feature dim ({'+'.join(views_in_order)}): {drug_fingerprints.shape[0]}")
+
+            alldrugtrain[drug_id] = drug_fingerprints.tolist()
             print(f"Successfully extracted features for drug {drug_id}")
-            
+
         except Exception as e:
             print(f"An uncaught exception occurred while processing drug {drug_id}: {str(e)}")
             traceback.print_exc()
             removelist.append(drug_id)
-    
+
     for drug_id in removelist:
         if drug_id in ftrain:
             ftrain.remove(drug_id)
-    
+
+    # 文件名里避免 '+' 带来路径问题
+    save_key = ("multi" if norm_spec.lower() == "multi" else "+".join(views_in_order)).replace("+", "_")
+
     if alldrugtrain:
-        feature_matrix = np.array(list(alldrugtrain.values()))
-        
-        np.save(f"{save_dir}/{feature_type}_features.npy", feature_matrix)
-        np.save(f"{save_dir}/{feature_type}_drug_ids.npy", np.array(ftrain))
-        
-        print(f"\n=== {feature_type} features stored successfully ===")
+        feature_matrix = np.array(list(alldrugtrain.values()), dtype=np.float32)
+
+        np.save(f"{save_dir}/{save_key}_features.npy", feature_matrix)
+        np.save(f"{save_dir}/{save_key}_drug_ids.npy", np.array(ftrain))
+
+        print(f"\n=== {raw_spec} features stored successfully ===")
         print(f"Number of drugs: {len(alldrugtrain)}")
         print(f"Feature dimension: {feature_matrix.shape[1]}")
         print(f"Total samples: {feature_matrix.shape[0]}")
-        print(f"Storage path: {save_dir}/{feature_type}_features.npy")
-        
+        print(f"Storage path: {save_dir}/{save_key}_features.npy")
+
         if np.isnan(feature_matrix).any():
             print("Warning: Feature data contains NaN values!")
         if np.isinf(feature_matrix).any():
             print("Warning: Feature data contains Inf values!")
-        
+
     else:
         print("Warning: No drug features were successfully extracted!")
-    
+
     print(f"\nProcessing statistics:")
     print(f"Total number of drugs: {len(ftrain) + len(removelist)}")
     print(f"Successfully processed: {len(alldrugtrain)}")
     print(f"Failed processing: {len(removelist)}")
-    
+
     if removelist:
         pd.DataFrame({'failed_drugs': removelist}).to_csv(f"{save_dir}/failed_drugs.csv", index=False)
         print(f"Saved failed drugs list to {save_dir}/failed_drugs.csv")
-    
+
     return alldrugtrain, ftrain
