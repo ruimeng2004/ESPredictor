@@ -264,17 +264,21 @@ if __name__ == "__main__":
 
     dims_map = {
         "bert": 300,
-        "fingerprint": 512,  # 统一为 512
+        "fingerprint": 512,  
         "3D": 128,
         "2D": 128,
         "1D": 128,
         "multi": 128 * 3 + 300, 
         "1D+2D": 128*2,
         "1D+3D": 128*2,
-        "1D+BERT": 128+300,
+        "1D+bert": 128+300,
         "2D+3D": 128*2,
-        "2D+BERT": 128+300,
-        "3D+BERT": 128+300    # = 684
+        "2D+bert": 128+300,
+        "3D+bert": 128+300,
+        "1D+2D+3D": 128*3,
+        "1D+2D+bert": 128*2+300,
+        "1D+3D+bert": 128*2+300,
+        "2D+3D+bert": 128*2+300
     }
 
     def build_feature_config(feature: str) -> dict:
@@ -361,36 +365,6 @@ if __name__ == "__main__":
     print("\nPrediction results saved to improved_predictions.csv")
 
     print("\n=== Starting SHAP Analysis (100 drug pairs) ===")
-
-    # feature_config = {
-    #     '1D': {'dim': 128, 'start': 0},
-    #     '2D': {'dim': 128, 'start': 128},
-    #     '3D': {'dim': 128, 'start': 256},
-    #     'bert': {'dim': 300, 'start': 384}  
-    # }
-
-    dims_map = {
-        "bert": 300,
-        "fingerprint": 512,  # 你现在的 fingerprint 实现是 nBits=512，别再写 1024 了
-        "3D": 128,
-        "2D": 128,
-        "1D": 128,
-        "multi": 128 * 3 + 300
-    }
-
-
-    if args.feature == "multi":
-        feature_config = {
-            '1D':   {'dim': 128, 'start': 0},
-            '2D':   {'dim': 128, 'start': 128},
-            '3D':   {'dim': 128, 'start': 256},
-            'bert': {'dim': 300, 'start': 384}
-        }
-    else:
-        feature_config = {
-            args.feature: {'dim': dims_map[args.feature], 'start': 0}
-        }
-
     print("\n=== Data Validation ===")
     print(f"Test data shape: {X.shape}")
     print(f"Total configured dimensions: {sum(v['dim'] for v in feature_config.values())}")

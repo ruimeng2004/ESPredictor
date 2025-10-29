@@ -155,6 +155,7 @@ def evaluate_model(model, test_loader, device, num_classes=3):
         'auprc_weighted': average_precision_score(true_labels, all_probs.numpy(), average='weighted'),
     }
 
+    #需要把这部分ROC改动
     try:
         roc_auc_scores = []
         for i in range(num_classes):
@@ -164,7 +165,7 @@ def evaluate_model(model, test_loader, device, num_classes=3):
                 roc_auc_scores.append(roc_auc_score(class_true, class_probs))
         metrics['roc_auc_avg'] = np.mean(roc_auc_scores) if len(roc_auc_scores) > 0 else float('nan')
     except Exception as e:
-        print(f"无法计算ROC AUC: {e}")
+        print(f"ROC AUC: {e}")
         metrics['roc_auc_avg'] = float('nan')
 
     return metrics, all_probs.numpy(), pred_labels
@@ -172,7 +173,7 @@ def evaluate_model(model, test_loader, device, num_classes=3):
 
 # ===================== 5-Fold Cross Validation =====================
 def run_5fold_cv(X, Y, feature_type, device, epochs=100):
-    """执行5折交叉验证"""
+
     kf = KFold(n_splits=5, shuffle=True, random_state=42)
     fold_results = []
     
@@ -233,7 +234,7 @@ def run_5fold_cv(X, Y, feature_type, device, epochs=100):
     
     return avg_metrics
 
-# ===================== Main Function =====================
+# ===================== Main =====================
 if __name__ == "__main__":
     print(f"当前使用的设备: {'GPU' if torch.cuda.is_available() else 'CPU'} ({torch.cuda.get_device_name(0) if torch.cuda.is_available() else 'CPU'})")
     args = get_args()
@@ -306,8 +307,6 @@ if __name__ == "__main__":
     model_save_path = 'model.pth'
     torch.save(model.state_dict(), model_save_path)
     print(f"\nModel weights saved to {model_save_path}")
-
-    # ===================== 评估最终模型 =====================
     print("\n=== Evaluating Final Model on Entire Dataset ===")
     
     test_loader = DataLoader(TensorDataset(X, Y), batch_size=32, shuffle=False)
@@ -334,7 +333,7 @@ if __name__ == "__main__":
     })
     
     results_df.to_csv('final_model_predictions.csv', index=False)
-    print("\n预测结果已保存到 final_model_predictions.csv")
+    print("\n prediction results saved to final_model_predictions.csv")
     
     print("\n=== Starting SHAP Analysis (100 drug pairs) ===")
 
