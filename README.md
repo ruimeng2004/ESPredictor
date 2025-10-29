@@ -70,6 +70,6 @@ DOI: [to be published].
 
 ## Contact
 For technical support or inquiries, please contact:  
-BEng. Rui Meng  
+Rui Meng  
 School of Data Science, The Chinese University of Hong Kong, Shenzhen.  
 Email: ruimeng@cuhk.edu.cn
