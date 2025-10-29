@@ -24,9 +24,8 @@ DDI-ESPredictor requires several dependencies. Here are the main requirements:
 - matplotlib==3.10.3
 
 ### Pip install Packages
-- transformers==4.39.3
-- pytorch-lightning==2.0.3
-- pytorch-fast-transformers==0.4.0
+- rdkit
+- torch-geometric
 
 
 ---
