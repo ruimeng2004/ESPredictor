@@ -19,6 +19,7 @@ DDI-ESPredictor requires several dependencies. Here are the main requirements:
 ### Key Python Packages
 - numpy==1.24.0
 - scipy==1.15.3
+- scikit-learn==1.7.0
 - pandas==2.3.1
 - matplotlib==3.10.3
 
