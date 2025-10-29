@@ -26,6 +26,7 @@ DDI-ESPredictor requires several dependencies. Here are the main requirements:
 ### Pip install Packages
 - rdkit
 - torch-geometric
+- torch-scatter
 
 
 ---
