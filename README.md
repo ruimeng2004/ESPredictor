@@ -17,10 +17,10 @@ DDI-ESPredictor requires several dependencies. Here are the main requirements:
 - PyTorch 2.4.0 + CUDA 12.X
 
 ### Key Python Packages
-- numpy==1.26.4
-- scipy==1.10.1
+- numpy==1.24.0
+- scipy==1.15.3
 - pandas==2.3.1
-- matplotlib==3.9.2
+- matplotlib==3.10.3
 
 ### Pip install Packages
 - transformers==4.39.3
